@@ -2,8 +2,8 @@ name: Sync public image assets
 on:
   workflow_dispatch:
   schedule:
-    # 3h 37m after the 11:00 UTC Global reset.
-    - cron: '37 14 * * *'
+    # 5h 11m after the 11:00 UTC Global reset; allow post-patch mirrors to update.
+    - cron: '11 16 * * *'
 permissions:
   contents: write
 concurrency:
