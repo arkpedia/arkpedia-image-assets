@@ -28,3 +28,9 @@ Root delivery folders retain their existing names because deployed applications 
 Operator artwork and responsive variants belong in [arkpedia-skin-assets](https://github.com/arkpedia/arkpedia-skin-assets); voice recordings belong in the language-specific voice repositories; palette corrections belong in [arkpedia-color-palette](https://github.com/arkpedia/arkpedia-color-palette).
 
 These game assets remain the property of Hypergryph, Yostar, and their respective rights holders. This repository does not grant a license to reuse or redistribute them. Corrections and takedown requests may be submitted through the repository issue tracker.
+
+## Updates and validation
+
+A daily public Actions job at 14:37 UTC checks **4,167 explicitly mapped operator avatars, skill/base-skill icons, material icons and enemy icons** against `yuanyan3060/ArknightsGameResource`. `asset-source-map.json` records exact upstream paths and blob hashes; accepted existing images form the initial baseline and are only re-encoded when their upstream blob changes. Use `scripts/build_source_map.py` with public EN game-data/resource snapshots to extend exact mappings, then review the diff; add manually verified paths for other categories. Unmapped banners, maps, UI assets and manual captures are preserved; this job does not pretend to discover their sources automatically.
+
+Syncs never delete media. Missing upstream paths and bulk replacements stop the job for review. The validator checks the complete manifest inventory, decodes images, verifies dimensions and SHA-256, and rejects empty or oversized files. PR/manual validation checks all bytes; daily sync validation checks changed bytes. Standard public runners are free; jobs have timeouts, no uploaded artifacts, and weekly grouped Actions dependency updates. `source.json` retains the historical migration provenance; ongoing updates use the public mirror in `asset-source-map.json`, never the private application.

@@ -1,0 +1,39 @@
+name: Sync public image assets
+on:
+  workflow_dispatch:
+  schedule:
+    # 3h 37m after the 11:00 UTC Global reset.
+    - cron: '37 14 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-images
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            .github
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow
+      - name: Sync from the public resource mirror
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/sync_images.py
+      - name: Validate changed media and complete inventory
+        run: python scripts/validate_images.py --staged
+      - name: Publish validated assets
+        run: |
+          git diff --cached --quiet && exit 0
+          git config user.name 'arkpedia-bot'
+          git config user.email 'arkpedia-bot@users.noreply.github.com'
+          git commit -m 'Sync validated public image assets'
+          git push
