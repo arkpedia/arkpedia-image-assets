@@ -343,6 +343,16 @@
       "sourceBlob": "f431c36cd3ef2967a07814a930a0b62a4d508128",
       "maxWidth": 128
     },
+    "base-skill-icons/Botani - Inspired Modification.webp": {
+      "sourcePath": "building_skill/bskill_ws_skill2.png",
+      "sourceBlob": "0f800d453231e3e954715861e447d9ba5706a189",
+      "maxWidth": 180
+    },
+    "base-skill-icons/Botani - Publicity Front.webp": {
+      "sourcePath": "building_skill/bskill_ws_skill_cost2.png",
+      "sourceBlob": "99c5e699b3fc17f63aa4c4231eb5a0ee37c241bb",
+      "maxWidth": 180
+    },
     "base-skill-icons/Breeze - Clue Search α.webp": {
       "sourcePath": "building_skill/bskill_meet_spd1.png",
       "sourceBlob": "66b4017ad5cfd38777faacd0218c5c847a193da1",
@@ -2878,6 +2888,16 @@
       "sourceBlob": "3b658377178129ba8f8ae1c0ea20ba933335c3bb",
       "maxWidth": 128
     },
+    "base-skill-icons/Ukusik - 'Extra, Extra!'.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&clue3.png",
+      "sourceBlob": "de40230d14ee269061f522b1d725066278e8fb96",
+      "maxWidth": 180
+    },
+    "base-skill-icons/Ukusik - Law of the Streets.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&clue4.png",
+      "sourceBlob": "0888eafc7135caa7c8c8d995308ff38c020caf15",
+      "maxWidth": 180
+    },
     "base-skill-icons/Underflow - Envoy To Land α.webp": {
       "sourcePath": "building_skill/bskill_tra_ord_spd_ext0.png",
       "sourceBlob": "d76db12daff7620853b94f164079b71d98d36b9b",
@@ -3147,6 +3167,21 @@
       "sourcePath": "building_skill/bskill_dorm_all2.png",
       "sourceBlob": "f431c36cd3ef2967a07814a930a0b62a4d508128",
       "maxWidth": 128
+    },
+    "base-skill-icons/Zima the Raging Tide - 'Got It, Boss!'.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_c_ussg.png",
+      "sourceBlob": "86355531e8f1eceb564d4c0e4379df794a920fdf",
+      "maxWidth": 180
+    },
+    "base-skill-icons/Zima the Raging Tide - Fighter-in-Chief.webp": {
+      "sourcePath": "building_skill/bskill_formula_spd_headb1.png",
+      "sourceBlob": "12304e83d21bb8333856f586d9f598525316146d",
+      "maxWidth": 180
+    },
+    "base-skill-icons/Zima the Raging Tide - Friends Forever.webp": {
+      "sourcePath": "building_skill/bskill_formula_spd_headb2.png",
+      "sourceBlob": "657dc392ad01b8944c0a4ce1b75f890d25af9e28",
+      "maxWidth": 180
     },
     "base-skill-icons/Zuo Le - Master of Everything α.webp": {
       "sourcePath": "building_skill/bskill_train_all.png",
