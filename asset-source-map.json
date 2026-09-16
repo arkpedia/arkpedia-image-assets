@@ -14323,6 +14323,11 @@
       "sourceBlob": "a707b2a988e7dfad159fff029c5ac93827839e5d",
       "maxWidth": 180
     },
+    "material-icons/Ukusik's Token.webp": {
+      "sourcePath": "item/p_char_4224_turdus.png",
+      "sourceBlob": "2e5aa9eebc29ac1ab0c022598709d5feb3c14fe9",
+      "maxWidth": 180
+    },
     "material-icons/Vanguard Chip Pack.webp": {
       "sourcePath": "item/MTL_ASC_PIO2.png",
       "sourceBlob": "7618c2c257bae89028ba71c54f058efede8b4ebe",
@@ -14341,6 +14346,11 @@
     "material-icons/White Horse Kohl.webp": {
       "sourcePath": "item/MTL_SL_ALCOHOL2.png",
       "sourceBlob": "f5359c6f6c3a119eed7d09c8f4b0f0aad200ee69",
+      "maxWidth": 180
+    },
+    "material-icons/Zima the Raging Tide's Token.webp": {
+      "sourcePath": "item/p_char_1051_headb2.png",
+      "sourceBlob": "35d97a176e62a5be163c52925cc52edbb943c58d",
       "maxWidth": 180
     },
     "one-star-icons/CONFESS-47 - Base.webp": {
