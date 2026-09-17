@@ -8,7 +8,9 @@ import hashlib
 import io
 import json
 import os
+import re
 import subprocess
+import time
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -17,8 +19,77 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 REPO = 'yuanyan3060/ArknightsGameResource'
 
+RARITY_FOLDERS = {
+    1: 'one-star-icons',
+    2: 'two-star-icons',
+    3: 'three-star-icons',
+    4: 'four-star-icons',
+    5: 'five-star-icons',
+    6: 'six-star-icons',
+}
+
+def safe_name(value):
+    return re.sub(r'[\\/*?:"<>|]', '', value).strip()
+
+def discover_operator_assets(mapping, blobs):
+    """Add predictable operator media from Arkpedia's public data checkout.
+
+    The old updater only refreshed reviewed paths already present in the source
+    map. That made every new operator require a manual map edit even when the
+    public data had its stable character ID and the resource mirror already had
+    the matching portraits, token, and skill icons.
+    """
+    data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
+    if not data_root:
+        print('ARKPEDIA_DATA_ROOT is unset; skipping new operator asset discovery.')
+        return []
+    data_root = Path(data_root)
+    added = []
+    for directory in sorted((data_root / 'source' / 'data').glob('operators-*star')):
+        for operator_path in sorted(directory.glob('*.json')):
+            operator = json.loads(operator_path.read_text())
+            name = safe_name(operator.get('name', ''))
+            character_id = operator.get('internalName')
+            rarity = operator.get('rarity')
+            folder = RARITY_FOLDERS.get(rarity)
+            if not name or not character_id or not folder:
+                continue
+
+            candidates = [
+                (f'{folder}/{name} - Base.webp', f'avatar/{character_id}.png', 180),
+                (f'{folder}/{name} - Elite 2.webp', f'avatar/{character_id}_2.png', 180),
+            ]
+            slug = character_id.rsplit('_', 1)[-1]
+            for index, skill in enumerate(operator.get('skills', {}).get('skillList', []), 1):
+                skill_name = safe_name(skill.get('name', ''))
+                if skill_name:
+                    candidates.append((
+                        f'skill-icons/{name} - {skill_name}.webp',
+                        f'skill/skill_icon_skchr_{slug}_{index}.png',
+                        128,
+                    ))
+            for cost in operator.get('potential', {}).get('totalCost', []):
+                token_name = safe_name(cost.get('name', ''))
+                if token_name:
+                    candidates.append((f'material-icons/{token_name}.webp', f'item/p_{character_id}.png', 180))
+
+            for target, source, max_width in candidates:
+                if target in mapping['files'] or source not in blobs:
+                    continue
+                mapping['files'][target] = {'sourcePath': source, 'maxWidth': max_width}
+                added.append(target)
+    return added
+
 def api(path):
-    return json.loads(subprocess.check_output(['gh', 'api', path]))
+    last_error = None
+    for attempt in range(3):
+        try:
+            return json.loads(subprocess.check_output(['gh', 'api', path]))
+        except (subprocess.CalledProcessError, json.JSONDecodeError) as error:
+            last_error = error
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+    raise last_error
 
 def fetch(path, sha):
     url = f'https://raw.githubusercontent.com/{REPO}/{sha}/{urllib.parse.quote(path, safe="/")}'
@@ -59,6 +130,7 @@ def main():
     if tree.get('truncated'):
         raise ValueError('Incomplete upstream tree; refusing refresh')
     blobs = {row['path']: row['sha'] for row in tree['tree'] if row['type'] == 'blob'}
+    discovered = discover_operator_assets(mapping, blobs)
     jobs = []
     for asset, entry in mapping['files'].items():
         if Path(asset).is_absolute() or '..' in Path(asset).parts:
@@ -82,7 +154,7 @@ def main():
     for offset in range(0, len(changed), 100):
         subprocess.run(['git', 'add', '--sparse', '--', *changed[offset:offset+100]], cwd=ROOT, check=True)
     subprocess.run(['git', 'add', '--sparse', 'asset-manifest.json', 'asset-source-map.json'], cwd=ROOT, check=True)
-    print(f'Checked {len(mapping["files"])} reviewed mappings; refreshed {len(changed)} images from {revision}.')
+    print(f'Discovered {len(discovered)} operator assets; checked {len(mapping["files"])} mappings; refreshed {len(changed)} images from {revision}.')
 
 if __name__ == '__main__':
     main()
