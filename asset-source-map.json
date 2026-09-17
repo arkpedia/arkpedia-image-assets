@@ -23817,6 +23817,36 @@
       "sourcePath": "building_skill/bskill_meet_spd&cost_condChargoat2.png",
       "maxWidth": 128,
       "sourceBlob": "3251ba3794c3ee87e87752c8c9963783ad27d7b9"
+    },
+    "base-skill-icons/Ju - Craftsman's Heart β.webp": {
+      "sourcePath": "building_skill/bskill_ws_cost_ju2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b311783eb78fd7a8cda9ea3d1de21b369c2beaf5"
+    },
+    "base-skill-icons/Titi - As Good As Old β.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve3.png",
+      "maxWidth": 128,
+      "sourceBlob": "5a894fba03bea7835e64de119ef449cb45a32da7"
+    },
+    "base-skill-icons/Varkáris - Pride of a Hero β.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_c_minos2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a4c92de991dc9e167011723bc7953f719f7a586e"
+    },
+    "base-skill-icons/Taraxacum - 'The Best of Students!'.webp": {
+      "sourcePath": "building_skill/bskill_ord_spd&tag2.png",
+      "maxWidth": 128,
+      "sourceBlob": "275c232bd5411e31b0a52451869f139b82b930c7"
+    },
+    "skill-icons/Jacinta - Support γ.webp": {
+      "sourcePath": "skill/skill_icon_skcom_assist_cost[3].png",
+      "maxWidth": 128,
+      "sourceBlob": "55836cb5aca86305b55aa74b85e2819cdc375918"
+    },
+    "skill-icons/Timeslot - ATK Up γ.webp": {
+      "sourcePath": "skill/skill_icon_skcom_atk_up[3].png",
+      "maxWidth": 128,
+      "sourceBlob": "1a1cef5e13917e6771d2b3c08b5fa69d5e437f50"
     }
   },
   "namingSource": {
