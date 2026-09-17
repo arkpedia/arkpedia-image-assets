@@ -20887,6 +20887,2911 @@
       "sourcePath": "avatar/char_502_nblade.png",
       "sourceBlob": "c29e59e65c86fe54f72e61fd9173b773a40cd334",
       "maxWidth": 180
+    },
+    "material-icons/CONFESS-47's Token.webp": {
+      "sourcePath": "item/p_char_4188_confes.png",
+      "maxWidth": 180,
+      "sourceBlob": "d6a31672bece6a3457df4c3b559077a74f45d2e1"
+    },
+    "material-icons/Castle-3's Token.webp": {
+      "sourcePath": "item/p_char_286_cast3.png",
+      "maxWidth": 180,
+      "sourceBlob": "9d4d3d1daaa044907f4ba6a4bdb46b39cb607167"
+    },
+    "material-icons/Friston-3's Token.webp": {
+      "sourcePath": "item/p_char_4093_frston.png",
+      "maxWidth": 180,
+      "sourceBlob": "fcd089fd6e02b43e04c74f8b9ab9396874164df6"
+    },
+    "material-icons/Gallus²'s Token.webp": {
+      "sourcePath": "item/p_char_4227_gallus.png",
+      "maxWidth": 180,
+      "sourceBlob": "95bd9672d29ae0d4cadf0227c0a63c59e1689840"
+    },
+    "material-icons/Justice Knight's Token.webp": {
+      "sourcePath": "item/p_char_4000_jnight.png",
+      "maxWidth": 180,
+      "sourceBlob": "c4ddc13c8c477bdf80d6c398119a33b36f56b085"
+    },
+    "material-icons/Lancet-2's Token.webp": {
+      "sourcePath": "item/p_char_285_medic2.png",
+      "maxWidth": 180,
+      "sourceBlob": "ecc4e2a5d5e672b933c103f15446e930ee60ae9a"
+    },
+    "material-icons/PhonoR-0's Token.webp": {
+      "sourcePath": "item/p_char_4136_phonor.png",
+      "maxWidth": 180,
+      "sourceBlob": "8c1301791ffa9d4e729a416a2c18960354257a0d"
+    },
+    "material-icons/Rhodes Island Recon's Token.webp": {
+      "sourcePath": "item/p_char_4215_buddy.png",
+      "maxWidth": 180,
+      "sourceBlob": "2e4227d3299f5ffda71e8b9a372e61c7c48855f3"
+    },
+    "material-icons/THRM-EX's Token.webp": {
+      "sourcePath": "item/p_char_376_therex.png",
+      "maxWidth": 180,
+      "sourceBlob": "6a193e3b84917b10906dc95ffe165ea2893c2912"
+    },
+    "material-icons/Terra Research Commission's Token.webp": {
+      "sourcePath": "item/p_char_4077_palico.png",
+      "maxWidth": 180,
+      "sourceBlob": "4fabc2b6fdf2be6d2ca5963bbadeec601db36c08"
+    },
+    "material-icons/12F's Token.webp": {
+      "sourcePath": "item/p_char_009_12fce.png",
+      "maxWidth": 180,
+      "sourceBlob": "0be772983f6e31cb93084ee9efd12f15558623ae"
+    },
+    "material-icons/Durin's Token.webp": {
+      "sourcePath": "item/p_char_501_durin.png",
+      "maxWidth": 180,
+      "sourceBlob": "7c8d8beecb75c816e85adb2295eddd1133c22dfb"
+    },
+    "material-icons/Noir Corne's Token.webp": {
+      "sourcePath": "item/p_char_500_noirc.png",
+      "maxWidth": 180,
+      "sourceBlob": "e7ad4fe651e82697186a958bc523b4fa4fc4fd53"
+    },
+    "material-icons/Rangers's Token.webp": {
+      "sourcePath": "item/p_char_503_rang.png",
+      "maxWidth": 180,
+      "sourceBlob": "fb442d6007b940f106d1bdbe670fa9fadd2065c0"
+    },
+    "material-icons/Yato's Token.webp": {
+      "sourcePath": "item/p_char_502_nblade.png",
+      "maxWidth": 180,
+      "sourceBlob": "ea8a5711f1a93c6172822985d417105786fc0a16"
+    },
+    "material-icons/Adnachiel's Token.webp": {
+      "sourcePath": "item/p_char_211_adnach.png",
+      "maxWidth": 180,
+      "sourceBlob": "45a6d9b2d961009f0b5f17d273a1f8955ce0a6c9"
+    },
+    "material-icons/Ansel's Token.webp": {
+      "sourcePath": "item/p_char_212_ansel.png",
+      "maxWidth": 180,
+      "sourceBlob": "e221fd06137d3f227a54731b56b5be6647300356"
+    },
+    "material-icons/Beagle's Token.webp": {
+      "sourcePath": "item/p_char_122_beagle.png",
+      "maxWidth": 180,
+      "sourceBlob": "e285fe921342e3166ff0f2790b7a64b3e9babd70"
+    },
+    "material-icons/Cardigan's Token.webp": {
+      "sourcePath": "item/p_char_209_ardign.png",
+      "maxWidth": 180,
+      "sourceBlob": "d966a3865a820c70cc5c717c4f3d405be4cdbc55"
+    },
+    "material-icons/Catapult's Token.webp": {
+      "sourcePath": "item/p_char_282_catap.png",
+      "maxWidth": 180,
+      "sourceBlob": "ba9a413f86e4f13b40b6e0129b5b41dd9a4919a6"
+    },
+    "material-icons/Fang's Token.webp": {
+      "sourcePath": "item/p_char_123_fang.png",
+      "maxWidth": 180,
+      "sourceBlob": "0f0162578db05199f5be102535da9dbeb460d6eb"
+    },
+    "material-icons/Hibiscus's Token.webp": {
+      "sourcePath": "item/p_char_120_hibisc.png",
+      "maxWidth": 180,
+      "sourceBlob": "4ab2fd5ad0716db5ebd80551b3e88f60ea5ae4b0"
+    },
+    "material-icons/Kroos's Token.webp": {
+      "sourcePath": "item/p_char_124_kroos.png",
+      "maxWidth": 180,
+      "sourceBlob": "4079da2069b9dfdcc77edc2e3688efd72f9a5394"
+    },
+    "material-icons/Lava's Token.webp": {
+      "sourcePath": "item/p_char_121_lava.png",
+      "maxWidth": 180,
+      "sourceBlob": "723fb376265ddb9fc6cd184b3d87efe9948fd0f8"
+    },
+    "material-icons/Melantha's Token.webp": {
+      "sourcePath": "item/p_char_208_melan.png",
+      "maxWidth": 180,
+      "sourceBlob": "b5648ec221e2be23234e68f49d59b2fdb68476d6"
+    },
+    "material-icons/Midnight's Token.webp": {
+      "sourcePath": "item/p_char_283_midn.png",
+      "maxWidth": 180,
+      "sourceBlob": "231611b4666cfab10c7cd5522f3257c4fbdf9d93"
+    },
+    "material-icons/Orchid's Token.webp": {
+      "sourcePath": "item/p_char_278_orchid.png",
+      "maxWidth": 180,
+      "sourceBlob": "6af55ae9ee88d6a12df490db9c1d183dc2683216"
+    },
+    "material-icons/Plume's Token.webp": {
+      "sourcePath": "item/p_char_192_falco.png",
+      "maxWidth": 180,
+      "sourceBlob": "1633ca3a59df71e6eef92f707be912c2987ac5e6"
+    },
+    "material-icons/Popukar's Token.webp": {
+      "sourcePath": "item/p_char_281_popka.png",
+      "maxWidth": 180,
+      "sourceBlob": "5791fa89bc620eb65a2e8327a760f3a5c7274498"
+    },
+    "material-icons/Spot's Token.webp": {
+      "sourcePath": "item/p_char_284_spot.png",
+      "maxWidth": 180,
+      "sourceBlob": "61946f24807268a5fbf9e34a9ddc45c531055e82"
+    },
+    "material-icons/Steward's Token.webp": {
+      "sourcePath": "item/p_char_210_stward.png",
+      "maxWidth": 180,
+      "sourceBlob": "236ffc7de1a38928980d27f2a3e124ffe9219345"
+    },
+    "material-icons/Vanilla's Token.webp": {
+      "sourcePath": "item/p_char_240_wyvern.png",
+      "maxWidth": 180,
+      "sourceBlob": "76ebcc1772518b9e2afc63ddf1f162023df5087e"
+    },
+    "material-icons/Aciddrop's Token.webp": {
+      "sourcePath": "item/p_char_366_acdrop.png",
+      "maxWidth": 180,
+      "sourceBlob": "6325c74762793f5b1cbcdf39b1af6016c9befd82"
+    },
+    "skill-icons/Akkord - Backbeat Stress.webp": {
+      "sourcePath": "skill/skill_icon_skchr_akkord_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "574b10e45647409f518592d9a11ee760109a2b0d"
+    },
+    "skill-icons/Akkord - Explosive Tuning.webp": {
+      "sourcePath": "skill/skill_icon_skchr_akkord_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "609925337bb1bfe891569482c655383e087f40a8"
+    },
+    "material-icons/Akkord's Token.webp": {
+      "sourcePath": "item/p_char_4051_akkord.png",
+      "maxWidth": 180,
+      "sourceBlob": "d09b8ad3220d6dc80d3bd5a545d4e7e1d76061a6"
+    },
+    "material-icons/Ambriel's Token.webp": {
+      "sourcePath": "item/p_char_302_glaze.png",
+      "maxWidth": 180,
+      "sourceBlob": "9e06d6cf7124e79f55397173afe8a428be6c472a"
+    },
+    "material-icons/Arene's Token.webp": {
+      "sourcePath": "item/p_char_271_spikes.png",
+      "maxWidth": 180,
+      "sourceBlob": "24ffc31ad44e16f597f81f8010f976767740bbcd"
+    },
+    "skill-icons/Beanstalk - Everyone Together!.webp": {
+      "sourcePath": "skill/skill_icon_skchr_bstalk_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "acbeea226a2023d39582c2f7acef5c7ce52c5212"
+    },
+    "material-icons/Beanstalk's Token.webp": {
+      "sourcePath": "item/p_char_452_bstalk.png",
+      "maxWidth": 180,
+      "sourceBlob": "b9aeb401f1c11efd7fea04648c741b377bbe657c"
+    },
+    "material-icons/Beehunter's Token.webp": {
+      "sourcePath": "item/p_char_137_brownb.png",
+      "maxWidth": 180,
+      "sourceBlob": "a8e20e93a09e8749d7b18ae16504f65a275ed497"
+    },
+    "skill-icons/Bubble - Beaten Up.webp": {
+      "sourcePath": "skill/skill_icon_skchr_bubble_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a94cf33343ef1bca5260ef23af00bf532f46615a"
+    },
+    "material-icons/Bubble's Token.webp": {
+      "sourcePath": "item/p_char_381_bubble.png",
+      "maxWidth": 180,
+      "sourceBlob": "04000c3ea52dfac338974481fcb896da08d705fc"
+    },
+    "material-icons/Caper's Token.webp": {
+      "sourcePath": "item/p_char_4100_caper.png",
+      "maxWidth": 180,
+      "sourceBlob": "a5187bb39f25210952e76b04395f5110ff37f320"
+    },
+    "skill-icons/Chestnut - Little By Little.webp": {
+      "sourcePath": "skill/skill_icon_skchr_chnut_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "16a384580c77834da7fceed67948eeaea0e87b1d"
+    },
+    "material-icons/Chestnut's Token.webp": {
+      "sourcePath": "item/p_char_4041_chnut.png",
+      "maxWidth": 180,
+      "sourceBlob": "40d0f9c1f6412b7835d0b7ef5c47a7d4a7b4a7a7"
+    },
+    "material-icons/Click's Token.webp": {
+      "sourcePath": "item/p_char_328_cammou.png",
+      "maxWidth": 180,
+      "sourceBlob": "c88a486e87fa9b66fd2eded453da08a10baa8573"
+    },
+    "material-icons/Contrail's Token.webp": {
+      "sourcePath": "item/p_char_4165_ctrail.png",
+      "maxWidth": 180,
+      "sourceBlob": "7f99fc74cd1693d0d2f5450324a9448df6d11993"
+    },
+    "material-icons/Courier's Token.webp": {
+      "sourcePath": "item/p_char_198_blackd.png",
+      "maxWidth": 180,
+      "sourceBlob": "757fa91d372c8bfa48479250f1c26bb1b2660f94"
+    },
+    "material-icons/Cuora's Token.webp": {
+      "sourcePath": "item/p_char_150_snakek.png",
+      "maxWidth": 180,
+      "sourceBlob": "5a5574cab76657f0e5b73874a104adf5b0da058f"
+    },
+    "material-icons/Cutter's Token.webp": {
+      "sourcePath": "item/p_char_301_cutter.png",
+      "maxWidth": 180,
+      "sourceBlob": "fe2a49b4df859f8944ccde5bae952bbb52748dc6"
+    },
+    "material-icons/Deepcolor's Token.webp": {
+      "sourcePath": "item/p_char_110_deepcl.png",
+      "maxWidth": 180,
+      "sourceBlob": "9ff50166126bf9322d1528fd969a6e46ff3ee2aa"
+    },
+    "material-icons/Dobermann's Token.webp": {
+      "sourcePath": "item/p_char_130_doberm.png",
+      "maxWidth": 180,
+      "sourceBlob": "d88e182f292bfeab217665f71673c7f74e66e219"
+    },
+    "material-icons/Dur-nar's Token.webp": {
+      "sourcePath": "item/p_char_260_durnar.png",
+      "maxWidth": 180,
+      "sourceBlob": "e91171c7e7256159f0d14ea3c525e072030f95da"
+    },
+    "material-icons/Earthspirit's Token.webp": {
+      "sourcePath": "item/p_char_183_skgoat.png",
+      "maxWidth": 180,
+      "sourceBlob": "d6ba2ef24ddb6ebed81e5bf53e28d5a9024d7d26"
+    },
+    "material-icons/Estelle's Token.webp": {
+      "sourcePath": "item/p_char_127_estell.png",
+      "maxWidth": 180,
+      "sourceBlob": "effce5fd16c67b8c9167ddef50227bab51c36fe8"
+    },
+    "material-icons/Ethan's Token.webp": {
+      "sourcePath": "item/p_char_355_ethan.png",
+      "maxWidth": 180,
+      "sourceBlob": "4698b1f6114357dfd7f053d13ba8c9f8e7f72423"
+    },
+    "material-icons/Frostleaf's Token.webp": {
+      "sourcePath": "item/p_char_193_frostl.png",
+      "maxWidth": 180,
+      "sourceBlob": "4deea552fc4521ed828b8299b0561f626855394c"
+    },
+    "material-icons/Gavial's Token.webp": {
+      "sourcePath": "item/p_char_187_ccheal.png",
+      "maxWidth": 180,
+      "sourceBlob": "64e31fda26fca385f6b9f08be4718b69287e478c"
+    },
+    "material-icons/Gitano's Token.webp": {
+      "sourcePath": "item/p_char_109_fmout.png",
+      "maxWidth": 180,
+      "sourceBlob": "3f5e19814f8808ae562f875bc69354949e704e30"
+    },
+    "material-icons/Gravel's Token.webp": {
+      "sourcePath": "item/p_char_237_gravel.png",
+      "maxWidth": 180,
+      "sourceBlob": "512ec752b56a78b797d85a1787bdd10d024428e4"
+    },
+    "material-icons/Greyy's Token.webp": {
+      "sourcePath": "item/p_char_253_greyy.png",
+      "maxWidth": 180,
+      "sourceBlob": "5f7fed3b520438c70adc536c8ba451714e898d6d"
+    },
+    "material-icons/Gummy's Token.webp": {
+      "sourcePath": "item/p_char_196_sunbr.png",
+      "maxWidth": 180,
+      "sourceBlob": "26f0a8af47ee42c13597fc60c6955dad345508e4"
+    },
+    "material-icons/Haze's Token.webp": {
+      "sourcePath": "item/p_char_141_nights.png",
+      "maxWidth": 180,
+      "sourceBlob": "e7d2fdda6df36e7600fc7640966a9a6c13d913a2"
+    },
+    "material-icons/Humus's Token.webp": {
+      "sourcePath": "item/p_char_491_humus.png",
+      "maxWidth": 180,
+      "sourceBlob": "36e07f9b907cc1ce7639826cda1e055adb066212"
+    },
+    "material-icons/Indigo's Token.webp": {
+      "sourcePath": "item/p_char_469_indigo.png",
+      "maxWidth": 180,
+      "sourceBlob": "9ef7b44562dc7717fd8d5ea88f5dfb2224f8ed5a"
+    },
+    "material-icons/Jackie's Token.webp": {
+      "sourcePath": "item/p_char_347_jaksel.png",
+      "maxWidth": 180,
+      "sourceBlob": "6f0c87c0658d114c43e1a785315843010416b733"
+    },
+    "material-icons/Jaye's Token.webp": {
+      "sourcePath": "item/p_char_272_strong.png",
+      "maxWidth": 180,
+      "sourceBlob": "e70983998f4d72444446e8e325b5094cc14e69f9"
+    },
+    "material-icons/Jessica's Token.webp": {
+      "sourcePath": "item/p_char_235_jesica.png",
+      "maxWidth": 180,
+      "sourceBlob": "d8e69436b3099e20d3a255a517dcee33194a1db7"
+    },
+    "material-icons/Lutonada's Token.webp": {
+      "sourcePath": "item/p_char_4130_luton.png",
+      "maxWidth": 180,
+      "sourceBlob": "03a49d9ef55fc339dd25f00dfc510399c2578afe"
+    },
+    "material-icons/Matoimaru's Token.webp": {
+      "sourcePath": "item/p_char_289_gyuki.png",
+      "maxWidth": 180,
+      "sourceBlob": "a1a54735b74bc6967249022d2bcd8f59a04ab2cf"
+    },
+    "material-icons/Matterhorn's Token.webp": {
+      "sourcePath": "item/p_char_199_yak.png",
+      "maxWidth": 180,
+      "sourceBlob": "d5f38dd3dddc8dea9bebe74a08664b713d5a9431"
+    },
+    "material-icons/May's Token.webp": {
+      "sourcePath": "item/p_char_133_mm.png",
+      "maxWidth": 180,
+      "sourceBlob": "9d87e716063ec4760683406f8e5cc2156e3f6cee"
+    },
+    "material-icons/Meteor's Token.webp": {
+      "sourcePath": "item/p_char_126_shotst.png",
+      "maxWidth": 180,
+      "sourceBlob": "f94ed9e984e1233913d150ab0379f54884b9aa4b"
+    },
+    "material-icons/Mousse's Token.webp": {
+      "sourcePath": "item/p_char_185_frncat.png",
+      "maxWidth": 180,
+      "sourceBlob": "733b6f52f938a4b0084bfba66228ef7567b77ca6"
+    },
+    "material-icons/Myrrh's Token.webp": {
+      "sourcePath": "item/p_char_117_myrrh.png",
+      "maxWidth": 180,
+      "sourceBlob": "12e23cd5324f643fdb228604ecae73a3faf75ca2"
+    },
+    "material-icons/Myrtle's Token.webp": {
+      "sourcePath": "item/p_char_151_myrtle.png",
+      "maxWidth": 180,
+      "sourceBlob": "ec0636482be3fe313f423162d084fa5cabbb6b96"
+    },
+    "material-icons/Perfumer's Token.webp": {
+      "sourcePath": "item/p_char_181_flower.png",
+      "maxWidth": 180,
+      "sourceBlob": "efa132c2f3d3501aa99377a50d153e6b700b7f4c"
+    },
+    "material-icons/Pinecone's Token.webp": {
+      "sourcePath": "item/p_char_440_pinecn.png",
+      "maxWidth": 180,
+      "sourceBlob": "722036fb825a28230365cbe332f5d487781803e1"
+    },
+    "material-icons/Podenco's Token.webp": {
+      "sourcePath": "item/p_char_258_podego.png",
+      "maxWidth": 180,
+      "sourceBlob": "bb09c90ee1402bad08c64606211f3097f6d4bf5f"
+    },
+    "material-icons/Pudding's Token.webp": {
+      "sourcePath": "item/p_char_4004_pudd.png",
+      "maxWidth": 180,
+      "sourceBlob": "d9350bc4007fa6830e30d6249d96ffa71c74fcc2"
+    },
+    "material-icons/Purestream's Token.webp": {
+      "sourcePath": "item/p_char_385_finlpp.png",
+      "maxWidth": 180,
+      "sourceBlob": "243e3c7d1bf1f9b17380b643805f37b582933561"
+    },
+    "material-icons/Quartz's Token.webp": {
+      "sourcePath": "item/p_char_4063_quartz.png",
+      "maxWidth": 180,
+      "sourceBlob": "90599e87225ace0b6427910c52300ad54dcb73ee"
+    },
+    "material-icons/Roberta's Token.webp": {
+      "sourcePath": "item/p_char_484_robrta.png",
+      "maxWidth": 180,
+      "sourceBlob": "1d1dcd970cec2cad025a8d2a84cebf0a07734f76"
+    },
+    "material-icons/Rope's Token.webp": {
+      "sourcePath": "item/p_char_236_rope.png",
+      "maxWidth": 180,
+      "sourceBlob": "0773bb42afca4846095f060a8cf3af39d16c39ca"
+    },
+    "material-icons/Scavenger's Token.webp": {
+      "sourcePath": "item/p_char_149_scave.png",
+      "maxWidth": 180,
+      "sourceBlob": "0f43a35c2e589c5977880f890fc825933af7ae6c"
+    },
+    "material-icons/Shaw's Token.webp": {
+      "sourcePath": "item/p_char_277_sqrrel.png",
+      "maxWidth": 180,
+      "sourceBlob": "b0d4874ee97f13fec239778446a8e93c85cf8788"
+    },
+    "material-icons/Shirayuki's Token.webp": {
+      "sourcePath": "item/p_char_118_yuki.png",
+      "maxWidth": 180,
+      "sourceBlob": "a70b22ff3142ba90616ae3ad30dfdf13a5872c20"
+    },
+    "skill-icons/Snegurochka - Data Analysis.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wintim_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "a72556ecf3c2725345b199d4f115c29a18e01c34"
+    },
+    "skill-icons/Snegurochka - Rational Attribution.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wintim_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "99693e8ddc84ec0d37921fe914c0d226b78d84ad"
+    },
+    "material-icons/Snegurochka's Token.webp": {
+      "sourcePath": "item/p_char_4208_wintim.png",
+      "maxWidth": 180,
+      "sourceBlob": "c812fb5ca1d3c016328c6a6c5a72098a614988da"
+    },
+    "material-icons/Sussurro's Token.webp": {
+      "sourcePath": "item/p_char_298_susuro.png",
+      "maxWidth": 180,
+      "sourceBlob": "6207ab9c6256f9a2fa1bae554e8175f13312c049"
+    },
+    "material-icons/Totter's Token.webp": {
+      "sourcePath": "item/p_char_4062_totter.png",
+      "maxWidth": 180,
+      "sourceBlob": "98debc100ff48bd1647b2fd4e12d1c4c7d91c51b"
+    },
+    "material-icons/Utage's Token.webp": {
+      "sourcePath": "item/p_char_337_utage.png",
+      "maxWidth": 180,
+      "sourceBlob": "bacc8e38e4ec9abe15932a77758f4dc46c36472c"
+    },
+    "material-icons/Verdant's Token.webp": {
+      "sourcePath": "item/p_char_4107_vrdant.png",
+      "maxWidth": 180,
+      "sourceBlob": "d140b4febe714b4765d49130e44b5e85bedea65c"
+    },
+    "material-icons/Vermeil's Token.webp": {
+      "sourcePath": "item/p_char_190_clour.png",
+      "maxWidth": 180,
+      "sourceBlob": "c361792b88870ff1afe5fbb8032b42ba2053ffe0"
+    },
+    "material-icons/Vigna's Token.webp": {
+      "sourcePath": "item/p_char_290_vigna.png",
+      "maxWidth": 180,
+      "sourceBlob": "30edbdaaf9d8f6fed63539dd0968ffe2bcd6eb5c"
+    },
+    "material-icons/Windscoot's Token.webp": {
+      "sourcePath": "item/p_char_445_wscoot.png",
+      "maxWidth": 180,
+      "sourceBlob": "f011c5ae5ea938fa816a2a52f23a75777f9637e2"
+    },
+    "material-icons/Absinthe's Token.webp": {
+      "sourcePath": "item/p_char_405_absin.png",
+      "maxWidth": 180,
+      "sourceBlob": "157f599b583a1da7e763e1b0cab078358a3c1227"
+    },
+    "material-icons/Akafuyu's Token.webp": {
+      "sourcePath": "item/p_char_475_akafyu.png",
+      "maxWidth": 180,
+      "sourceBlob": "a6195f14fdae2916c29323b9787991045663d8dc"
+    },
+    "skill-icons/Alanna - Million-Pound Jack.webp": {
+      "sourcePath": "skill/skill_icon_skchr_alanna_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "0dca2f35df2912c3c5b45e65a83f39ad6edaedc0"
+    },
+    "material-icons/Alanna's Token.webp": {
+      "sourcePath": "item/p_char_4178_alanna.png",
+      "maxWidth": 180,
+      "sourceBlob": "2298fdf99b89b9c6ff012619e01749b145d76354"
+    },
+    "material-icons/Almond's Token.webp": {
+      "sourcePath": "item/p_char_4105_almond.png",
+      "maxWidth": 180,
+      "sourceBlob": "355cedec44d5c83a4338ca877347aaab78585f2f"
+    },
+    "five-star-icons/Amiya (Guard) - Elite 2.webp": {
+      "sourcePath": "avatar/char_1001_amiya2_2.png",
+      "maxWidth": 180,
+      "sourceBlob": "308049020e90896f43c710d73a42341c9707259c"
+    },
+    "skill-icons/Amiya (Guard) - Ying Xiao - Fleeting Night.webp": {
+      "sourcePath": "skill/skill_icon_skchr_amiya2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "32351b95a90b4a524f88460c8f93bfccc592bfa3"
+    },
+    "skill-icons/Amiya (Guard) - Ying Xiao - Shadowless.webp": {
+      "sourcePath": "skill/skill_icon_skchr_amiya2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e3e31563a36dae95c70b9972513e6569042bab1d"
+    },
+    "five-star-icons/Amiya (Medic) - Elite 2.webp": {
+      "sourcePath": "avatar/char_1037_amiya3_2.png",
+      "maxWidth": 180,
+      "sourceBlob": "5459160623b18eec29e44d9c7497dbddc8f9a48f"
+    },
+    "skill-icons/Amiya (Medic) - Empathy of Grief.webp": {
+      "sourcePath": "skill/skill_icon_skchr_amiya3_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "b5067547b1d6d03e36d50e3cdc6e3832c7308d7a"
+    },
+    "skill-icons/Amiya (Medic) - Vision of Mercy.webp": {
+      "sourcePath": "skill/skill_icon_skchr_amiya3_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "0e468b03f861b3b9091edc24633cde04e88c65d9"
+    },
+    "material-icons/Amiya's Token.webp": {
+      "sourcePath": "item/p_char_002_amiya.png",
+      "maxWidth": 180,
+      "sourceBlob": "7716603ecd111648618e46b38463e1543a892cc2"
+    },
+    "material-icons/Andreana's Token.webp": {
+      "sourcePath": "item/p_char_218_cuttle.png",
+      "maxWidth": 180,
+      "sourceBlob": "7e8c88c16942a130973c61cc057b74924b24a348"
+    },
+    "material-icons/Aosta's Token.webp": {
+      "sourcePath": "item/p_char_346_aosta.png",
+      "maxWidth": 180,
+      "sourceBlob": "a816a7dcbdb727849939dd9c08e5f182897483ef"
+    },
+    "material-icons/April's Token.webp": {
+      "sourcePath": "item/p_char_365_aprl.png",
+      "maxWidth": 180,
+      "sourceBlob": "e8cf205d9b0228a11326af725f165da3f652ad1d"
+    },
+    "material-icons/Aroma's Token.webp": {
+      "sourcePath": "item/p_char_446_aroma.png",
+      "maxWidth": 180,
+      "sourceBlob": "69fbc80fcce2e8791501660f4a1671fef6d35610"
+    },
+    "material-icons/Asbestos's Token.webp": {
+      "sourcePath": "item/p_char_378_asbest.png",
+      "maxWidth": 180,
+      "sourceBlob": "efd6c7fb2cc570270fa56532bb3fc7191b9ccf2a"
+    },
+    "material-icons/Ashlock's Token.webp": {
+      "sourcePath": "item/p_char_431_ashlok.png",
+      "maxWidth": 180,
+      "sourceBlob": "b8fd3d839426131e818bd276f6babc4a5c958a84"
+    },
+    "material-icons/Astesia's Token.webp": {
+      "sourcePath": "item/p_char_274_astesi.png",
+      "maxWidth": 180,
+      "sourceBlob": "91127aa105992fb70671eed271011f92eef2c668"
+    },
+    "material-icons/Astgenne's Token.webp": {
+      "sourcePath": "item/p_char_135_halo.png",
+      "maxWidth": 180,
+      "sourceBlob": "7073cc07f9630f4e5b9c184db61f39fa2bfe85da"
+    },
+    "material-icons/Aurora's Token.webp": {
+      "sourcePath": "item/p_char_422_aurora.png",
+      "maxWidth": 180,
+      "sourceBlob": "896d6f01534689c487d9d185db67c6fc2ae62586"
+    },
+    "material-icons/Ayerscarpe's Token.webp": {
+      "sourcePath": "item/p_char_294_ayer.png",
+      "maxWidth": 180,
+      "sourceBlob": "46a3d1f6e0e9a6081968770e073d5496da297054"
+    },
+    "material-icons/Bassline's Token.webp": {
+      "sourcePath": "item/p_char_4109_baslin.png",
+      "maxWidth": 180,
+      "sourceBlob": "0262d2f6f4948c592bf5b80af4c4eaa5692be9c5"
+    },
+    "material-icons/Beeswax's Token.webp": {
+      "sourcePath": "item/p_char_344_beewax.png",
+      "maxWidth": 180,
+      "sourceBlob": "e9272702d21e44fa5255410ce430828679e5b495"
+    },
+    "material-icons/Bena's Token.webp": {
+      "sourcePath": "item/p_char_369_bena.png",
+      "maxWidth": 180,
+      "sourceBlob": "7a2f4527cadbddb8a0b38a32d592d47836a9440e"
+    },
+    "material-icons/Bibeak's Token.webp": {
+      "sourcePath": "item/p_char_252_bibeak.png",
+      "maxWidth": 180,
+      "sourceBlob": "68edecc68c4c400e2cb61a6d97fdb8e4e4e54649"
+    },
+    "material-icons/Bison's Token.webp": {
+      "sourcePath": "item/p_char_325_bison.png",
+      "maxWidth": 180,
+      "sourceBlob": "b881b0c81681748d3947b46a951da030f97a898c"
+    },
+    "material-icons/Blacknight's Token.webp": {
+      "sourcePath": "item/p_char_476_blkngt.png",
+      "maxWidth": 180,
+      "sourceBlob": "93df7b816d4e134d083ad50b25a76b67a0c2edbe"
+    },
+    "material-icons/Blitz's Token.webp": {
+      "sourcePath": "item/p_char_457_blitz.png",
+      "maxWidth": 180,
+      "sourceBlob": "faa874e99714407bb904fd01db77f6a507ee7a86"
+    },
+    "material-icons/Blue Poison's Token.webp": {
+      "sourcePath": "item/p_char_129_bluep.png",
+      "maxWidth": 180,
+      "sourceBlob": "26f54e16da76635e85d2e4cf7498570c790107ac"
+    },
+    "skill-icons/Bobbing - You Shall Not Pass.webp": {
+      "sourcePath": "skill/skill_icon_skchr_bobb_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "0ed74a567431408099528f04d99c4d65a2fd3d8b"
+    },
+    "material-icons/Bobbing's Token.webp": {
+      "sourcePath": "item/p_char_487_bobb.png",
+      "maxWidth": 180,
+      "sourceBlob": "e61d961a1084e3ac36324f9f4ec5cbae6a4115a6"
+    },
+    "skill-icons/Botani - Disharmonization.webp": {
+      "sourcePath": "skill/skill_icon_skchr_botany_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "297b6580e30e7b7cb4a7d570a4e436f03c39499e"
+    },
+    "skill-icons/Botani - Echoes Through Quietude.webp": {
+      "sourcePath": "skill/skill_icon_skchr_botany_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a0b5b73e4d62894685e4690893604b33b8425f3b"
+    },
+    "material-icons/Botani's Token.webp": {
+      "sourcePath": "item/p_char_4223_botany.png",
+      "maxWidth": 180,
+      "sourceBlob": "46911c86f5da60899fc1482acc51b9781edc8587"
+    },
+    "material-icons/Breeze's Token.webp": {
+      "sourcePath": "item/p_char_275_breeze.png",
+      "maxWidth": 180,
+      "sourceBlob": "cc16a3d84e17bd7cf8af5697914b1d3c5407c6e0"
+    },
+    "material-icons/Broca's Token.webp": {
+      "sourcePath": "item/p_char_356_broca.png",
+      "maxWidth": 180,
+      "sourceBlob": "bf1133b31598b5770a6cf105065c480014691356"
+    },
+    "material-icons/Bryophyta's Token.webp": {
+      "sourcePath": "item/p_char_4106_bryota.png",
+      "maxWidth": 180,
+      "sourceBlob": "0351357b29fe75020e0905921010982c66004049"
+    },
+    "skill-icons/Cairn - Covered Consolidation.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cairn_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "8756b11e3f69041e1712caa1a825d2bf38bac7e1"
+    },
+    "skill-icons/Cairn - Stunning Directives.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cairn_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "05f69fea9115cbb8b9c90fcf5fde4af5ee3d5afc"
+    },
+    "material-icons/Cairn's Token.webp": {
+      "sourcePath": "item/p_char_4214_cairn.png",
+      "maxWidth": 180,
+      "sourceBlob": "b6e4dca2b8d149f0e4d5abb37e563ea7eaf62a1d"
+    },
+    "material-icons/Cantabile's Token.webp": {
+      "sourcePath": "item/p_char_497_ctable.png",
+      "maxWidth": 180,
+      "sourceBlob": "d88cb6a1b2d2c043a0cdcd8cb0e82d63bb660a24"
+    },
+    "material-icons/Catherine's Token.webp": {
+      "sourcePath": "item/p_char_4162_cathy.png",
+      "maxWidth": 180,
+      "sourceBlob": "2d89be1148bb09d9196de8c335154ee222551bf9"
+    },
+    "material-icons/Cement's Token.webp": {
+      "sourcePath": "item/p_char_464_cement.png",
+      "maxWidth": 180,
+      "sourceBlob": "6599305df3c49a37783dcc0c3aa5fd1856672c6a"
+    },
+    "material-icons/Ceylon's Token.webp": {
+      "sourcePath": "item/p_char_348_ceylon.png",
+      "maxWidth": 180,
+      "sourceBlob": "ba1283184549408620727eb548f4bafb010dd7d3"
+    },
+    "material-icons/Chiave's Token.webp": {
+      "sourcePath": "item/p_char_349_chiave.png",
+      "maxWidth": 180,
+      "sourceBlob": "e960fe590e014a464a15291799abdb58e8ed8233"
+    },
+    "material-icons/Chilchuck's Token.webp": {
+      "sourcePath": "item/p_char_4144_chilc.png",
+      "maxWidth": 180,
+      "sourceBlob": "70da6bbaa91a1ae82e2ba5cdd0eb74a95ddb7fb8"
+    },
+    "material-icons/Cliffheart's Token.webp": {
+      "sourcePath": "item/p_char_173_slchan.png",
+      "maxWidth": 180,
+      "sourceBlob": "eaa8eb17703e6b06ab3ac0502de83d32f6c67f18"
+    },
+    "material-icons/Coldshot's Token.webp": {
+      "sourcePath": "item/p_char_4104_coldst.png",
+      "maxWidth": 180,
+      "sourceBlob": "624f3507ee13b1d3797e564e614e3508325c1132"
+    },
+    "material-icons/Corroserum's Token.webp": {
+      "sourcePath": "item/p_char_489_serum.png",
+      "maxWidth": 180,
+      "sourceBlob": "08245e236783f9fecb05735cd14ead21720ea3d8"
+    },
+    "skill-icons/Crackborne - Cleanse.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tanya_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "dac664fe64575d5c0a5590ebdf6ace15eb464b4b"
+    },
+    "skill-icons/Crackborne - Wash Away.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tanya_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "96ada4ef438336271ca71748c6e2ae4909423dd0"
+    },
+    "material-icons/Crackborne's Token.webp": {
+      "sourcePath": "item/p_char_4225_tanya.png",
+      "maxWidth": 180,
+      "sourceBlob": "6f5a39371d8f9b03c062f8b9aacb44ff15956f41"
+    },
+    "material-icons/Croissant's Token.webp": {
+      "sourcePath": "item/p_char_201_moeshd.png",
+      "maxWidth": 180,
+      "sourceBlob": "afc478cebc074b651a2ee7c5a1de11cadce36c4d"
+    },
+    "material-icons/Czerny's Token.webp": {
+      "sourcePath": "item/p_char_4047_pianst.png",
+      "maxWidth": 180,
+      "sourceBlob": "2486826886800f2ec7d033c738ecf84ec70b5816"
+    },
+    "material-icons/Dagda's Token.webp": {
+      "sourcePath": "item/p_char_157_dagda.png",
+      "maxWidth": 180,
+      "sourceBlob": "22a3dae97646ada0f46361ad94bc3ecb44791e72"
+    },
+    "skill-icons/Delphine - Concentration.webp": {
+      "sourcePath": "skill/skill_icon_skchr_delphn_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "b8a23c958067dab3b931e03dfc57c6f9052794aa"
+    },
+    "skill-icons/Delphine - Preemptive Strike.webp": {
+      "sourcePath": "skill/skill_icon_skchr_delphn_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "84fd4b89c0be36a2c5d3186b35b8e1986c68f5e8"
+    },
+    "material-icons/Delphine's Token.webp": {
+      "sourcePath": "item/p_char_4110_delphn.png",
+      "maxWidth": 180,
+      "sourceBlob": "0eef8ca8ddf5f611005c75b83a08d2e1afbe5d90"
+    },
+    "material-icons/Diamante's Token.webp": {
+      "sourcePath": "item/p_char_499_kaitou.png",
+      "maxWidth": 180,
+      "sourceBlob": "e3c8eac0f50e4d20188a56d715e2992395498cc2"
+    },
+    "material-icons/Doc's Token.webp": {
+      "sourcePath": "item/p_char_4125_rdoc.png",
+      "maxWidth": 180,
+      "sourceBlob": "8185b80803dc5d694c36cfb2269cb01a7e7ebd79"
+    },
+    "material-icons/Elysium's Token.webp": {
+      "sourcePath": "item/p_char_401_elysm.png",
+      "maxWidth": 180,
+      "sourceBlob": "6ab1483a1e5c7fb528e08db3bd71b9174faf880b"
+    },
+    "material-icons/Enforcer's Token.webp": {
+      "sourcePath": "item/p_char_4036_forcer.png",
+      "maxWidth": 180,
+      "sourceBlob": "0a3c41145809da33bbbf755336aa65b8284b9ac9"
+    },
+    "material-icons/Erato's Token.webp": {
+      "sourcePath": "item/p_char_4043_erato.png",
+      "maxWidth": 180,
+      "sourceBlob": "c85518a32750fd59b8e190b81e3ea8a49a40627c"
+    },
+    "material-icons/Executor's Token.webp": {
+      "sourcePath": "item/p_char_279_excu.png",
+      "maxWidth": 180,
+      "sourceBlob": "e5c543033cba9c468f8c34cd3b62420044e46671"
+    },
+    "material-icons/FEater's Token.webp": {
+      "sourcePath": "item/p_char_241_panda.png",
+      "maxWidth": 180,
+      "sourceBlob": "db7c9b3067a3ab57f664e44bec9f57eb49d04355"
+    },
+    "material-icons/Fang the Fire-Sharpened's Token.webp": {
+      "sourcePath": "item/p_char_1036_fang2.png",
+      "maxWidth": 180,
+      "sourceBlob": "8ff96b512f1dd402d059da2753c16b7a900416a7"
+    },
+    "material-icons/Figurino's Token.webp": {
+      "sourcePath": "item/p_char_4155_talr.png",
+      "maxWidth": 180,
+      "sourceBlob": "45915d3074aef070470beb00b1cf1e2c40eb82d4"
+    },
+    "material-icons/Firewatch's Token.webp": {
+      "sourcePath": "item/p_char_158_milu.png",
+      "maxWidth": 180,
+      "sourceBlob": "28eb06466405a0655c1f3453463bcbfda7cb788a"
+    },
+    "material-icons/Firewhistle's Token.webp": {
+      "sourcePath": "item/p_char_493_firwhl.png",
+      "maxWidth": 180,
+      "sourceBlob": "af385520cc461e1d977cf99f3a92e5b61810c76b"
+    },
+    "material-icons/Flamebringer's Token.webp": {
+      "sourcePath": "item/p_char_131_flameb.png",
+      "maxWidth": 180,
+      "sourceBlob": "1b6505ce5f3bab900f9aeba6485cb494eb9b9fdf"
+    },
+    "material-icons/Flint's Token.webp": {
+      "sourcePath": "item/p_char_415_flint.png",
+      "maxWidth": 180,
+      "sourceBlob": "959bdb894e88d3cdfce6f4bacf251880802aea6e"
+    },
+    "material-icons/Folinic's Token.webp": {
+      "sourcePath": "item/p_char_345_folnic.png",
+      "maxWidth": 180,
+      "sourceBlob": "0303ed750161b591d9fb0c0973a9d5e1fbf3fa7f"
+    },
+    "material-icons/Franka's Token.webp": {
+      "sourcePath": "item/p_char_106_franka.png",
+      "maxWidth": 180,
+      "sourceBlob": "3b9bfad6cf81ded92889bf2bd2454d420a4e3ef8"
+    },
+    "material-icons/Frost's Token.webp": {
+      "sourcePath": "item/p_char_458_rfrost.png",
+      "maxWidth": 180,
+      "sourceBlob": "a622110e6919ac067522179d8c059f0d95f8ed07"
+    },
+    "material-icons/Fuze's Token.webp": {
+      "sourcePath": "item/p_char_4126_fuze.png",
+      "maxWidth": 180,
+      "sourceBlob": "ecde22ff66106af1aa9f296eec17afcc7ee0bfea"
+    },
+    "material-icons/Glaucus's Token.webp": {
+      "sourcePath": "item/p_char_326_glacus.png",
+      "maxWidth": 180,
+      "sourceBlob": "9e360f9f738d7d34748d538a73c7fbd89fc1e718"
+    },
+    "material-icons/Gracebearer's Token.webp": {
+      "sourcePath": "item/p_char_4187_graceb.png",
+      "maxWidth": 180,
+      "sourceBlob": "5eb2f729ddd11d5694364a6a1e821772a8f28dad"
+    },
+    "material-icons/Grain Buds's Token.webp": {
+      "sourcePath": "item/p_char_4122_grabds.png",
+      "maxWidth": 180,
+      "sourceBlob": "572e40948e6368f6243bb461bc9e562600bd773c"
+    },
+    "material-icons/Grani's Token.webp": {
+      "sourcePath": "item/p_char_220_grani.png",
+      "maxWidth": 180,
+      "sourceBlob": "18e6923aa8e4be7d4c202f8658694bc60ea59302"
+    },
+    "material-icons/GreyThroat's Token.webp": {
+      "sourcePath": "item/p_char_367_swllow.png",
+      "maxWidth": 180,
+      "sourceBlob": "6d29d71195ad4ec8daa916550927b5c35d23a43d"
+    },
+    "material-icons/Greyy the Lightningbearer's Token.webp": {
+      "sourcePath": "item/p_char_1027_greyy2.png",
+      "maxWidth": 180,
+      "sourceBlob": "9d09ea67cb65589191116b067187bdc6a712ee3c"
+    },
+    "skill-icons/Hadiya - Enhanced Desert Tactics.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hadiya_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "8f578e665997e1254e4bf5ba53153ec56c296f3e"
+    },
+    "skill-icons/Hadiya - Blade of the Qarnsayf.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hadiya_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "63335996abb038cf01192e453d7a2fe52a384f91"
+    },
+    "material-icons/Hadiya's Token.webp": {
+      "sourcePath": "item/p_char_394_hadiya.png",
+      "maxWidth": 180,
+      "sourceBlob": "951cf859b852b019543fb7d9a5e3e0366d3392ee"
+    },
+    "material-icons/Harmonie's Token.webp": {
+      "sourcePath": "item/p_char_297_hamoni.png",
+      "maxWidth": 180,
+      "sourceBlob": "3079d7a1947ec3650e645e60cb82af81f82f9ed5"
+    },
+    "material-icons/Harold's Token.webp": {
+      "sourcePath": "item/p_char_4114_harold.png",
+      "maxWidth": 180,
+      "sourceBlob": "1fc8684a63f4b59a6eb743b9a873346deab8a713"
+    },
+    "material-icons/Heavyrain's Token.webp": {
+      "sourcePath": "item/p_char_304_zebra.png",
+      "maxWidth": 180,
+      "sourceBlob": "b8cffb938684bac2d38fca28193516bdd3b80922"
+    },
+    "material-icons/Heidi's Token.webp": {
+      "sourcePath": "item/p_char_4045_heidi.png",
+      "maxWidth": 180,
+      "sourceBlob": "85d8857eb40097b01ca0d302a55243a56a6d9297"
+    },
+    "material-icons/Hibiscus the Purifier's Token.webp": {
+      "sourcePath": "item/p_char_1024_hbisc2.png",
+      "maxWidth": 180,
+      "sourceBlob": "aa3426c7106dad01f563fbb969bfb9b7583f5871"
+    },
+    "material-icons/Highmore's Token.webp": {
+      "sourcePath": "item/p_char_4066_highmo.png",
+      "maxWidth": 180,
+      "sourceBlob": "86fc2c015f459ccc0050539696f9b9259cc2cd58"
+    },
+    "material-icons/Honeyberry's Token.webp": {
+      "sourcePath": "item/p_char_449_glider.png",
+      "maxWidth": 180,
+      "sourceBlob": "153c151ae7e33afb368ba5622df047167c6358ac"
+    },
+    "material-icons/Hung's Token.webp": {
+      "sourcePath": "item/p_char_226_hmau.png",
+      "maxWidth": 180,
+      "sourceBlob": "59baa5e1d13e687a00d84551039c1ed87fcc4357"
+    },
+    "material-icons/Iana's Token.webp": {
+      "sourcePath": "item/p_char_4124_iana.png",
+      "maxWidth": 180,
+      "sourceBlob": "453c17f416483933edb473fc2c353d27c3246f18"
+    },
+    "material-icons/Indra's Token.webp": {
+      "sourcePath": "item/p_char_155_tiger.png",
+      "maxWidth": 180,
+      "sourceBlob": "7e3d80b75154b757e25fb42b47959f5443f85666"
+    },
+    "skill-icons/Insider - Don't Invite Trouble.webp": {
+      "sourcePath": "skill/skill_icon_skchr_inside_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "618b29efa88effbe7cd3aae7ba2fae7d9d4525e1"
+    },
+    "skill-icons/Insider - Problem Solver.webp": {
+      "sourcePath": "skill/skill_icon_skchr_inside_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b652d6b1b22070fd2c9b58086b9e00185fbb93ef"
+    },
+    "material-icons/Insider's Token.webp": {
+      "sourcePath": "item/p_char_498_inside.png",
+      "maxWidth": 180,
+      "sourceBlob": "dd7faf41d2573b8592526caac45a80e5560af61b"
+    },
+    "material-icons/Iris's Token.webp": {
+      "sourcePath": "item/p_char_338_iris.png",
+      "maxWidth": 180,
+      "sourceBlob": "099aeb9fdb393105d85e6ea228e86dbe8b799c66"
+    },
+    "material-icons/Istina's Token.webp": {
+      "sourcePath": "item/p_char_195_glassb.png",
+      "maxWidth": 180,
+      "sourceBlob": "ff68a63f9daa180eb24d7c31361b6ad9108bd65f"
+    },
+    "skill-icons/Jacinta - Parasol's Shade.webp": {
+      "sourcePath": "skill/skill_icon_skchr_jcinta_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "4ab5015c19a33172ecf32e2fbd4f7a7912b5898f"
+    },
+    "material-icons/Jacinta's Token.webp": {
+      "sourcePath": "item/p_char_4237_jcinta.png",
+      "maxWidth": 180,
+      "sourceBlob": "8c8d21cbb29fef5d676499c7b7640172d984793c"
+    },
+    "material-icons/Jieyun's Token.webp": {
+      "sourcePath": "item/p_char_4078_bdhkgt.png",
+      "maxWidth": 180,
+      "sourceBlob": "64e0cec13cf20c1c372e737d25024304d506518c"
+    },
+    "skill-icons/Ju - Fine Bow, Difficult Draw.webp": {
+      "sourcePath": "skill/skill_icon_skchr_ju_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "848b7ea9eca69d12829d42289dc5ab222658482b"
+    },
+    "skill-icons/Ju - Fine Wings, Difficult Flight.webp": {
+      "sourcePath": "skill/skill_icon_skchr_ju_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a3935ae00ce4fa82ccb6cc7815d652d399dca872"
+    },
+    "material-icons/Ju's Token.webp": {
+      "sourcePath": "item/p_char_4221_ju.png",
+      "maxWidth": 180,
+      "sourceBlob": "d881bf61dd5a1ef7e3a64ed504c0137d15a1d7e5"
+    },
+    "material-icons/Kafka's Token.webp": {
+      "sourcePath": "item/p_char_214_kafka.png",
+      "maxWidth": 180,
+      "sourceBlob": "1c89811f55314e87c3da8ed3f7f1acb7a3a6db56"
+    },
+    "material-icons/Kazemaru's Token.webp": {
+      "sourcePath": "item/p_char_4016_kazema.png",
+      "maxWidth": 180,
+      "sourceBlob": "d641f66fc99404f5ecb5ae9b57bc9d685efaed8c"
+    },
+    "material-icons/Kestrel's Token.webp": {
+      "sourcePath": "item/p_char_4023_rfalcn.png",
+      "maxWidth": 180,
+      "sourceBlob": "474da6d55d0c715cfc1e7b2f775df9678ac5870d"
+    },
+    "skill-icons/Kichisei - Irasshaimase!.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kichi_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "9ffd9fe1ca8a432ca33d5f292bcf49792ebc1ec7"
+    },
+    "skill-icons/Kichisei - Lucky Star, Shining Bright!.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kichi_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "c50fbbd2d1ce7045145008ece14ef8c46c50fcab"
+    },
+    "material-icons/Kichisei's Token.webp": {
+      "sourcePath": "item/p_char_4203_kichi.png",
+      "maxWidth": 180,
+      "sourceBlob": "9fc4719c928fd519e44e5325c18fc4499080767a"
+    },
+    "material-icons/Kirara's Token.webp": {
+      "sourcePath": "item/p_char_478_kirara.png",
+      "maxWidth": 180,
+      "sourceBlob": "ca1d71d26700b9789c9772a3eff66b615bb2e430"
+    },
+    "material-icons/Kjera's Token.webp": {
+      "sourcePath": "item/p_char_4013_kjera.png",
+      "maxWidth": 180,
+      "sourceBlob": "22e70020f03f773ef7d7b2f994de9addc8d17b9a"
+    },
+    "material-icons/Kroos the Keen Glint's Token.webp": {
+      "sourcePath": "item/p_char_1021_kroos2.png",
+      "maxWidth": 180,
+      "sourceBlob": "28610c505401a944f2e30814cdc7574485a18ec1"
+    },
+    "material-icons/La Pluma's Token.webp": {
+      "sourcePath": "item/p_char_421_crow.png",
+      "maxWidth": 180,
+      "sourceBlob": "3a1284c09ad36327701bd07ba070b69a98b29834"
+    },
+    "material-icons/Laios's Token.webp": {
+      "sourcePath": "item/p_char_4142_laios.png",
+      "maxWidth": 180,
+      "sourceBlob": "264038d1fa93688817a425b35b2621a09952ba93"
+    },
+    "material-icons/Lappland's Token.webp": {
+      "sourcePath": "item/p_char_140_whitew.png",
+      "maxWidth": 180,
+      "sourceBlob": "b2137d12e0fbc9272448225ca100794d625805fd"
+    },
+    "material-icons/Lava the Purgatory's Token.webp": {
+      "sourcePath": "item/p_char_1011_lava2.png",
+      "maxWidth": 180,
+      "sourceBlob": "a01289c63b637fc96acf5c9277c0697402951bcd"
+    },
+    "material-icons/Leizi's Token.webp": {
+      "sourcePath": "item/p_char_306_leizi.png",
+      "maxWidth": 180,
+      "sourceBlob": "4795cdc6268f81d604e36346d47d956550f324fb"
+    },
+    "material-icons/Leonhardt's Token.webp": {
+      "sourcePath": "item/p_char_373_lionhd.png",
+      "maxWidth": 180,
+      "sourceBlob": "b172bcfda007b3f2c07f815a295ac197989828f9"
+    },
+    "material-icons/Leto's Token.webp": {
+      "sourcePath": "item/p_char_194_leto.png",
+      "maxWidth": 180,
+      "sourceBlob": "6fd25215908c9ce9ef9f3a32df3e0ef62685b2b4"
+    },
+    "material-icons/Liskarm's Token.webp": {
+      "sourcePath": "item/p_char_107_liskam.png",
+      "maxWidth": 180,
+      "sourceBlob": "981c7844578ceb9445df74c4f31be467e5880dac"
+    },
+    "material-icons/Lucilla's Token.webp": {
+      "sourcePath": "item/p_char_4079_haini.png",
+      "maxWidth": 180,
+      "sourceBlob": "7f2076fa6fe77e33b7ddb7d426cbef32ff387c90"
+    },
+    "material-icons/Lunacub's Token.webp": {
+      "sourcePath": "item/p_char_4014_lunacu.png",
+      "maxWidth": 180,
+      "sourceBlob": "a230b46373dcb906990a9836eeea048de8a18292"
+    },
+    "material-icons/Manticore's Token.webp": {
+      "sourcePath": "item/p_char_215_mantic.png",
+      "maxWidth": 180,
+      "sourceBlob": "98a32c8be857b421ff927c96ebb07c4a42290952"
+    },
+    "skill-icons/Matsukiri - Entry Plan.webp": {
+      "sourcePath": "skill/skill_icon_skchr_makiri_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "f76c45a56462646dd4b74420a841d550cab3175d"
+    },
+    "skill-icons/Matsukiri - Match of Myriad Tricks.webp": {
+      "sourcePath": "skill/skill_icon_skchr_makiri_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "201a7072008b6bbc1a4a52133a6bc62ae39272d7"
+    },
+    "material-icons/Matsukiri's Token.webp": {
+      "sourcePath": "item/p_char_4199_makiri.png",
+      "maxWidth": 180,
+      "sourceBlob": "4239dab87b7b6e127e3e9fc31463223608726e02"
+    },
+    "material-icons/Mayer's Token.webp": {
+      "sourcePath": "item/p_char_242_otter.png",
+      "maxWidth": 180,
+      "sourceBlob": "a4e98d06ffee2f11e4cf7ce60a8d9f45961d9b45"
+    },
+    "material-icons/Melanite's Token.webp": {
+      "sourcePath": "item/p_char_4006_melnte.png",
+      "maxWidth": 180,
+      "sourceBlob": "1da824ea58f145a4c9285fa19829772e8cecf597"
+    },
+    "material-icons/Meteorite's Token.webp": {
+      "sourcePath": "item/p_char_219_meteo.png",
+      "maxWidth": 180,
+      "sourceBlob": "09be877d96ea9bd687285a99c3ae378302d76b25"
+    },
+    "material-icons/Minimalist's Token.webp": {
+      "sourcePath": "item/p_char_4054_malist.png",
+      "maxWidth": 180,
+      "sourceBlob": "e05dd1ff5deb2d0025352381977165238d34741b"
+    },
+    "material-icons/Mint's Token.webp": {
+      "sourcePath": "item/p_char_388_mint.png",
+      "maxWidth": 180,
+      "sourceBlob": "6960e9a6cc103db8c198b9a84fd55ed8bcdf71ec"
+    },
+    "material-icons/Miss.Christine's Token.webp": {
+      "sourcePath": "item/p_char_4198_christ.png",
+      "maxWidth": 180,
+      "sourceBlob": "c4194f5bbebdf53f4b6ffeeef0d05c74e0dd73a8"
+    },
+    "skill-icons/Misumi Uika - Cogito Ergo.webp": {
+      "sourcePath": "skill/skill_icon_skchr_dolris_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "9db7b899561cf45114644b95d1fdf26d688ec534"
+    },
+    "skill-icons/Misumi Uika - Paeniteo Ergo.webp": {
+      "sourcePath": "skill/skill_icon_skchr_dolris_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "76f5452add6ffdcd21ff51c575f732b448a0968c"
+    },
+    "material-icons/Misumi Uika's Token.webp": {
+      "sourcePath": "item/p_char_4184_dolris.png",
+      "maxWidth": 180,
+      "sourceBlob": "05984d9065cd052429d7b19cc464da9113320172"
+    },
+    "material-icons/Mitm's Token.webp": {
+      "sourcePath": "item/p_char_4147_mitm.png",
+      "maxWidth": 180,
+      "sourceBlob": "7930c7edb119f80dbea98af0a8e0f24d01a333c4"
+    },
+    "material-icons/Morgan's Token.webp": {
+      "sourcePath": "item/p_char_154_morgan.png",
+      "maxWidth": 180,
+      "sourceBlob": "6152a9909f44d8dc51096c453b67e1b0559d9a50"
+    },
+    "material-icons/Mr. Nothing's Token.webp": {
+      "sourcePath": "item/p_char_455_nothin.png",
+      "maxWidth": 180,
+      "sourceBlob": "39d6c02fbf009bd6fe3041c6d34830584dbece62"
+    },
+    "material-icons/Mulberry's Token.webp": {
+      "sourcePath": "item/p_char_473_mberry.png",
+      "maxWidth": 180,
+      "sourceBlob": "5a0811a08f2d26c13f23fda4e3e607fc1c9c1ff5"
+    },
+    "material-icons/Nearl's Token.webp": {
+      "sourcePath": "item/p_char_148_nearl.png",
+      "maxWidth": 180,
+      "sourceBlob": "2a4401f267c9b1189abd4ee2e39958977e33d455"
+    },
+    "material-icons/Nightmare's Token.webp": {
+      "sourcePath": "item/p_char_164_nightm.png",
+      "maxWidth": 180,
+      "sourceBlob": "2d2249f9e7720ec2c6e9f2d81a99a9858ea84c27"
+    },
+    "material-icons/Nowell's Token.webp": {
+      "sourcePath": "item/p_char_4173_nowell.png",
+      "maxWidth": 180,
+      "sourceBlob": "ea3d12434eaf73b208d885bdb67e8ca22b7441ac"
+    },
+    "material-icons/Odda's Token.webp": {
+      "sourcePath": "item/p_char_4131_odda.png",
+      "maxWidth": 180,
+      "sourceBlob": "2edc03db18eeaf7c7bc0b551809069ed48e9d212"
+    },
+    "material-icons/Paprika's Token.webp": {
+      "sourcePath": "item/p_char_4071_peper.png",
+      "maxWidth": 180,
+      "sourceBlob": "a49352b49c0507fb361269c8d25c706c72eb8373"
+    },
+    "material-icons/Papyrus's Token.webp": {
+      "sourcePath": "item/p_char_4139_papyrs.png",
+      "maxWidth": 180,
+      "sourceBlob": "f2f69f6990e9f93fbfd79070253ca336ca412d19"
+    },
+    "skill-icons/Pedro - Marking Shot.webp": {
+      "sourcePath": "skill/skill_icon_skchr_pedro_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "5ba388c4776aa0c94ca490e461f3b46537774e9b"
+    },
+    "skill-icons/Pedro - Alternate Evacuation.webp": {
+      "sourcePath": "skill/skill_icon_skchr_pedro_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b7ffad79e509dc8e344f7ae7d5fca5593cbf4140"
+    },
+    "material-icons/Pedro's Token.webp": {
+      "sourcePath": "item/p_char_4234_pedro.png",
+      "maxWidth": 180,
+      "sourceBlob": "fdacd9338aece3264f03feee70d6ce45d7db9f0e"
+    },
+    "skill-icons/Perfumer the Distilled - 'Mountain Delight'.webp": {
+      "sourcePath": "skill/skill_icon_skchr_flwr2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "ebfc9575e956012f4e1c793e38777758869b147a"
+    },
+    "skill-icons/Perfumer the Distilled - 'Temple Embers'.webp": {
+      "sourcePath": "skill/skill_icon_skchr_flwr2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a56ac4169c64ae4a6ac924b2ced4204c3da2cf5a"
+    },
+    "material-icons/Perfumer the Distilled's Token.webp": {
+      "sourcePath": "item/p_char_1022_flwr2.png",
+      "maxWidth": 180,
+      "sourceBlob": "4e9ac0bc53e093db10f8ef7811c8ad565c49bfab"
+    },
+    "material-icons/Philae's Token.webp": {
+      "sourcePath": "item/p_char_4148_philae.png",
+      "maxWidth": 180,
+      "sourceBlob": "2d8d616a27eaf04c3bc0ad119cb974e2b32bc2be"
+    },
+    "material-icons/Platinum's Token.webp": {
+      "sourcePath": "item/p_char_204_platnm.png",
+      "maxWidth": 180,
+      "sourceBlob": "cb8b57d064775b8c7fd5cb50626dbf1b8deaefbf"
+    },
+    "material-icons/Poncirus's Token.webp": {
+      "sourcePath": "item/p_char_488_buildr.png",
+      "maxWidth": 180,
+      "sourceBlob": "0c85b485c99fe93f8be5ed35086cff96318a2b28"
+    },
+    "material-icons/Pramanix's Token.webp": {
+      "sourcePath": "item/p_char_174_slbell.png",
+      "maxWidth": 180,
+      "sourceBlob": "e2b9aa5536508a6cf67b6d93ad0a490810bd8218"
+    },
+    "material-icons/Projekt Red's Token.webp": {
+      "sourcePath": "item/p_char_144_red.png",
+      "maxWidth": 180,
+      "sourceBlob": "9dd2f70720131dd7dae2faddc1525a95a997a0d8"
+    },
+    "material-icons/Provence's Token.webp": {
+      "sourcePath": "item/p_char_145_prove.png",
+      "maxWidth": 180,
+      "sourceBlob": "7bc3db8bffabf60f85efb66d046a86c9e2f40e25"
+    },
+    "material-icons/Proviso's Token.webp": {
+      "sourcePath": "item/p_char_4032_provs.png",
+      "maxWidth": 180,
+      "sourceBlob": "818c22cc0d17451aafbe927de48d5b39030f83b2"
+    },
+    "material-icons/Ptilopsis's Token.webp": {
+      "sourcePath": "item/p_char_128_plosis.png",
+      "maxWidth": 180,
+      "sourceBlob": "8ef434529aa0b6bd92d515bef69aa326144b23a0"
+    },
+    "material-icons/Puzzle's Token.webp": {
+      "sourcePath": "item/p_char_4017_puzzle.png",
+      "maxWidth": 180,
+      "sourceBlob": "2b7a279886fdd484d1edea32ae6d42d678f9d874"
+    },
+    "material-icons/Qanipalaat's Token.webp": {
+      "sourcePath": "item/p_char_466_qanik.png",
+      "maxWidth": 180,
+      "sourceBlob": "be6604ff12c965fa276507ff6827de3a42aad521"
+    },
+    "material-icons/Quercus's Token.webp": {
+      "sourcePath": "item/p_char_492_quercu.png",
+      "maxWidth": 180,
+      "sourceBlob": "af5187ad84e9e7d4fb98b0381f88855f99694e05"
+    },
+    "material-icons/Rathalos S Noir Corne's Token.webp": {
+      "sourcePath": "item/p_char_1030_noirc2.png",
+      "maxWidth": 180,
+      "sourceBlob": "c1e3000abe0c6f15fa6a94f34148cc2bbbd32f32"
+    },
+    "skill-icons/Record Keeper - Learning by Analogy.webp": {
+      "sourcePath": "skill/skill_icon_skchr_reckpr_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "a57193e5acaf6c5f7a5e74611616f11c2ba88d2d"
+    },
+    "skill-icons/Record Keeper - Sage Advice.webp": {
+      "sourcePath": "skill/skill_icon_skchr_reckpr_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "6fce13d0e2a898873e87a29f8809c4f5e03d70e0"
+    },
+    "material-icons/Record Keeper's Token.webp": {
+      "sourcePath": "item/p_char_4196_reckpr.png",
+      "maxWidth": 180,
+      "sourceBlob": "c5dabdbaad1696bf7128ca41a284e46a3557efd9"
+    },
+    "material-icons/Reed's Token.webp": {
+      "sourcePath": "item/p_char_261_sddrag.png",
+      "maxWidth": 180,
+      "sourceBlob": "2c20749b424d273722b9c92abfb752d9d5a298a6"
+    },
+    "skill-icons/Ripresa - Conductor's Cue.webp": {
+      "sourcePath": "skill/skill_icon_skchr_liesel_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "d393fd1b809c72f54ef81fb731fc32cb0f71d137"
+    },
+    "skill-icons/Ripresa - Al Fine.webp": {
+      "sourcePath": "skill/skill_icon_skchr_liesel_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "46836dbcbe09904a3b71ffd39f114b04a3dc8ee1"
+    },
+    "material-icons/Ripresa's Token.webp": {
+      "sourcePath": "item/p_char_4031_liesel.png",
+      "maxWidth": 180,
+      "sourceBlob": "90ed8bf320eaf738fafaccf300479c162126d7e5"
+    },
+    "skill-icons/Robin - Binding Clip.webp": {
+      "sourcePath": "skill/skill_icon_skchr_robin_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "77dd7a48849da103c21efaad195b591f8c9430ed"
+    },
+    "skill-icons/Robin - Launching Clip.webp": {
+      "sourcePath": "skill/skill_icon_skchr_robin_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "1bdb38917fbb911107412ea3124f538d4d72494b"
+    },
+    "material-icons/Robin's Token.webp": {
+      "sourcePath": "item/p_char_451_robin.png",
+      "maxWidth": 180,
+      "sourceBlob": "19484f39fb3aa07021fad098d49a4c6b96ef1016"
+    },
+    "material-icons/Rockrock's Token.webp": {
+      "sourcePath": "item/p_char_4040_rockr.png",
+      "maxWidth": 180,
+      "sourceBlob": "0bad6e25693ba98330a9802ac32d2161d90ec7df"
+    },
+    "material-icons/Rose Salt's Token.webp": {
+      "sourcePath": "item/p_char_4163_rosesa.png",
+      "maxWidth": 180,
+      "sourceBlob": "3fee32c8b36b6d54f1cfec08d24f5726cc11608c"
+    },
+    "material-icons/Sand Reckoner's Token.webp": {
+      "sourcePath": "item/p_char_4140_lasher.png",
+      "maxWidth": 180,
+      "sourceBlob": "8257dab3b6d94fec9b80efc7a9d6c1aa85ac583e"
+    },
+    "skill-icons/Santalla - Witch's Tears.webp": {
+      "sourcePath": "skill/skill_icon_skchr_sntlla_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "d99af67d72ea53c3133e0bee45b0bbd50ad22ba3"
+    },
+    "material-icons/Santalla's Token.webp": {
+      "sourcePath": "item/p_char_341_sntlla.png",
+      "maxWidth": 180,
+      "sourceBlob": "e10674b47018eb105a04162e73cfe67d7856eda1"
+    },
+    "material-icons/Savage's Token.webp": {
+      "sourcePath": "item/p_char_230_savage.png",
+      "maxWidth": 180,
+      "sourceBlob": "91f2c778fa7cf732a87b91dd1b73c7bad42f4f2f"
+    },
+    "material-icons/Scene's Token.webp": {
+      "sourcePath": "item/p_char_336_folivo.png",
+      "maxWidth": 180,
+      "sourceBlob": "5088d4ede3632c913c30b63cda49fc4ccba1dc76"
+    },
+    "material-icons/Senshi's Token.webp": {
+      "sourcePath": "item/p_char_4143_sensi.png",
+      "maxWidth": 180,
+      "sourceBlob": "ec70464d8ccb8c41b645fb0dd06e83a8e2253767"
+    },
+    "material-icons/Sesa's Token.webp": {
+      "sourcePath": "item/p_char_379_sesa.png",
+      "maxWidth": 180,
+      "sourceBlob": "6b99ea0f32bc42d8ee0e2218530d63c33e6a222a"
+    },
+    "skill-icons/Shalem - Rapid Onslaught.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aprot2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "b180ced6b27f6db517a69971ea141354749f3786"
+    },
+    "material-icons/Shalem's Token.webp": {
+      "sourcePath": "item/p_char_4025_aprot2.png",
+      "maxWidth": 180,
+      "sourceBlob": "168b70b3e8e3ce33d431b38ec8f65a1c258ee3e8"
+    },
+    "material-icons/Shamare's Token.webp": {
+      "sourcePath": "item/p_char_254_vodfox.png",
+      "maxWidth": 180,
+      "sourceBlob": "4675268e301aefa497de6c10a8bc6e4f79817162"
+    },
+    "material-icons/Sideroca's Token.webp": {
+      "sourcePath": "item/p_char_333_sidero.png",
+      "maxWidth": 180,
+      "sourceBlob": "d4f0bbfe821fb022966d3e2da11adbad7e07740b"
+    },
+    "material-icons/Silence's Token.webp": {
+      "sourcePath": "item/p_char_108_silent.png",
+      "maxWidth": 180,
+      "sourceBlob": "f02f42fe1989fa6129969064e696cff4bc972a43"
+    },
+    "skill-icons/Skybox - Gunpowder Soiree.webp": {
+      "sourcePath": "skill/skill_icon_skchr_skybx_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "95ede154e78ad0ba1ea5ce2d74d78c570d316c99"
+    },
+    "skill-icons/Skybox - EMP Benefaction.webp": {
+      "sourcePath": "skill/skill_icon_skchr_skybx_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2b875a2c62841fe1d7f041c0193d21c53bdf65b0"
+    },
+    "material-icons/Skybox's Token.webp": {
+      "sourcePath": "item/p_char_4213_skybx.png",
+      "maxWidth": 180,
+      "sourceBlob": "b52a906182e737dcd88f2d0fef29a2779e797f0a"
+    },
+    "material-icons/Skyfire's Token.webp": {
+      "sourcePath": "item/p_char_166_skfire.png",
+      "maxWidth": 180,
+      "sourceBlob": "ec8e8ce268a948cb40c18bce9e3dfeebfdb04141"
+    },
+    "skill-icons/Snow Hunter - Twin Blizzard Bolts.webp": {
+      "sourcePath": "skill/skill_icon_skchr_snhunt_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "bb3f15dca53b0f01cc41ba5df5b409fe9a198517"
+    },
+    "material-icons/Snow Hunter's Token.webp": {
+      "sourcePath": "item/p_char_4211_snhunt.png",
+      "maxWidth": 180,
+      "sourceBlob": "25730bec6c4d65593eee3bed79ff81027cb86139"
+    },
+    "material-icons/Snowsant's Token.webp": {
+      "sourcePath": "item/p_char_383_snsant.png",
+      "maxWidth": 180,
+      "sourceBlob": "7d66ab3296eb40b990b44c2f4762c0d94a523987"
+    },
+    "material-icons/Sora's Token.webp": {
+      "sourcePath": "item/p_char_101_sora.png",
+      "maxWidth": 180,
+      "sourceBlob": "18c4a567ca9bde1815464b06312fd7001aec9acf"
+    },
+    "material-icons/Specter's Token.webp": {
+      "sourcePath": "item/p_char_143_ghost.png",
+      "maxWidth": 180,
+      "sourceBlob": "bc4bfe10624c7014e6f35a1c642749305248ce75"
+    },
+    "material-icons/Spuria's Token.webp": {
+      "sourcePath": "item/p_char_4015_spuria.png",
+      "maxWidth": 180,
+      "sourceBlob": "2822958fc4d13daf03364d26571e0dc956e4cda7"
+    },
+    "material-icons/Surfer's Token.webp": {
+      "sourcePath": "item/p_char_4052_surfer.png",
+      "maxWidth": 180,
+      "sourceBlob": "e10ba53c2d4e9af552717838f5d38043befa255f"
+    },
+    "material-icons/Swire's Token.webp": {
+      "sourcePath": "item/p_char_308_swire.png",
+      "maxWidth": 180,
+      "sourceBlob": "b3f1eb213ea4c122ad5dd11caef335ef12421502"
+    },
+    "material-icons/Tachanka's Token.webp": {
+      "sourcePath": "item/p_char_459_tachak.png",
+      "maxWidth": 180,
+      "sourceBlob": "7f33af97552b0159b46d0babcb9b8e7349752ae8"
+    },
+    "skill-icons/Taraxacum - Where To.webp": {
+      "sourcePath": "skill/skill_icon_skchr_taraxa_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "27150fa65d773d3f0957385ef35edc8e3057b19e"
+    },
+    "skill-icons/Taraxacum - Upon the Wind.webp": {
+      "sourcePath": "skill/skill_icon_skchr_taraxa_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a74da1b5bedee3f2b5c155de3c44beeaef898c63"
+    },
+    "material-icons/Taraxacum's Token.webp": {
+      "sourcePath": "item/p_char_4222_taraxa.png",
+      "maxWidth": 180,
+      "sourceBlob": "bc04860704ee96b734fbaa64fc4f37bb5a3addbf"
+    },
+    "material-icons/Tecno's Token.webp": {
+      "sourcePath": "item/p_char_4164_tecno.png",
+      "maxWidth": 180,
+      "sourceBlob": "42bf308bb2965f4479dbe0d4a1c79c6f6ca0ca73"
+    },
+    "material-icons/Tequila's Token.webp": {
+      "sourcePath": "item/p_char_486_takila.png",
+      "maxWidth": 180,
+      "sourceBlob": "e78e286d278bfef286abc1230e06fc25df609f12"
+    },
+    "material-icons/Texas's Token.webp": {
+      "sourcePath": "item/p_char_102_texas.png",
+      "maxWidth": 180,
+      "sourceBlob": "c8c425e4f837d68906afbdc5f72018a57f668e4a"
+    },
+    "skill-icons/Timeslot - Technology and Traditional Rituals.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tmslot_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "12078d77f013fc5afe307e378c3b429959f373b2"
+    },
+    "material-icons/Timeslot's Token.webp": {
+      "sourcePath": "item/p_char_4236_tmslot.png",
+      "maxWidth": 180,
+      "sourceBlob": "b8ce4fb3f999a6107bffd3e98011e89cf1951711"
+    },
+    "skill-icons/Tin Man - Ol' Curly.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tinman_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "7ec3cd9b770d9b159cf28a62057305361e229301"
+    },
+    "skill-icons/Tin Man - Big Larry.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tinman_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "3d5b57f85178e5f4ce16cfa906735c212c610b07"
+    },
+    "material-icons/Tin Man's Token.webp": {
+      "sourcePath": "item/p_char_4151_tinman.png",
+      "maxWidth": 180,
+      "sourceBlob": "aae8b23071afb442c5d0d128adce1e82ba42d462"
+    },
+    "material-icons/Tippi's Token.webp": {
+      "sourcePath": "item/p_char_4191_tippi.png",
+      "maxWidth": 180,
+      "sourceBlob": "48cb507edd99a10e3d8e8f666ff44907250efa52"
+    },
+    "material-icons/Toddifons's Token.webp": {
+      "sourcePath": "item/p_char_363_toddi.png",
+      "maxWidth": 180,
+      "sourceBlob": "a75277d431ca1e55af0a2a36d9752d2588ab27a4"
+    },
+    "material-icons/Tomimi's Token.webp": {
+      "sourcePath": "item/p_char_411_tomimi.png",
+      "maxWidth": 180,
+      "sourceBlob": "02e15255f763ba6e3c5f1a22fc5d31d469559c2b"
+    },
+    "material-icons/Tsukinogi's Token.webp": {
+      "sourcePath": "item/p_char_343_tknogi.png",
+      "maxWidth": 180,
+      "sourceBlob": "3c883ef86016a349daf787840d2d80b24ffc9415"
+    },
+    "material-icons/Tuye's Token.webp": {
+      "sourcePath": "item/p_char_402_tuye.png",
+      "maxWidth": 180,
+      "sourceBlob": "1865ffd5e4ef7c928f3691234b71518802edeada"
+    },
+    "skill-icons/Ukusik - The Tong Song.webp": {
+      "sourcePath": "skill/skill_icon_skchr_turdus_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "7cba3cf4cac79b8fad2b8b7948423e068e3fbf9e"
+    },
+    "skill-icons/Ukusik - 'Peekaboo!'.webp": {
+      "sourcePath": "skill/skill_icon_skchr_turdus_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "20aed377e098e916bfcdca77c0288112c65ad22d"
+    },
+    "material-icons/Underflow's Token.webp": {
+      "sourcePath": "item/p_char_4137_udflow.png",
+      "maxWidth": 180,
+      "sourceBlob": "6c9bd9e833162af6f1a245a06ec1f03529d49f9a"
+    },
+    "material-icons/Valarqvin's Token.webp": {
+      "sourcePath": "item/p_char_4102_threye.png",
+      "maxWidth": 180,
+      "sourceBlob": "86233888a36ce31303da9ce21359d1d2337c5e78"
+    },
+    "skill-icons/Varkáris - Raging River.webp": {
+      "sourcePath": "skill/skill_icon_skchr_varkis_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "3fb598c34398d1b355631133fa65862d6de112a0"
+    },
+    "skill-icons/Varkáris - The Will of His People.webp": {
+      "sourcePath": "skill/skill_icon_skchr_varkis_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8a55a6b93aee3852b93fc48d2539ba3efb9d9868"
+    },
+    "material-icons/Varkáris's Token.webp": {
+      "sourcePath": "item/p_char_4166_varkis.png",
+      "maxWidth": 180,
+      "sourceBlob": "ca35d6ac3c96b65d59d690edc2412d19c1cad0dc"
+    },
+    "material-icons/Vendela's Token.webp": {
+      "sourcePath": "item/p_char_494_vendla.png",
+      "maxWidth": 180,
+      "sourceBlob": "74c067c8dea9dd71c22d6af2c94a86851b7c610f"
+    },
+    "skill-icons/Vetochki - Desperate Resistance.webp": {
+      "sourcePath": "skill/skill_icon_skchr_branch_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "f81e8cf42855381b859dd77e0c37bcfff3688204"
+    },
+    "skill-icons/Vetochki - Set on Survival.webp": {
+      "sourcePath": "skill/skill_icon_skchr_branch_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "56e640e99d8f58dbdf6fb694bedea409912ece26"
+    },
+    "material-icons/Vetochki's Token.webp": {
+      "sourcePath": "item/p_char_4207_branch.png",
+      "maxWidth": 180,
+      "sourceBlob": "4c40f0c78d8b2032784abbb047d71520f4b84a63"
+    },
+    "material-icons/Vulcan's Token.webp": {
+      "sourcePath": "item/p_char_163_hpsts.png",
+      "maxWidth": 180,
+      "sourceBlob": "f4288771678108005e7806e7ff75fe332e80c38c"
+    },
+    "material-icons/Waai Fu's Token.webp": {
+      "sourcePath": "item/p_char_243_waaifu.png",
+      "maxWidth": 180,
+      "sourceBlob": "fc18b01d997c75a14595f3847356a038e2096fcf"
+    },
+    "skill-icons/Wakaba Mutsumi - Belua Multorum es Capitums.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mortis_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "037b966cd83c4c7a0b264638bfe5f4bfb8367b8f"
+    },
+    "skill-icons/Wakaba Mutsumi - Destruction and Renewal.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mortis_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b119c96081b3ba528fb226ced285e7c41a1ab49c"
+    },
+    "material-icons/Wakaba Mutsumi's Token.webp": {
+      "sourcePath": "item/p_char_4183_mortis.png",
+      "maxWidth": 180,
+      "sourceBlob": "4b84107e9df6c1497ee5d05e434a8600031cd808"
+    },
+    "material-icons/Wanqing's Token.webp": {
+      "sourcePath": "item/p_char_4119_wanqin.png",
+      "maxWidth": 180,
+      "sourceBlob": "7359c5f23f31164f6e563c3deefd8d716ce7e706"
+    },
+    "material-icons/Warfarin's Token.webp": {
+      "sourcePath": "item/p_char_171_bldsk.png",
+      "maxWidth": 180,
+      "sourceBlob": "addf2bb8da928b24ceb6c5c71d790db813dd9a89"
+    },
+    "material-icons/Warmy's Token.webp": {
+      "sourcePath": "item/p_char_4081_warmy.png",
+      "maxWidth": 180,
+      "sourceBlob": "a54fe7b05765658496e21d719c2c095a9aa4b2ad"
+    },
+    "material-icons/Whislash's Token.webp": {
+      "sourcePath": "item/p_char_265_sophia.png",
+      "maxWidth": 180,
+      "sourceBlob": "53ad686de449dbaf9ff0ea0f166ae1910170cbee"
+    },
+    "material-icons/Whisperain's Token.webp": {
+      "sourcePath": "item/p_char_436_whispr.png",
+      "maxWidth": 180,
+      "sourceBlob": "9b3224a1b234eb10950bf0bd1d8d413a100d436d"
+    },
+    "material-icons/Wild Mane's Token.webp": {
+      "sourcePath": "item/p_char_496_wildmn.png",
+      "maxWidth": 180,
+      "sourceBlob": "ce9a4542855a998c34955fd703ef845f8053ba1e"
+    },
+    "material-icons/Wind Chimes's Token.webp": {
+      "sourcePath": "item/p_char_4083_chimes.png",
+      "maxWidth": 180,
+      "sourceBlob": "81af2771b2236fdc8e1dcf98e757f7b91c635d37"
+    },
+    "material-icons/Windflit's Token.webp": {
+      "sourcePath": "item/p_char_433_windft.png",
+      "maxWidth": 180,
+      "sourceBlob": "2250015c35232b5943c694637382c4bc48eb0c27"
+    },
+    "skill-icons/Wulfenite - For Scaring Beasts.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wulfen_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "c7d204656f5d21be228d79287654ad45ac459213"
+    },
+    "skill-icons/Wulfenite - For Stubborn Rocks.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wulfen_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a4ff4611711403b509e5fee6675c53395333eff3"
+    },
+    "material-icons/Wulfenite's Token.webp": {
+      "sourcePath": "item/p_char_4171_wulfen.png",
+      "maxWidth": 180,
+      "sourceBlob": "d3097510f6bad98bbb199a5eb8771d2fffe6f824"
+    },
+    "material-icons/Xingzhu's Token.webp": {
+      "sourcePath": "item/p_char_4172_xingzh.png",
+      "maxWidth": 180,
+      "sourceBlob": "45ff7f910c347b936f273312af42f7b41f4a26b6"
+    },
+    "skill-icons/Yahata Umiri - Shuddering Strings.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tmoris_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "60e756c796ffa8e9f84b5a923b78218529679163"
+    },
+    "skill-icons/Yahata Umiri - Drifting Soul.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tmoris_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "13d4d68402efd05f1b04ad7ff2a8b2fab77faa19"
+    },
+    "material-icons/Yahata Umiri's Token.webp": {
+      "sourcePath": "item/p_char_4186_tmoris.png",
+      "maxWidth": 180,
+      "sourceBlob": "55ffa491010a7d33240f6dad551d2facf75c8afa"
+    },
+    "skill-icons/Yūtenji Nyamu - As Fierce As Flame.webp": {
+      "sourcePath": "skill/skill_icon_skchr_amoris_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "85125e3f76fd388325fe83314d6d530013aef5e3"
+    },
+    "skill-icons/Yūtenji Nyamu - As Strong As Wheat.webp": {
+      "sourcePath": "skill/skill_icon_skchr_amoris_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "4ef48cd16c7b686ed9ff05f940bc2749a76e2810"
+    },
+    "material-icons/Yūtenji Nyamu's Token.webp": {
+      "sourcePath": "item/p_char_4185_amoris.png",
+      "maxWidth": 180,
+      "sourceBlob": "fa4ff0c2a64552f0645f441fc8f01d7fd096f253"
+    },
+    "material-icons/Zima's Token.webp": {
+      "sourcePath": "item/p_char_115_headbr.png",
+      "maxWidth": 180,
+      "sourceBlob": "c0890769937ae240cb92d70154a38d1c1433db8c"
+    },
+    "skill-icons/Zinogre S Catapult - Condensed Spinning Slash.webp": {
+      "sourcePath": "skill/skill_icon_skchr_catap2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "e1cd915ae37b5686003e866d58a36a0baf6f9b8d"
+    },
+    "skill-icons/Zinogre S Catapult - Super Amped Elemental Discharge.webp": {
+      "sourcePath": "skill/skill_icon_skchr_catap2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "972abf6b7d5d11f4c54ddda8d8615d1c5bbfd67d"
+    },
+    "material-icons/Zinogre S Catapult's Token.webp": {
+      "sourcePath": "item/p_char_1049_catap2.png",
+      "maxWidth": 180,
+      "sourceBlob": "3c2572d49a9ec91cd11995fa0fd4fe92ba8d2f9a"
+    },
+    "material-icons/Aak's Token.webp": {
+      "sourcePath": "item/p_char_225_haak.png",
+      "maxWidth": 180,
+      "sourceBlob": "5f39d361eb4351e665654fcd97e75840c2cea6ac"
+    },
+    "skill-icons/Angelina the Mellow Wish - Express Delivery.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aglna2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "576cd2f46970096c90bc595fa69f093b577c4f99"
+    },
+    "skill-icons/Angelina the Mellow Wish - Customized Gravity.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aglna2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "13c66dac7b07b6b33d0edd42c14c3e1f98ae98a9"
+    },
+    "skill-icons/Angelina the Mellow Wish - Thoughts of Citrus.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aglna2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "cf9c7c7376c73e7fd76fe003e45f755fd77ca841"
+    },
+    "material-icons/Angelina the Mellow Wish's Token.webp": {
+      "sourcePath": "item/p_char_1015_aglna2.png",
+      "maxWidth": 180,
+      "sourceBlob": "be26f2108aa6886707478fc482049d1fd2f1ab9c"
+    },
+    "material-icons/Angelina's Token.webp": {
+      "sourcePath": "item/p_char_291_aglina.png",
+      "maxWidth": 180,
+      "sourceBlob": "f2cfa7f88bc361a62d7bc0072d959123665eebcd"
+    },
+    "skill-icons/Aphrissa - Continuous Mapping.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aphris_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "f8dc4e7cb43eee84f9e82a237002df28dc0332f0"
+    },
+    "skill-icons/Aphrissa - Critical Burst.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aphris_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "01bc82452e1a21597da8aac074ac25a04fdf1b0b"
+    },
+    "skill-icons/Aphrissa - The Essence of Chaos.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aphris_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "600e2075fdb4f0da37be9ebaf2044b9a1447d8f7"
+    },
+    "material-icons/Aphrissa's Token.webp": {
+      "sourcePath": "item/p_char_4229_aphris.png",
+      "maxWidth": 180,
+      "sourceBlob": "f127683b9aa56db55572947a21de1d064f7b3aba"
+    },
+    "material-icons/Archetto's Token.webp": {
+      "sourcePath": "item/p_char_332_archet.png",
+      "maxWidth": 180,
+      "sourceBlob": "edace74bc6de7c3d43e5bde5fc3abbd3898a7c56"
+    },
+    "material-icons/Ascalon's Token.webp": {
+      "sourcePath": "item/p_char_4132_ascln.png",
+      "maxWidth": 180,
+      "sourceBlob": "b5ca5955f0ea4bf57b09d56db1b887f61265514b"
+    },
+    "material-icons/Ash's Token.webp": {
+      "sourcePath": "item/p_char_456_ash.png",
+      "maxWidth": 180,
+      "sourceBlob": "030f05c28d6db5c675934a48d2453d5f7f76d2e8"
+    },
+    "skill-icons/Astgenne the Lightchaser - Star Chart's Shine.webp": {
+      "sourcePath": "skill/skill_icon_skchr_halo2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "d5e6d1f72787e7f6670b3815185c3b1db4bbbc5c"
+    },
+    "skill-icons/Astgenne the Lightchaser - Stellar Gravity.webp": {
+      "sourcePath": "skill/skill_icon_skchr_halo2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "c428d04ee243d4f0f67be5808aa2a2a9f6880666"
+    },
+    "skill-icons/Astgenne the Lightchaser - Flux Chain.webp": {
+      "sourcePath": "skill/skill_icon_skchr_halo2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "573053e8553d226ea7ba01c9383b917e2dc1ac52"
+    },
+    "material-icons/Astgenne the Lightchaser's Token.webp": {
+      "sourcePath": "item/p_char_1047_halo2.png",
+      "maxWidth": 180,
+      "sourceBlob": "5fcdceef99c78205decc802642fc4764e3f90bcc"
+    },
+    "material-icons/Bagpipe's Token.webp": {
+      "sourcePath": "item/p_char_222_bpipe.png",
+      "maxWidth": 180,
+      "sourceBlob": "f6c9746d7e580b2a1e2b2d6f6a98d34db6e7e3df"
+    },
+    "skill-icons/Bellone - A Don's Plenty.webp": {
+      "sourcePath": "skill/skill_icon_skchr_demetr_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "7b5cc47dc6f321a6b3e00db60deaa8a3b01950d0"
+    },
+    "skill-icons/Bellone - An Advisor's Tricks.webp": {
+      "sourcePath": "skill/skill_icon_skchr_demetr_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9debda8caf746dcd363e617530074185b67d8442"
+    },
+    "skill-icons/Bellone - Riscossione.webp": {
+      "sourcePath": "skill/skill_icon_skchr_demetr_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "d0005690eda46e31aef3b297d7a743092f61b32f"
+    },
+    "material-icons/Bellone's Token.webp": {
+      "sourcePath": "item/p_char_4037_demetr.png",
+      "maxWidth": 180,
+      "sourceBlob": "c0c257dd5a1f116c507f7a0dab36c4cd55ceed14"
+    },
+    "material-icons/Blaze the Igniting Spark's Token.webp": {
+      "sourcePath": "item/p_char_1040_blaze2.png",
+      "maxWidth": 180,
+      "sourceBlob": "f167d2ba50658075f89283403a836ca8902c7841"
+    },
+    "material-icons/Blaze's Token.webp": {
+      "sourcePath": "item/p_char_017_huang.png",
+      "maxWidth": 180,
+      "sourceBlob": "0cd33ccb53061eaf67263997674fe0e255230821"
+    },
+    "material-icons/Blemishine's Token.webp": {
+      "sourcePath": "item/p_char_423_blemsh.png",
+      "maxWidth": 180,
+      "sourceBlob": "ed0be1cb11d74c7b0030296f2592c627d8be6c50"
+    },
+    "material-icons/Carnelian's Token.webp": {
+      "sourcePath": "item/p_char_426_billro.png",
+      "maxWidth": 180,
+      "sourceBlob": "0cefaf3b8041006451789b29ab3a94c52290c922"
+    },
+    "skill-icons/Ceobe - Really Cold Axe.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cerber_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "cec8555e72d4fb3dd983d11b84282fd8474d7c21"
+    },
+    "skill-icons/Ceobe - Really Hot Knives.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cerber_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "111482e82c9abd8b305b492588f2bb8693e32655"
+    },
+    "skill-icons/Ceobe - Really Heavy Spear.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cerber_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "a0824868f95570d7129e082714526912abd5f24c"
+    },
+    "material-icons/Ceobe's Token.webp": {
+      "sourcePath": "item/p_char_2013_cerber.png",
+      "maxWidth": 180,
+      "sourceBlob": "07ee0699f3e1819bc61e89471ab03c0337990c0a"
+    },
+    "skill-icons/Ch'en the Dawnstreak - Chi Xiao - Fleeting Night.webp": {
+      "sourcePath": "skill/skill_icon_skchr_chen3_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "88e9c5eac1a04c01130fca88eb0b9b01bab9bc45"
+    },
+    "skill-icons/Ch'en the Dawnstreak - Chi Xiao - Shadowless Speed.webp": {
+      "sourcePath": "skill/skill_icon_skchr_chen3_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8e3c78071d745c677e41346d1dcabfd500e11ac0"
+    },
+    "skill-icons/Ch'en the Dawnstreak - Chi Xiao - Heaven's Plaint.webp": {
+      "sourcePath": "skill/skill_icon_skchr_chen3_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "67ca23dd4413b48073dc0678ba5dc3784340f3b6"
+    },
+    "material-icons/Ch'en the Dawnstreak's Token.webp": {
+      "sourcePath": "item/p_char_1050_chen3.png",
+      "maxWidth": 180,
+      "sourceBlob": "beba458b16e560641cd1eca3d513ce5e1823c236"
+    },
+    "skill-icons/Ch'en the Holungday - Night of Violet.webp": {
+      "sourcePath": "skill/skill_icon_skchr_chen2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "24728e569441f8f36c1ae0cf7600c268af2dcb44"
+    },
+    "skill-icons/Ch'en the Holungday - Holiday Storm.webp": {
+      "sourcePath": "skill/skill_icon_skchr_chen2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "da884d53f98e79257b6bbd95cfd1554424553481"
+    },
+    "material-icons/Ch'en the Holungday's Token.webp": {
+      "sourcePath": "item/p_char_1013_chen2.png",
+      "maxWidth": 180,
+      "sourceBlob": "90a2a8107040f4887b993092a59647b34e1b3dbe"
+    },
+    "material-icons/Ch'en's Token.webp": {
+      "sourcePath": "item/p_char_010_chen.png",
+      "maxWidth": 180,
+      "sourceBlob": "bab1a14c9a995178041e5623674bf4c2197ee679"
+    },
+    "material-icons/Chongyue's Token.webp": {
+      "sourcePath": "item/p_char_2024_chyue.png",
+      "maxWidth": 180,
+      "sourceBlob": "9b37248c9ec5b6b2680e83ca84447920003b37fa"
+    },
+    "material-icons/Civilight Eterna's Token.webp": {
+      "sourcePath": "item/p_char_4134_cetsyr.png",
+      "maxWidth": 180,
+      "sourceBlob": "9cf46ad2bbeaf265cf2e461989df3466c4e44214"
+    },
+    "skill-icons/Closure - Recursion Tactic.webp": {
+      "sourcePath": "skill/skill_icon_skchr_closur_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "8b422aa50ff168523956b0f9ed076dc1af520473"
+    },
+    "skill-icons/Closure - Algorithm Expansion.webp": {
+      "sourcePath": "skill/skill_icon_skchr_closur_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e6eca5d3d5b13f29d38fd08bc58da46f5aa0fe64"
+    },
+    "skill-icons/Closure - Q.E.D..webp": {
+      "sourcePath": "skill/skill_icon_skchr_closur_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "6566435072912988b7981101bc9cabc12e6d4136"
+    },
+    "material-icons/Closure's Token.webp": {
+      "sourcePath": "item/p_char_4228_closur.png",
+      "maxWidth": 180,
+      "sourceBlob": "0576793da90064e4b13cf292917d0d6aa5db23cf"
+    },
+    "material-icons/Crownslayer's Token.webp": {
+      "sourcePath": "item/p_char_1502_crosly.png",
+      "maxWidth": 180,
+      "sourceBlob": "1fef731e1fe02794264a4c19c2c2bbfe36012050"
+    },
+    "skill-icons/Degenbrecher - Return to Silence.webp": {
+      "sourcePath": "skill/skill_icon_skchr_blkkgt_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff0091d19fdee05909221a02d10d04df34ea44f6"
+    },
+    "material-icons/Degenbrecher's Token.webp": {
+      "sourcePath": "item/p_char_4116_blkkgt.png",
+      "maxWidth": 180,
+      "sourceBlob": "563854087f8990c56363e53a88c6338fc968d21e"
+    },
+    "material-icons/Dorothy's Token.webp": {
+      "sourcePath": "item/p_char_4048_doroth.png",
+      "maxWidth": 180,
+      "sourceBlob": "b01f8ba36950dea045bbaf0788c171b4c9533b98"
+    },
+    "skill-icons/Dusk - Image Over Form.webp": {
+      "sourcePath": "skill/skill_icon_skchr_dusk_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "814d3342542a0921095825878a5490bdbf4f716f"
+    },
+    "material-icons/Dusk's Token.webp": {
+      "sourcePath": "item/p_char_2015_dusk.png",
+      "maxWidth": 180,
+      "sourceBlob": "793053e3b4f42ea5f89ca9b29ea61de94ccce0c3"
+    },
+    "material-icons/Ebenholz's Token.webp": {
+      "sourcePath": "item/p_char_4046_ebnhlz.png",
+      "maxWidth": 180,
+      "sourceBlob": "209453312fa3b61130fa1660fdfa021a6009d387"
+    },
+    "skill-icons/Ela - The Bosak Tempest.webp": {
+      "sourcePath": "skill/skill_icon_skchr_ela_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "a826c5fb0f3dfd48096f10a8890107583a7efa11"
+    },
+    "material-icons/Ela's Token.webp": {
+      "sourcePath": "item/p_char_4123_ela.png",
+      "maxWidth": 180,
+      "sourceBlob": "50dcfab150fb0c045b24726c76e7b8d2e68e7d3c"
+    },
+    "material-icons/Entelechia's Token.webp": {
+      "sourcePath": "item/p_char_4010_etlchi.png",
+      "maxWidth": 180,
+      "sourceBlob": "f0d088fd7b097ee08501a47f4931d01c9da5cbef"
+    },
+    "material-icons/Eunectes's Token.webp": {
+      "sourcePath": "item/p_char_416_zumama.png",
+      "maxWidth": 180,
+      "sourceBlob": "d75a092c30a36416a4b5a322df8d49e60bba6092"
+    },
+    "material-icons/Executor the Ex Foedere's Token.webp": {
+      "sourcePath": "item/p_char_1032_excu2.png",
+      "maxWidth": 180,
+      "sourceBlob": "c7ca20a1694fe74948b814163fa0db6ead34fe87"
+    },
+    "material-icons/Exusiai the New Covenant's Token.webp": {
+      "sourcePath": "item/p_char_1041_angel2.png",
+      "maxWidth": 180,
+      "sourceBlob": "0ebdb1404ed562a82b9f09eb45373012ad47cc7c"
+    },
+    "material-icons/Exusiai's Token.webp": {
+      "sourcePath": "item/p_char_103_angel.png",
+      "maxWidth": 180,
+      "sourceBlob": "5fdd53c57667872bcffd44e0300406a951b5cf7e"
+    },
+    "material-icons/Eyjafjalla the Hvít Aska's Token.webp": {
+      "sourcePath": "item/p_char_1016_agoat2.png",
+      "maxWidth": 180,
+      "sourceBlob": "a234b2456376041485d8aa8d31353ccba4189c48"
+    },
+    "material-icons/Eyjafjalla's Token.webp": {
+      "sourcePath": "item/p_char_180_amgoat.png",
+      "maxWidth": 180,
+      "sourceBlob": "f6ec89a0cb1e87544f3f18aeffea8e1f8f6875d0"
+    },
+    "material-icons/Fartooth's Token.webp": {
+      "sourcePath": "item/p_char_430_fartth.png",
+      "maxWidth": 180,
+      "sourceBlob": "8cce031e9fba8c6fbb7f63e06701a8401a8967ce"
+    },
+    "skill-icons/Fiammetta - Provocate.webp": {
+      "sourcePath": "skill/skill_icon_skchr_phenxi_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "fdebe946520128b6cfe0ca29f95574b2f86b8610"
+    },
+    "skill-icons/Fiammetta - Paenitete.webp": {
+      "sourcePath": "skill/skill_icon_skchr_phenxi_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "6057304f48bc10faa9106af9d05a7fffb8a00593"
+    },
+    "skill-icons/Fiammetta - Reponite.webp": {
+      "sourcePath": "skill/skill_icon_skchr_phenxi_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c0855c0626ff1a3dc50e10f9a81dd480cff66e29"
+    },
+    "material-icons/Fiammetta's Token.webp": {
+      "sourcePath": "item/p_char_300_phenxi.png",
+      "maxWidth": 180,
+      "sourceBlob": "60b26f8528c879a208782ddea2ac0a79de05dc46"
+    },
+    "skill-icons/Flametail - Pinus Sylvestris.webp": {
+      "sourcePath": "skill/skill_icon_skchr_flamtl_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "10832a6f7e855ccc853660a3b1f19ba45f8c884a"
+    },
+    "material-icons/Flametail's Token.webp": {
+      "sourcePath": "item/p_char_420_flamtl.png",
+      "maxWidth": 180,
+      "sourceBlob": "e222c2cba8acc3b4fdef46065e53708ededb9c42"
+    },
+    "material-icons/Gavial the Invincible's Token.webp": {
+      "sourcePath": "item/p_char_1026_gvial2.png",
+      "maxWidth": 180,
+      "sourceBlob": "aaeba18dc505cf2cf4e0f26bd82aac9cfc229743"
+    },
+    "material-icons/Gladiia's Token.webp": {
+      "sourcePath": "item/p_char_474_glady.png",
+      "maxWidth": 180,
+      "sourceBlob": "04ff541c21c18151970d060d00cf35622281bf0f"
+    },
+    "material-icons/Gnosis's Token.webp": {
+      "sourcePath": "item/p_char_206_gnosis.png",
+      "maxWidth": 180,
+      "sourceBlob": "61e0760427615f627aab58ba68f1734e21b7f91c"
+    },
+    "material-icons/Goldenglow's Token.webp": {
+      "sourcePath": "item/p_char_377_gdglow.png",
+      "maxWidth": 180,
+      "sourceBlob": "15b2a339b6b6a490aa81bc0d8e2a273370e9135c"
+    },
+    "skill-icons/Haruka - Feathers in the Night.webp": {
+      "sourcePath": "skill/skill_icon_skchr_haruka_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "91e7ef18efcbc3f672bb91202bdd31ad2dcebb20"
+    },
+    "skill-icons/Haruka - Glade of the Fireflies.webp": {
+      "sourcePath": "skill/skill_icon_skchr_haruka_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "49d468dbd93df6ac8c345bbad0a3267e02434005"
+    },
+    "skill-icons/Haruka - The Fins of Summer.webp": {
+      "sourcePath": "skill/skill_icon_skchr_haruka_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ee3f3410bbf8ea5a02ca8c4140ba7c71ae3bbd0d"
+    },
+    "material-icons/Haruka's Token.webp": {
+      "sourcePath": "item/p_char_4202_haruka.png",
+      "maxWidth": 180,
+      "sourceBlob": "f3dd1e569b453edb9854522aec4a7b14c5a05c76"
+    },
+    "material-icons/Hellagur's Token.webp": {
+      "sourcePath": "item/p_char_188_helage.png",
+      "maxWidth": 180,
+      "sourceBlob": "7626e193ec355b46254670c8ccd03437fb1f68be"
+    },
+    "material-icons/Ho'olheyak's Token.webp": {
+      "sourcePath": "item/p_char_4027_heyak.png",
+      "maxWidth": 180,
+      "sourceBlob": "07afc452ced0c00ea896c0b7801ac1c2ae297ef8"
+    },
+    "material-icons/Hoederer's Token.webp": {
+      "sourcePath": "item/p_char_4088_hodrer.png",
+      "maxWidth": 180,
+      "sourceBlob": "882465d646c6cae24adc39fbfd37b2edbcf60c44"
+    },
+    "material-icons/Horn's Token.webp": {
+      "sourcePath": "item/p_char_4039_horn.png",
+      "maxWidth": 180,
+      "sourceBlob": "1985561c4547c88b68648593f43071bdc16be9e3"
+    },
+    "skill-icons/Hoshiguma the Breacher - Bitter Karma.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hsgma2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "133af2ecc4e2c8387477074b35c9fa4689743f4a"
+    },
+    "skill-icons/Hoshiguma the Breacher - Anadi-Avidya.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hsgma2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "de75bc85aeece2ef25c670109f4d3cd894241ffd"
+    },
+    "skill-icons/Hoshiguma the Breacher - Hell Itself.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hsgma2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ada22242322d6e69e14b6a1a95f458923ee03a2c"
+    },
+    "material-icons/Hoshiguma the Breacher's Token.webp": {
+      "sourcePath": "item/p_char_1044_hsgma2.png",
+      "maxWidth": 180,
+      "sourceBlob": "66636b97b345c37206e980804106397969cedb25"
+    },
+    "material-icons/Hoshiguma's Token.webp": {
+      "sourcePath": "item/p_char_136_hsguma.png",
+      "maxWidth": 180,
+      "sourceBlob": "928c034720aa03faad0ba127c66358bd06b1b926"
+    },
+    "material-icons/Ifrit's Token.webp": {
+      "sourcePath": "item/p_char_134_ifrit.png",
+      "maxWidth": 180,
+      "sourceBlob": "b44b9e4c0af897e1bf42025971a3ce22e99f64b0"
+    },
+    "material-icons/Ines's Token.webp": {
+      "sourcePath": "item/p_char_4087_ines.png",
+      "maxWidth": 180,
+      "sourceBlob": "dbb15744077fc8dfdbd715c7e19de7f7bab0a3c5"
+    },
+    "material-icons/Irene's Token.webp": {
+      "sourcePath": "item/p_char_4009_irene.png",
+      "maxWidth": 180,
+      "sourceBlob": "510e4758cd867ad574144b7e9a7e9f4bb0eacac0"
+    },
+    "material-icons/Jessica the Liberated's Token.webp": {
+      "sourcePath": "item/p_char_1034_jesca2.png",
+      "maxWidth": 180,
+      "sourceBlob": "8904c3aebc55a6066784e34af06f86d1aae70bb3"
+    },
+    "skill-icons/Kal'tsit - Esperanta - Emergency Contingency Defense.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kalts2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "491809d30c7d5a5ec9c07d636fdd1298e26d5a72"
+    },
+    "skill-icons/Kal'tsit - Esperanta - Protective Denial.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kalts2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "1a08a68c5529e304c3ac20671f6161bdda12de3c"
+    },
+    "skill-icons/Kal'tsit - Esperanta - Liberating Rebirth.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kalts2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "fddc2c3c9a75469777ca0b48dc4fb9660906928f"
+    },
+    "material-icons/Kal'tsit - Esperanta's Token.webp": {
+      "sourcePath": "item/p_char_1052_kalts2.png",
+      "maxWidth": 180,
+      "sourceBlob": "400bc627e7eb8e10d473aae8d759b13a857ec033"
+    },
+    "material-icons/Kal'tsit's Token.webp": {
+      "sourcePath": "item/p_char_003_kalts.png",
+      "maxWidth": 180,
+      "sourceBlob": "79e30eed10c55ae7ef2b9f8a8fe8505a55c41dbb"
+    },
+    "material-icons/Kirin R Yato's Token.webp": {
+      "sourcePath": "item/p_char_1029_yato2.png",
+      "maxWidth": 180,
+      "sourceBlob": "b1c7045ba1a64dc66ffcb9bbed05ec5de7a2788e"
+    },
+    "material-icons/Lappland the Decadenza's Token.webp": {
+      "sourcePath": "item/p_char_1038_whitw2.png",
+      "maxWidth": 180,
+      "sourceBlob": "c5897e97e32730875cf074be9c92b814cc95aa1e"
+    },
+    "material-icons/Lee's Token.webp": {
+      "sourcePath": "item/p_char_322_lmlee.png",
+      "maxWidth": 180,
+      "sourceBlob": "536f067cae6043efa5077516a175d66db048a83a"
+    },
+    "skill-icons/Leizi the Thunderbringer - Nobility Enduring.webp": {
+      "sourcePath": "skill/skill_icon_skchr_leizi2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "2045afe63da5663ba24bfb0d40b6c39c87cc24ef"
+    },
+    "skill-icons/Leizi the Thunderbringer - Shock and Awe.webp": {
+      "sourcePath": "skill/skill_icon_skchr_leizi2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9c2a595f574350958d1f777fdb88f0ee85490e92"
+    },
+    "skill-icons/Leizi the Thunderbringer - All the Thunderlight.webp": {
+      "sourcePath": "skill/skill_icon_skchr_leizi2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "1f380ab5792e1ddf43930aec66e965103aabd10f"
+    },
+    "material-icons/Leizi the Thunderbringer's Token.webp": {
+      "sourcePath": "item/p_char_1043_leizi2.png",
+      "maxWidth": 180,
+      "sourceBlob": "c70ee04006007a04c533af2303b6145a22b593c9"
+    },
+    "material-icons/Lemuen's Token.webp": {
+      "sourcePath": "item/p_char_4193_lemuen.png",
+      "maxWidth": 180,
+      "sourceBlob": "8040164de661cbb0f9aaadbd12e7d26b4b1f2078"
+    },
+    "material-icons/Lessing's Folder.webp": {
+      "sourcePath": "item/p_char_4011_lessng.png",
+      "maxWidth": 180,
+      "sourceBlob": "dc3591476028b0c6d68b9b1b4d52bf4b9558ead5"
+    },
+    "material-icons/Lin's Token.webp": {
+      "sourcePath": "item/p_char_4080_lin.png",
+      "maxWidth": 180,
+      "sourceBlob": "a9c37a29ec0f36de210bf72894281f643954c2cc"
+    },
+    "material-icons/Ling's Token.webp": {
+      "sourcePath": "item/p_char_2023_ling.png",
+      "maxWidth": 180,
+      "sourceBlob": "e9620ca63c2ab35e4e39abdf33d3523101591fe4"
+    },
+    "material-icons/Logos's Token.webp": {
+      "sourcePath": "item/p_char_4133_logos.png",
+      "maxWidth": 180,
+      "sourceBlob": "904fb49cfb7ce0a1e6e736cf60f13b790c01f9d5"
+    },
+    "material-icons/Lumen's Token.webp": {
+      "sourcePath": "item/p_char_4042_lumen.png",
+      "maxWidth": 180,
+      "sourceBlob": "041512081221716dc179466f192404d355f717e5"
+    },
+    "material-icons/Magallan's Token.webp": {
+      "sourcePath": "item/p_char_248_mgllan.png",
+      "maxWidth": 180,
+      "sourceBlob": "bb580862cb3a619e707b3d20afb9981a82ea2844"
+    },
+    "skill-icons/Mantra - Resonance Collapse.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mantra_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "1f987e499ac1a57cd22a7a0e47020177c55f93de"
+    },
+    "skill-icons/Mantra - Gestalt Consciousness.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mantra_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b9731fcd4b5059eb7a8dd3225c30dfe54dd817aa"
+    },
+    "skill-icons/Mantra - Truth Unchanted.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mantra_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "a86ad24d9dcd2e5106590b14a780ad5a56bf0b64"
+    },
+    "material-icons/Mantra's Token.webp": {
+      "sourcePath": "item/p_char_4204_mantra.png",
+      "maxWidth": 180,
+      "sourceBlob": "7c093f4408311cadb5e09ceac54aa90c08c4b002"
+    },
+    "material-icons/Marcille's Token.webp": {
+      "sourcePath": "item/p_char_4141_marcil.png",
+      "maxWidth": 180,
+      "sourceBlob": "5c6077d92867e732e05ebb706d5c3c652b539328"
+    },
+    "skill-icons/Mechanist - Cluster Analysis.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mcnist_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "e806069b2c6a030cf2b243668c2125f8766cfdb1"
+    },
+    "skill-icons/Mechanist - Co-operative Defense Techniques.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mcnist_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "fd1748fd71223c3c5db9a744e461e39b2af26394"
+    },
+    "skill-icons/Mechanist - Star of Engineering.webp": {
+      "sourcePath": "skill/skill_icon_skchr_mcnist_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "4937f37f300485ecd64463a0227755e25fa93026"
+    },
+    "material-icons/Mechanist's Token.webp": {
+      "sourcePath": "item/p_char_4230_mcnist.png",
+      "maxWidth": 180,
+      "sourceBlob": "aaa54877b7481f543b453ba49d9b6e32e8056847"
+    },
+    "material-icons/Mizuki's Token.webp": {
+      "sourcePath": "item/p_char_437_mizuki.png",
+      "maxWidth": 180,
+      "sourceBlob": "0ab55e4b81d86407817dd43e25141440af14c3a8"
+    },
+    "material-icons/Mon3tr's Token.webp": {
+      "sourcePath": "item/p_char_4179_monstr.png",
+      "maxWidth": 180,
+      "sourceBlob": "d638e821ba0760520b1f94c1ae4dedf8e664f529"
+    },
+    "material-icons/Mostima's Token.webp": {
+      "sourcePath": "item/p_char_213_mostma.png",
+      "maxWidth": 180,
+      "sourceBlob": "80d2c995525e4c5d23f9af7a1187e6ff3b7fb323"
+    },
+    "material-icons/Mountain's Token.webp": {
+      "sourcePath": "item/p_char_264_f12yin.png",
+      "maxWidth": 180,
+      "sourceBlob": "20d41715a758fc87ec9cddd8e9cfff86084692bf"
+    },
+    "material-icons/Mudrock's Token.webp": {
+      "sourcePath": "item/p_char_311_mudrok.png",
+      "maxWidth": 180,
+      "sourceBlob": "9ffb8eb35e42ea16cc046c3050bbdbf644ba3792"
+    },
+    "material-icons/Muelsyse's Token.webp": {
+      "sourcePath": "item/p_char_249_mlyss.png",
+      "maxWidth": 180,
+      "sourceBlob": "2ee6baddfc0f5abe65bbeaa0afea2f8016a80962"
+    },
+    "material-icons/Młynar's Token.webp": {
+      "sourcePath": "item/p_char_4064_mlynar.png",
+      "maxWidth": 180,
+      "sourceBlob": "97bd5a0a221afe54dcc48512a33ba6545a6c1fe3"
+    },
+    "material-icons/Narantuya's Token.webp": {
+      "sourcePath": "item/p_char_4138_narant.png",
+      "maxWidth": 180,
+      "sourceBlob": "45b97e1584697ed097142972e226f269e2cacae4"
+    },
+    "skill-icons/Nasti - Fortify.webp": {
+      "sourcePath": "skill/skill_icon_skchr_nasti_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "81382c216c7318a358bc4bf6ec81a4c23ad5862c"
+    },
+    "skill-icons/Nasti - Execute.webp": {
+      "sourcePath": "skill/skill_icon_skchr_nasti_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "45e435c3f5e847e135ea55ba44ca210224584b08"
+    },
+    "skill-icons/Nasti - Roosting Grounds.webp": {
+      "sourcePath": "skill/skill_icon_skchr_nasti_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "f2b303e4dca00c3acdef88c86bfbbbc763d56e47"
+    },
+    "material-icons/Nasti's Token.webp": {
+      "sourcePath": "item/p_char_4212_nasti.png",
+      "maxWidth": 180,
+      "sourceBlob": "8acffa6c4b8ba396376f1c951e3a5f221221bc42"
+    },
+    "skill-icons/Nearl the Radiant Knight - Night-scouring Gleam.webp": {
+      "sourcePath": "skill/skill_icon_skchr_nearl2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "290581ccdc7b4d0f051d9708cdad2aaed0a2d481"
+    },
+    "material-icons/Nearl the Radiant Knight's Token.webp": {
+      "sourcePath": "item/p_char_1014_nearl2.png",
+      "maxWidth": 180,
+      "sourceBlob": "b9a557e726a23fb519f60896754c6bf5ab1ce28d"
+    },
+    "material-icons/Necrass's Token.webp": {
+      "sourcePath": "item/p_char_450_necras.png",
+      "maxWidth": 180,
+      "sourceBlob": "3776d9db59da991fd48ddd9d8a8cebcb4062c5ef"
+    },
+    "material-icons/Nian's Token.webp": {
+      "sourcePath": "item/p_char_2014_nian.png",
+      "maxWidth": 180,
+      "sourceBlob": "709b52a0cf09e92ff7a920bf02df018746d5fd76"
+    },
+    "material-icons/Nightingale's Token.webp": {
+      "sourcePath": "item/p_char_179_cgbird.png",
+      "maxWidth": 180,
+      "sourceBlob": "a6372b5058fa7f2c23b2cb72f7057b6fa2ac61b2"
+    },
+    "material-icons/Nymph's Token.webp": {
+      "sourcePath": "item/p_char_4146_nymph.png",
+      "maxWidth": 180,
+      "sourceBlob": "cffb093ac477680359131122309696e43d3125ca"
+    },
+    "material-icons/Pallas's Token.webp": {
+      "sourcePath": "item/p_char_485_pallas.png",
+      "maxWidth": 180,
+      "sourceBlob": "fd021521def257e316b9c83beb2f003b9873a657"
+    },
+    "material-icons/Passenger's Token.webp": {
+      "sourcePath": "item/p_char_472_pasngr.png",
+      "maxWidth": 180,
+      "sourceBlob": "39257dcac4d40c076ed646873ed62b5c52008f94"
+    },
+    "material-icons/Penance's Token.webp": {
+      "sourcePath": "item/p_char_4065_judge.png",
+      "maxWidth": 180,
+      "sourceBlob": "a2d3e0d98a24285860a0b011cc1a97c986494d8b"
+    },
+    "material-icons/Pepe's Token.webp": {
+      "sourcePath": "item/p_char_4058_pepe.png",
+      "maxWidth": 180,
+      "sourceBlob": "bb914a6a4dc50b626177ff00bf94a48afe7ebd2a"
+    },
+    "material-icons/Phantom's Token.webp": {
+      "sourcePath": "item/p_char_250_phatom.png",
+      "maxWidth": 180,
+      "sourceBlob": "a73f2ecd4a618d913e885248229a282dae81d6f6"
+    },
+    "material-icons/Pozëmka's Token.webp": {
+      "sourcePath": "item/p_char_4055_bgsnow.png",
+      "maxWidth": 180,
+      "sourceBlob": "212ccfd6895f7ebecca9d36f1ad635633d56b866"
+    },
+    "skill-icons/Pramanix the Prerita - Ere Snow, Bells Chime.webp": {
+      "sourcePath": "skill/skill_icon_skchr_sbell2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "2d54fa6c6125f0d05caff07f3aebd64b94dea342"
+    },
+    "skill-icons/Pramanix the Prerita - Peaks, Clad in Frost.webp": {
+      "sourcePath": "skill/skill_icon_skchr_sbell2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ad8eb931cae5a4c6f2430b406c6706f108c7c278"
+    },
+    "skill-icons/Pramanix the Prerita - Towards the Mountains, Bow.webp": {
+      "sourcePath": "skill/skill_icon_skchr_sbell2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "9c570f33a55b310851e001792e9029e53602b27e"
+    },
+    "material-icons/Pramanix the Prerita's Token.webp": {
+      "sourcePath": "item/p_char_1046_sbell2.png",
+      "maxWidth": 180,
+      "sourceBlob": "1d9968c7b709bf34269769174901176bee118b8a"
+    },
+    "material-icons/Qiubai's Token.webp": {
+      "sourcePath": "item/p_char_4082_qiubai.png",
+      "maxWidth": 180,
+      "sourceBlob": "672280c5585cd7e8d28bad675edbe4b2b3418479"
+    },
+    "skill-icons/Raidian - Periodic Waveform.webp": {
+      "sourcePath": "skill/skill_icon_skchr_radian_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "0fe50f654b46f428c89f059b3bff702196252007"
+    },
+    "skill-icons/Raidian - Ring of Fins.webp": {
+      "sourcePath": "skill/skill_icon_skchr_radian_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b32b2cdf2916593c799ab84566dfb57c7e0c342b"
+    },
+    "skill-icons/Raidian - Hand in Hand.webp": {
+      "sourcePath": "skill/skill_icon_skchr_radian_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "d8ff08e95511d09e6bf21220c14aec34d71f7678"
+    },
+    "material-icons/Raidian's Token.webp": {
+      "sourcePath": "item/p_char_4195_radian.png",
+      "maxWidth": 180,
+      "sourceBlob": "99ef3695c07668c6577f16a08b98f7151a1e04ba"
+    },
+    "skill-icons/Ray - See the Light.webp": {
+      "sourcePath": "skill/skill_icon_skchr_ray_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "dfba9069213f24bcf55e46c0dd9c8de05b6f0c8c"
+    },
+    "material-icons/Ray's Token.webp": {
+      "sourcePath": "item/p_char_4117_ray.png",
+      "maxWidth": 180,
+      "sourceBlob": "9a3ee94cfef6de5c107242b2c25032ab9a50c011"
+    },
+    "material-icons/Reed the Flame Shadow's Token.webp": {
+      "sourcePath": "item/p_char_1020_reed2.png",
+      "maxWidth": 180,
+      "sourceBlob": "9e14a346d0f70aa559c38e63723a5c4c3c794d93"
+    },
+    "material-icons/Rosa's Token.webp": {
+      "sourcePath": "item/p_char_197_poca.png",
+      "maxWidth": 180,
+      "sourceBlob": "d87e8e9fbb0d5e0d1ce12d026afa0e35fddaa022"
+    },
+    "skill-icons/Rosmontis - As You Wish.webp": {
+      "sourcePath": "skill/skill_icon_skchr_rosmon_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "b3af6647044e5a1f071026d78079a71dca5ce3b4"
+    },
+    "material-icons/Rosmontis's Token.webp": {
+      "sourcePath": "item/p_char_391_rosmon.png",
+      "maxWidth": 180,
+      "sourceBlob": "bf4895a872047f8c6bef68b91efe65d5f8015658"
+    },
+    "material-icons/Saga's Token.webp": {
+      "sourcePath": "item/p_char_362_saga.png",
+      "maxWidth": 180,
+      "sourceBlob": "6f64902b09d37509b7098dc50f3b45ddfd2bbd67"
+    },
+    "material-icons/Saileach's Token.webp": {
+      "sourcePath": "item/p_char_479_sleach.png",
+      "maxWidth": 180,
+      "sourceBlob": "cb758640856dc08c75ceb37b115dd3da79d42003"
+    },
+    "material-icons/Sankta Miksaparato's Token.webp": {
+      "sourcePath": "item/p_char_4194_rmixer.png",
+      "maxWidth": 180,
+      "sourceBlob": "69e6ff07376b56ecff553119dc7a79d8715ffe33"
+    },
+    "material-icons/Saria's Token.webp": {
+      "sourcePath": "item/p_char_202_demkni.png",
+      "maxWidth": 180,
+      "sourceBlob": "1fe78745e9fdfacb40c265daa963051addc10149"
+    },
+    "material-icons/Schwarz's Token.webp": {
+      "sourcePath": "item/p_char_340_shwaz.png",
+      "maxWidth": 180,
+      "sourceBlob": "d529064fe67f70c7006e471662edc2ed2460aa28"
+    },
+    "material-icons/Shining's Token.webp": {
+      "sourcePath": "item/p_char_147_shining.png",
+      "maxWidth": 180,
+      "sourceBlob": "92ac42347dbfb31249493610ed7bc13accc8ab6b"
+    },
+    "material-icons/Shu's Token.webp": {
+      "sourcePath": "item/p_char_2025_shu.png",
+      "maxWidth": 180,
+      "sourceBlob": "11403a3d9d2f6bdaa533e212eece9b636e49fd08"
+    },
+    "material-icons/Siege's Token.webp": {
+      "sourcePath": "item/p_char_112_siege.png",
+      "maxWidth": 180,
+      "sourceBlob": "2dfbb11af33d3efc22cf4cfd835d693ded6172ed"
+    },
+    "material-icons/Silence the Paradigmatic's Token.webp": {
+      "sourcePath": "item/p_char_1031_slent2.png",
+      "maxWidth": 180,
+      "sourceBlob": "96dac015eaa1cd7176c3c45f965caaa16e4229fa"
+    },
+    "skill-icons/SilverAsh the Reignfrost - Pawn Break.webp": {
+      "sourcePath": "skill/skill_icon_skchr_svash2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "9176e2635c49a6f8dd32bc423c03d33e9712ad6f"
+    },
+    "skill-icons/SilverAsh the Reignfrost - Countergambit.webp": {
+      "sourcePath": "skill/skill_icon_skchr_svash2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a8f153297978077c53e1bfa592cd4337033113e8"
+    },
+    "skill-icons/SilverAsh the Reignfrost - Castled King.webp": {
+      "sourcePath": "skill/skill_icon_skchr_svash2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "228a554045c472dbaac54d32dabf9e0068e9965e"
+    },
+    "material-icons/SilverAsh the Reignfrost's Token.webp": {
+      "sourcePath": "item/p_char_1045_svash2.png",
+      "maxWidth": 180,
+      "sourceBlob": "6b744bd9a1a9473dd13fbc354b2e1e6f13c1551b"
+    },
+    "material-icons/SilverAsh's Token.webp": {
+      "sourcePath": "item/p_char_172_svrash.png",
+      "maxWidth": 180,
+      "sourceBlob": "a180802a313f796dbe80428c6ddcc1747aeaae9d"
+    },
+    "skill-icons/Skadi the Corrupting Heart - The Tide Surges, The Tide Recedes.webp": {
+      "sourcePath": "skill/skill_icon_skchr_skadi2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "6aa092aff542cb810c34fa8a0215738322a36a03"
+    },
+    "material-icons/Skadi the Corrupting Heart's Token.webp": {
+      "sourcePath": "item/p_char_1012_skadi2.png",
+      "maxWidth": 180,
+      "sourceBlob": "950a4c97a2a5555ff67e4526c62b239faf46afc5"
+    },
+    "material-icons/Skadi's Token.webp": {
+      "sourcePath": "item/p_char_263_skadi.png",
+      "maxWidth": 180,
+      "sourceBlob": "f4d7a4acb8a6a7bfec9fb78fe856980f17884fd9"
+    },
+    "material-icons/Specter the Unchained's Token.webp": {
+      "sourcePath": "item/p_char_1023_ghost2.png",
+      "maxWidth": 180,
+      "sourceBlob": "5c78371617c09be5c5491a78f2227ab1e0234b02"
+    },
+    "material-icons/Stainless's Token.webp": {
+      "sourcePath": "item/p_char_4072_ironmn.png",
+      "maxWidth": 180,
+      "sourceBlob": "6e5eaa6cc623f8f0935af4949207e1737f978f88"
+    },
+    "material-icons/Surtr's Token.webp": {
+      "sourcePath": "item/p_char_350_surtr.png",
+      "maxWidth": 180,
+      "sourceBlob": "79f001ff007da1dbd756775c1071046834cef551"
+    },
+    "material-icons/Suzuran's Token.webp": {
+      "sourcePath": "item/p_char_358_lisa.png",
+      "maxWidth": 180,
+      "sourceBlob": "549ff786c535ccd3a77d27d11ce6b2fe3a5137cd"
+    },
+    "skill-icons/Swire the Elegant Wit - Courtesy Gift.webp": {
+      "sourcePath": "skill/skill_icon_skchr_swire2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f1b763ba07aeb78096e8d6e8e01e269cc7005925"
+    },
+    "material-icons/Swire the Elegant Wit's Token.webp": {
+      "sourcePath": "item/p_char_1033_swire2.png",
+      "maxWidth": 180,
+      "sourceBlob": "fa7fe8bf9a65d1b469649c207fd821f7e2adf8b9"
+    },
+    "material-icons/Texas the Omertosa's Token.webp": {
+      "sourcePath": "item/p_char_1028_texas2.png",
+      "maxWidth": 180,
+      "sourceBlob": "c4b33521a605c674ad7f0037756e0671ba4f7814"
+    },
+    "skill-icons/Thorns the Lodestar - Zona Marítima Personal.webp": {
+      "sourcePath": "skill/skill_icon_skchr_thorn2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "295bb00915af0246e0bbb435a3199df45d8f719f"
+    },
+    "material-icons/Thorns the Lodestar's Token.webp": {
+      "sourcePath": "item/p_char_1039_thorn2.png",
+      "maxWidth": 180,
+      "sourceBlob": "f6454199c7ca6b366bba5a41b1b9eb7fae909e1f"
+    },
+    "material-icons/Thorns's Token.webp": {
+      "sourcePath": "item/p_char_293_thorns.png",
+      "maxWidth": 180,
+      "sourceBlob": "fe817699c144fdc146037a6e9553711528955e6f"
+    },
+    "skill-icons/Thumpy - Aren't You Going.webp": {
+      "sourcePath": "skill/skill_icon_skchr_thumpy_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "e9ff26d614a81fbe5e14364c94e0a34ab43f1e64"
+    },
+    "skill-icons/Thumpy - Take It Slow~.webp": {
+      "sourcePath": "skill/skill_icon_skchr_thumpy_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "812011a2344ee1c4a5decb3f2b1f4624f8753d79"
+    },
+    "skill-icons/Thumpy - You Can't Leave!.webp": {
+      "sourcePath": "skill/skill_icon_skchr_thumpy_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "2674fdee3373d5e1a4001c63ab3a9e91e2182c07"
+    },
+    "material-icons/Thumpy's Token.webp": {
+      "sourcePath": "item/p_char_4235_thumpy.png",
+      "maxWidth": 180,
+      "sourceBlob": "0605e0ead12db54f3f42ddc9e081b2bc81c35f07"
+    },
+    "skill-icons/Titi - Anti-Degradative.webp": {
+      "sourcePath": "skill/skill_icon_skchr_titi_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "0aedc23ea2b706ba1763295000f1843a965d6924"
+    },
+    "skill-icons/Titi - Sealant.webp": {
+      "sourcePath": "skill/skill_icon_skchr_titi_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "86541ce3a1be82290010e49f2d008ac77d2480e4"
+    },
+    "skill-icons/Titi - History's Bloom.webp": {
+      "sourcePath": "skill/skill_icon_skchr_titi_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "26c225f693bcaafdbb40c4848d44baec02b23865"
+    },
+    "material-icons/Titi's Token.webp": {
+      "sourcePath": "item/p_char_4056_titi.png",
+      "maxWidth": 180,
+      "sourceBlob": "d84cec209ab1de188f250a693ae125478fe4548c"
+    },
+    "skill-icons/Togawa Sakiko - New Moon Awakening.webp": {
+      "sourcePath": "skill/skill_icon_skchr_oblvns_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "44399d798aa28416d0d79dd7d9cea3e5d7d7b48e"
+    },
+    "skill-icons/Togawa Sakiko - Full Moon Masquerade.webp": {
+      "sourcePath": "skill/skill_icon_skchr_oblvns_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8702ef7789aea8bb985c22ec01d9510dd35e8863"
+    },
+    "skill-icons/Togawa Sakiko - Crescent Moon Echoes.webp": {
+      "sourcePath": "skill/skill_icon_skchr_oblvns_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "57b8b7a2ef57842c318a308a947f2f36c893ff23"
+    },
+    "material-icons/Togawa Sakiko's Token.webp": {
+      "sourcePath": "item/p_char_4182_oblvns.png",
+      "maxWidth": 180,
+      "sourceBlob": "ce1bd4707107eff035ca8973391de498c07f4df1"
+    },
+    "material-icons/Tragodia's Token.webp": {
+      "sourcePath": "item/p_char_1042_phatm2.png",
+      "maxWidth": 180,
+      "sourceBlob": "640599b07e760a4d0211587af709c92102bec25f"
+    },
+    "skill-icons/Typhon - Eternal Hunt.webp": {
+      "sourcePath": "skill/skill_icon_skchr_typhon_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ad8d75bae5772cf75fb339a47371d8d54f0ca11b"
+    },
+    "material-icons/Typhon's Token.webp": {
+      "sourcePath": "item/p_char_2012_typhon.png",
+      "maxWidth": 180,
+      "sourceBlob": "6abd1f16619931c7a4145919b0cba9894a5c74de"
+    },
+    "material-icons/Ulpianus's Token.webp": {
+      "sourcePath": "item/p_char_4145_ulpia.png",
+      "maxWidth": 180,
+      "sourceBlob": "81585cdf59efb0af2422ecd1d29d806e50ff2e55"
+    },
+    "material-icons/Vina Victoria's Token.webp": {
+      "sourcePath": "item/p_char_1019_siege2.png",
+      "maxWidth": 180,
+      "sourceBlob": "dae3f762f799482540595d36e3f2aa0c1c36e1c1"
+    },
+    "skill-icons/Violet Mizutsune Orchid - Power Shot.webp": {
+      "sourcePath": "skill/skill_icon_skchr_orchd2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "81e94398af36437d580893b4512dc6699f854ead"
+    },
+    "skill-icons/Violet Mizutsune Orchid - Aerial Aim.webp": {
+      "sourcePath": "skill/skill_icon_skchr_orchd2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "699a51f55a5b1a3292b4b2d9fe5440c4dab9488e"
+    },
+    "skill-icons/Violet Mizutsune Orchid - Dragon Piercer.webp": {
+      "sourcePath": "skill/skill_icon_skchr_orchd2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "b07c31ea244f17976aa55fd22c3bc5155d054f7d"
+    },
+    "material-icons/Violet Mizutsune Orchid's Token.webp": {
+      "sourcePath": "item/p_char_1048_orchd2.png",
+      "maxWidth": 180,
+      "sourceBlob": "03ad3a3af9eea3537b0ddcd8a4349f2a45ccb1bf"
+    },
+    "skill-icons/Virtuosa - Golden Ecstasy.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cello_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "cedb30120e6f3f43df6e9027bc20730aa0f64a31"
+    },
+    "skill-icons/Virtuosa - Requiem Mass.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cello_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "6741132afc85386db171b8401b240b8e9cc0c32a"
+    },
+    "skill-icons/Virtuosa - Liberal Tango.webp": {
+      "sourcePath": "skill/skill_icon_skchr_cello_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "7c09208043f9cd1174f555b9c97bd525087f1e15"
+    },
+    "material-icons/Virtuosa's Token.webp": {
+      "sourcePath": "item/p_char_245_cello.png",
+      "maxWidth": 180,
+      "sourceBlob": "7305d6c4dfe736a9373f7c46db560fe124e1e64b"
+    },
+    "skill-icons/Viviana - Flicker.webp": {
+      "sourcePath": "skill/skill_icon_skchr_vvana_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c11a17369c9c7721b4b2ec6455e3f1362d5a9296"
+    },
+    "material-icons/Viviana's Token.webp": {
+      "sourcePath": "item/p_char_4098_vvana.png",
+      "maxWidth": 180,
+      "sourceBlob": "918e7d65346a7249a32683e77b3908d3788302fa"
+    },
+    "skill-icons/Viy - Self-made Callsign.webp": {
+      "sourcePath": "skill/skill_icon_skchr_veen_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "3cb2b6238724bce123dba67dff9b5964ebd60472"
+    },
+    "skill-icons/Viy - Awash With Blood.webp": {
+      "sourcePath": "skill/skill_icon_skchr_veen_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "7983a0f1b6291c55cb68fb5d537e3ed6071a4616"
+    },
+    "skill-icons/Viy - Remember With Hematite.webp": {
+      "sourcePath": "skill/skill_icon_skchr_veen_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "287da409ad0813f0e9cd77d0080294197b3030ea"
+    },
+    "material-icons/Viy's Token.webp": {
+      "sourcePath": "item/p_char_4226_veen.png",
+      "maxWidth": 180,
+      "sourceBlob": "3d0f7c53ddbf661f50e7ebfc4a18188ad1f05c62"
+    },
+    "material-icons/Vulpisfoglia's Token.webp": {
+      "sourcePath": "item/p_char_4026_vulpis.png",
+      "maxWidth": 180,
+      "sourceBlob": "00ddda9fad322a8810a125d5ebaaf7a1c048a2dc"
+    },
+    "material-icons/W's Token.webp": {
+      "sourcePath": "item/p_char_113_cqbw.png",
+      "maxWidth": 180,
+      "sourceBlob": "8e6b55be1bf3f3e6b12476ba6282acf5758016e1"
+    },
+    "skill-icons/Wang - Power Play.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wang_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "9083bf1a4cb15ce7795ffdf64b5a90c33feaa7bd"
+    },
+    "skill-icons/Wang - Wall of Stars.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wang_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ecd374b4711b0fbaa13f08468ea2dec776736b0c"
+    },
+    "skill-icons/Wang - All-Dominating Fight.webp": {
+      "sourcePath": "skill/skill_icon_skchr_wang_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "9ca836972d16155eeb8da03d2f091e105d5b1326"
+    },
+    "material-icons/Wang's Token.webp": {
+      "sourcePath": "item/p_char_2027_wang.png",
+      "maxWidth": 180,
+      "sourceBlob": "cc692ed8c3466e66ed370458735e416ed2f760ec"
+    },
+    "material-icons/Weedy's Token.webp": {
+      "sourcePath": "item/p_char_400_weedy.png",
+      "maxWidth": 180,
+      "sourceBlob": "256ab2581c38040ed2d176bd895818451640f020"
+    },
+    "material-icons/Wiš'adel's Token.webp": {
+      "sourcePath": "item/p_char_1035_wisdel.png",
+      "maxWidth": 180,
+      "sourceBlob": "6522368f28161bc47955be29eead9ebec89ab2cd"
+    },
+    "material-icons/Yu's Token.webp": {
+      "sourcePath": "item/p_char_2026_yu.png",
+      "maxWidth": 180,
+      "sourceBlob": "6a222cdcb29e3eb16ad15402fe50aa2654b9636d"
+    },
+    "skill-icons/Zima the Raging Tide - Never Bow.webp": {
+      "sourcePath": "skill/skill_icon_skchr_headb2_1.png",
+      "maxWidth": 128,
+      "sourceBlob": "b3d0bbcb28af9cb0de765d4a400b20d218c42138"
+    },
+    "skill-icons/Zima the Raging Tide - Never Surrender.webp": {
+      "sourcePath": "skill/skill_icon_skchr_headb2_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "61dff9d090d90bf9df6cf8df879b98c84aab448e"
+    },
+    "skill-icons/Zima the Raging Tide - Unstoppable.webp": {
+      "sourcePath": "skill/skill_icon_skchr_headb2_3.png",
+      "maxWidth": 128,
+      "sourceBlob": "fbe5a94ec8b0da527f883d7e1e7a62f7baf80c14"
+    },
+    "material-icons/Zuo Le's Token.webp": {
+      "sourcePath": "item/p_char_4121_zuole.png",
+      "maxWidth": 180,
+      "sourceBlob": "d8a270d62ba9f08d48935cae8bf3e7f5c2801a4a"
     }
   },
   "namingSource": {
