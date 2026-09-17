@@ -23792,6 +23792,31 @@
       "sourcePath": "item/p_char_4121_zuole.png",
       "maxWidth": 180,
       "sourceBlob": "d8a270d62ba9f08d48935cae8bf3e7f5c2801a4a"
+    },
+    "base-skill-icons/Bellone - Famiglia Business α.webp": {
+      "sourcePath": "building_skill/bskill_tra_ord_spd_ext2.png",
+      "maxWidth": 128,
+      "sourceBlob": "5c37b8ba82ab2ff75ce95ed9595738fc3c1b5d27"
+    },
+    "base-skill-icons/Bellone - Famiglia Business β.webp": {
+      "sourcePath": "building_skill/bskill_tra_ord_spd_ext3.png",
+      "maxWidth": 128,
+      "sourceBlob": "2f7253a0e6c03171ebd17c5810c9c6b6f7da9eb7"
+    },
+    "base-skill-icons/Bellone - Outstanding Debt.webp": {
+      "sourcePath": "building_skill/bskill_tra_demetr.png",
+      "maxWidth": 128,
+      "sourceBlob": "29c14576dfa9c3ddeb594a3aceeeaffb4dcb4c39"
+    },
+    "base-skill-icons/Ripresa - Professional Manager α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChargoat.png",
+      "maxWidth": 128,
+      "sourceBlob": "de9ce14db09d8d5f36fc8a80fb30ead7eaecf4a2"
+    },
+    "base-skill-icons/Ripresa - Professional Manager β.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChargoat2.png",
+      "maxWidth": 128,
+      "sourceBlob": "3251ba3794c3ee87e87752c8c9963783ad27d7b9"
     }
   },
   "namingSource": {
