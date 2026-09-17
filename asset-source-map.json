@@ -23847,6 +23847,1171 @@
       "sourcePath": "skill/skill_icon_skcom_atk_up[3].png",
       "maxWidth": 128,
       "sourceBlob": "1a1cef5e13917e6771d2b3c08b5fa69d5e437f50"
+    },
+    "material-icons/U-Official's Folder.webp": {
+      "sourcePath": "item/voucher_ulika.png",
+      "maxWidth": 180,
+      "sourceBlob": "63cc5150c40081efd1483b2064255ae35d0fe7e4"
+    },
+    "material-icons/Vigil's Folder.webp": {
+      "sourcePath": "item/voucher_vigil.png",
+      "maxWidth": 180,
+      "sourceBlob": "8e8c5157164e5aa37b29d55deeae21b9738a19f2"
+    },
+    "material-icons/Liquified High-Energy Gas.webp": {
+      "sourcePath": "item/MTL_SL_YHT.png",
+      "maxWidth": 180,
+      "sourceBlob": "38022b0d5ee2855becc76dbbd62bdfbb7d3f37ea"
+    },
+    "base-skill-icons/Friston-3 - Pleasant Conversation.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd_P.png",
+      "maxWidth": 128,
+      "sourceBlob": "5e156b2b73f6c53fca491060c56cf9785815b26d"
+    },
+    "base-skill-icons/Justice Knight - Backup Energy.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "94d0067d6c6601464eae13de194e9f2fb4c23e43"
+    },
+    "base-skill-icons/Justice Knight - Beep beep, activate!.webp": {
+      "sourcePath": "building_skill/bskill_pow_jnight.png",
+      "maxWidth": 128,
+      "sourceBlob": "2fc0e4f4a92c19cb9af73bfa07c6706b4759d1de"
+    },
+    "base-skill-icons/Durin - SleepinessReplacesLaziness.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all&one2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a106eca900ce8ecf98c6e37092f08baf3c17a9b9"
+    },
+    "base-skill-icons/Ansel - Pharmacology α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff09f9db68c6bc7125eda840311389df84420076"
+    },
+    "base-skill-icons/Akkord - Surging Tunes.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "94d0067d6c6601464eae13de194e9f2fb4c23e43"
+    },
+    "base-skill-icons/Akkord - Fugue Amalgamation.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one.png",
+      "maxWidth": 128,
+      "sourceBlob": "64850e8140c36c37b9c672c49903befa00daf792"
+    },
+    "base-skill-icons/Arene - Everyone Does Their PartReplacesWaste Not, Want Not.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve_dorm3.png",
+      "maxWidth": 128,
+      "sourceBlob": "f09508a1dad57283f8ba38663e350d4aedb05d7c"
+    },
+    "base-skill-icons/Earthspirit - Clocking Out On TimeReplacesCatastrophe Messenger α.webp": {
+      "sourcePath": "building_skill/bskill_hire_skgoat.png",
+      "maxWidth": 128,
+      "sourceBlob": "11bd8fe555e6d48c0e52413d0aecfb0ab75342a6"
+    },
+    "base-skill-icons/Gavial - Pharmacology α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff09f9db68c6bc7125eda840311389df84420076"
+    },
+    "base-skill-icons/Indigo - Lighthouse Power Supply ModuleReplacesLight Charge α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "216fd8ecaef95879addc011cad8285b68cfb3676"
+    },
+    "base-skill-icons/Myrrh - Pharmacology α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff09f9db68c6bc7125eda840311389df84420076"
+    },
+    "base-skill-icons/Perfumer - Pharmacology α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff09f9db68c6bc7125eda840311389df84420076"
+    },
+    "base-skill-icons/Podenco - ConvalescenceReplacesThoughtfulness.webp": {
+      "sourcePath": "building_skill/bskill_dorm_single2.png",
+      "maxWidth": 128,
+      "sourceBlob": "5c8f924d3b33fa4826a505f3d91991b732b81757"
+    },
+    "base-skill-icons/Snegurochka - Scientific Restructuring.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_manu1.png",
+      "maxWidth": 128,
+      "sourceBlob": "f4986ea6af4219ffad430cb3112f49ca63d9e866"
+    },
+    "base-skill-icons/Snegurochka - Workflow OptimizationReplacesScientific Restructuring.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_manu2.png",
+      "maxWidth": 128,
+      "sourceBlob": "db5ddb58b65f903563e2f44d6558312a2c2356c7"
+    },
+    "base-skill-icons/Alanna - Master of Machines βReplacesMaster of Machines α.webp": {
+      "sourcePath": "building_skill/bskill_man_token_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "132ab5ab6957b5154e0c6379c7b0c545f804bb29"
+    },
+    "base-skill-icons/Alanna - Here to Help!.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_double.png",
+      "maxWidth": 128,
+      "sourceBlob": "99457661b229eceb0a25f60a7ff335da76164dc1"
+    },
+    "base-skill-icons/Andreana - Hard to AvoidReplacesSolitude.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one4.png",
+      "maxWidth": 128,
+      "sourceBlob": "f4a7be8b33534f9e2c27a897c785c0cdc163b042"
+    },
+    "base-skill-icons/April - Order Management βReplacesOrder Management α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&limit2.png",
+      "maxWidth": 128,
+      "sourceBlob": "38af9b62d1e4639b56c19dd3f41889523cb52f3a"
+    },
+    "base-skill-icons/Ashlock - Pinus Sylvestris βReplacesPinus Sylvestris α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Astesia - AstrologyReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "31210dac63d305ed6441e84c5a3571f6fba15508"
+    },
+    "base-skill-icons/Astgenne - Rhine Tech βReplacesRhine Tech α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Aurora - Polar SurvivalReplacesDefender Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train1_defender1.png",
+      "maxWidth": 128,
+      "sourceBlob": "c2bd220d10d228c961b337d7ab3ce5e263d84541"
+    },
+    "base-skill-icons/Ayerscarpe - Clue Search βReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "be0b43b5e48356e6d87dae3c2c39acf54108074b"
+    },
+    "base-skill-icons/Bassline - Authoritarian EnvoyReplacesCourt Etiquette.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost6.png",
+      "maxWidth": 128,
+      "sourceBlob": "d5d6f3cb37c9a4e1dedf4b0ab5894c3138b55134"
+    },
+    "base-skill-icons/Beeswax - Caster Expert βReplacesCaster Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_caster2.png",
+      "maxWidth": 128,
+      "sourceBlob": "5cffa9baf5aaa3232f540daec2dfd5ea1a0c003c"
+    },
+    "base-skill-icons/Bena - Reliable Helper.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&limit&cost4.png",
+      "maxWidth": 128,
+      "sourceBlob": "e44fb17e2d6c473b0b9942239210418e73dd5813"
+    },
+    "base-skill-icons/Bibeak - Tailoring βReplacesTailoring α.webp": {
+      "sourcePath": "building_skill/bskill_tra_wt&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2b1b8e46a73edab277a5830f129efb4aa2224ea4"
+    },
+    "base-skill-icons/Bison - Young MasterReplacesMountainDash Logistics.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&limit7.png",
+      "maxWidth": 128,
+      "sourceBlob": "11c26061fbfb352de0992b7179fb99c20e6e398c"
+    },
+    "base-skill-icons/Blacknight - Tactics StudiesReplacesVanguard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train1_vanguard1.png",
+      "maxWidth": 128,
+      "sourceBlob": "79a19cae09d8906fadfc5c1e63ce463228e52b37"
+    },
+    "base-skill-icons/Blue Poison - Toxicology βReplacesToxicology α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve3.png",
+      "maxWidth": 128,
+      "sourceBlob": "5a894fba03bea7835e64de119ef449cb45a32da7"
+    },
+    "base-skill-icons/Breeze - Fallen NobleReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_glasgow2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e9fe686a4960843895bd8d5130cd8e78042a78b1"
+    },
+    "base-skill-icons/Brigid - Restless Rover βReplacesRestless Rover α.webp": {
+      "sourcePath": "building_skill/bskill_hire_skgoat4.png",
+      "maxWidth": 128,
+      "sourceBlob": "7b647ab81dd22e52ae79b13b8bc51cd93866f4d0"
+    },
+    "base-skill-icons/Broca - Guard Expert βReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_guard2.png",
+      "maxWidth": 128,
+      "sourceBlob": "93a4d4ed021af72057facf2311e7078975dfefa9"
+    },
+    "base-skill-icons/Cairn - Bedtime Stories.webp": {
+      "sourcePath": "building_skill/bskill_dorm_rec_all&lvl1.png",
+      "maxWidth": 128,
+      "sourceBlob": "915521b0a7cbbd2ae16e5c93060993897f8db5c7"
+    },
+    "base-skill-icons/Cairn - Bucket ListReplacesBedtime Stories.webp": {
+      "sourcePath": "building_skill/bskill_dorm_rec_all&lv2.png",
+      "maxWidth": 128,
+      "sourceBlob": "df9721f56450adc95dae98fab942162424a25a2c"
+    },
+    "base-skill-icons/Cairn - Special Methods Consultant.webp": {
+      "sourcePath": "building_skill/bskill_meet_exchange2.png",
+      "maxWidth": 128,
+      "sourceBlob": "7ed6b581fd4e314e0be268098b3a22f51b1819ca"
+    },
+    "base-skill-icons/Cantabile - Overlook Nothing βReplacesOverlook Nothing α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spdNotOwned2.png",
+      "maxWidth": 128,
+      "sourceBlob": "c9b358afb327fae2f086f92a895c58032b3fa6b6"
+    },
+    "base-skill-icons/Catherine - Model Efficient Worker βReplacesModel Efficient Worker α.webp": {
+      "sourcePath": "building_skill/bskill_ws_p7.png",
+      "maxWidth": 128,
+      "sourceBlob": "ccb5a8a78a84d42f3e30dd289ef1970331dcdd97"
+    },
+    "base-skill-icons/Corroserum - Corrosion Studies βReplacesCorrosion Studies α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve3.png",
+      "maxWidth": 128,
+      "sourceBlob": "5a894fba03bea7835e64de119ef449cb45a32da7"
+    },
+    "base-skill-icons/Croissant - Mission GuaranteeReplacesPenguin Logistics α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&limit7.png",
+      "maxWidth": 128,
+      "sourceBlob": "11c26061fbfb352de0992b7179fb99c20e6e398c"
+    },
+    "base-skill-icons/Dagda - Combat Techniques FighterReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_fighter.png",
+      "maxWidth": 128,
+      "sourceBlob": "29ce0ebcaa1d16de4b4b1141820fe1a0db38917b"
+    },
+    "base-skill-icons/Diamante - Appraiser's MeansReplacesAppraiser's Eyes.webp": {
+      "sourcePath": "building_skill/bskill_tra_wt&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2b1b8e46a73edab277a5830f129efb4aa2224ea4"
+    },
+    "base-skill-icons/Enforcer - Logical DeductionReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost.png",
+      "maxWidth": 128,
+      "sourceBlob": "1a8bc09ad217f26e78ae35cf02f4605a61cf3fcb"
+    },
+    "base-skill-icons/Erato - Pluck StringReplacesSniper Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train2_sniper1.png",
+      "maxWidth": 128,
+      "sourceBlob": "b34ad1de5e8aea7fb6f16e30965a07096f8bdd4b"
+    },
+    "base-skill-icons/FEater - Boxing Guidance VideoReplacesCombat Guidance Video.webp": {
+      "sourcePath": "building_skill/bskill_man_exp3.png",
+      "maxWidth": 128,
+      "sourceBlob": "4d90b46e3af5d149cd812e74577f058e1307d530"
+    },
+    "base-skill-icons/Figurino - Proficient ArtistryReplacesTailoring Art.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&limit5.png",
+      "maxWidth": 128,
+      "sourceBlob": "902ea9e48da4ec02f7a40b3293002d6436fd5ac8"
+    },
+    "base-skill-icons/Firewatch - Clue Search βReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "be0b43b5e48356e6d87dae3c2c39acf54108074b"
+    },
+    "base-skill-icons/Flamebringer - AriseReplacesTech Theory.webp": {
+      "sourcePath": "building_skill/bskill_ws_skill3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ab0e87836d1bbf851e43c10905e5a11abb5c7bc1"
+    },
+    "base-skill-icons/Flint - AusterityReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train2_guard1.png",
+      "maxWidth": 128,
+      "sourceBlob": "041d96fcced17939a53125e5b61010a802822c6b"
+    },
+    "base-skill-icons/Franka - Guard Expert βReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_guard2.png",
+      "maxWidth": 128,
+      "sourceBlob": "93a4d4ed021af72057facf2311e7078975dfefa9"
+    },
+    "base-skill-icons/Franka - B.P.R.S.ReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_blacksteel2.png",
+      "maxWidth": 128,
+      "sourceBlob": "7c5a8d09ecb3c3cda4443fcc1530589f3f9c9802"
+    },
+    "base-skill-icons/Glaucus - Electromagnetic Charge βReplacesElectromagnetic Charge α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "216fd8ecaef95879addc011cad8285b68cfb3676"
+    },
+    "base-skill-icons/Grani - Vanguard Expert βReplacesVanguard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_vanguard2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f20be486f93b7678e0d1ab4c4210a468e6d78be6"
+    },
+    "base-skill-icons/Hadiya - Guard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_guard1.png",
+      "maxWidth": 128,
+      "sourceBlob": "eb26954f6d876340e7abf45eb73720c45d9d0179"
+    },
+    "base-skill-icons/Hadiya - Legacy of CourageReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_guard1.png",
+      "maxWidth": 128,
+      "sourceBlob": "df7e98d2293b85eda34157ced0097fe472c71434"
+    },
+    "base-skill-icons/Heavyrain - Field ExperienceReplacesDefender Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train2_defender1.png",
+      "maxWidth": 128,
+      "sourceBlob": "f871d5f52585939886ddb617ceb3a66009390ea9"
+    },
+    "base-skill-icons/Heidi - High SocietyReplacesOrder Distribution α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "b306bb683eb717c0010fa7bb2975e0814ef13f9e"
+    },
+    "base-skill-icons/Heidi - One Thousand Letters.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_c_victoria.png",
+      "maxWidth": 128,
+      "sourceBlob": "6c95fee2387c87c5c7527bb0e1e49cb2ea3cb488"
+    },
+    "base-skill-icons/Honeyberry - Herbalism βReplacesHerbalism α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve3.png",
+      "maxWidth": 128,
+      "sourceBlob": "5a894fba03bea7835e64de119ef449cb45a32da7"
+    },
+    "base-skill-icons/Indra - ArraignerReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_glasgow2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e9fe686a4960843895bd8d5130cd8e78042a78b1"
+    },
+    "base-skill-icons/Jieyun - Of Death and RebirthReplacesAlways on the Move.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_bd6.png",
+      "maxWidth": 128,
+      "sourceBlob": "46017a7e79b192ffb6e56d8c17eba97d4f4c98a3"
+    },
+    "base-skill-icons/Ju - Craftsman's Heart α.webp": {
+      "sourcePath": "building_skill/bskill_ws_cost_ju.png",
+      "maxWidth": 128,
+      "sourceBlob": "96cdf223ff5bb3a1cf5f3a8f1d449d4aeb89b77e"
+    },
+    "base-skill-icons/Kafka - Handicrafts βReplacesHandicrafts α.webp": {
+      "sourcePath": "building_skill/bskill_tra_wt&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2b1b8e46a73edab277a5830f129efb4aa2224ea4"
+    },
+    "base-skill-icons/Kichisei - Hard-Working Manager α.webp": {
+      "sourcePath": "building_skill/bskill_tra_share2.png",
+      "maxWidth": 128,
+      "sourceBlob": "39c3712036eeb3f85e47698e1366a88286f1ddc5"
+    },
+    "base-skill-icons/Kichisei - Hard-Working Manager βReplacesHard-Working Manager α.webp": {
+      "sourcePath": "building_skill/bskill_tra_share3.png",
+      "maxWidth": 128,
+      "sourceBlob": "45db4ee332da70e99e895c973b7a8016eeebd1e2"
+    },
+    "base-skill-icons/Kirara - Order Flow Visualization βReplacesOrder Flow Visualization α.webp": {
+      "sourcePath": "building_skill/bskill_tra_flow_gc2.png",
+      "maxWidth": 128,
+      "sourceBlob": "50cd46ed3dc7974019d3f08ff10ea9e4c1f3ab7b"
+    },
+    "base-skill-icons/Kjera - Snow WatcherReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_kjerag2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2f3977c6a2477fd47b9b6f73aad1bab60987ea1b"
+    },
+    "base-skill-icons/Lappland - Hidden Purpose βReplacesHidden Purpose α.webp": {
+      "sourcePath": "building_skill/bskill_tra_Lappland2.png",
+      "maxWidth": 128,
+      "sourceBlob": "4dc0a7527fbee2a45e898e772590e54999ae4812"
+    },
+    "base-skill-icons/Leizi - DiscernmentReplacesPicky.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_c_wt2.png",
+      "maxWidth": 128,
+      "sourceBlob": "4508aa743381b6d0fd020ccbec888b87d33dd0be"
+    },
+    "base-skill-icons/Liskarm - Pulsed Arc βReplacesPulsed Arc α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "7b90f206c49f34c6b439ebaf73bd6a466cd7b132"
+    },
+    "base-skill-icons/Lucilla - Dome Logistics βReplacesDome Logistics α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "7b90f206c49f34c6b439ebaf73bd6a466cd7b132"
+    },
+    "base-skill-icons/Manticore - Specialist Expert βReplacesSpecialist Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_specialist2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8b917aee60d28a3ec19a5b7c647babbdd7643475"
+    },
+    "base-skill-icons/Matsukiri - Clue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "66b4017ad5cfd38777faacd0218c5c847a193da1"
+    },
+    "base-skill-icons/Matsukiri - The Art of Deduction.webp": {
+      "sourcePath": "building_skill/bskill_meet_spdNotOwned1.png",
+      "maxWidth": 128,
+      "sourceBlob": "503c6e8336bdae2ca45a77281d88b10cbe6e9336"
+    },
+    "base-skill-icons/Melanite - Final TestReplacesSniper Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_sniper1.png",
+      "maxWidth": 128,
+      "sourceBlob": "eab33bfcf1068a827d704da3f5468dc142f1253a"
+    },
+    "base-skill-icons/Meteorite - Blasting Materiology βReplacesBlasting Materiology α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve3.png",
+      "maxWidth": 128,
+      "sourceBlob": "5a894fba03bea7835e64de119ef449cb45a32da7"
+    },
+    "base-skill-icons/Minimalist - Machine Assistance βReplacesMachine Assistance α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_bd4.png",
+      "maxWidth": 128,
+      "sourceBlob": "a55b078d349046eba11580eff36f26ed2ccb6901"
+    },
+    "base-skill-icons/Mint - Widely-ReadReplacesCaster Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train2_caster1.png",
+      "maxWidth": 128,
+      "sourceBlob": "5d9110528871578e10b4a52abcb6c56dca559c2f"
+    },
+    "base-skill-icons/Misumi Uika - Idol's Aura.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_dorm_uika1.png",
+      "maxWidth": 128,
+      "sourceBlob": "8224dee5f5e5d3fa97207df17b33cee8beef02c7"
+    },
+    "base-skill-icons/Misumi Uika - Resonant Bond.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_dorm_uika2.png",
+      "maxWidth": 128,
+      "sourceBlob": "6bb4659e8cb523af69d43030c2bcc1a8649f48cf"
+    },
+    "base-skill-icons/Mr. Nothing - Obvious Deception.webp": {
+      "sourcePath": "building_skill/bskill_tra_bd_n2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8be4a64eb8ae15a78879130c26d9e83c1b4c4bf4"
+    },
+    "base-skill-icons/Mulberry - Rescue Team - Resource InventoryReplacesRescue Team - Abacus Calculations.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "d21b9495515d7a7e1202c7bb29f7b02d3251210f"
+    },
+    "base-skill-icons/Odda - Professional Ethics α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChar2.png",
+      "maxWidth": 128,
+      "sourceBlob": "12ff65afb41ffe91ced25612cc9c627c2460c887"
+    },
+    "base-skill-icons/Odda - Professional Ethics βReplacesProfessional Ethics α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChar3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c92179f414e59474fee6093719521840a74cc699"
+    },
+    "base-skill-icons/Paprika - Tailoring βReplacesTailoring α.webp": {
+      "sourcePath": "building_skill/bskill_tra_wt&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2b1b8e46a73edab277a5830f129efb4aa2224ea4"
+    },
+    "base-skill-icons/Papyrus - Combat Techniques Chain MedicReplacesMedic Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_chainhealer.png",
+      "maxWidth": 128,
+      "sourceBlob": "79fa2fdba368fa52f12c6b8e8b933f14c3295008"
+    },
+    "base-skill-icons/Perfumer the Distilled - Gentle Spirit.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f431c36cd3ef2967a07814a930a0b62a4d508128"
+    },
+    "base-skill-icons/Perfumer the Distilled - Pure Breath.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all_tired2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ffc6cd3d6737fcbc7b76f0a9359f0e3e5648ce05"
+    },
+    "base-skill-icons/Platinum - Sniper Expert βReplacesSniper Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_sniper2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f8290cf6fb64550d811544619ebbc0e849fe0ba8"
+    },
+    "base-skill-icons/Provence - Catastrophe Messenger βReplacesCatastrophe Messenger α.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd5.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff6353998fbaa88c419760edd9f2b78c5e14aa8e"
+    },
+    "base-skill-icons/Proviso - Damages for Breach βReplacesDamages for Breach α.webp": {
+      "sourcePath": "building_skill/bskill_tra_against2.png",
+      "maxWidth": 128,
+      "sourceBlob": "af68b9f087776c8e4fe4616393c9a21de3aafe06"
+    },
+    "base-skill-icons/Ptilopsis - Rhine Tech βReplacesRhine Tech α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Qanipalaat - Rescue Team - Preserve StrengthReplacesRescue Team - External Contact.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost3.png",
+      "maxWidth": 128,
+      "sourceBlob": "0319ed19a6051d6167706e1f750f1285ca39b26b"
+    },
+    "base-skill-icons/Record Keeper - Medic Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_medic1.png",
+      "maxWidth": 128,
+      "sourceBlob": "c6323851e6627e3ae93af885480856c49ca49e78"
+    },
+    "base-skill-icons/Record Keeper - Master of Everything α.webp": {
+      "sourcePath": "building_skill/bskill_train_all.png",
+      "maxWidth": 128,
+      "sourceBlob": "bc4f495d079d3d71a7c4a4a25ba3991f4a20ec9a"
+    },
+    "base-skill-icons/Robin - Trap FocusReplacesSpecialist Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train1_specialist1.png",
+      "maxWidth": 128,
+      "sourceBlob": "efa3b25513f636e2757120149a97c145f969e53d"
+    },
+    "base-skill-icons/Sand Reckoner - Grand Bazaar ManagementReplacesOrder Distribution α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&limit7.png",
+      "maxWidth": 128,
+      "sourceBlob": "11c26061fbfb352de0992b7179fb99c20e6e398c"
+    },
+    "base-skill-icons/Shalem - Combat Techniques Arts ProtectorReplacesDefender Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_artsprotector.png",
+      "maxWidth": 128,
+      "sourceBlob": "917cfeb24400e1dd3bacc9c7b302c7e3c56dc526"
+    },
+    "base-skill-icons/Sideroca - Whole-HeartednessReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_guard1.png",
+      "maxWidth": 128,
+      "sourceBlob": "df7e98d2293b85eda34157ced0097fe472c71434"
+    },
+    "base-skill-icons/Silence - Rhine Tech βReplacesRhine Tech α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Skybox - Overactive.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff09f9db68c6bc7125eda840311389df84420076"
+    },
+    "base-skill-icons/Skybox - Aboveboard Electricity Theft.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "7b90f206c49f34c6b439ebaf73bd6a466cd7b132"
+    },
+    "base-skill-icons/Skyfire - Caster Expert βReplacesCaster Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_caster2.png",
+      "maxWidth": 128,
+      "sourceBlob": "5cffa9baf5aaa3232f540daec2dfd5ea1a0c003c"
+    },
+    "base-skill-icons/Snow Hunter - Piety.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a8444ea52766778c0720f6ee3b0051aa499a51d6"
+    },
+    "base-skill-icons/Snow Hunter - Taking ResponsibilityReplacesPiety.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&cost3.png",
+      "maxWidth": 128,
+      "sourceBlob": "9e86cabaaee6f07dc0dcd9e836da0137d69c3210"
+    },
+    "base-skill-icons/Snowsant - Heavenly Reward βReplacesHeavenly Reward α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd_variable22.png",
+      "maxWidth": 128,
+      "sourceBlob": "f71abd5524b6fd9a7fe8396698d76a98e8d6923b"
+    },
+    "base-skill-icons/Specter - CrazeReplacesSolitude.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one4.png",
+      "maxWidth": 128,
+      "sourceBlob": "f4a7be8b33534f9e2c27a897c785c0cdc163b042"
+    },
+    "base-skill-icons/Spuria - Technology Exchange βReplacesTechnology Exchange α.webp": {
+      "sourcePath": "building_skill/bskill_power_rec_spd&addition2.png",
+      "maxWidth": 128,
+      "sourceBlob": "805c5cb6f00c4cf22faddc0ecebc9cb5d685e101"
+    },
+    "base-skill-icons/Surfer - Information GatheringReplacesNetworking Expert.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&blacksteel2.png",
+      "maxWidth": 128,
+      "sourceBlob": "659617e52284e66c98ad7842538e1f2c603c22ee"
+    },
+    "base-skill-icons/Taraxacum - Order Distribution α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "803f42d49c2663be442ddde6f96a074f8335138a"
+    },
+    "base-skill-icons/Tequila - Investment βReplacesInvestment α.webp": {
+      "sourcePath": "building_skill/bskill_tra_long2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f8f0a07cb7c039555f59274da9076aad69024525"
+    },
+    "base-skill-icons/Tin Man - Maylander Detective α.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&dorm1.png",
+      "maxWidth": 128,
+      "sourceBlob": "993662eb1602b0a6771c5007c04c772b06dda08a"
+    },
+    "base-skill-icons/Tin Man - Maylander Detective βReplacesMaylander Detective α.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&dorm2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9fda1ed2d121d4dd57f87ecb5532ecca013eb525"
+    },
+    "base-skill-icons/Tsukinogi - Empath's InsightReplacesCatastrophe Messenger α.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&clue.png",
+      "maxWidth": 128,
+      "sourceBlob": "04c26be90a7cb5e62e97d34b802ce2edf666b204"
+    },
+    "base-skill-icons/Tuye - Logistics Planning βReplacesLogistics Planning α.webp": {
+      "sourcePath": "building_skill/bskill_tra_flow_gs2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b428d5f4804190382e3a94a7077d4e55044a6da1"
+    },
+    "base-skill-icons/Underflow - Envoy To Land βReplacesEnvoy To Land α.webp": {
+      "sourcePath": "building_skill/bskill_tra_ord_spd_ext1.png",
+      "maxWidth": 128,
+      "sourceBlob": "4f34e579b412b9a234066e52b0875a99f279c39d"
+    },
+    "base-skill-icons/Valarqvin - Pilgrimage to the FutureReplacesForesight.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&bd&notOwned.png",
+      "maxWidth": 128,
+      "sourceBlob": "a2c6a7081b3ad016cbe0ff17bc8bfa6b2ba215df"
+    },
+    "base-skill-icons/Varkáris - Pride of a Hero α.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_c_minos.png",
+      "maxWidth": 128,
+      "sourceBlob": "be266a9bcd7be008b85fbec03ae3ce5b3b37ad48"
+    },
+    "base-skill-icons/Vendela - Aroma Convalescence βReplacesAroma Convalescence α.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all_tired.png",
+      "maxWidth": 128,
+      "sourceBlob": "d7f07184e70681ddff29752563592ef2f14023c2"
+    },
+    "base-skill-icons/Vetochki - Talented Smith.webp": {
+      "sourcePath": "building_skill/bskill_ws_p8.png",
+      "maxWidth": 128,
+      "sourceBlob": "e47d654095a13e9d53bf24665de3d7620f2aaac4"
+    },
+    "base-skill-icons/Vetochki - Waste Not, Want Not.webp": {
+      "sourcePath": "building_skill/bskill_ws_oriron.png",
+      "maxWidth": 128,
+      "sourceBlob": "d0423c5d8d7aad0cfdd9d2a3cf31f711b331a83b"
+    },
+    "base-skill-icons/Vulcan - Craftsmanship Spirit βReplacesCraftsmanship Spirit α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&limit&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9daf55ec7322fce37644aa3ba1585325497a555c"
+    },
+    "base-skill-icons/Wakaba Mutsumi - Monster of Acting.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_trade_mortis.png",
+      "maxWidth": 128,
+      "sourceBlob": "42a5d976552ce94c96445230eca4dce534280cd9"
+    },
+    "base-skill-icons/Wakaba Mutsumi - Halves of a Whole.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_mp_mortis.png",
+      "maxWidth": 128,
+      "sourceBlob": "72df7b0f2eabec32885b4defda41a5f828864a1d"
+    },
+    "base-skill-icons/Warfarin - Medic Expert βReplacesMedic Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_medic2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e093853a574b46ac7daaaba5012929f6b1d10445"
+    },
+    "base-skill-icons/Warmy - Cookout βReplacesCookout α.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c325ef43e5f9d1665405660d734caaab9eb36429"
+    },
+    "base-skill-icons/Wild Mane - Pinus Sylvestris βReplacesPinus Sylvestris α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Wind Chimes - Distant LetterReplacesHell and High Water.webp": {
+      "sourcePath": "building_skill/bskill_tra_bd_cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "279dc0bcf4db354ed2c139530e5c293dd7b49373"
+    },
+    "base-skill-icons/Xingzhu - Pensive Stroll βReplacesPensive Stroll α.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost6.png",
+      "maxWidth": 128,
+      "sourceBlob": "d5d6f3cb37c9a4e1dedf4b0ab5894c3138b55134"
+    },
+    "base-skill-icons/Yahata Umiri - Reliable Companion.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_hire_tmoris.png",
+      "maxWidth": 128,
+      "sourceBlob": "2123bfa1dcfcccc468a273d35e587ce769f7a9a1"
+    },
+    "base-skill-icons/Yahata Umiri - Famiglia Approval.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_t_limit&spd_tmoris.png",
+      "maxWidth": 128,
+      "sourceBlob": "82b2ca7c2a260065daaa59f601a55d2e4cfd541d"
+    },
+    "base-skill-icons/Yūtenji Nyamu - Diligent Worker.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_meet_amoris1.png",
+      "maxWidth": 128,
+      "sourceBlob": "31dcea31cd750a3f21bca35ea6580668affb3764"
+    },
+    "base-skill-icons/Yūtenji Nyamu - Exitus Acta Probat.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_meet_amoris2.png",
+      "maxWidth": 128,
+      "sourceBlob": "7792d41df2ea5f82cb4388986929bf69b87d55f8"
+    },
+    "base-skill-icons/Zima - General ZReplacesLeader.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c325ef43e5f9d1665405660d734caaab9eb36429"
+    },
+    "base-skill-icons/Angelina - Messenger - Rhodes IslandReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_rhodes2.png",
+      "maxWidth": 128,
+      "sourceBlob": "6eeaf2ec8a934659e72032c95fb435a79621fd1c"
+    },
+    "base-skill-icons/Archetto - Pious Fundraising βReplacesPious Fundraising α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&dorm2.png",
+      "maxWidth": 128,
+      "sourceBlob": "c7a46da2b6ae01d177fff0adde1f3e659f40bd37"
+    },
+    "base-skill-icons/Astgenne the Lightchaser - Explorer's Backpack.webp": {
+      "sourcePath": "building_skill/bskill_man_limit1.png",
+      "maxWidth": 128,
+      "sourceBlob": "c3d9f6c3bb7b60b41b4f5cd4176879408d082767"
+    },
+    "base-skill-icons/Astgenne the Lightchaser - Rhine Tech β.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Carnelian - Within One's GraspReplacesCaster Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_caster3.png",
+      "maxWidth": 128,
+      "sourceBlob": "895792b798fb8ba3808e7ea89e95bd9d034457ef"
+    },
+    "base-skill-icons/Ch'en the Dawnstreak - Drifting Wanderer.webp": {
+      "sourcePath": "building_skill/bskill_meet_spdNotOwned1.png",
+      "maxWidth": 128,
+      "sourceBlob": "503c6e8336bdae2ca45a77281d88b10cbe6e9336"
+    },
+    "base-skill-icons/Ch'en the Dawnstreak - Chivalrous Hero.webp": {
+      "sourcePath": "building_skill/bskill_meet_bd_to_spd.png",
+      "maxWidth": 128,
+      "sourceBlob": "65906089a943e9984f80960c276ae05389e40552"
+    },
+    "base-skill-icons/Ch'en the Holungday - Leading By ExampleReplacesSniper Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train1_sniper2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8a3ac4f13ea041340614e4f2dc551147bbfb053f"
+    },
+    "base-skill-icons/Civilight Eterna - Unfinished StoryReplacesKing's Legacy.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_amiya1.png",
+      "maxWidth": 128,
+      "sourceBlob": "fe562d0d1e9cff03390ddec0a4b987997c11f6ac"
+    },
+    "base-skill-icons/Degenbrecher - Imposing PresenceReplacesIntimidate.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&limit_down2.png",
+      "maxWidth": 128,
+      "sourceBlob": "4dbb31c9a821de551e1c2c9e9a1fa330b1ea2c44"
+    },
+    "base-skill-icons/Dusk - Unstirred by Gain.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_cost_bd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "37b0c2653a5b844888506efa4bcf1c9a5b61866a"
+    },
+    "base-skill-icons/Dusk - Unmoved by Loss.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_cost_bd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e35aa5e5fcf7cf9b75130793e482e232b4a29901"
+    },
+    "base-skill-icons/Ebenholz - Harmony AstrayReplacesLingering Melody.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd_bd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9cdd3610bd76e2d0113b36170174ca3b07759fd1"
+    },
+    "base-skill-icons/Entelechia - Flawless Heart βReplacesFlawless Heart α.webp": {
+      "sourcePath": "building_skill/bskill_dorm_hireToRecAll3.png",
+      "maxWidth": 128,
+      "sourceBlob": "00c3c6485ce32142ba5ac8714d2a0b0bdca8d57e"
+    },
+    "base-skill-icons/Eunectes - Automation βReplacesAutomation α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&power2.png",
+      "maxWidth": 128,
+      "sourceBlob": "337544b0e3153176525cc13d50ed00db21a5289a"
+    },
+    "base-skill-icons/Executor the Ex Foedere - Notarial Hall Instructor βReplacesNotarial Hall Instructor α.webp": {
+      "sourcePath": "building_skill/bskill_man_exp2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a6e8e1ae31ddbc061d871d5d62d207dba7d4e4f4"
+    },
+    "base-skill-icons/Exusiai the New Covenant - Funny Holy City StoriesReplacesNatural Optimist.webp": {
+      "sourcePath": "building_skill/bskill_dorm_single_laterano.png",
+      "maxWidth": 128,
+      "sourceBlob": "c635a2cda43aa9b7eac2b61d49920e787ff47a32"
+    },
+    "base-skill-icons/Exusiai - Logistics ExpertReplacesPenguin Logistics α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "b306bb683eb717c0010fa7bb2975e0814ef13f9e"
+    },
+    "base-skill-icons/Eyjafjalla the Hvít Aska - Combat Techniques Wandering MedicReplacesMedic Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_wandermedic.png",
+      "maxWidth": 128,
+      "sourceBlob": "25325ffc24674277b82a46ebc5130b70e5ac82a3"
+    },
+    "base-skill-icons/Fartooth - Homecoming.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all&one3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ceb6de2ee332634708f07ef5334149648a640f9a"
+    },
+    "base-skill-icons/Fartooth - Pinus Sylvestris βReplacesPinus Sylvestris α.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Gavial the Invincible - Practical InstructionReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_guard2.png",
+      "maxWidth": 128,
+      "sourceBlob": "04c0e29657ceabd5a33f6c4c79384937e28c4c74"
+    },
+    "base-skill-icons/Gladiia - Group Hunting α.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_aegir.png",
+      "maxWidth": 128,
+      "sourceBlob": "dff5b3f9163c3da06e9f5987e66dfffc2da7361f"
+    },
+    "base-skill-icons/Gladiia - Group Hunting βReplacesGroup Hunting α.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_aegir2.png",
+      "maxWidth": 128,
+      "sourceBlob": "c043c5bed894f303016fe02318797a5da14e0913"
+    },
+    "base-skill-icons/Goldenglow - DischargeReplacesElectromagnetic Charge α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "7b90f206c49f34c6b439ebaf73bd6a466cd7b132"
+    },
+    "base-skill-icons/Haruka - Celebrity Effect.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f431c36cd3ef2967a07814a930a0b62a4d508128"
+    },
+    "base-skill-icons/Haruka - Invite to the Show.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd5.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff6353998fbaa88c419760edd9f2b78c5e14aa8e"
+    },
+    "base-skill-icons/Hellagur - Break LooseReplacesRelease.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all1.png",
+      "maxWidth": 128,
+      "sourceBlob": "acf648af04b79be066ca2a0dfe1dcda745ab4aeb"
+    },
+    "base-skill-icons/Hellagur - AbsolutionReplacesBreak Loose.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all&one3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ceb6de2ee332634708f07ef5334149648a640f9a"
+    },
+    "base-skill-icons/Ho'olheyak - Professional Ethics α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChar2.png",
+      "maxWidth": 128,
+      "sourceBlob": "12ff65afb41ffe91ced25612cc9c627c2460c887"
+    },
+    "base-skill-icons/Ho'olheyak - Professional Ethics βReplacesProfessional Ethics α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChar3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c92179f414e59474fee6093719521840a74cc699"
+    },
+    "base-skill-icons/Hoederer - Starting From Scratch βReplacesStarting From Scratch α.webp": {
+      "sourcePath": "building_skill/bskill_tra_par&per2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2d06964259775161bbc5e6c8f5631c5191e98c86"
+    },
+    "base-skill-icons/Hoshiguma the Breacher - Downtown Connections.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_train_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "8a0188b77a68eb189d80e853a316b7de7ceeb13e"
+    },
+    "base-skill-icons/Hoshiguma the Breacher - Camaraderie.webp": {
+      "sourcePath": "building_skill/bskill_token_prod_spd3_lungmenguard.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff24adacbbaa19d942729f557ccb719e23c5161f"
+    },
+    "base-skill-icons/Hoshiguma - HannyaReplacesDefender Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_defender3.png",
+      "maxWidth": 128,
+      "sourceBlob": "59422f44eb27fedca9c8aaa1c39d3de496421883"
+    },
+    "base-skill-icons/Ifrit - Superheat ChargeReplacesHeat Charge α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "216fd8ecaef95879addc011cad8285b68cfb3676"
+    },
+    "base-skill-icons/Leizi the Thunderbringer - Lei Fa Specialist.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "94d0067d6c6601464eae13de194e9f2fb4c23e43"
+    },
+    "base-skill-icons/Leizi the Thunderbringer - Disciplined Study.webp": {
+      "sourcePath": "building_skill/bskill_ws_skill3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ab0e87836d1bbf851e43c10905e5a11abb5c7bc1"
+    },
+    "base-skill-icons/Lemuen - AmicusReplacesOrder Distribution α.webp": {
+      "sourcePath": "building_skill/bskill_tra_lemuen1.png",
+      "maxWidth": 128,
+      "sourceBlob": "1bb5e193d39bfd3419c084487d5c0cb27164e745"
+    },
+    "base-skill-icons/Lessing - Law of DevotionReplacesLaw of Penance.webp": {
+      "sourcePath": "building_skill/bskill_ws_constant3.png",
+      "maxWidth": 128,
+      "sourceBlob": "29fba3dbd20a0dcc0d4ba97e6bc47271a835791f"
+    },
+    "base-skill-icons/Ling - Vast Mountains and Rivers.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_cost_bd1&bd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8d50182413d61ce9c2d08a18df67545e38b81fd1"
+    },
+    "base-skill-icons/Lumen - Glimmering Glow βReplacesGlimmering Glow α.webp": {
+      "sourcePath": "building_skill/bskill_dorm_powToRecAll2.png",
+      "maxWidth": 128,
+      "sourceBlob": "3c80c518146e406bfe3152ee89a4ef757761a08b"
+    },
+    "base-skill-icons/Mantra - Order Distribution α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd1.png",
+      "maxWidth": 128,
+      "sourceBlob": "803f42d49c2663be442ddde6f96a074f8335138a"
+    },
+    "base-skill-icons/Mantra - Elite SquadReplacesOrder Distribution α.webp": {
+      "sourcePath": "building_skill/bskill_ord_spd&tag1.png",
+      "maxWidth": 128,
+      "sourceBlob": "ed1fd2426c9e9d30877da4ae41a59c2604e2881d"
+    },
+    "base-skill-icons/Marcille - Familiar Dispatch βReplacesFamiliar Dispatch α.webp": {
+      "sourcePath": "building_skill/bskill_man_marcille2.png",
+      "maxWidth": 128,
+      "sourceBlob": "73bf9f1e8922228fd8ca04a25e14e89cf94c08ba"
+    },
+    "base-skill-icons/Mostima - Messenger - Penguin LogisticsReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_penguin2.png",
+      "maxWidth": 128,
+      "sourceBlob": "075f2c03a94a5d219ff24216d294af040cbfd148"
+    },
+    "base-skill-icons/Nasti - Rhine Tech β.webp": {
+      "sourcePath": "building_skill/bskill_man_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a7e5c4592f71099a6de96bbd22e090c175677a40"
+    },
+    "base-skill-icons/Nasti - Costly Construction.webp": {
+      "sourcePath": "building_skill/bskill_man_gold&rhine.png",
+      "maxWidth": 128,
+      "sourceBlob": "5c8d8b80d887e73ab8d6856d9cd903b7e8af550f"
+    },
+    "base-skill-icons/Nearl the Radiant Knight - Noble CreedReplacesKnight Training.webp": {
+      "sourcePath": "building_skill/bskill_train_knight_bd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "d22e7b107bb3a98af035ed9bfaaabb918f6c1239"
+    },
+    "base-skill-icons/Necrass - Pyral PsychopompReplacesCaster Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_caster2.png",
+      "maxWidth": 128,
+      "sourceBlob": "57e81ccb769585cda2616a66ee7c83225872c948"
+    },
+    "base-skill-icons/Nightingale - Lady of the LampReplacesInspiration.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c325ef43e5f9d1665405660d734caaab9eb36429"
+    },
+    "base-skill-icons/Nymph - Meditative Rites α.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f431c36cd3ef2967a07814a930a0b62a4d508128"
+    },
+    "base-skill-icons/Nymph - Meditative Rites βReplacesMeditative Rites α.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c325ef43e5f9d1665405660d734caaab9eb36429"
+    },
+    "base-skill-icons/Passenger - Energy GatheringReplacesElectromagnetic Charge α.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "216fd8ecaef95879addc011cad8285b68cfb3676"
+    },
+    "base-skill-icons/Phantom - Masked PhantomReplacesSpecialist Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_specialist3.png",
+      "maxWidth": 128,
+      "sourceBlob": "73d74dcc9e06974b817d44176dc8c6417adc1fec"
+    },
+    "base-skill-icons/Pramanix the Prerita - Saintess's Prestige.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost7.png",
+      "maxWidth": 128,
+      "sourceBlob": "8110170ed2a1f5ace8077ee2c9447817eee0166e"
+    },
+    "base-skill-icons/Pramanix the Prerita - Yearning for the Snow RealmReplacesSaintess's Prestige.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&char1.png",
+      "maxWidth": 128,
+      "sourceBlob": "301bc6d47e8e67260c55889791c540446674681e"
+    },
+    "base-skill-icons/Qiubai - Combat Techniques LordReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_lord.png",
+      "maxWidth": 128,
+      "sourceBlob": "5484d1776969ef659dd3e2e3790022dced965525"
+    },
+    "base-skill-icons/Raidian - Drip-Fed Care.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_cost.png",
+      "maxWidth": 128,
+      "sourceBlob": "fe06bdb410b0988cf0ec82847eb76f81a9853ca4"
+    },
+    "base-skill-icons/Raidian - Quiet Affection.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_d_r_tag.png",
+      "maxWidth": 128,
+      "sourceBlob": "6c2e9f8987776d81957c9654b9ae28e21940f073"
+    },
+    "base-skill-icons/Ray - Pitsinker βReplacesPitsinker α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve3.png",
+      "maxWidth": 128,
+      "sourceBlob": "5a894fba03bea7835e64de119ef449cb45a32da7"
+    },
+    "base-skill-icons/Reed the Flame Shadow - Red Dragon's Blood.webp": {
+      "sourcePath": "building_skill/bskill_train_caster&medic1.png",
+      "maxWidth": 128,
+      "sourceBlob": "d0aeaa9f88f9ade2b42106a71af69f9e2aa63036"
+    },
+    "base-skill-icons/Rosmontis - Manifestation of ConsciousnessReplacesPsychokinesis.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_bd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "42f9b48b7ed100eddeb7186795629242c8e53d8b"
+    },
+    "base-skill-icons/Saga - SecularizationReplacesVanguard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_vanguard3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ea152d95120b385b9b757601d393a824da34d2ab"
+    },
+    "base-skill-icons/Sankta Miksaparato - Expert SocializerReplacesTea Master.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "31210dac63d305ed6441e84c5a3571f6fba15508"
+    },
+    "base-skill-icons/Saria - WatchmanReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_rhine2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b530748d57beefbc88bc3b0d047ed9d51923b7a9"
+    },
+    "base-skill-icons/Shining - MercyReplacesThoughtfulness.webp": {
+      "sourcePath": "building_skill/bskill_dorm_single4.png",
+      "maxWidth": 128,
+      "sourceBlob": "0e4e01d795c5a63f98fa9cf90e0815a2d8fc09ab"
+    },
+    "base-skill-icons/Siege - LionheartReplacesLeader.webp": {
+      "sourcePath": "building_skill/bskill_dorm_all3.png",
+      "maxWidth": 128,
+      "sourceBlob": "c325ef43e5f9d1665405660d734caaab9eb36429"
+    },
+    "base-skill-icons/SilverAsh the Reignfrost - Land of Business.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_t_limit&spd3.png",
+      "maxWidth": 128,
+      "sourceBlob": "9023c50e2b784d1902a8c9caf8fe3e538d5dfc2b"
+    },
+    "base-skill-icons/SilverAsh the Reignfrost - Vanguard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_spd&profession2.png",
+      "maxWidth": 128,
+      "sourceBlob": "11e78411582530a2c135a88381ad58a01bfc1d55"
+    },
+    "base-skill-icons/SilverAsh the Reignfrost - Trailblazers' ConsensusReplacesVanguard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_spd&profession2.png",
+      "maxWidth": 128,
+      "sourceBlob": "11e78411582530a2c135a88381ad58a01bfc1d55"
+    },
+    "base-skill-icons/SilverAsh - Lord of KarlanReplacesKarlan Trade α.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd&limit5.png",
+      "maxWidth": 128,
+      "sourceBlob": "fe2c088c84cf224beff1d486a5640f361ac4177d"
+    },
+    "base-skill-icons/Skadi the Corrupting Heart - AssimilationReplacesSupporter Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_supporter2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9c8854bbf84e6d1a253302e66ba6fa24642a35a1"
+    },
+    "base-skill-icons/Skadi - ElegyReplacesSolitude.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one5.png",
+      "maxWidth": 128,
+      "sourceBlob": "6a35f8bf1122e7d5f67ff2d93e254e95cc299e64"
+    },
+    "base-skill-icons/Specter the Unchained - Ægir TacticsReplacesSpecialist Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_specialist2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ea0c2050469b69ed6bf005c48bcb9ed792df6fa5"
+    },
+    "base-skill-icons/Surtr - Bladework MemoryReplacesGuard Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_guard3.png",
+      "maxWidth": 128,
+      "sourceBlob": "0eda2e0fac968e97534c21138023b451ff178d05"
+    },
+    "base-skill-icons/Suzuran - ResonanceReplacesSupporter Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_supporter3.png",
+      "maxWidth": 128,
+      "sourceBlob": "4f1dae143dc1234d8a1bd88fb969aa560d864036"
+    },
+    "base-skill-icons/Texas the Omertosa - Break the ShacklesReplacesSilence as a Sword.webp": {
+      "sourcePath": "building_skill/bskill_train2_specialist&pioneer1.png",
+      "maxWidth": 128,
+      "sourceBlob": "7f64525d4d93976afdaa711f2c9b2ae532a64c3b"
+    },
+    "base-skill-icons/Thorns - Alchemy.webp": {
+      "sourcePath": "building_skill/bskill_ws_p2.png",
+      "maxWidth": 128,
+      "sourceBlob": "7c2908b37c32ce0f55c2d5d5d7dcc397b4c0aeeb"
+    },
+    "base-skill-icons/Thorns - Explosion Arts.webp": {
+      "sourcePath": "building_skill/bskill_ws_recovery.png",
+      "maxWidth": 128,
+      "sourceBlob": "6bb98eb3d36f57ff53e50643ea9ed121e5f4eda8"
+    },
+    "base-skill-icons/Titi - As Good As Old α.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff09f9db68c6bc7125eda840311389df84420076"
+    },
+    "base-skill-icons/Titi - Conversing With History.webp": {
+      "sourcePath": "building_skill/bskill_ws_evolve_cost3.png",
+      "maxWidth": 128,
+      "sourceBlob": "ab339cf8eeb0de062e2f3c2e3b992c13fe3a3d6b"
+    },
+    "base-skill-icons/Togawa Sakiko - Plentiful Work Experience.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_p_oblvns.png",
+      "maxWidth": 128,
+      "sourceBlob": "f18282267d607aa0e832a5c007a88b3bf1c73e72"
+    },
+    "base-skill-icons/Togawa Sakiko - Indomitable Lady.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_mp_oblvns.png",
+      "maxWidth": 128,
+      "sourceBlob": "89c3462c95938909c7885fc77e2089aa8aea8dfa"
+    },
+    "base-skill-icons/Tragodia - Playing the PartReplacesMan in the Mirror.webp": {
+      "sourcePath": "building_skill/bskill_man_exp&spd&limit&cost2.png",
+      "maxWidth": 128,
+      "sourceBlob": "931b81c9725f947d6b90d7960d6c14b56f3e9757"
+    },
+    "base-skill-icons/Ulpianus - Questions Should Be Exact.webp": {
+      "sourcePath": "building_skill/bskill_train_guard&supporter.png",
+      "maxWidth": 128,
+      "sourceBlob": "34f477fb380386305b74f5b264013a212fa4ed11"
+    },
+    "base-skill-icons/Ulpianus - Methods Should Be Effective.webp": {
+      "sourcePath": "building_skill/bskill_train_abyssal.png",
+      "maxWidth": 128,
+      "sourceBlob": "6893d4adf091a564183a1b3bd5dbf54a3d1222bb"
+    },
+    "base-skill-icons/Vina Victoria - Resolution on Foreign Trade βReplacesResolution on Foreign Trade α.webp": {
+      "sourcePath": "building_skill/trade_ord_spd&par2.png",
+      "maxWidth": 128,
+      "sourceBlob": "77e070d4533ce379d146c64395a99d32dcac3510"
+    },
+    "base-skill-icons/Vulpisfoglia - Clue Search βReplacesClue Search α.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd2.png",
+      "maxWidth": 128,
+      "sourceBlob": "be0b43b5e48356e6d87dae3c2c39acf54108074b"
+    },
+    "base-skill-icons/W - PatienceReplacesSniper Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train3_sniper2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9990290600a1a2dda3bedda663cc28b558ff9ba5"
+    },
+    "base-skill-icons/Wang - Expedience.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_tra&prod.png",
+      "maxWidth": 128,
+      "sourceBlob": "a78044bfa6d13e7bc0e1ebd56ada350d84e5b0d2"
+    },
+    "base-skill-icons/Wang - Painstaking Effort.webp": {
+      "sourcePath": "building_skill/bskill_train_spd&level.png",
+      "maxWidth": 128,
+      "sourceBlob": "315b99d2bd8ff992832abe53309659147c8dd69c"
+    },
+    "base-skill-icons/Weedy - Bionic SeadragonReplacesAutomation β.webp": {
+      "sourcePath": "building_skill/bskill_man_spd&power3.png",
+      "maxWidth": 128,
+      "sourceBlob": "87386a2dc7849ba7370f836d89bbf88a77964dba"
+    },
+    "base-skill-icons/Wiš'adel - Conspirator βReplacesConspirator α.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_c_babel2.png",
+      "maxWidth": 128,
+      "sourceBlob": "5374befaaee24d48eefcaf519cbb2bca78e30580"
     }
   },
   "namingSource": {

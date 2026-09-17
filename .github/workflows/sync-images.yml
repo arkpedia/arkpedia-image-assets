@@ -34,10 +34,36 @@ jobs:
             source/data/operators-3star source/data/operators-4star \
             source/data/operators-5star source/data/operators-6star
           git -C "$RUNNER_TEMP/arkpedia-data" checkout
+      - name: Load base-skill identifiers
+        run: |
+          curl --fail --location --retry 3 \
+            https://raw.githubusercontent.com/PuppiizSunniiz/ArknightsGameData_YoStar/main/en_US/gamedata/excel/building_data.json \
+            --output "$RUNNER_TEMP/building-en.json"
+          curl --fail --location --retry 3 \
+            https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/building_data.json \
+            --output "$RUNNER_TEMP/building-cn.json"
+      - name: Load skill identifiers
+        # Shared generic skills (ATK Up γ, Support γ) use a common icon, not the
+        # character-specific name; only the character→skill→icon join finds them.
+        run: |
+          for region in en_US:PuppiizSunniiz/ArknightsGameData_YoStar/main zh_CN:Kengxxiao/ArknightsGameData/master; do
+            dir="${region%%:*}"; repo="${region#*:}"; tag="$([ "$dir" = en_US ] && echo en || echo cn)"
+            for table in character_table skill_table; do
+              curl --fail --location --retry 3 \
+                "https://raw.githubusercontent.com/$repo/$dir/gamedata/excel/$table.json" \
+                --output "$RUNNER_TEMP/$table-$tag.json"
+            done
+          done
       - name: Sync from the public resource mirror
         env:
           GH_TOKEN: ${{ github.token }}
           ARKPEDIA_DATA_ROOT: ${{ runner.temp }}/arkpedia-data
+          ARKPEDIA_EN_BUILDING_DATA: ${{ runner.temp }}/building-en.json
+          ARKPEDIA_CN_BUILDING_DATA: ${{ runner.temp }}/building-cn.json
+          ARKPEDIA_EN_CHARACTER_TABLE: ${{ runner.temp }}/character_table-en.json
+          ARKPEDIA_EN_SKILL_TABLE: ${{ runner.temp }}/skill_table-en.json
+          ARKPEDIA_CN_CHARACTER_TABLE: ${{ runner.temp }}/character_table-cn.json
+          ARKPEDIA_CN_SKILL_TABLE: ${{ runner.temp }}/skill_table-cn.json
         run: python scripts/sync_images.py
       - name: Validate changed media and complete inventory
         run: python scripts/validate_images.py --staged
