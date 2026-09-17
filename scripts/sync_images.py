@@ -31,6 +31,90 @@ RARITY_FOLDERS = {
 def safe_name(value):
     return re.sub(r'[\\/*?:"<>|]', '', value).strip()
 
+
+def load_building_tables():
+    """Load EN first and CN second so released names use Global data.
+
+    Base-skill image filenames are not derived from character or skill IDs. The
+    game's building table is the only stable join from a character's base-skill
+    slots to the corresponding ``building_skill/*.png`` files. CN is a fallback
+    for operators whose art exists before their Global data is published.
+    """
+    tables = []
+    for variable in ('ARKPEDIA_EN_BUILDING_DATA', 'ARKPEDIA_CN_BUILDING_DATA'):
+        value = os.environ.get(variable)
+        if not value:
+            continue
+        path = Path(value)
+        if not path.is_file():
+            raise ValueError(f'{variable} does not point to a file: {path}')
+        tables.append(json.loads(path.read_text()))
+    return tables
+
+
+def load_skill_tables():
+    """Load (character_table, skill_table) pairs, EN first and CN second.
+
+    A skill icon is not always ``skill_icon_skchr_<slug>_<n>``: the shared generic
+    skills every low-rarity operator carries -- "ATK Up γ", "Support γ" -- use a common
+    icon (``skcom_atk_up[3]``, ``skcom_assist_cost[3]``). Guessing the character-specific
+    name for those finds nothing in the mirror and the icon is silently never mapped.
+    The character table names each slot's skillId and the skill table names its icon;
+    that join is the only reliable one, and it is what build_source_map.py already uses.
+    """
+    tables = []
+    for region in ('EN', 'CN'):
+        chars_var, skills_var = f'ARKPEDIA_{region}_CHARACTER_TABLE', f'ARKPEDIA_{region}_SKILL_TABLE'
+        chars_path, skills_path = os.environ.get(chars_var), os.environ.get(skills_var)
+        if not chars_path and not skills_path:
+            continue
+        if not (chars_path and skills_path):
+            raise ValueError(f'{chars_var} and {skills_var} must be set together')
+        for variable, value in ((chars_var, chars_path), (skills_var, skills_path)):
+            if not Path(value).is_file():
+                raise ValueError(f'{variable} does not point to a file: {value}')
+        tables.append((json.loads(Path(chars_path).read_text()), json.loads(Path(skills_path).read_text())))
+    return tables
+
+
+def skill_icon_source(character_id, index, slug, tables):
+    """Upstream path for an operator's ``index``-th (1-based) skill icon.
+
+    Resolves through the first table that knows the character; falls back to the
+    character-specific naming convention when no table does, which keeps the old
+    behaviour for a brand-new operator the tables have not caught up with.
+    """
+    for chars, skills in tables:
+        slots = (chars.get(character_id) or {}).get('skills') or []
+        if index - 1 >= len(slots):
+            continue
+        skill_id = slots[index - 1].get('skillId')
+        if not skill_id:
+            continue
+        icon = (skills.get(skill_id) or {}).get('iconId') or skill_id
+        return f'skill/skill_icon_{icon}.png'
+    return f'skill/skill_icon_skchr_{slug}_{index}.png'
+
+
+def base_skill_sources(character_id, expected_count, tables):
+    """Return ordered upstream icon IDs when one table matches every slot."""
+    for table in tables:
+        character = table.get('chars', {}).get(character_id)
+        if not character:
+            continue
+        entries = []
+        for slot in character.get('buffChar') or []:
+            data = slot.get('buffData') if isinstance(slot, dict) else None
+            if isinstance(data, list):
+                entries.extend(row for row in data if isinstance(row, dict) and row.get('buffId'))
+            elif isinstance(data, dict) and data.get('buffId'):
+                entries.append(data)
+        icons = [table.get('buffs', {}).get(row['buffId'], {}).get('skillIcon') for row in entries]
+        if len(icons) == expected_count and all(icons):
+            return icons
+    return []
+
+
 def discover_operator_assets(mapping, blobs):
     """Add predictable operator media from Arkpedia's public data checkout.
 
@@ -45,6 +129,8 @@ def discover_operator_assets(mapping, blobs):
         return []
     data_root = Path(data_root)
     added = []
+    building_tables = load_building_tables()
+    skill_tables = load_skill_tables()
     for directory in sorted((data_root / 'source' / 'data').glob('operators-*star')):
         for operator_path in sorted(directory.glob('*.json')):
             operator = json.loads(operator_path.read_text())
@@ -65,13 +151,27 @@ def discover_operator_assets(mapping, blobs):
                 if skill_name:
                     candidates.append((
                         f'skill-icons/{name} - {skill_name}.webp',
-                        f'skill/skill_icon_skchr_{slug}_{index}.png',
+                        skill_icon_source(character_id, index, slug, skill_tables),
+                        128,
+                    ))
+            base_skills = operator.get('baseSkills', [])
+            source_icons = base_skill_sources(character_id, len(base_skills), building_tables)
+            raw_operator_name = safe_name(operator.get('rawName') or operator.get('name', ''))
+            for base_skill, source_icon in zip(base_skills, source_icons):
+                skill_name = safe_name(base_skill.get('rawName') or base_skill.get('name', ''))
+                if skill_name:
+                    candidates.append((
+                        f'base-skill-icons/{raw_operator_name} - {skill_name}.webp',
+                        f'building_skill/{source_icon}.png',
                         128,
                     ))
             for cost in operator.get('potential', {}).get('totalCost', []):
                 token_name = safe_name(cost.get('name', ''))
                 if token_name:
-                    candidates.append((f'material-icons/{token_name}.webp', f'item/p_{character_id}.png', 180))
+                    target = f'material-icons/{token_name}.webp'
+                    sources = (f'item/p_{character_id}.png', f'item/voucher_{slug}.png', f'item/voucher_full_{slug}.png')
+                    source = next((candidate for candidate in sources if candidate in blobs), sources[0])
+                    candidates.append((target, source, 180))
 
             for target, source, max_width in candidates:
                 if target in mapping['files'] or source not in blobs:
