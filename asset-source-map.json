@@ -25012,6 +25012,11 @@
       "sourcePath": "building_skill/bskill_ctrl_c_babel2.png",
       "maxWidth": 128,
       "sourceBlob": "5374befaaee24d48eefcaf519cbb2bca78e30580"
+    },
+    "skill-icons/Snow Hunter - Power Strike β.webp": {
+      "sourcePath": "skill/skill_icon_skcom_powerstrike[2].png",
+      "maxWidth": 128,
+      "sourceBlob": "0b805382c5f705ceb70f2f7936cb5ed381d75e6f"
     }
   },
   "namingSource": {
