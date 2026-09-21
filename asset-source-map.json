@@ -25017,6 +25017,11 @@
       "sourcePath": "skill/skill_icon_skcom_powerstrike[2].png",
       "maxWidth": 128,
       "sourceBlob": "0b805382c5f705ceb70f2f7936cb5ed381d75e6f"
+    },
+    "material-icons/Orundum.webp": {
+      "sourcePath": "item/DIAMOND_SHD.png",
+      "maxWidth": 180,
+      "sourceBlob": "b1d1f8740ec0a11dc96bfbfaeed2612826f380b6"
     }
   },
   "namingSource": {
