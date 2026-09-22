@@ -117,6 +117,14 @@
     {
       "path": "one-star-skins/Koromaru - Base.webp",
       "source": "skin/char_4220_kormr_1b.png"
+    },
+    {
+      "path": "five-star-skins/Record Keeper - The Lands Illuminated.webp",
+      "source": "skin/char_4196_reckpr_yun#12b.png"
+    },
+    {
+      "path": "five-star-icons/Record Keeper - The Lands Illuminated.webp",
+      "source": "avatar/char_4196_reckpr_yun#12.png"
     }
   ]
 }
