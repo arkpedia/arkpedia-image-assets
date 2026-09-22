@@ -10,6 +10,7 @@ import hashlib
 import io
 import json
 import re
+import subprocess
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -80,7 +81,7 @@ for kind, number, start, end in rows(text):
     target = f'headhunting-banner-images/{prefix} {number} (Global).webp'
     title = f'File:EN {prefix} {number} banner.png'
     info = image_info(title)
-    if not info or (ROOT / target).exists() and sources.get(target) == info['sha1']:
+    if not info or target in manifest['files'] and sources.get(target) == info['sha1']:
         continue
     data = download(info['url'])
     (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
@@ -92,7 +93,9 @@ for kind, number, start, end in rows(text):
 if changed:
     manifest['files'] = dict(sorted(manifest['files'].items()))
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
+    sources_path.parent.mkdir(parents=True, exist_ok=True)
     sources_path.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
+    subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', 'sources/recurring-banner-art.json', *changed], cwd=ROOT, check=True)
     print('\n'.join(f'  + {path}' for path in changed))
 else:
     print('Recurring banner art is current.')

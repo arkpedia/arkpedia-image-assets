@@ -67,9 +67,7 @@ jobs:
           ARKPEDIA_CN_SKILL_TABLE: ${{ runner.temp }}/skill_table-cn.json
         run: python scripts/sync_images.py
       - name: Sync recurring Standard and Kernel banner art
-        run: |
-          python scripts/sync_recurring_banner_art.py
-          git add asset-manifest.json sources/recurring-banner-art.json headhunting-banner-images
+        run: python scripts/sync_recurring_banner_art.py
       - name: Test Global artwork selection
         run: python -m unittest discover -s scripts -p 'test_global_banner_art.py'
       - name: Sync Global event and featured banner art
