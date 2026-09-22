@@ -10,6 +10,7 @@ class GlobalArtTests(unittest.TestCase):
     def test_title_variants_are_only_english(self):
         titles = wiki_titles('[Limited-Time] Rage of The Many')
         self.assertIn('File:EN Rage of the Many banner.png', titles)
+        self.assertIn('File:EN Vector Breakthrough Trial from Misery banner.png', wiki_titles('Vector Breakthrough #2: Trial from Misery'))
         self.assertTrue(all(t.startswith('File:EN ') for t in titles))
         self.assertIn('File:EN Stronghold Protocol Alliance Part 2 banner.png', wiki_titles('Stronghold Protocol Alliance 2nd Half'))
 

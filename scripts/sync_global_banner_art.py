@@ -30,6 +30,9 @@ def fetch(url):
 def wiki_titles(name):
     base = re.sub(r'^\[[^\]]*\]\s*', '', name).replace('#', '').replace(' (Global)', '').strip()
     candidates = [base]
+    # Numbered event seasons use the subtitle alone in EN filenames.
+    if re.search(r'\s+\d+:\s*', base):
+        candidates.append(re.sub(r'\s+\d+:\s*', ' ', base))
     for before, after in [('1st Half', 'Part 1'), ('2nd Half', 'Part 2'), ('Part One', 'Part 1'), ('Part Two', 'Part 2')]:
         if before in base:
             candidates.append(base.replace(before, after))
