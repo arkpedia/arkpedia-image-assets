@@ -32,7 +32,7 @@ jobs:
           git -C "$RUNNER_TEMP/arkpedia-data" sparse-checkout set \
             source/data/operators-1star source/data/operators-2star \
             source/data/operators-3star source/data/operators-4star \
-            source/data/operators-5star source/data/operators-6star
+            source/data/operators-5star source/data/operators-6star source/data/events
           git -C "$RUNNER_TEMP/arkpedia-data" checkout
       - name: Load base-skill identifiers
         run: |
@@ -69,6 +69,12 @@ jobs:
         run: |
           python scripts/sync_recurring_banner_art.py
           git add asset-manifest.json sources/recurring-banner-art.json headhunting-banner-images
+      - name: Test Global artwork selection
+        run: python -m unittest discover -s scripts -p 'test_global_banner_art.py'
+      - name: Sync Global event and featured banner art
+        env:
+          ARKPEDIA_DATA_ROOT: ${{ runner.temp }}/arkpedia-data
+        run: python scripts/sync_global_banner_art.py
       - name: Validate changed media and complete inventory
         run: python scripts/validate_images.py --staged
       - name: Publish validated assets
