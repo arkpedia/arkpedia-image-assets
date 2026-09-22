@@ -4,6 +4,10 @@
   "region": "CN",
   "files": {
     "event-poster/Persona 3 Reload - Sur le lac lune vivante.jpg": "https://web.hycdn.cn/upload/image/20260828/eb03f1083fa59e528da66b2d0c50b629.jpg",
-    "headhunting-banner-images/Persona 3 Reload - Some Evening of White and Mystic Blue.jpg": "https://web.hycdn.cn/upload/image/20260828/0f8fc25f182436266518a1753b588353.jpg"
-  }
+    "headhunting-banner-images/Persona 3 Reload - Some Evening of White and Mystic Blue.jpg": "https://web.hycdn.cn/upload/image/20260828/0f8fc25f182436266518a1753b588353.jpg",
+    "six-star-icons/Makoto Yuki - Base.webp": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/66dc23ad2208f14e2e3c31401ca9ce8d40b95550/avatar/char_4217_makoto.png",
+    "five-star-icons/Aegis - Base.webp": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/66dc23ad2208f14e2e3c31401ca9ce8d40b95550/avatar/char_4218_aigis.png",
+    "five-star-icons/Yukari Takeba - Base.webp": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/66dc23ad2208f14e2e3c31401ca9ce8d40b95550/avatar/char_4219_yukari.png"
+  },
+  "gameResourceCommit": "66dc23ad2208f14e2e3c31401ca9ce8d40b95550"
 }
