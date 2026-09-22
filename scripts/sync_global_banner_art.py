@@ -72,6 +72,12 @@ def jobs(data_root, today):
         dates = window(dates)
         if not dates or not target or dates[0] > today + dt.timedelta(days=7) or dates[1] < today - dt.timedelta(days=45):
             continue
+        if target.startswith('https://raw.githubusercontent.com/arkpedia/arkpedia-image-assets/'):
+            parsed = urllib.parse.urlparse(target)
+            parts = parsed.path.split('/', 4)
+            if len(parts) != 5 or not re.fullmatch(r'[a-f0-9]{40}', parts[3]):
+                raise ValueError(f'Unpinned external artwork: {target}')
+            target = urllib.parse.unquote(parts[4])
         target = target.lstrip('/')
         if not target.startswith(('event-poster/', 'headhunting-banner-images/')) or '..' in Path(target).parts:
             raise ValueError(f'Unexpected art path: {target}')

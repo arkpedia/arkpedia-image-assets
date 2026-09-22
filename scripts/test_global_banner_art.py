@@ -24,11 +24,11 @@ class GlobalArtTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp); data = root / 'source/data'; (data / 'events').mkdir(parents=True)
             banners = [{'name': 'CN only', 'cn_date': '2026/09/01–2026/09/30', 'banner_image': '/headhunting-banner-images/cn.webp'},
-                {'name': 'Released', 'global_date': '2026/09/16–2026/09/30', 'banner_image': '/headhunting-banner-images/en.webp'},
+                {'name': 'Released', 'global_date': '2026/09/16–2026/09/30', 'banner_image': 'https://raw.githubusercontent.com/arkpedia/arkpedia-image-assets/' + 'a'*40 + '/headhunting-banner-images/en%20art.webp'},
                 {'name': 'Distant', 'global_date': '2026/12/01–2026/12/30', 'banner_image': '/headhunting-banner-images/future.webp'}]
             (data / 'headhunting_banners.json').write_text(json.dumps(banners))
             (data / 'events/events_2026.json').write_text(json.dumps([{'name': 'Event', 'global': {'dateRange': '2026/09/16–2026/09/30'}, 'poster': '/event-poster/event.webp'}]))
-            self.assertEqual(list(jobs(root, dt.date(2026, 9, 22))), [('Released', 'headhunting-banner-images/en.webp'), ('Event', 'event-poster/event.webp')])
+            self.assertEqual(list(jobs(root, dt.date(2026, 9, 22))), [('Released', 'headhunting-banner-images/en art.webp'), ('Event', 'event-poster/event.webp')])
 
 if __name__ == '__main__':
     unittest.main()
