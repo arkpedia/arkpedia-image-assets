@@ -19,6 +19,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             scripts
+            sources
             .github
       - uses: actions/setup-python@v7
         with:
