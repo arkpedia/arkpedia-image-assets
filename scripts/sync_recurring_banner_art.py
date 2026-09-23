@@ -32,18 +32,27 @@ def fetch(params):
         return json.load(response)
 
 
-def wikitext(year):
-    """Return the year's banner page wikitext, or '' until the wiki creates it.
+def utc_today():
+    return datetime.datetime.now(datetime.timezone.utc).date()
+
+
+def wikitext(today):
+    """Return the banner page wikitext for today's year, or '' in January until it exists.
 
     The API answers a missing page with HTTP 200 and error code missingtitle.
-    The page has appeared as late as January 21, so until then the year has no
-    rows, as in the app's sync-recurring-banners.mjs. Any other error fails.
+    The wiki creates a year's page around New Year, as late as January 21 so
+    far, so during January (UTC) a missing page means the year has no rows yet,
+    as in the app's sync-recurring-banners.mjs. From February 1 a missing page
+    means it was moved, renamed or never made, and an empty green run would
+    hide that for the rest of the year, so it fails like any other error.
     """
-    page = f'Headhunting/Banners/{year}'
+    page = f'Headhunting/Banners/{today.year}'
     data = fetch({'action': 'parse', 'page': page, 'prop': 'wikitext', 'format': 'json'})
     error = data.get('error')
     if error and error.get('code') == 'missingtitle':
-        return ''
+        if today.month == 1:
+            return ''
+        raise ValueError(f'{page} does not exist, and only in January may a new year\'s page be missing: {error}')
     if error:
         raise ValueError(f'{page}: {error}')
     return data['parse']['wikitext']['*']
@@ -82,8 +91,8 @@ def download(url):
 
 
 def main():
-    today = datetime.date.today()
-    text = wikitext(today.year)
+    today = utc_today()
+    text = wikitext(today)
     sources_path = ROOT / 'sources' / 'recurring-banner-art.json'
     sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
     manifest_path = ROOT / 'asset-manifest.json'
