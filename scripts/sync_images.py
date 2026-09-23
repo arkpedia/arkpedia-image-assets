@@ -115,13 +115,39 @@ def base_skill_sources(character_id, expected_count, tables):
     return []
 
 
-def discover_operator_assets(mapping, blobs):
+def potential_costs(operator, operator_path):
+    """Return the ``{name, quantity}`` rows of an operator's ``potential.totalCost``.
+
+    Two shapes are in the public data: flat ``[{name, quantity}]``, as generated
+    records store it, and grouped ``[[{name, quantity}]]``, as hand-written records
+    following the website's ``CostGroup[]`` type store it. Any other shape is a
+    schema change this script cannot read, so it fails naming the record rather
+    than guessing -- or crashing on ``.get()`` with no hint of which file it was.
+    """
+    potential = operator.get('potential', {})
+    found = potential.get('totalCost', []) if isinstance(potential, dict) else potential
+    costs = found if isinstance(potential, dict) and isinstance(found, list) else None
+    if costs is not None and all(isinstance(group, list) for group in costs):
+        costs = [cost for group in costs for cost in group]
+    if costs is None or not all(isinstance(cost, dict) and isinstance(cost.get('name', ''), str) for cost in costs):
+        raise ValueError(f'{operator_path}: potential.totalCost must be [{{name, quantity}}] or '
+                         f'[[{{name, quantity}}]], found {json.dumps(found, ensure_ascii=False)[:120]}')
+    return costs
+
+
+def discover_operator_assets(mapping, blobs, manifest):
     """Add predictable operator media from Arkpedia's public data checkout.
 
     The old updater only refreshed reviewed paths already present in the source
     map. That made every new operator require a manual map edit even when the
     public data had its stable character ID and the resource mirror already had
     the matching portraits, token, and skill icons.
+
+    A target already listed in the asset manifest but absent from the source map
+    was added by hand (a capture, a correction, art published before the mirror
+    had it). It is never mapped here: mapping it would re-fetch and re-encode it
+    over the reviewed file. Extending the map to such files is build_source_map.py's
+    job, which records the current upstream blob so nothing is rewritten.
     """
     data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
     if not data_root:
@@ -165,7 +191,7 @@ def discover_operator_assets(mapping, blobs):
                         f'building_skill/{source_icon}.png',
                         128,
                     ))
-            for cost in operator.get('potential', {}).get('totalCost', []):
+            for cost in potential_costs(operator, operator_path):
                 token_name = safe_name(cost.get('name', ''))
                 if token_name:
                     target = f'material-icons/{token_name}.webp'
@@ -174,7 +200,7 @@ def discover_operator_assets(mapping, blobs):
                     candidates.append((target, source, 180))
 
             for target, source, max_width in candidates:
-                if target in mapping['files'] or source not in blobs:
+                if target in mapping['files'] or target in manifest['files'] or source not in blobs:
                     continue
                 mapping['files'][target] = {'sourcePath': source, 'maxWidth': max_width}
                 added.append(target)
@@ -230,7 +256,7 @@ def main():
     if tree.get('truncated'):
         raise ValueError('Incomplete upstream tree; refusing refresh')
     blobs = {row['path']: row['sha'] for row in tree['tree'] if row['type'] == 'blob'}
-    discovered = discover_operator_assets(mapping, blobs)
+    discovered = discover_operator_assets(mapping, blobs, manifest)
     jobs = []
     for asset, entry in mapping['files'].items():
         if Path(asset).is_absolute() or '..' in Path(asset).parts:
