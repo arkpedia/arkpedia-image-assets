@@ -156,6 +156,27 @@ jobs:
       - name: Publish validated assets
         run: |
           git diff --cached --quiet && exit 0
+          # sync_images.py records lastSyncedCommit on every run, and most upstream
+          # commits change no mapped image. Committing that alone would move this
+          # repository's HEAD, which re-pins every image URL in the next content
+          # release for identical bytes. So commit only when something other than
+          # the map is staged (media, manifest rows) or the map changed in more
+          # than lastSyncedCommit (new rows, adopted source blobs).
+          if git diff --cached --quiet -- . ':!asset-source-map.json' && python - <<'PY'
+          import json, subprocess
+          def load(rev):
+              mapping = json.loads(subprocess.check_output(['git', 'show', f'{rev}:asset-source-map.json']))
+              return mapping.pop('lastSyncedCommit', None), mapping
+          _, before = load('HEAD')
+          revision, after = load('')
+          if before != after:
+              raise SystemExit(1)
+          print(f'::notice::Upstream {str(revision)[:12]} changes no mapped image, map row or source blob; publishing nothing.')
+          PY
+          then
+            git diff --cached --stat
+            exit 0
+          fi
           git config user.name 'arkpedia-bot'
           git config user.email 'arkpedia-bot@users.noreply.github.com'
           git commit -m 'Sync validated public image assets'
