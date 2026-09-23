@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-09-23",
+  "note": "English-named byte copies of CN-named furniture reward icons, so event rewards that use the official EN furniture name resolve. The CN-named files are kept.",
+  "enNames": "https://raw.githubusercontent.com/PuppiizSunniiz/ArknightsGameData_YoStar/65240c58eb0c86cb74de28bc9ef9cf8b7c6cf38e/en_US/gamedata/excel/building_data.json",
+  "cnNames": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/bb8f9ac8db143a661577ed6ef5184d3c6e93d1d0/zh_CN/gamedata/excel/building_data.json",
+  "files": {
+    "material-icons/Standard Wooden Basin.webp": {
+      "copyOf": "material-icons/制式木盆.webp",
+      "furnitureId": "furni_ursusRoom_basin_01"
+    },
+    "material-icons/Small High Stool.webp": {
+      "copyOf": "material-icons/小型高脚凳.webp",
+      "furnitureId": "furni_ursusRoom_stool_02"
+    },
+    "material-icons/Small Framed Window.webp": {
+      "copyOf": "material-icons/带框小窗.webp",
+      "furnitureId": "furni_ursusRoom_window_01"
+    },
+    "material-icons/Chimed Tapestry Rack.webp": {
+      "copyOf": "material-icons/风铃挂毯架.webp",
+      "furnitureId": "furni_ursusRoom_hangcarpet_02"
+    },
+    "material-icons/'V Plameni Svechi'.webp": {
+      "copyOf": "material-icons/“烛火之中”.webp",
+      "furnitureId": "furni_ursusRoom_floor_01"
+    },
+    "material-icons/Long Meeting Table.webp": {
+      "copyOf": "material-icons/集会长桌.webp",
+      "furnitureId": "furni_ursusRoom_table_01"
+    }
+  }
+}

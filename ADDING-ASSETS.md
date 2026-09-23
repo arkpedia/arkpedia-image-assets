@@ -34,6 +34,24 @@ what an already-open page is loading.
    touches an existing row — use `--replace <path>` to deliberately re-measure one,
    and `--dry-run` to see what it would do first.
 
+   What the daily mirror sync does with a listed file depends on its row in
+   `asset-source-map.json`:
+
+   - **No row:** never touched. Operator and enemy discovery skip anything the
+     manifest already lists, so they never add a row for it.
+   - **A row without `sourceBlob`** (a manual row, or one the app's catalogue import
+     wrote with its file): adopted. The sync records the current upstream blob and
+     leaves the file as it is, and the row then falls under the next case. Only a
+     target the manifest does not list is fetched, so to have the mirror replace a
+     hand-added file, delete the file and its manifest row instead.
+   - **A row with `sourceBlob`:** the mirror's. When the upstream blob changes, the
+     file is fetched and re-encoded over whatever is there, including a correction
+     made with `--replace`. To keep such a correction, delete its row from
+     `asset-source-map.json` in the same commit.
+
+   The other exception is an event poster or banner image entering its Global
+   window, which the key-art job replaces with the English upload.
+
 3. Commit the image and `asset-manifest.json` together, and push. CI runs
    `scripts/validate_images.py`, which decodes every image and checks it against
    its row, so a bad file fails here rather than showing up blank on the site.

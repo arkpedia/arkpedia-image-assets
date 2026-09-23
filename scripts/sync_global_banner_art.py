@@ -37,6 +37,8 @@ def wiki_titles(name):
         if before in base:
             candidates.append(base.replace(before, after))
     candidates.extend([re.sub(r'\s+(?:1st|2nd)\s+Half$', '', base), re.sub(r'\s+Rerun$', '', base)])
+    # EN uploads drop a subtitle colon ("EN Duel Channel Ivy Vine banner.png").
+    candidates += [re.sub(r'\s*:\s*', ' ', c) for c in candidates if ':' in c]
     # MediaWiki file titles are case-sensitive after the first letter. Our
     # schedule sometimes capitalises "The" where the EN upload uses "the".
     candidates += [re.sub(r'\b(?:The|Of|And|A|An|In|To|For)\b', lambda m: m[0].lower() if m.start() else m[0], c) for c in candidates]
@@ -44,15 +46,21 @@ def wiki_titles(name):
 
 
 def image_info(titles):
+    # imageinfo resolves a moved file by itself; `redirects` is set anyway so
+    # every wiki read in these syncs follows a redirect the same way. The API
+    # then keys pages by the target title, so each requested title is resolved
+    # through normalized, then redirects, before it is looked up.
     query = urllib.parse.urlencode({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url|sha1',
-        'format': 'json', 'titles': '|'.join(titles)})
+        'redirects': 1, 'format': 'json', 'titles': '|'.join(titles)})
     data = json.loads(fetch(f'{API}?{query}'))
     if 'error' in data:
         raise ValueError(data['error'])
     query = data['query']
     found = {page['title']: page['imageinfo'][0] for page in query['pages'].values() if page.get('imageinfo')}
     normalized = {row['from']: row['to'] for row in query.get('normalized', [])}
-    return next(((title, found[normalized.get(title, title)]) for title in titles if normalized.get(title, title) in found), None)
+    redirects = {row['from']: row['to'] for row in query.get('redirects', [])}
+    resolve = lambda title: redirects.get(normalized.get(title, title), normalized.get(title, title))
+    return next(((title, found[resolve(title)]) for title in titles if resolve(title) in found), None)
 
 
 def window(text):

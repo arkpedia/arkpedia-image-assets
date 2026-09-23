@@ -32,6 +32,41 @@ def fetch(params):
         return json.load(response)
 
 
+def utc_today():
+    return datetime.datetime.now(datetime.timezone.utc).date()
+
+
+def wikitext(today):
+    """Return the banner page wikitext for today's year, or '' in January until it exists.
+
+    The API answers a missing page with HTTP 200 and error code missingtitle.
+    The wiki creates a year's page around New Year, as late as January 21 so
+    far, so during January (UTC) a missing page means the year has no rows yet,
+    as in the app's sync-recurring-banners.mjs. From February 1 a missing page
+    means it was deleted or never made, and an empty green run would hide that
+    for the rest of the year, so it fails like any other error.
+
+    Moving a page leaves a redirect at the old title, not missingtitle; the
+    wiki moved Headhunting/Banners/Former-2020..2024 this way. `redirects`
+    makes the API parse the target page. It follows one redirect only, so a
+    double redirect would still return '#REDIRECT [[...]]', which has no
+    rows and would read as current; that fails in any month.
+    """
+    page = f'Headhunting/Banners/{today.year}'
+    data = fetch({'action': 'parse', 'page': page, 'prop': 'wikitext', 'redirects': 1, 'format': 'json'})
+    error = data.get('error')
+    if error and error.get('code') == 'missingtitle':
+        if today.month == 1:
+            return ''
+        raise ValueError(f'{page} does not exist, and only in January may a new year\'s page be missing: {error}')
+    if error:
+        raise ValueError(f'{page}: {error}')
+    text = data['parse']['wikitext']['*']
+    if text.lstrip().lower().startswith('#redirect'):
+        raise ValueError(f'{page} is a redirect the API did not follow (a double redirect): {text.strip()[:120]!r}')
+    return text
+
+
 def rows(text):
     for block in re.findall(r'\{\{Banners cell\s*([\s\S]*?)\}\}', text):
         fields = dict(re.findall(r'^\s*\|\s*([^=]+?)\s*=\s*(.*?)\s*$', block, re.M))
@@ -48,7 +83,8 @@ def rows(text):
 
 
 def image_info(title):
-    data = fetch({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url|sha1', 'format': 'json', 'titles': title})
+    # imageinfo resolves a moved file by itself; `redirects` keeps this read consistent with wikitext().
+    data = fetch({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url|sha1', 'redirects': 1, 'format': 'json', 'titles': title})
     page = next(iter(data['query']['pages'].values()))
     return None if 'missing' in page or not page.get('imageinfo') else page['imageinfo'][0]
 
@@ -64,38 +100,41 @@ def download(url):
     return out.getvalue()
 
 
-year = datetime.date.today().year
-parsed = fetch({'action': 'parse', 'page': f'Headhunting/Banners/{year}', 'prop': 'wikitext', 'format': 'json'})
-text = parsed['parse']['wikitext']['*']
-today = datetime.date.today()
-sources_path = ROOT / 'sources' / 'recurring-banner-art.json'
-sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
-manifest_path = ROOT / 'asset-manifest.json'
-manifest = json.loads(manifest_path.read_text())
-changed = []
+def main():
+    today = utc_today()
+    text = wikitext(today)
+    sources_path = ROOT / 'sources' / 'recurring-banner-art.json'
+    sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
+    manifest_path = ROOT / 'asset-manifest.json'
+    manifest = json.loads(manifest_path.read_text())
+    changed = []
 
-for kind, number, start, end in rows(text):
-    if start > today + SOON or end < today - RECENT:
-        continue
-    prefix = 'Standard Pool' if kind == 'standard' else 'Kernel'
-    target = f'headhunting-banner-images/{prefix} {number} (Global).webp'
-    title = f'File:EN {prefix} {number} banner.png'
-    info = image_info(title)
-    if not info or target in manifest['files'] and sources.get(target) == info['sha1']:
-        continue
-    data = download(info['url'])
-    (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
-    (ROOT / target).write_bytes(data)
-    manifest['files'][target] = {'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
-    sources[target] = info['sha1']
-    changed.append(target)
+    for kind, number, start, end in rows(text):
+        if start > today + SOON or end < today - RECENT:
+            continue
+        prefix = 'Standard Pool' if kind == 'standard' else 'Kernel'
+        target = f'headhunting-banner-images/{prefix} {number} (Global).webp'
+        title = f'File:EN {prefix} {number} banner.png'
+        info = image_info(title)
+        if not info or target in manifest['files'] and sources.get(target) == info['sha1']:
+            continue
+        data = download(info['url'])
+        (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
+        (ROOT / target).write_bytes(data)
+        manifest['files'][target] = {'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+        sources[target] = info['sha1']
+        changed.append(target)
 
-if changed:
-    manifest['files'] = dict(sorted(manifest['files'].items()))
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
-    sources_path.parent.mkdir(parents=True, exist_ok=True)
-    sources_path.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
-    subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', 'sources/recurring-banner-art.json', *changed], cwd=ROOT, check=True)
-    print('\n'.join(f'  + {path}' for path in changed))
-else:
-    print('Recurring banner art is current.')
+    if changed:
+        manifest['files'] = dict(sorted(manifest['files'].items()))
+        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
+        sources_path.parent.mkdir(parents=True, exist_ok=True)
+        sources_path.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
+        subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', 'sources/recurring-banner-art.json', *changed], cwd=ROOT, check=True)
+        print('\n'.join(f'  + {path}' for path in changed))
+    else:
+        print('Recurring banner art is current.')
+
+
+if __name__ == '__main__':
+    main()

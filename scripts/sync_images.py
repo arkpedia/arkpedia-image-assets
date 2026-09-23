@@ -115,13 +115,41 @@ def base_skill_sources(character_id, expected_count, tables):
     return []
 
 
-def discover_operator_assets(mapping, blobs):
+def potential_costs(operator, operator_path):
+    """Return the ``{name, quantity}`` rows of an operator's ``potential.totalCost``.
+
+    Two shapes are in the public data: flat ``[{name, quantity}]``, as generated
+    records store it, and grouped ``[[{name, quantity}]]``, as hand-written records
+    following the website's ``CostGroup[]`` type store it. Any other shape is a
+    schema change this script cannot read, so it fails naming the record rather
+    than guessing -- or crashing on ``.get()`` with no hint of which file it was.
+    """
+    potential = operator.get('potential', {})
+    found = potential.get('totalCost', []) if isinstance(potential, dict) else potential
+    costs = found if isinstance(potential, dict) and isinstance(found, list) else None
+    if costs is not None and all(isinstance(group, list) for group in costs):
+        costs = [cost for group in costs for cost in group]
+    if costs is None or not all(isinstance(cost, dict) and isinstance(cost.get('name', ''), str) for cost in costs):
+        raise ValueError(f'{operator_path}: potential.totalCost must be [{{name, quantity}}] or '
+                         f'[[{{name, quantity}}]], found {json.dumps(found, ensure_ascii=False)[:120]}')
+    return costs
+
+
+def discover_operator_assets(mapping, blobs, manifest):
     """Add predictable operator media from Arkpedia's public data checkout.
 
     The old updater only refreshed reviewed paths already present in the source
     map. That made every new operator require a manual map edit even when the
     public data had its stable character ID and the resource mirror already had
     the matching portraits, token, and skill icons.
+
+    A target already listed in the asset manifest but absent from the source map
+    was added by hand (a capture, a correction, art published before the mirror
+    had it). It is never mapped here: a map row makes the file the mirror's, and
+    the next upstream change would re-encode it over the reviewed file. Such a
+    file joins the map only by review: build_source_map.py for skill, base-skill
+    and material icons, a manual map row for portraits. Either way the file on
+    disk is kept; see plan_refresh().
     """
     data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
     if not data_root:
@@ -165,7 +193,7 @@ def discover_operator_assets(mapping, blobs):
                         f'building_skill/{source_icon}.png',
                         128,
                     ))
-            for cost in operator.get('potential', {}).get('totalCost', []):
+            for cost in potential_costs(operator, operator_path):
                 token_name = safe_name(cost.get('name', ''))
                 if token_name:
                     target = f'material-icons/{token_name}.webp'
@@ -174,10 +202,64 @@ def discover_operator_assets(mapping, blobs):
                     candidates.append((target, source, 180))
 
             for target, source, max_width in candidates:
-                if target in mapping['files'] or source not in blobs:
+                if target in mapping['files'] or target in manifest['files'] or source not in blobs:
                     continue
                 mapping['files'][target] = {'sourcePath': source, 'maxWidth': max_width}
                 added.append(target)
+    return added
+
+
+def discover_enemy_assets(mapping, blobs, manifest):
+    """Add the icon of every public enemy record whose art is not published yet.
+
+    Nothing else produces enemy icons: build_source_map.py only maps files the
+    manifest already lists, so a new event's enemies stayed icon-less until
+    someone added the art by hand.
+
+    The target is the record's own ``icon`` path, never rebuilt from its name:
+    the data pipeline gives a new enemy that shares an existing name but not its
+    art a distinct file ('Jailed Student (STU2).webp'). The source is always
+    ``enemy/<id>.png``, the rule every reviewed enemy mapping follows. A record
+    with no icon has no upstream art on purpose. As for operators, a target the
+    manifest already lists was added by hand and is never mapped here. The icon
+    must be a .webp under /enemies-icons/: sync_one() writes WebP bytes whatever
+    the target's name says.
+    """
+    data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
+    if not data_root:
+        print('ARKPEDIA_DATA_ROOT is unset; skipping new enemy icon discovery.')
+        return []
+    directory = Path(data_root) / 'source' / 'data' / 'enemies'
+    # A checkout without the enemy records would otherwise discover nothing, silently.
+    if not directory.is_dir():
+        raise ValueError(f'{directory} is missing; check out source/data/enemies with the operator records')
+    candidates = {}
+    for bundle_path in sorted(directory.glob('*.json')):
+        bundle = json.loads(bundle_path.read_text())
+        enemies = bundle.get('enemies') if isinstance(bundle, dict) else None
+        if not isinstance(enemies, list) or not all(isinstance(enemy, dict) for enemy in enemies):
+            raise ValueError(f'{bundle_path}: enemies must be a list of records')
+        for enemy in enemies:
+            icon, enemy_id = enemy.get('icon'), enemy.get('id')
+            if icon is None:
+                continue
+            if (not isinstance(icon, str) or not icon.startswith('/enemies-icons/') or not icon.endswith('.webp')
+                    or not isinstance(enemy_id, str) or not enemy_id):
+                raise ValueError(f'{bundle_path}: enemy {enemy_id!r} must have an id and a .webp icon under '
+                                 f'/enemies-icons/ or null, found {icon!r}')
+            target, source = icon.removeprefix('/'), f'enemy/{enemy_id}.png'
+            if target in mapping['files'] or target in manifest['files'] or source not in blobs:
+                continue
+            candidates.setdefault(target, {})[source] = enemy_id
+    added = []
+    for target, sources in candidates.items():
+        # Records that share a name share one upstream image; different art under
+        # one file is a naming bug in the data, and either choice would be a guess.
+        if len({blobs[source] for source in sources}) > 1:
+            raise ValueError(f'{target}: enemies {", ".join(sorted(sources.values()))} have different '
+                             'upstream art; give each its own icon path in arkpedia-data')
+        mapping['files'][target] = {'sourcePath': min(sources), 'maxWidth': 128}
+        added.append(target)
     return added
 
 def api(path):
@@ -220,6 +302,33 @@ def sync_one(job):
         row = {'bytes': len(encoded), 'sha256': hashlib.sha256(encoded).hexdigest(), 'width': image.width, 'height': image.height}
     return asset, row, source_blob
 
+def plan_refresh(mapping, blobs, manifest, revision):
+    """Return (jobs, adopted): the mapped images to fetch, and the files adopted as they are.
+
+    A row whose sourceBlob differs from upstream is fetched and re-encoded. A row
+    with no sourceBlob has never been synced; if the manifest does not list its
+    target yet, it is fetched too -- a newly discovered file or a manual map row
+    for art nobody has added. If the manifest does list its target, the file is
+    already here, added by hand with a manual map row. (The app's
+    publish-catalogue-assets.py records the sourceBlob of the bytes it fetched,
+    so its rows never reach this branch.) That file wins. The row adopts the current upstream blob and
+    nothing is fetched, so only a later upstream change re-encodes it. Treating
+    such a row as changed overwrote the file that was already here.
+    """
+    jobs, adopted = [], []
+    for asset, entry in mapping['files'].items():
+        if Path(asset).is_absolute() or '..' in Path(asset).parts:
+            raise ValueError(f'Unsafe destination: {asset}')
+        blob = blobs.get(entry['sourcePath'])
+        if not blob:
+            raise ValueError(f'Upstream removed {entry["sourcePath"]}; review mapping, existing assets preserved')
+        if not entry.get('sourceBlob') and asset in manifest['files']:
+            entry['sourceBlob'] = blob
+            adopted.append(asset)
+        elif blob != entry.get('sourceBlob'):
+            jobs.append((asset, entry, blob, revision))
+    return jobs, adopted
+
 def main():
     mapping_path = ROOT / 'asset-source-map.json'
     mapping = json.loads(mapping_path.read_text())
@@ -230,16 +339,9 @@ def main():
     if tree.get('truncated'):
         raise ValueError('Incomplete upstream tree; refusing refresh')
     blobs = {row['path']: row['sha'] for row in tree['tree'] if row['type'] == 'blob'}
-    discovered = discover_operator_assets(mapping, blobs)
-    jobs = []
-    for asset, entry in mapping['files'].items():
-        if Path(asset).is_absolute() or '..' in Path(asset).parts:
-            raise ValueError(f'Unsafe destination: {asset}')
-        blob = blobs.get(entry['sourcePath'])
-        if not blob:
-            raise ValueError(f'Upstream removed {entry["sourcePath"]}; review mapping, existing assets preserved')
-        if blob != entry.get('sourceBlob'):
-            jobs.append((asset, entry, blob, revision))
+    discovered = discover_operator_assets(mapping, blobs, manifest)
+    discovered_enemies = discover_enemy_assets(mapping, blobs, manifest)
+    jobs, adopted = plan_refresh(mapping, blobs, manifest, revision)
     if len(jobs) > max(100, len(mapping['files']) * .25) and mapping.get('lastSyncedCommit'):
         raise ValueError(f'{len(jobs)} images changed together; review upstream/map before accepting a bulk replacement')
     changed = []
@@ -254,7 +356,10 @@ def main():
     for offset in range(0, len(changed), 100):
         subprocess.run(['git', 'add', '--sparse', '--', *changed[offset:offset+100]], cwd=ROOT, check=True)
     subprocess.run(['git', 'add', '--sparse', 'asset-manifest.json', 'asset-source-map.json'], cwd=ROOT, check=True)
-    print(f'Discovered {len(discovered)} operator assets; checked {len(mapping["files"])} mappings; refreshed {len(changed)} images from {revision}.')
+    for asset in adopted:
+        print(f'  = {asset} (kept as it is; recorded upstream blob {mapping["files"][asset]["sourceBlob"]})')
+    print(f'Discovered {len(discovered)} operator assets and {len(discovered_enemies)} enemy icons; checked {len(mapping["files"])} mappings; '
+          f'adopted {len(adopted)} listed files; refreshed {len(changed)} images from {revision}.')
 
 if __name__ == '__main__':
     main()
