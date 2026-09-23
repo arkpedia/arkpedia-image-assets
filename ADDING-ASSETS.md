@@ -41,9 +41,9 @@ what an already-open page is loading.
      manifest already lists, so they never add a row for it.
    - **A row without `sourceBlob`** (a manual row, or one the app's catalogue import
      wrote with its file): adopted. The sync records the current upstream blob and
-     leaves the file as it is; only a target the manifest does not list is fetched.
-     To have the mirror replace a hand-added file, delete the file and its manifest
-     row instead.
+     leaves the file as it is, and the row then falls under the next case. Only a
+     target the manifest does not list is fetched, so to have the mirror replace a
+     hand-added file, delete the file and its manifest row instead.
    - **A row with `sourceBlob`:** the mirror's. When the upstream blob changes, the
      file is fetched and re-encoded over whatever is there, including a correction
      made with `--replace`. To keep such a correction, delete its row from
