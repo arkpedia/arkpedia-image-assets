@@ -309,9 +309,9 @@ def plan_refresh(mapping, blobs, manifest, revision):
     with no sourceBlob has never been synced; if the manifest does not list its
     target yet, it is fetched too -- a newly discovered file or a manual map row
     for art nobody has added. If the manifest does list its target, the file is
-    already here: added by hand, or by the app's publish-catalogue-assets.py,
-    which writes the file, its manifest row and a map row without sourceBlob in
-    one commit. That file wins. The row adopts the current upstream blob and
+    already here, added by hand with a manual map row. (The app's
+    publish-catalogue-assets.py records the sourceBlob of the bytes it fetched,
+    so its rows never reach this branch.) That file wins. The row adopts the current upstream blob and
     nothing is fetched, so only a later upstream change re-encodes it. Treating
     such a row as changed overwrote the file that was already here.
     """
