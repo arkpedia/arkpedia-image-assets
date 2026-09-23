@@ -34,6 +34,12 @@ what an already-open page is loading.
    touches an existing row — use `--replace <path>` to deliberately re-measure one,
    and `--dry-run` to see what it would do first.
 
+   Once listed, an icon or portrait is yours: the daily mirror sync refreshes only
+   paths in `asset-source-map.json`, and its operator discovery skips anything the
+   manifest already lists, so it never re-fetches a hand-added file over yours. The
+   exception is an event poster or banner image entering its Global window, which
+   the key-art job replaces with the English upload.
+
 3. Commit the image and `asset-manifest.json` together, and push. CI runs
    `scripts/validate_images.py`, which decodes every image and checks it against
    its row, so a bad file fails here rather than showing up blank on the site.
