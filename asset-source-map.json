@@ -25025,84 +25025,123 @@
     },
     "enemies-icons/Crowbar Patrolman.webp": {
       "sourcePath": "enemy/enemy_10193_ubhh.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "c123fec51c4c4014e81513290efc2788a5ee1dc3"
     },
     "enemies-icons/Crowbar Pursuer.webp": {
       "sourcePath": "enemy/enemy_10193_ubhh_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "07d079b8122ccafb428dec121d58eb69361ca1af"
     },
     "enemies-icons/Window Smasher.webp": {
       "sourcePath": "enemy/enemy_10194_ubdg.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "c52b15f85a7575c7021f642c4791b710e2a22db1"
     },
     "enemies-icons/Window Destroyer.webp": {
       "sourcePath": "enemy/enemy_10194_ubdg_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "d329bb4829079bc6f83f8cd50393d09b466c0b32"
     },
     "enemies-icons/Floodlight Intimidator.webp": {
       "sourcePath": "enemy/enemy_10195_ubsb.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "7cbbe7c237d7a072c4067fae0642d2f7522a0dd8"
     },
     "enemies-icons/Floodlight Supervisor.webp": {
       "sourcePath": "enemy/enemy_10195_ubsb_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "2e57694dddfcaf79daba3f08ff47ce5f3b78dc2f"
     },
     "enemies-icons/Desperate Breadwinner.webp": {
       "sourcePath": "enemy/enemy_10196_ubba.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "554f706c741b642e28439c26f4ac42f28760d7bc"
     },
     "enemies-icons/Desperate Indulger.webp": {
       "sourcePath": "enemy/enemy_10196_ubba_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "35cc4b327c2a6614809c54fa70de7fd28ac45ead"
     },
     "enemies-icons/Drunk Ruffian.webp": {
       "sourcePath": "enemy/enemy_10197_ublyb.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "8b62ccb23ac1e4c364b345839d6478a68a3f5f69"
     },
     "enemies-icons/Drunk Brawler.webp": {
       "sourcePath": "enemy/enemy_10197_ublyb_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "1ea25758edad5f335e103ddd5079d49f77c78fa5"
     },
     "enemies-icons/Scrapmetal Destroyer.webp": {
       "sourcePath": "enemy/enemy_10198_ubjxs.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "1aa4c0d5c0c7bea61f43309ee3d6857465e8cb2e"
     },
     "enemies-icons/Scrapmetal Blaster.webp": {
       "sourcePath": "enemy/enemy_10198_ubjxs_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "cf1cb45fc7b87ffb20345f1fad62ddedbcb51a39"
     },
     "enemies-icons/Hardcore Troublemaker.webp": {
       "sourcePath": "enemy/enemy_10199_ubhb.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "c1dbb980e4ad1bad0649a20ec911568468dd754a"
     },
     "enemies-icons/Hardcore Aggressor.webp": {
       "sourcePath": "enemy/enemy_10199_ubhb_2.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "af52e0b0784f52492e21d78b55d996ec1dadd471"
     },
     "enemies-icons/Gromov.webp": {
       "sourcePath": "enemy/enemy_10200_ubglmf.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "b816c9dd05f0d9db9665255f348738968bec805c"
     },
     "enemies-icons/Jailed Student.webp": {
       "sourcePath": "enemy/enemy_3015_ubstb.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "0e9e3ef6513327076e2645c99083b198093f9a6e"
     },
     "enemies-icons/Jailed Student (STU2).webp": {
       "sourcePath": "enemy/enemy_3016_ubstg.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "3f60e5a0dd3c20a4c53e26ca0cae911eaee38dc0"
     },
     "enemies-icons/Pavlovich, Magistrate.webp": {
       "sourcePath": "enemy/enemy_1587_ubbplwq.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "d634ea1b37ea3a87b3607778e7de62fffeaf0cdb"
     },
     "enemies-icons/'Personal Security Consultant'.webp": {
       "sourcePath": "enemy/enemy_1588_ubbphw.png",
-      "maxWidth": 128
+      "maxWidth": 128,
+      "sourceBlob": "ccd7a0fe5d2343f3fe3544b658063450b938ee36"
+    },
+    "material-icons/Koromaru's Token.webp": {
+      "sourcePath": "item/p_char_4220_kormr.png",
+      "maxWidth": 180,
+      "sourceBlob": "b9976db5f0789cf3a468b3617a65ac8f6f0d8727"
+    },
+    "material-icons/Aegis's Token.webp": {
+      "sourcePath": "item/p_char_4218_aigis.png",
+      "maxWidth": 180,
+      "sourceBlob": "470535c9e95c66cb42135a29e24a369b0292fe71"
+    },
+    "material-icons/Yukari Takeba's Token.webp": {
+      "sourcePath": "item/p_char_4219_yukari.png",
+      "maxWidth": 180,
+      "sourceBlob": "39437a8664ca204c1eef18da907eca8b475794de"
+    },
+    "material-icons/Makoto Yuki's Token.webp": {
+      "sourcePath": "item/p_char_4217_makoto.png",
+      "maxWidth": 180,
+      "sourceBlob": "6dc0e7121fbf5fe63d1227b5f9e3ceaf664c4f44"
     }
   },
   "namingSource": {
     "repository": "Kengxxiao/ArknightsGameData_YoStar",
     "revision": "57010cb5b2afea112cae57daa756b58676ba6850"
   },
-  "lastSyncedCommit": "391b75a045a78990391c73186b1d9f81f09740be"
+  "lastSyncedCommit": "abf56c57d616c034cec02a869eb7d62cc7a32212"
 }
