@@ -25022,6 +25022,82 @@
       "sourcePath": "item/DIAMOND_SHD.png",
       "maxWidth": 180,
       "sourceBlob": "b1d1f8740ec0a11dc96bfbfaeed2612826f380b6"
+    },
+    "enemies-icons/Crowbar Patrolman.webp": {
+      "sourcePath": "enemy/enemy_10193_ubhh.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Crowbar Pursuer.webp": {
+      "sourcePath": "enemy/enemy_10193_ubhh_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Window Smasher.webp": {
+      "sourcePath": "enemy/enemy_10194_ubdg.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Window Destroyer.webp": {
+      "sourcePath": "enemy/enemy_10194_ubdg_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Floodlight Intimidator.webp": {
+      "sourcePath": "enemy/enemy_10195_ubsb.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Floodlight Supervisor.webp": {
+      "sourcePath": "enemy/enemy_10195_ubsb_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Desperate Breadwinner.webp": {
+      "sourcePath": "enemy/enemy_10196_ubba.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Desperate Indulger.webp": {
+      "sourcePath": "enemy/enemy_10196_ubba_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Drunk Ruffian.webp": {
+      "sourcePath": "enemy/enemy_10197_ublyb.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Drunk Brawler.webp": {
+      "sourcePath": "enemy/enemy_10197_ublyb_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Scrapmetal Destroyer.webp": {
+      "sourcePath": "enemy/enemy_10198_ubjxs.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Scrapmetal Blaster.webp": {
+      "sourcePath": "enemy/enemy_10198_ubjxs_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Hardcore Troublemaker.webp": {
+      "sourcePath": "enemy/enemy_10199_ubhb.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Hardcore Aggressor.webp": {
+      "sourcePath": "enemy/enemy_10199_ubhb_2.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Gromov.webp": {
+      "sourcePath": "enemy/enemy_10200_ubglmf.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Jailed Student.webp": {
+      "sourcePath": "enemy/enemy_3015_ubstb.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Jailed Student (STU2).webp": {
+      "sourcePath": "enemy/enemy_3016_ubstg.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/Pavlovich, Magistrate.webp": {
+      "sourcePath": "enemy/enemy_1587_ubbplwq.png",
+      "maxWidth": 128
+    },
+    "enemies-icons/'Personal Security Consultant'.webp": {
+      "sourcePath": "enemy/enemy_1588_ubbphw.png",
+      "maxWidth": 128
     }
   },
   "namingSource": {
