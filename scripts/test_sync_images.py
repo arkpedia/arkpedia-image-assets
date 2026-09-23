@@ -86,7 +86,8 @@ class EnemyDiscoveryTests(unittest.TestCase):
 
     def test_unreadable_records_name_the_file(self):
         for bundle in ([], {'enemies': {}}, {'enemies': ['enemy_3015_ubstb']}, {'enemies': [{'id': 'enemy_3015_ubstb', 'icon': 'enemies-icons/Jailed Student.webp'}]},
-                       {'enemies': [{'id': 'enemy_3015_ubstb', 'icon': '/operator-icons/Jailed Student.webp'}]}, {'enemies': [{'icon': '/enemies-icons/Jailed Student.webp'}]}):
+                       {'enemies': [{'id': 'enemy_3015_ubstb', 'icon': '/operator-icons/Jailed Student.webp'}]}, {'enemies': [{'icon': '/enemies-icons/Jailed Student.webp'}]},
+                       {'enemies': [{'id': 'enemy_3015_ubstb', 'icon': '/enemies-icons/Jailed Student.png'}]}):
             with self.assertRaisesRegex(ValueError, r'enemies/People, A People\.json: '):
                 self.discover(None, bundle=bundle)
 

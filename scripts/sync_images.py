@@ -221,7 +221,9 @@ def discover_enemy_assets(mapping, blobs, manifest):
     art a distinct file ('Jailed Student (STU2).webp'). The source is always
     ``enemy/<id>.png``, the rule every reviewed enemy mapping follows. A record
     with no icon has no upstream art on purpose. As for operators, a target the
-    manifest already lists was added by hand and is never mapped here.
+    manifest already lists was added by hand and is never mapped here. The icon
+    must be a .webp under /enemies-icons/: sync_one() writes WebP bytes whatever
+    the target's name says.
     """
     data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
     if not data_root:
@@ -241,8 +243,9 @@ def discover_enemy_assets(mapping, blobs, manifest):
             icon, enemy_id = enemy.get('icon'), enemy.get('id')
             if icon is None:
                 continue
-            if not isinstance(icon, str) or not icon.startswith('/enemies-icons/') or not isinstance(enemy_id, str) or not enemy_id:
-                raise ValueError(f'{bundle_path}: enemy {enemy_id!r} must have an id and an icon under '
+            if (not isinstance(icon, str) or not icon.startswith('/enemies-icons/') or not icon.endswith('.webp')
+                    or not isinstance(enemy_id, str) or not enemy_id):
+                raise ValueError(f'{bundle_path}: enemy {enemy_id!r} must have an id and a .webp icon under '
                                  f'/enemies-icons/ or null, found {icon!r}')
             target, source = icon.removeprefix('/'), f'enemy/{enemy_id}.png'
             if target in mapping['files'] or target in manifest['files'] or source not in blobs:
