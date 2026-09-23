@@ -145,10 +145,11 @@ def discover_operator_assets(mapping, blobs, manifest):
 
     A target already listed in the asset manifest but absent from the source map
     was added by hand (a capture, a correction, art published before the mirror
-    had it). It is never mapped here: mapping it would re-fetch and re-encode it
-    over the reviewed file. Such a file joins the map only by review, with its
-    current upstream blob recorded so nothing is rewritten: build_source_map.py
-    for skill, base-skill and material icons, a manual map row for portraits.
+    had it). It is never mapped here: a map row makes the file the mirror's, and
+    the next upstream change would re-encode it over the reviewed file. Such a
+    file joins the map only by review: build_source_map.py for skill, base-skill
+    and material icons, a manual map row for portraits. Either way the file on
+    disk is kept; see plan_refresh().
     """
     data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
     if not data_root:
@@ -298,6 +299,33 @@ def sync_one(job):
         row = {'bytes': len(encoded), 'sha256': hashlib.sha256(encoded).hexdigest(), 'width': image.width, 'height': image.height}
     return asset, row, source_blob
 
+def plan_refresh(mapping, blobs, manifest, revision):
+    """Return (jobs, adopted): the mapped images to fetch, and the files adopted as they are.
+
+    A row whose sourceBlob differs from upstream is fetched and re-encoded. A row
+    with no sourceBlob has never been synced; if the manifest does not list its
+    target yet, it is fetched too -- a newly discovered file or a manual map row
+    for art nobody has added. If the manifest does list its target, the file is
+    already here: added by hand, or by the app's publish-catalogue-assets.py,
+    which writes the file, its manifest row and a map row without sourceBlob in
+    one commit. That file wins. The row adopts the current upstream blob and
+    nothing is fetched, so only a later upstream change re-encodes it. Treating
+    such a row as changed overwrote the file that was already here.
+    """
+    jobs, adopted = [], []
+    for asset, entry in mapping['files'].items():
+        if Path(asset).is_absolute() or '..' in Path(asset).parts:
+            raise ValueError(f'Unsafe destination: {asset}')
+        blob = blobs.get(entry['sourcePath'])
+        if not blob:
+            raise ValueError(f'Upstream removed {entry["sourcePath"]}; review mapping, existing assets preserved')
+        if not entry.get('sourceBlob') and asset in manifest['files']:
+            entry['sourceBlob'] = blob
+            adopted.append(asset)
+        elif blob != entry.get('sourceBlob'):
+            jobs.append((asset, entry, blob, revision))
+    return jobs, adopted
+
 def main():
     mapping_path = ROOT / 'asset-source-map.json'
     mapping = json.loads(mapping_path.read_text())
@@ -310,15 +338,7 @@ def main():
     blobs = {row['path']: row['sha'] for row in tree['tree'] if row['type'] == 'blob'}
     discovered = discover_operator_assets(mapping, blobs, manifest)
     discovered_enemies = discover_enemy_assets(mapping, blobs, manifest)
-    jobs = []
-    for asset, entry in mapping['files'].items():
-        if Path(asset).is_absolute() or '..' in Path(asset).parts:
-            raise ValueError(f'Unsafe destination: {asset}')
-        blob = blobs.get(entry['sourcePath'])
-        if not blob:
-            raise ValueError(f'Upstream removed {entry["sourcePath"]}; review mapping, existing assets preserved')
-        if blob != entry.get('sourceBlob'):
-            jobs.append((asset, entry, blob, revision))
+    jobs, adopted = plan_refresh(mapping, blobs, manifest, revision)
     if len(jobs) > max(100, len(mapping['files']) * .25) and mapping.get('lastSyncedCommit'):
         raise ValueError(f'{len(jobs)} images changed together; review upstream/map before accepting a bulk replacement')
     changed = []
@@ -333,7 +353,10 @@ def main():
     for offset in range(0, len(changed), 100):
         subprocess.run(['git', 'add', '--sparse', '--', *changed[offset:offset+100]], cwd=ROOT, check=True)
     subprocess.run(['git', 'add', '--sparse', 'asset-manifest.json', 'asset-source-map.json'], cwd=ROOT, check=True)
-    print(f'Discovered {len(discovered)} operator assets and {len(discovered_enemies)} enemy icons; checked {len(mapping["files"])} mappings; refreshed {len(changed)} images from {revision}.')
+    for asset in adopted:
+        print(f'  = {asset} (kept as it is; recorded upstream blob {mapping["files"][asset]["sourceBlob"]})')
+    print(f'Discovered {len(discovered)} operator assets and {len(discovered_enemies)} enemy icons; checked {len(mapping["files"])} mappings; '
+          f'adopted {len(adopted)} listed files; refreshed {len(changed)} images from {revision}.')
 
 if __name__ == '__main__':
     main()

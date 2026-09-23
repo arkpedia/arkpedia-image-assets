@@ -1,9 +1,14 @@
+import contextlib
+import hashlib
+import io
 import json
 import os
 from pathlib import Path
 import tempfile
 import unittest
-from sync_images import discover_enemy_assets, discover_operator_assets
+import sync_images
+from sync_images import discover_enemy_assets, discover_operator_assets, plan_refresh
+from PIL import Image
 from unittest.mock import patch
 
 BLOBS = {'avatar/char_9001_tok.png': 'a', 'item/p_char_9001_tok.png': 'b'}
@@ -89,6 +94,71 @@ class EnemyDiscoveryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp, patch.dict(os.environ, {'ARKPEDIA_DATA_ROOT': temp}, clear=True):
             with self.assertRaisesRegex(ValueError, r'source/data/enemies is missing'):
                 discover_enemy_assets({'files': {}}, STUDENTS, {'files': {}})
+
+TOKEN = "material-icons/Tok's Token.webp"
+GROMOV, STUDENT = 'enemies-icons/Gromov.webp', 'enemies-icons/Jailed Student.webp'
+
+class RefreshPlanTests(unittest.TestCase):
+    def plan(self, rows, listed=()):
+        mapping = {'files': rows}
+        jobs, adopted = plan_refresh(mapping, BLOBS, {'files': dict.fromkeys(listed, {})}, 'rev')
+        return [job[0] for job in jobs], adopted, mapping['files']
+
+    def test_a_listed_file_without_a_blob_is_adopted_not_fetched(self):
+        # The row publish-catalogue-assets.py writes in the same commit as the file and
+        # its manifest row, and the row a reviewer writes for a file added by hand.
+        jobs, adopted, rows = self.plan({TOKEN: {'sourcePath': 'item/p_char_9001_tok.png', 'maxWidth': 180}}, [TOKEN])
+        self.assertEqual((jobs, adopted), ([], [TOKEN]))
+        self.assertEqual(rows[TOKEN], {'sourcePath': 'item/p_char_9001_tok.png', 'maxWidth': 180, 'sourceBlob': 'b'})
+
+    def test_an_unlisted_file_without_a_blob_is_fetched(self):
+        jobs, adopted, rows = self.plan({TOKEN: {'sourcePath': 'item/p_char_9001_tok.png', 'maxWidth': 180}})
+        self.assertEqual((jobs, adopted), ([TOKEN], []))
+        self.assertNotIn('sourceBlob', rows[TOKEN])
+
+    def test_a_synced_file_is_fetched_only_when_upstream_changes(self):
+        # Listed or not, a row with a blob belongs to the mirror.
+        for blob, expected in (('b', []), ('old', [TOKEN])):
+            jobs, adopted, _ = self.plan({TOKEN: {'sourcePath': 'item/p_char_9001_tok.png', 'sourceBlob': blob}}, [TOKEN])
+            self.assertEqual((jobs, adopted), (expected, []))
+
+    def test_a_source_gone_upstream_fails_even_for_a_listed_file(self):
+        with self.assertRaisesRegex(ValueError, r'Upstream removed item/p_char_9002_gone\.png'):
+            self.plan({TOKEN: {'sourcePath': 'item/p_char_9002_gone.png'}}, [TOKEN])
+
+class RefreshRunTests(unittest.TestCase):
+    def test_a_run_keeps_a_listed_file_and_fetches_the_rest(self):
+        # The 09-23 repro: a hand-added icon at a mapped target the sync has never
+        # fetched was replaced by the upstream image on the next run.
+        buffer = io.BytesIO(); Image.new('RGBA', (256, 256), (0, 128, 255, 255)).save(buffer, 'PNG'); png = buffer.getvalue()
+        blob = hashlib.sha1(b'blob %d\0' % len(png) + png).hexdigest()
+        revision = 'f' * 40
+        tree = {'truncated': False, 'tree': [{'path': f'enemy/{name}.png', 'type': 'blob', 'sha': blob}
+                                             for name in ('enemy_1587_ubbplwq', 'enemy_3015_ubstb')]}
+        hand = b'reviewed bytes added by hand'
+        rows = {GROMOV: {'sourcePath': 'enemy/enemy_1587_ubbplwq.png', 'maxWidth': 128},
+                STUDENT: {'sourcePath': 'enemy/enemy_3015_ubstb.png', 'maxWidth': 128}}
+        listed = {GROMOV: {'bytes': len(hand), 'sha256': hashlib.sha256(hand).hexdigest()}}
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp); (root / 'enemies-icons').mkdir()
+            (root / GROMOV).write_bytes(hand)
+            (root / 'asset-manifest.json').write_text(json.dumps({'files': listed}))
+            (root / 'asset-source-map.json').write_text(json.dumps({'files': rows}))
+            api = lambda path: {'sha': revision} if path.endswith('/commits/main') else tree
+            with patch('sync_images.ROOT', root), patch('sync_images.api', side_effect=api), \
+                    patch('sync_images.fetch', return_value=png) as fetch, patch('sync_images.subprocess.run') as run, \
+                    patch.dict(os.environ, {}, clear=True), contextlib.redirect_stdout(io.StringIO()) as out:
+                sync_images.main()
+            fetch.assert_called_once_with('enemy/enemy_3015_ubstb.png', revision)
+            self.assertEqual((root / GROMOV).read_bytes(), hand)
+            manifest = json.loads((root / 'asset-manifest.json').read_text())['files']
+            self.assertEqual(manifest[GROMOV], listed[GROMOV])
+            self.assertEqual((manifest[STUDENT]['width'], manifest[STUDENT]['height']), (128, 128))
+            mapping = json.loads((root / 'asset-source-map.json').read_text())['files']
+            self.assertEqual({asset: row['sourceBlob'] for asset, row in mapping.items()}, {GROMOV: blob, STUDENT: blob})
+            # Only the fetched image is staged besides the two JSON files.
+            self.assertEqual(run.call_args_list[0].args[0], ['git', 'add', '--sparse', '--', STUDENT])
+            self.assertIn('adopted 1 listed files; refreshed 1 images', out.getvalue())
 
 if __name__ == '__main__':
     unittest.main()
