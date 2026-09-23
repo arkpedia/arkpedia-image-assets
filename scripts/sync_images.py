@@ -146,8 +146,9 @@ def discover_operator_assets(mapping, blobs, manifest):
     A target already listed in the asset manifest but absent from the source map
     was added by hand (a capture, a correction, art published before the mirror
     had it). It is never mapped here: mapping it would re-fetch and re-encode it
-    over the reviewed file. Extending the map to such files is build_source_map.py's
-    job, which records the current upstream blob so nothing is rewritten.
+    over the reviewed file. Such a file joins the map only by review, with its
+    current upstream blob recorded so nothing is rewritten: build_source_map.py
+    for skill, base-skill and material icons, a manual map row for portraits.
     """
     data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
     if not data_root:
