@@ -207,6 +207,57 @@ def discover_operator_assets(mapping, blobs, manifest):
                 added.append(target)
     return added
 
+
+def discover_enemy_assets(mapping, blobs, manifest):
+    """Add the icon of every public enemy record whose art is not published yet.
+
+    Nothing else produces enemy icons: build_source_map.py only maps files the
+    manifest already lists, so a new event's enemies stayed icon-less until
+    someone added the art by hand.
+
+    The target is the record's own ``icon`` path, never rebuilt from its name:
+    the data pipeline gives a new enemy that shares an existing name but not its
+    art a distinct file ('Jailed Student (STU2).webp'). The source is always
+    ``enemy/<id>.png``, the rule every reviewed enemy mapping follows. A record
+    with no icon has no upstream art on purpose. As for operators, a target the
+    manifest already lists was added by hand and is never mapped here.
+    """
+    data_root = os.environ.get('ARKPEDIA_DATA_ROOT')
+    if not data_root:
+        print('ARKPEDIA_DATA_ROOT is unset; skipping new enemy icon discovery.')
+        return []
+    directory = Path(data_root) / 'source' / 'data' / 'enemies'
+    # A checkout without the enemy records would otherwise discover nothing, silently.
+    if not directory.is_dir():
+        raise ValueError(f'{directory} is missing; check out source/data/enemies with the operator records')
+    candidates = {}
+    for bundle_path in sorted(directory.glob('*.json')):
+        bundle = json.loads(bundle_path.read_text())
+        enemies = bundle.get('enemies') if isinstance(bundle, dict) else None
+        if not isinstance(enemies, list) or not all(isinstance(enemy, dict) for enemy in enemies):
+            raise ValueError(f'{bundle_path}: enemies must be a list of records')
+        for enemy in enemies:
+            icon, enemy_id = enemy.get('icon'), enemy.get('id')
+            if icon is None:
+                continue
+            if not isinstance(icon, str) or not icon.startswith('/enemies-icons/') or not isinstance(enemy_id, str) or not enemy_id:
+                raise ValueError(f'{bundle_path}: enemy {enemy_id!r} must have an id and an icon under '
+                                 f'/enemies-icons/ or null, found {icon!r}')
+            target, source = icon.removeprefix('/'), f'enemy/{enemy_id}.png'
+            if target in mapping['files'] or target in manifest['files'] or source not in blobs:
+                continue
+            candidates.setdefault(target, {})[source] = enemy_id
+    added = []
+    for target, sources in candidates.items():
+        # Records that share a name share one upstream image; different art under
+        # one file is a naming bug in the data, and either choice would be a guess.
+        if len({blobs[source] for source in sources}) > 1:
+            raise ValueError(f'{target}: enemies {", ".join(sorted(sources.values()))} have different '
+                             'upstream art; give each its own icon path in arkpedia-data')
+        mapping['files'][target] = {'sourcePath': min(sources), 'maxWidth': 128}
+        added.append(target)
+    return added
+
 def api(path):
     last_error = None
     for attempt in range(3):
@@ -258,6 +309,7 @@ def main():
         raise ValueError('Incomplete upstream tree; refusing refresh')
     blobs = {row['path']: row['sha'] for row in tree['tree'] if row['type'] == 'blob'}
     discovered = discover_operator_assets(mapping, blobs, manifest)
+    discovered_enemies = discover_enemy_assets(mapping, blobs, manifest)
     jobs = []
     for asset, entry in mapping['files'].items():
         if Path(asset).is_absolute() or '..' in Path(asset).parts:
@@ -281,7 +333,7 @@ def main():
     for offset in range(0, len(changed), 100):
         subprocess.run(['git', 'add', '--sparse', '--', *changed[offset:offset+100]], cwd=ROOT, check=True)
     subprocess.run(['git', 'add', '--sparse', 'asset-manifest.json', 'asset-source-map.json'], cwd=ROOT, check=True)
-    print(f'Discovered {len(discovered)} operator assets; checked {len(mapping["files"])} mappings; refreshed {len(changed)} images from {revision}.')
+    print(f'Discovered {len(discovered)} operator assets and {len(discovered_enemies)} enemy icons; checked {len(mapping["files"])} mappings; refreshed {len(changed)} images from {revision}.')
 
 if __name__ == '__main__':
     main()

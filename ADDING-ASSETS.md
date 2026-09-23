@@ -35,7 +35,7 @@ what an already-open page is loading.
    and `--dry-run` to see what it would do first.
 
    Once listed, an icon or portrait is yours: the daily mirror sync refreshes only
-   paths in `asset-source-map.json`, and its operator discovery skips anything the
+   paths in `asset-source-map.json`, and its operator and enemy discovery skip anything the
    manifest already lists, so it never re-fetches a hand-added file over yours. The
    exception is an event poster or banner image entering its Global window, which
    the key-art job replaces with the English upload.

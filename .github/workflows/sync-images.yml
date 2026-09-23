@@ -104,7 +104,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install pillow certifi
-      - name: Load public operator records
+      - name: Load public operator and enemy records
+        # sync_images.py fails if source/data/enemies is missing rather than discover no enemies.
         run: |
           git clone --filter=blob:none --no-checkout --depth 1 \
             https://github.com/arkpedia/arkpedia-data.git "$RUNNER_TEMP/arkpedia-data"
@@ -112,7 +113,8 @@ jobs:
           git -C "$RUNNER_TEMP/arkpedia-data" sparse-checkout set \
             source/data/operators-1star source/data/operators-2star \
             source/data/operators-3star source/data/operators-4star \
-            source/data/operators-5star source/data/operators-6star
+            source/data/operators-5star source/data/operators-6star \
+            source/data/enemies
           git -C "$RUNNER_TEMP/arkpedia-data" checkout
       - name: Load base-skill identifiers
         run: |
@@ -134,7 +136,7 @@ jobs:
                 --output "$RUNNER_TEMP/$table-$tag.json"
             done
           done
-      - name: Test operator discovery
+      - name: Test operator and enemy discovery
         run: python -m unittest discover -s scripts -p 'test_sync_images.py'
       - name: Sync from the public resource mirror
         env:
