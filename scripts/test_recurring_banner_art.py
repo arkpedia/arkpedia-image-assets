@@ -6,13 +6,18 @@ from pathlib import Path
 import tempfile
 import unittest
 import sync_recurring_banner_art
-from sync_recurring_banner_art import rows, wikitext
+from sync_recurring_banner_art import image_info, rows, wikitext
 from unittest.mock import patch
 
 # The API's answer (HTTP 200) for Headhunting/Banners/2027 on 2026-09-23, before the page existed.
 MISSING = json.loads('{"error":{"code":"missingtitle","info":"The page you specified doesn\'t exist.","*":"See https://arknights.wiki.gg/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes."}}')
 PAGE = {'parse': {'title': 'Headhunting/Banners/2026', 'wikitext': {'*': '{{Banners cell\n|type = standard\n|no = 175\n'
     '|start = 2026/09/11 04:00:00\n|end = 2026/09/25 03:59:59\n|operators = A, B, C, D, E}}'}}}
+# The API's answer for Headhunting/Banners/Former-2020, which the wiki moved to .../2020, without `redirects`.
+# With `redirects` a double redirect answers the same way.
+REDIRECT = {'parse': {'title': 'Headhunting/Banners/Former-2020', 'pageid': 116569, 'wikitext': {'*': '#REDIRECT [[Headhunting/Banners/2020]]'}}}
+# The same shape with `redirects` followed: parse names the redirect and returns the target's wikitext.
+FOLLOWED = {'parse': {**PAGE['parse'], 'redirects': [{'from': 'Headhunting/Banners/2026', 'to': 'Headhunting/Banners/Global 2026'}]}}
 
 class YearlyPageTests(unittest.TestCase):
     def test_missing_yearly_page_has_no_rows_in_january(self):
@@ -20,6 +25,7 @@ class YearlyPageTests(unittest.TestCase):
             with patch('sync_recurring_banner_art.fetch', return_value=MISSING) as fetch:
                 self.assertEqual(list(rows(wikitext(today))), [])
             self.assertEqual(fetch.call_args.args[0]['page'], 'Headhunting/Banners/2027')
+            self.assertEqual(fetch.call_args.args[0]['redirects'], 1)
 
     def test_missing_yearly_page_fails_after_january(self):
         # A page moved, renamed or never made would otherwise read as "current" all year.
@@ -36,17 +42,38 @@ class YearlyPageTests(unittest.TestCase):
 
     def test_existing_page_yields_its_rows(self):
         for today in (dt.date(2026, 1, 10), dt.date(2026, 9, 23)):
-            with patch('sync_recurring_banner_art.fetch', return_value=PAGE) as fetch:
-                self.assertEqual(list(rows(wikitext(today))), [('standard', '175', dt.date(2026, 9, 11), dt.date(2026, 9, 25))])
-            self.assertEqual(fetch.call_args.args[0]['page'], 'Headhunting/Banners/2026')
+            for payload in (PAGE, FOLLOWED):
+                with patch('sync_recurring_banner_art.fetch', return_value=payload) as fetch:
+                    self.assertEqual(list(rows(wikitext(today))), [('standard', '175', dt.date(2026, 9, 11), dt.date(2026, 9, 25))])
+                self.assertEqual(fetch.call_args.args[0]['page'], 'Headhunting/Banners/2026')
+                # A moved page leaves a redirect, not missingtitle; the API follows it only when asked.
+                self.assertEqual(fetch.call_args.args[0]['redirects'], 1)
 
-    def run_main(self, today):
+    def test_unfollowed_redirect_fails_in_any_month(self):
+        # '#REDIRECT [[...]]' has no rows, so it would read as current all year.
+        for today in (dt.date(2027, 1, 10), dt.date(2027, 6, 1)):
+            for text in ('#REDIRECT [[Headhunting/Banners/2020]]', '\n#redirect [[Headhunting/Banners/2020]]'):
+                payload = {'parse': {**REDIRECT['parse'], 'wikitext': {'*': text}}}
+                with patch('sync_recurring_banner_art.fetch', return_value=payload), \
+                        self.assertRaisesRegex(ValueError, r'Headhunting/Banners/2027 is a redirect.*Headhunting/Banners/2020'):
+                    wikitext(today)
+
+    def test_image_lookup_follows_redirects(self):
+        # The API's answer for a moved EN upload with `redirects`: pages is keyed by the target.
+        response = {'batchcomplete': '', 'query': {'redirects': [{'from': 'File:EN Kernel Locating 10 banner.png', 'to': 'File:EN CCB4 Kernel Locating 10.png'}],
+            'pages': {'124297': {'pageid': 124297, 'ns': 6, 'title': 'File:EN CCB4 Kernel Locating 10.png', 'imagerepository': 'local',
+            'imageinfo': [{'url': 'https://arknights.wiki.gg/images/EN_CCB4_Kernel_Locating_10.png?2a5946', 'sha1': '2a59468c658411e44154ce70b09ba08857cdd69b'}]}}}}
+        with patch('sync_recurring_banner_art.fetch', return_value=response) as fetch:
+            self.assertEqual(image_info('File:EN Kernel Locating 10 banner.png')['sha1'], '2a59468c658411e44154ce70b09ba08857cdd69b')
+        self.assertEqual(fetch.call_args.args[0]['redirects'], 1)
+
+    def run_main(self, today, payload=MISSING):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp); manifest = '{"files":{}}\n'
             (root / 'asset-manifest.json').write_text(manifest)
             out = io.StringIO()
             with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=today), \
-                    patch('sync_recurring_banner_art.fetch', return_value=MISSING) as fetch, contextlib.redirect_stdout(out):
+                    patch('sync_recurring_banner_art.fetch', return_value=payload) as fetch, contextlib.redirect_stdout(out):
                 try:
                     sync_recurring_banner_art.main()
                 finally:
@@ -62,6 +89,11 @@ class YearlyPageTests(unittest.TestCase):
     def test_run_without_the_page_after_january_fails(self):
         with self.assertRaisesRegex(ValueError, r'Headhunting/Banners/2027 does not exist'):
             self.run_main(dt.date(2027, 6, 1))
+
+    def test_run_on_an_unfollowed_redirect_fails(self):
+        # Before this check the run printed 'Recurring banner art is current.' and exited 0.
+        with self.assertRaisesRegex(ValueError, r'Headhunting/Banners/2027 is a redirect'):
+            self.run_main(dt.date(2027, 6, 1), REDIRECT)
 
 if __name__ == '__main__':
     unittest.main()

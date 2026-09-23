@@ -43,11 +43,17 @@ def wikitext(today):
     The wiki creates a year's page around New Year, as late as January 21 so
     far, so during January (UTC) a missing page means the year has no rows yet,
     as in the app's sync-recurring-banners.mjs. From February 1 a missing page
-    means it was moved, renamed or never made, and an empty green run would
-    hide that for the rest of the year, so it fails like any other error.
+    means it was deleted or never made, and an empty green run would hide that
+    for the rest of the year, so it fails like any other error.
+
+    Moving a page leaves a redirect at the old title, not missingtitle; the
+    wiki moved Headhunting/Banners/Former-2020..2024 this way. `redirects`
+    makes the API parse the target page. It follows one redirect only, so a
+    double redirect would still return '#REDIRECT [[...]]', which has no
+    rows and would read as current; that fails in any month.
     """
     page = f'Headhunting/Banners/{today.year}'
-    data = fetch({'action': 'parse', 'page': page, 'prop': 'wikitext', 'format': 'json'})
+    data = fetch({'action': 'parse', 'page': page, 'prop': 'wikitext', 'redirects': 1, 'format': 'json'})
     error = data.get('error')
     if error and error.get('code') == 'missingtitle':
         if today.month == 1:
@@ -55,7 +61,10 @@ def wikitext(today):
         raise ValueError(f'{page} does not exist, and only in January may a new year\'s page be missing: {error}')
     if error:
         raise ValueError(f'{page}: {error}')
-    return data['parse']['wikitext']['*']
+    text = data['parse']['wikitext']['*']
+    if text.lstrip().lower().startswith('#redirect'):
+        raise ValueError(f'{page} is a redirect the API did not follow (a double redirect): {text.strip()[:120]!r}')
+    return text
 
 
 def rows(text):
@@ -74,7 +83,8 @@ def rows(text):
 
 
 def image_info(title):
-    data = fetch({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url|sha1', 'format': 'json', 'titles': title})
+    # imageinfo resolves a moved file by itself; `redirects` keeps this read consistent with wikitext().
+    data = fetch({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url|sha1', 'redirects': 1, 'format': 'json', 'titles': title})
     page = next(iter(data['query']['pages'].values()))
     return None if 'missing' in page or not page.get('imageinfo') else page['imageinfo'][0]
 
