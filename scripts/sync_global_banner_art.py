@@ -37,6 +37,8 @@ def wiki_titles(name):
         if before in base:
             candidates.append(base.replace(before, after))
     candidates.extend([re.sub(r'\s+(?:1st|2nd)\s+Half$', '', base), re.sub(r'\s+Rerun$', '', base)])
+    # EN uploads drop a subtitle colon ("EN Duel Channel Ivy Vine banner.png").
+    candidates += [re.sub(r'\s*:\s*', ' ', c) for c in candidates if ':' in c]
     # MediaWiki file titles are case-sensitive after the first letter. Our
     # schedule sometimes capitalises "The" where the EN upload uses "the".
     candidates += [re.sub(r'\b(?:The|Of|And|A|An|In|To|For)\b', lambda m: m[0].lower() if m.start() else m[0], c) for c in candidates]

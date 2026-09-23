@@ -13,6 +13,8 @@ class GlobalArtTests(unittest.TestCase):
         self.assertIn('File:EN Vector Breakthrough Trial from Misery banner.png', wiki_titles('Vector Breakthrough #2: Trial from Misery'))
         self.assertTrue(all(t.startswith('File:EN ') for t in titles))
         self.assertIn('File:EN Stronghold Protocol Alliance Part 2 banner.png', wiki_titles('Stronghold Protocol Alliance 2nd Half'))
+        # The colon form stays first: the first title the wiki has wins.
+        self.assertEqual(wiki_titles('Duel Channel: Ivy Vine')[:2], ['File:EN Duel Channel: Ivy Vine banner.png', 'File:EN Duel Channel Ivy Vine banner.png'])
 
     def test_en_preference_is_not_response_order(self):
         response = {'query': {'pages': {'1': {'title': 'File:EN Example banner.png', 'imageinfo': [{'sha1': 'fallback'}]},
