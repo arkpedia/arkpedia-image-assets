@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - run: python -m pip install pillow
+      - run: python -m pip install pillow certifi
       # The daily sync runs these too, but only after merge; fail the PR instead.
       - run: python -m unittest discover -s scripts -p 'test_*.py'
       - run: python scripts/validate_images.py

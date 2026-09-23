@@ -32,6 +32,23 @@ def fetch(params):
         return json.load(response)
 
 
+def wikitext(year):
+    """Return the year's banner page wikitext, or '' until the wiki creates it.
+
+    The API answers a missing page with HTTP 200 and error code missingtitle.
+    The page has appeared as late as January 21, so until then the year has no
+    rows, as in the app's sync-recurring-banners.mjs. Any other error fails.
+    """
+    page = f'Headhunting/Banners/{year}'
+    data = fetch({'action': 'parse', 'page': page, 'prop': 'wikitext', 'format': 'json'})
+    error = data.get('error')
+    if error and error.get('code') == 'missingtitle':
+        return ''
+    if error:
+        raise ValueError(f'{page}: {error}')
+    return data['parse']['wikitext']['*']
+
+
 def rows(text):
     for block in re.findall(r'\{\{Banners cell\s*([\s\S]*?)\}\}', text):
         fields = dict(re.findall(r'^\s*\|\s*([^=]+?)\s*=\s*(.*?)\s*$', block, re.M))
@@ -64,38 +81,41 @@ def download(url):
     return out.getvalue()
 
 
-year = datetime.date.today().year
-parsed = fetch({'action': 'parse', 'page': f'Headhunting/Banners/{year}', 'prop': 'wikitext', 'format': 'json'})
-text = parsed['parse']['wikitext']['*']
-today = datetime.date.today()
-sources_path = ROOT / 'sources' / 'recurring-banner-art.json'
-sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
-manifest_path = ROOT / 'asset-manifest.json'
-manifest = json.loads(manifest_path.read_text())
-changed = []
+def main():
+    today = datetime.date.today()
+    text = wikitext(today.year)
+    sources_path = ROOT / 'sources' / 'recurring-banner-art.json'
+    sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
+    manifest_path = ROOT / 'asset-manifest.json'
+    manifest = json.loads(manifest_path.read_text())
+    changed = []
 
-for kind, number, start, end in rows(text):
-    if start > today + SOON or end < today - RECENT:
-        continue
-    prefix = 'Standard Pool' if kind == 'standard' else 'Kernel'
-    target = f'headhunting-banner-images/{prefix} {number} (Global).webp'
-    title = f'File:EN {prefix} {number} banner.png'
-    info = image_info(title)
-    if not info or target in manifest['files'] and sources.get(target) == info['sha1']:
-        continue
-    data = download(info['url'])
-    (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
-    (ROOT / target).write_bytes(data)
-    manifest['files'][target] = {'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
-    sources[target] = info['sha1']
-    changed.append(target)
+    for kind, number, start, end in rows(text):
+        if start > today + SOON or end < today - RECENT:
+            continue
+        prefix = 'Standard Pool' if kind == 'standard' else 'Kernel'
+        target = f'headhunting-banner-images/{prefix} {number} (Global).webp'
+        title = f'File:EN {prefix} {number} banner.png'
+        info = image_info(title)
+        if not info or target in manifest['files'] and sources.get(target) == info['sha1']:
+            continue
+        data = download(info['url'])
+        (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
+        (ROOT / target).write_bytes(data)
+        manifest['files'][target] = {'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+        sources[target] = info['sha1']
+        changed.append(target)
 
-if changed:
-    manifest['files'] = dict(sorted(manifest['files'].items()))
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
-    sources_path.parent.mkdir(parents=True, exist_ok=True)
-    sources_path.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
-    subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', 'sources/recurring-banner-art.json', *changed], cwd=ROOT, check=True)
-    print('\n'.join(f'  + {path}' for path in changed))
-else:
-    print('Recurring banner art is current.')
+    if changed:
+        manifest['files'] = dict(sorted(manifest['files'].items()))
+        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
+        sources_path.parent.mkdir(parents=True, exist_ok=True)
+        sources_path.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
+        subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', 'sources/recurring-banner-art.json', *changed], cwd=ROOT, check=True)
+        print('\n'.join(f'  + {path}' for path in changed))
+    else:
+        print('Recurring banner art is current.')
+
+
+if __name__ == '__main__':
+    main()
