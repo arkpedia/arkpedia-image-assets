@@ -10,5 +10,110 @@
   "headhunting-banner-images/Joint Operation 23.webp": {
     "url": "https://arknights.wiki.gg/images/CN_Joint_Operation_23_banner.png?c5badd",
     "sha256": "070a529ab0d15b229800c08f47d42d22ed03beaad421f7c05f3db0732688bada"
+  },
+  "album-covers/月明人间_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20260924/e5e0325a016972b56f74de5554e814a2.png",
+    "sha256": "6a7d138bdcaf8eaf1b14fbefee0557fd6902b5139340ffe107ee5668fad7c0b5",
+    "importer": "album-covers"
+  },
+  "album-covers/逐影集趣ost_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20260921/b75d27f545fc6c927e57fd7897cb87c4.jpg",
+    "sha256": "0b6607c88c0334d19b673002603c716f162aa557f83a25e54e1e1eddddae486e",
+    "importer": "album-covers"
+  },
+  "stages-images/cf-9.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act24side_09_1.png",
+    "sha256": "52f0614b0af8d97a68be0ad1ba9aee8ecb0beff9b88d13a931805fd4f6175b61",
+    "importer": "stage-renders"
+  },
+  "stages-images/cf-ex-8.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act24side_ex08_1.png",
+    "sha256": "18f12d4f0a4756e621d3148634608462ff7d1d34e85134765ac154effc55d5fa",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_01.png",
+    "sha256": "cb45a7dc6ad1d8c19f6bdddfe957fa8c3be7b83477844061d6733b1345b0096d",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_02.png",
+    "sha256": "efeaa0b6e6c7b353e8415c69e60ad0eb57f09c04deb73d887f2581d80f898a5c",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-3.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_03.png",
+    "sha256": "70c22d26679a6e51cb09e37f9ad0bcf4feee83b17a9538fef3031f4bf1828989",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-4.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_04.png",
+    "sha256": "8189460119da7cf7acdd5844136f5e7a7239d65d05c47baca729301921f4e3a5",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-5.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_05.png",
+    "sha256": "d4008323d62d66e4df2baf022e850f5546bd87478f0bc048c8217dc782f141e1",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-6.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_06.png",
+    "sha256": "d3f8bfb8051f72cb933542e819666b36ead7f24bb3aa0beeabe006a94d11a175",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-7.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_07.png",
+    "sha256": "b71208bed41bf048cf59ade363ad58cf4f405425f1d8173b0bde993043e715ec",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-8.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_08.png",
+    "sha256": "8f6d51a8c094e60cff71a07c2146f4a5cc767d35a7896c5d3d311997bdbdc630",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex01.png",
+    "sha256": "f8c64054b538949a78c52c7210eb3b00e21dc21089a27a29abaa1cd17b625c39",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex02.png",
+    "sha256": "459ea0f3bfa85cf55c9d343541d52fc44f114e00ffc0b484ba68db1d29dc2346",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-3.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex03.png",
+    "sha256": "b982521db2ec3561866f307030efa9e9c56fe49fad3d41c988586409daa61d1d",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-4.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex04.png",
+    "sha256": "49a9784cc3c64edd1f2736caad1d01b2246592f7e5c6aae0f34bc014978d6d0d",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-5.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex05.png",
+    "sha256": "f48943fc7e9fa3e2e3aee1115a44c174c9ccdb2452c6e87fedeb4df2827f2864",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-6.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex06.png",
+    "sha256": "2b8a846f65b73435666d558e4fee142194c3977df8b252ba7710c4eddb15de62",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-7.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex07.png",
+    "sha256": "14f566a7941ca3cdd2c557bc9a5909dc29987db88c40d67209eedb9f8a600869",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-ex-8.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_ex08.png",
+    "sha256": "cd7cbc32f867d1f7fcbaa1a28755d7915e0c709ff264344c7f2267fe22b74913",
+    "importer": "stage-renders"
+  },
+  "stages-images/pa-tr-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_tr01.png",
+    "sha256": "ddbad18765ea5ed5fbb2f2f3814fd81b4806f7af0af8070ced0daf1488e17f8a",
+    "importer": "stage-renders"
   }
 }
