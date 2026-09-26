@@ -45,7 +45,8 @@ def main():
     for enemy in read('enemy_handbook_table')['enemyData'].values():
         add(f'enemies-icons/{safe(enemy["name"])}.webp', f'enemy/{enemy["enemyId"]}.png', 128)
     for item in read('item_table')['items'].values():
-        add(f'material-icons/{safe(item["name"])}.webp', f'item/{item["iconId"]}.png', 180)
+        # The game's circled icons are 183px; kept at that, never squeezed to 180.
+        add(f'material-icons/{safe(item["name"])}.webp', f'item/{item["iconId"]}.png', 183)
     building = read('building_data')
     for char_id, char in building['chars'].items():
         if char_id not in chars:

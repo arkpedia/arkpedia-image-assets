@@ -8,7 +8,7 @@ because something has gone wrong.
 
 | File | Holds | Written by |
 | --- | --- | --- |
-| `asset-manifest.json` (here) | one `{bytes, sha256}` row per image | `scripts/sync_images.py` for mirrored art, `scripts/add_local_assets.py` for hand-added art |
+| `asset-manifest.json` (here) | one `{bytes, sha256}` row per image | `scripts/sync_images.py` for mirrored art, `scripts/add_local_assets.py` for hand-added art, the website's content release (`publish-catalogue-assets.py`) for the art it imports (see the README) |
 | `data/assets/revisions.json` (app) | the commit SHA of each asset repo | `npm run assets:update` |
 | `release/manifest.json` (arkpedia-data) | the same commit SHAs, plus a hash per page | the content release job |
 
