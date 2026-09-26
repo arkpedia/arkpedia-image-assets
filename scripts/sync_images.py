@@ -28,6 +28,24 @@ RARITY_FOLDERS = {
     6: 'six-star-icons',
 }
 
+# The format a mapped file is written in is the one its name says: never WebP bytes in a
+# .png. arkpedia/arkpedia's release publishes the art its importers fetch into this
+# repository (item-icons/<id>.png as PNG, stage renders as WebP) and maps each mirror file
+# here, so this sync follows upstream changes to them too.
+ENCODINGS = {'.webp': ('WEBP', {'quality': 90, 'method': 4}), '.png': ('PNG', {'optimize': True})}
+# The game's circled material and item icons are 183px: kept at that, never squeezed to a
+# portrait's 180 (a new token found here, and the app's publisher, both keep 183).
+ITEM_ICON_WIDTH = 183
+
+
+def encoding(asset):
+    """(PIL format, save options) for a mapped destination, by its extension."""
+    suffix = Path(asset).suffix.lower()
+    if suffix not in ENCODINGS:
+        raise ValueError(f'{asset}: a mapped file must be named .webp or .png, the formats this sync writes')
+    return ENCODINGS[suffix]
+
+
 def safe_name(value):
     return re.sub(r'[\\/*?:"<>|]', '', value).strip()
 
@@ -199,7 +217,7 @@ def discover_operator_assets(mapping, blobs, manifest):
                     target = f'material-icons/{token_name}.webp'
                     sources = (f'item/p_{character_id}.png', f'item/voucher_{slug}.png', f'item/voucher_full_{slug}.png')
                     source = next((candidate for candidate in sources if candidate in blobs), sources[0])
-                    candidates.append((target, source, 180))
+                    candidates.append((target, source, ITEM_ICON_WIDTH))
 
             for target, source, max_width in candidates:
                 if target in mapping['files'] or target in manifest['files'] or source not in blobs:
@@ -292,7 +310,8 @@ def sync_one(job):
         if image.width > max_width:
             image = image.resize((max_width, max(1, round(image.height * max_width / image.width))), Image.Resampling.LANCZOS)
         output = io.BytesIO()
-        image.save(output, format='WEBP', quality=90, method=4)
+        image_format, options = encoding(asset)
+        image.save(output, format=image_format, **options)
         encoded = output.getvalue()
         target = ROOT / asset
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -319,6 +338,8 @@ def plan_refresh(mapping, blobs, manifest, revision):
     for asset, entry in mapping['files'].items():
         if Path(asset).is_absolute() or '..' in Path(asset).parts:
             raise ValueError(f'Unsafe destination: {asset}')
+        # Before anything is fetched: a row this sync cannot write fails the run, not one job.
+        encoding(asset)
         blob = blobs.get(entry['sourcePath'])
         if not blob:
             raise ValueError(f'Upstream removed {entry["sourcePath"]}; review mapping, existing assets preserved')

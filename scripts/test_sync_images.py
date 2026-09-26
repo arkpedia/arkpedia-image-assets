@@ -30,6 +30,8 @@ class DiscoveryTests(unittest.TestCase):
             added, mapping = self.discover(total_cost)
             self.assertIn("material-icons/Tok's Token.webp", added)
             self.assertEqual(mapping['files']["material-icons/Tok's Token.webp"]['sourcePath'], 'item/p_char_9001_tok.png')
+            # The game's 183px circled icon, never squeezed to a portrait's 180.
+            self.assertEqual(mapping['files']["material-icons/Tok's Token.webp"]['maxWidth'], 183)
         self.assertEqual(self.discover([])[0], ['five-star-icons/Tok - Base.webp'])
 
     def test_unknown_cost_shape_names_the_record(self):
@@ -160,6 +162,49 @@ class RefreshRunTests(unittest.TestCase):
             # Only the fetched image is staged besides the two JSON files.
             self.assertEqual(run.call_args_list[0].args[0], ['git', 'add', '--sparse', '--', STUDENT])
             self.assertIn('adopted 1 listed files; refreshed 1 images', out.getvalue())
+
+class EncodingTests(unittest.TestCase):
+    """A mapped file is rewritten in the format its name says, at the width its row keeps."""
+
+    def test_a_png_item_icon_stays_a_183px_png_when_upstream_changes_it(self):
+        # arkpedia/arkpedia's release publishes item-icons/<id>.png from the mirror and maps
+        # it here; the sync used to rewrite every mapped file as WebP, whatever its name.
+        buffer = io.BytesIO(); Image.new('RGBA', (183, 183), (200, 150, 40, 255)).save(buffer, 'PNG'); icon = buffer.getvalue()
+        blob = hashlib.sha1(b'blob %d\0' % len(icon) + icon).hexdigest()
+        asset = 'item-icons/act99side_token.png'
+        with tempfile.TemporaryDirectory() as temp, patch('sync_images.ROOT', Path(temp)), patch('sync_images.fetch', return_value=icon):
+            _, row, _ = sync_images.sync_one((asset, {'sourcePath': 'item/act99side_token.png', 'maxWidth': sync_images.ITEM_ICON_WIDTH}, blob, 'f' * 40))
+            with Image.open(Path(temp) / asset) as written:
+                self.assertEqual((written.format, written.size), ('PNG', (183, 183)))
+        self.assertEqual((row['width'], row['height']), (183, 183))
+
+    def test_a_webp_target_is_still_written_as_webp(self):
+        buffer = io.BytesIO(); Image.new('RGB', (1024, 576), (10, 20, 30)).save(buffer, 'PNG'); render = buffer.getvalue()
+        blob = hashlib.sha1(b'blob %d\0' % len(render) + render).hexdigest()
+        asset = 'stages-images/pa-1.webp'
+        with tempfile.TemporaryDirectory() as temp, patch('sync_images.ROOT', Path(temp)), patch('sync_images.fetch', return_value=render):
+            _, row, _ = sync_images.sync_one((asset, {'sourcePath': 'map/act51side_01.png', 'maxWidth': 512}, blob, 'f' * 40))
+            with Image.open(Path(temp) / asset) as written:
+                self.assertEqual((written.format, written.size), ('WEBP', (512, 288)))
+
+    def test_a_row_in_a_format_the_sync_cannot_write_fails_before_anything_is_fetched(self):
+        mapping = {'files': {'content-art/x.jpg': {'sourcePath': 'item/p_char_9001_tok.png'}}}
+        with self.assertRaisesRegex(ValueError, r'content-art/x\.jpg: a mapped file must be named \.webp or \.png'):
+            plan_refresh(mapping, BLOBS, {'files': {}}, 'rev')
+
+    def test_every_row_in_the_map_is_one_the_sync_can_write_at_its_width(self):
+        # The committed map: every destination has a format this sync writes, and the item
+        # icons mapped so far keep the 183px their manifest rows record.
+        mapping = json.loads((Path(__file__).resolve().parents[1] / 'asset-source-map.json').read_text())['files']
+        for asset in mapping:
+            sync_images.encoding(asset)
+        manifest_path = Path(__file__).resolve().parents[1] / 'asset-manifest.json'
+        manifest = json.loads(manifest_path.read_text())['files']
+        for asset, row in mapping.items():
+            width = manifest.get(asset, {}).get('width')
+            if width and asset.startswith('item-icons/'):
+                self.assertGreaterEqual(row['maxWidth'], width, f'{asset}: a sync would shrink it from {width}px to {row["maxWidth"]}px')
+
 
 if __name__ == '__main__':
     unittest.main()
