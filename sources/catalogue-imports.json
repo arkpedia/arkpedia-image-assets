@@ -115,5 +115,9 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_tr01.png",
     "sha256": "ddbad18765ea5ed5fbb2f2f3814fd81b4806f7af0af8070ced0daf1488e17f8a",
     "importer": "stage-renders"
+  },
+  "event-poster/Vector Breakthrough Bio Mimicry.webp": {
+    "url": "https://arknights.wiki.gg/images/CN_Vector_Breakthrough_Bio_Mimicry_banner.png?d5101c",
+    "sha256": "26d948f4004c57ef1f4d6b28667e731aeb9bab926522cb58e34bdb28eb3b49fa"
   }
 }
