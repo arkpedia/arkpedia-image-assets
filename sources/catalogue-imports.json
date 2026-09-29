@@ -119,5 +119,13 @@
   "event-poster/Vector Breakthrough Bio Mimicry.webp": {
     "url": "https://arknights.wiki.gg/images/CN_Vector_Breakthrough_Bio_Mimicry_banner.png?d5101c",
     "sha256": "26d948f4004c57ef1f4d6b28667e731aeb9bab926522cb58e34bdb28eb3b49fa"
+  },
+  "five-star-icons/Greyy the Lightningbearer - 千尺俯瞰.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/avatar/char_1027_greyy2_wild%2312.png",
+    "sha256": "5503496d4bc2964e941cdd908fd9dfc4a16feb9a1ca527a1db9c4e52addd9c1c"
+  },
+  "five-star-icons/Spuria - 慵怠哼唱.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/avatar/char_4015_spuria_epoque%2358.png",
+    "sha256": "be25a1c182fc9433d6f011ddeee298753f794159176af322e84019aae6c8bfc4"
   }
 }
