@@ -99,8 +99,42 @@ jobs:
           git config user.email 'arkpedia-bot@users.noreply.github.com'
           git commit -m 'Sync validated recurring banner art'
           git push
-  operators:
+  profile-art:
     needs: recurring-banners
+    # Runs whether the previous job passed or failed; only a cancelled run stops it.
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref }}
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            sources
+            .github
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow certifi
+      - name: Test profile art naming and sizing
+        run: python -m unittest discover -s scripts -p 'test_profile_art.py'
+      - name: Sync the player profile card's art (avatars, business cards, medals)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/sync_profile_art.py
+      - name: Validate changed media and complete inventory
+        run: python scripts/validate_images.py --staged
+      - name: Publish validated assets
+        run: |
+          git diff --cached --quiet && exit 0
+          git config user.name 'arkpedia-bot'
+          git config user.email 'arkpedia-bot@users.noreply.github.com'
+          git commit -m 'Sync validated profile art'
+          git push
+  operators:
+    needs: profile-art
     if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
