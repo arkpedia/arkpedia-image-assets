@@ -21,6 +21,16 @@ from assets/dyn/arts/elite_hub/ and potential_hub/, each at its own size under i
 
 Only the sprites in UI_SPRITES are published; one the dump no longer has fails the run.
 
+And each operator's portrait in each outfit, which the card shows its support units in, from
+assets/dyn/arts/charportraits/ (180x360):
+
+  charportraits/[skins/|linkages/]char_1013_chen2_boc#6.png
+                                              -> profile-portraits/char_1013_chen2_boc_6.webp
+
+named by the outfit's skin id as portrait_name() writes it (the page writes it the same way,
+lib/account/portraits.ts): "@" and "#" are "_", and Amiya's "1+" is "1p". The same portrait is
+in skins/ and linkages/ at a higher quality than at the top, so those copies win.
+
 The file names are the game's ids, so the page needs no table to find them. The dump is read
 at one commit for the whole run, and each file's git blob is recorded in
 sources/profile-art.json, so a file is fetched again only when the game changes it. There are
@@ -62,6 +72,7 @@ UI_SPRITES = {
     'elite_hub': {'elite_0.png', 'elite_1.png', 'elite_2.png'},
     'potential_hub': {f'potential_{level}_small.png' for level in range(6)},
 }
+PORTRAITS = 'assets/dyn/arts/charportraits'
 UI_FOLDERS = {'namecardv2': 'assets/dyn/ui/[uc]namecardv2', 'elite_hub': 'assets/dyn/arts/elite_hub', 'potential_hub': 'assets/dyn/arts/potential_hub'}
 
 
@@ -109,6 +120,30 @@ def ui_jobs(listing):
             yield f'profile-ui/{Path(path).stem}.webp', f'{UI_FOLDERS[folder]}/{path}', found[path], 'ui'
 
 
+def portrait_name(skin_id):
+    """The published name of an outfit's portrait: the skin id ("char_1013_chen2@boc#6",
+    "char_002_amiya#1+") or the dump's file stem ("char_1013_chen2_boc#6"), the same for both."""
+    return skin_id.replace('@', '_').replace('#', '_').replace('+', 'p')
+
+
+def portrait_jobs(listing):
+    """(target, source path, blob sha, 'portrait') for each operator outfit portrait, from the
+    folder's recursive git tree; a skins/ or linkages/ copy wins over the top-level one."""
+    rank = {'skins': 0, 'linkages': 1, '': 2}
+    best = {}
+    for entry in listing:
+        match = re.fullmatch(r'(?:(skins|linkages)/)?(char_[\w#+-]+)\.png', entry['path'])
+        if entry['type'] != 'blob' or not match:
+            continue
+        name = portrait_name(match.group(2))
+        if not re.fullmatch(r'[\w-]+', name):
+            continue
+        if name not in best or rank[match.group(1) or ''] < rank[best[name][0]]:
+            best[name] = (match.group(1) or '', entry)
+    for name, (_, entry) in sorted(best.items()):
+        yield f'profile-portraits/{name}.webp', f'{PORTRAITS}/{entry["path"]}', entry['sha'], 'portrait'
+
+
 def convert(data, kind):
     """The source PNG, sized for the page, as WebP bytes and its (width, height)."""
     with Image.open(io.BytesIO(data)) as source:
@@ -124,7 +159,7 @@ def convert(data, kind):
     if kind == 'ui':
         image.save(out, 'WEBP', lossless=True, method=6)
     else:
-        image.save(out, 'WEBP', quality=82 if kind == 'bg' else 90, method=6)
+        image.save(out, 'WEBP', quality=82 if kind in ('bg', 'portrait') else 90, method=6)
     return out.getvalue(), image.size
 
 
@@ -139,6 +174,12 @@ def main():
         if tree.get('truncated'):
             raise ValueError(f'{folder}: the tree listing was truncated')
         listing[folder] = tree['tree']
+    portraits = next((entry for entry in api(f'repos/{REPO}/contents/{PORTRAITS.rsplit("/", 1)[0]}?ref={commit}') if entry['name'] == 'charportraits'), None)
+    if not portraits:
+        raise ValueError(f'{PORTRAITS} is not in {REPO}@{commit[:12]}: the dump moved it')
+    portrait_tree = api(f'repos/{REPO}/git/trees/{portraits["sha"]}?recursive=1')
+    if portrait_tree.get('truncated'):
+        raise ValueError('charportraits: the tree listing was truncated')
     ui_listing = {}
     for folder, path in UI_FOLDERS.items():
         parent, name = path.rsplit('/', 1)
@@ -153,7 +194,7 @@ def main():
     sources = json.loads(SOURCES.read_text()) if SOURCES.exists() else {}
     manifest_path = ROOT / 'asset-manifest.json'
     manifest = json.loads(manifest_path.read_text())
-    wanted = [job for job in [*ui_jobs(ui_listing), *jobs(listing)] if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
+    wanted = [job for job in [*ui_jobs(ui_listing), *jobs(listing), *portrait_jobs(portrait_tree['tree'])] if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
     changed = []
     for target, path, blob, kind in wanted[:MAX_NEW]:
         content, (width, height) = convert(fetch(commit, path), kind)

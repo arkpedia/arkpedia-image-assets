@@ -1,7 +1,7 @@
 import io
 import unittest
 from PIL import Image
-from sync_profile_art import UI_SPRITES, convert, jobs, ui_jobs
+from sync_profile_art import UI_SPRITES, convert, jobs, portrait_jobs, portrait_name, ui_jobs
 
 
 def png(size, mode='RGBA'):
@@ -45,6 +45,26 @@ class ProfileArtTests(unittest.TestCase):
         listing = {folder: [{'path': path, 'sha': path, 'type': 'blob'} for path in paths if 'level_bg' not in path] for folder, paths in UI_SPRITES.items()}
         with self.assertRaisesRegex(ValueError, 'level_bg'):
             list(ui_jobs(listing))
+
+    def test_an_outfits_portrait_is_named_by_its_skin_id(self):
+        # The page names a portrait from the account's skin id; the dump files it by a stem.
+        self.assertEqual(portrait_name('char_1013_chen2@boc#6'), portrait_name('char_1013_chen2_boc#6'))
+        self.assertEqual(portrait_name('char_1013_chen2#2'), 'char_1013_chen2_2')
+        self.assertEqual(portrait_name('char_002_amiya#1+'), 'char_002_amiya_1p')
+        listing = [
+            {'path': 'skins', 'sha': 't', 'type': 'tree'},
+            {'path': 'char_003_kalts_boc#6.png', 'sha': 'low', 'type': 'blob'},
+            {'path': 'skins/char_003_kalts_boc#6.png', 'sha': 'high', 'type': 'blob'},
+            {'path': 'linkages/char_456_ash_rainbow6#1.png', 'sha': 'ash', 'type': 'blob'},
+            {'path': 'char_002_amiya_1+.png', 'sha': 'amiya', 'type': 'blob'},
+            {'path': 'roguelike/char_504_rguard_1.png', 'sha': 'r', 'type': 'blob'},
+            {'path': 'sp_char_124_kroos_sale#14.png', 'sha': 'sp', 'type': 'blob'},
+        ]
+        self.assertEqual([(job[0], job[2]) for job in portrait_jobs(listing)], [
+            ('profile-portraits/char_002_amiya_1p.webp', 'amiya'),
+            ('profile-portraits/char_003_kalts_boc_6.webp', 'high'),
+            ('profile-portraits/char_456_ash_rainbow6_1.webp', 'ash'),
+        ])
 
     def test_art_is_sized_for_the_page(self):
         self.assertEqual(convert(png((1920, 1080), 'RGB'), 'bg')[1], (1280, 720))
