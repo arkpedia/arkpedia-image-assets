@@ -1,7 +1,7 @@
 import io
 import unittest
 from PIL import Image
-from sync_profile_art import convert, jobs
+from sync_profile_art import UI_SPRITES, convert, jobs, ui_jobs
 
 
 def png(size, mode='RGBA'):
@@ -32,10 +32,25 @@ class ProfileArtTests(unittest.TestCase):
             'profile-medals/medal_activity_10rune_035.webp',
         ])
 
+    def test_the_cards_sprites_are_published_under_their_own_names(self):
+        listing = {folder: [{'path': path, 'sha': path, 'type': 'blob'} for path in paths] for folder, paths in UI_SPRITES.items()}
+        listing['namecardv2'].append({'path': 'prefabs/module_equip/style_change_icon.png', 'sha': 'x', 'type': 'blob'})
+        targets = {job[0]: job[1] for job in ui_jobs(listing)}
+        self.assertEqual(len(targets), sum(len(paths) for paths in UI_SPRITES.values()))
+        self.assertEqual(targets['profile-ui/level_bg.webp'], 'assets/dyn/ui/[uc]namecardv2/prefabs/module_avatar_simple/level_bg.png')
+        self.assertEqual(targets['profile-ui/elite_2.webp'], 'assets/dyn/arts/elite_hub/elite_2.png')
+        self.assertNotIn('profile-ui/style_change_icon.webp', targets)
+
+    def test_a_sprite_the_dump_moved_fails_the_run(self):
+        listing = {folder: [{'path': path, 'sha': path, 'type': 'blob'} for path in paths if 'level_bg' not in path] for folder, paths in UI_SPRITES.items()}
+        with self.assertRaisesRegex(ValueError, 'level_bg'):
+            list(ui_jobs(listing))
+
     def test_art_is_sized_for_the_page(self):
         self.assertEqual(convert(png((1920, 1080), 'RGB'), 'bg')[1], (1280, 720))
         self.assertEqual(convert(png((159, 180)), 'medal')[1], (85, 96))
         self.assertEqual(convert(png((150, 150)), 'avatar')[1], (150, 150))
+        self.assertEqual(convert(png((84, 84)), 'ui')[1], (84, 84))
         with Image.open(io.BytesIO(convert(png((150, 150)), 'avatar')[0])) as image:
             self.assertEqual((image.format, image.mode), ('WEBP', 'RGBA'))
 

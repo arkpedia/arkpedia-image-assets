@@ -11,6 +11,16 @@ client's dump, ArknightsAssets/ArknightsAssets2 (branch en), under assets/dyn/ar
                                               -> profile-namecards/<id>-strip.webp
   medalicon/<group>/<medal id>.png            -> profile-medals/<medal id>.webp   (96px tall)
 
+and the card's own sprites, which the page draws the card with, from assets/dyn/ui/[uc]namecardv2/
+(the level ring, the share, signature and support icons, the outfit hanger, the Rhodes Island and
+Human Resource marks, the disc behind each nation's emblem) and the elite and potential badges
+from assets/dyn/arts/elite_hub/ and potential_hub/, each at its own size under its own name:
+
+  .../module_avatar_simple/level_bg.png       -> profile-ui/level_bg.webp
+  elite_hub/elite_2.png                       -> profile-ui/elite_2.webp
+
+Only the sprites in UI_SPRITES are published; one the dump no longer has fails the run.
+
 The file names are the game's ids, so the page needs no table to find them. The dump is read
 at one commit for the whole run, and each file's git blob is recorded in
 sources/profile-art.json, so a file is fetched again only when the game changes it. There are
@@ -38,6 +48,21 @@ UA = 'Arkpedia-assets/1.0 (+https://arkpedia.net)'
 SSL = __import__('ssl').create_default_context(cafile=certifi.where())
 MAX_NEW = int(os.environ.get('MAX_NEW', '1500'))
 SOURCES = ROOT / 'sources' / 'profile-art.json'
+# The card's sprites the page uses, by the folder each is listed from (ui_jobs).
+UI_SPRITES = {
+    'namecardv2': {
+        'prefabs/module_avatar_simple/level_bg.png', 'prefabs/module_avatar_simple/share_btn.png',
+        'prefabs/module_sign/resume_icon.png', 'prefabs/assist_icon.png', 'prefabs/team_back.png',
+        'prefabs/assist_char/left_up_back.png', 'prefabs/assist_char/elite_and_potential_bg.png',
+        'prefabs/module_collect/icon_skin.png', 'prefabs/module_collect/decor_skin.png',
+        'prefabs/module_collect/human_resource.png', 'prefabs/module_collect/rhodes_island_decor.png',
+        'prefabs/module_collect/no_use_icon_circle.png', 'prefabs/module_collect/no_use_icon_x.png',
+        'crossappshare/remake_name_card_v2_simple_controller/name_card_uid_bg.png',
+    },
+    'elite_hub': {'elite_0.png', 'elite_1.png', 'elite_2.png'},
+    'potential_hub': {f'potential_{level}_small.png' for level in range(6)},
+}
+UI_FOLDERS = {'namecardv2': 'assets/dyn/ui/[uc]namecardv2', 'elite_hub': 'assets/dyn/arts/elite_hub', 'potential_hub': 'assets/dyn/arts/potential_hub'}
 
 
 def api(path):
@@ -72,6 +97,18 @@ def jobs(listing):
             yield f'profile-medals/{match.group(1)}.webp', f'{UI}/medalicon/{entry["path"]}', entry['sha'], 'medal'
 
 
+def ui_jobs(listing):
+    """(target, source path, blob sha, 'ui') for each of UI_SPRITES, from its folder's recursive
+    git tree: {folder: [{path, sha, type}]}. A sprite the dump moved or removed fails the run."""
+    for folder, wanted in UI_SPRITES.items():
+        found = {entry['path']: entry['sha'] for entry in listing.get(folder, []) if entry['type'] == 'blob'}
+        missing = sorted(wanted - set(found))
+        if missing:
+            raise ValueError(f'{UI_FOLDERS[folder]}: no {", ".join(missing)} (the dump moved them; update UI_SPRITES)')
+        for path in sorted(wanted):
+            yield f'profile-ui/{Path(path).stem}.webp', f'{UI_FOLDERS[folder]}/{path}', found[path], 'ui'
+
+
 def convert(data, kind):
     """The source PNG, sized for the page, as WebP bytes and its (width, height)."""
     with Image.open(io.BytesIO(data)) as source:
@@ -84,7 +121,10 @@ def convert(data, kind):
     if kind == 'medal' and image.height > 96:
         image = image.resize((round(image.width * 96 / image.height), 96), Image.Resampling.LANCZOS)
     out = io.BytesIO()
-    image.save(out, 'WEBP', quality=82 if kind == 'bg' else 90, method=6)
+    if kind == 'ui':
+        image.save(out, 'WEBP', lossless=True, method=6)
+    else:
+        image.save(out, 'WEBP', quality=82 if kind == 'bg' else 90, method=6)
     return out.getvalue(), image.size
 
 
@@ -99,11 +139,21 @@ def main():
         if tree.get('truncated'):
             raise ValueError(f'{folder}: the tree listing was truncated')
         listing[folder] = tree['tree']
+    ui_listing = {}
+    for folder, path in UI_FOLDERS.items():
+        parent, name = path.rsplit('/', 1)
+        entry = next((entry for entry in api(f'repos/{REPO}/contents/{urllib.parse.quote(parent)}?ref={commit}') if entry['name'] == name), None)
+        if not entry:
+            raise ValueError(f'{path} is not in {REPO}@{commit[:12]}: the dump moved it')
+        tree = api(f'repos/{REPO}/git/trees/{entry["sha"]}?recursive=1')
+        if tree.get('truncated'):
+            raise ValueError(f'{folder}: the tree listing was truncated')
+        ui_listing[folder] = tree['tree']
 
     sources = json.loads(SOURCES.read_text()) if SOURCES.exists() else {}
     manifest_path = ROOT / 'asset-manifest.json'
     manifest = json.loads(manifest_path.read_text())
-    wanted = [job for job in jobs(listing) if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
+    wanted = [job for job in [*ui_jobs(ui_listing), *jobs(listing)] if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
     changed = []
     for target, path, blob, kind in wanted[:MAX_NEW]:
         content, (width, height) = convert(fetch(commit, path), kind)
