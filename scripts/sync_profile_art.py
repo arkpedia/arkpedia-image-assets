@@ -26,6 +26,12 @@ from assets/dyn/arts/elite_hub/ and potential_hub/, each at its own size under i
 
 Only the sprites in UI_SPRITES are published; one the dump no longer has fails the run.
 
+Every module type's mark and every skill's icon, for the support units shown full length,
+named by the game's own ids:
+
+  arts/ui/uniequipdirection/arc-y.png         -> profile-modules/arc-y.webp
+  arts/skills/skill_icon_skchr_ascln_2.png    -> profile-skills/skchr_ascln_2.webp  (96px)
+
 And each operator's portrait in each outfit, which the card shows its support units in, from
 assets/dyn/arts/charportraits/ (180x360):
 
@@ -73,8 +79,12 @@ UI_SPRITES = {
         'prefabs/module_avatar_simple/level_bg.png', 'prefabs/module_avatar_simple/share_btn.png',
         'prefabs/module_sign/resume_icon.png', 'prefabs/assist_icon.png', 'prefabs/team_back.png',
         'prefabs/assist_char/left_up_back.png', 'prefabs/assist_char/elite_and_potential_bg.png',
-        # The support unit's lent skill at Mastery 3.
-        'prefabs/assist_char/spec_max_icon.png',
+        # The support unit with every skill at Mastery 3, its module's frame, and the switch
+        # that shows the units full length.
+        'prefabs/assist_char/spec_max_icon.png', 'prefabs/assist_char/equip_bg.png',
+        'prefabs/assist_char/friend_assist_equip_bg_none.png',
+        # The hiring count's switch to a percentage, and the percentage's tower.
+        'prefabs/module_equip/style_change_icon.png', 'prefabs/module_collect/operator_collect_bg.png',
         'prefabs/module_collect/icon_skin.png', 'prefabs/module_collect/decor_skin.png',
         'prefabs/module_collect/human_resource.png', 'prefabs/module_collect/rhodes_island_decor.png',
         'prefabs/module_collect/no_use_icon_circle.png', 'prefabs/module_collect/no_use_icon_x.png',
@@ -87,6 +97,10 @@ UI_SPRITES = {
     'potential_hub': {f'potential_{level}_small.png' for level in range(6)},
 }
 PORTRAITS = 'assets/dyn/arts/charportraits'
+# Every module type's mark (ARC-Y, AMB-X...) as the support unit shows it, and every skill's icon,
+# both named by the game's own ids (uniequip typeIcon, skill iconId or skillId).
+ICON_FOLDERS = {'profile-modules': ('assets/dyn/arts/ui/uniequipdirection', r'([\w-]+)\.png'),
+                'profile-skills': ('assets/dyn/arts/skills', r'skill_icon_([\w-]+)\.png')}
 UI_FOLDERS = {'namecardv2': 'assets/dyn/ui/[uc]namecardv2', 'elite_hub': 'assets/dyn/arts/elite_hub', 'potential_hub': 'assets/dyn/arts/potential_hub'}
 
 
@@ -159,6 +173,17 @@ def portrait_jobs(listing):
         yield f'profile-portraits/{name}.webp', f'{PORTRAITS}/{entry["path"]}', entry['sha'], 'portrait'
 
 
+def icon_jobs(listing):
+    """(target, source path, blob sha, kind) for every module mark and skill icon, from each
+    folder's git tree: {target folder: [{path, sha, type}]}. Names are lower-cased, as the page
+    asks for them (lib/account/portraits.ts)."""
+    for target, (source, pattern) in ICON_FOLDERS.items():
+        for entry in listing.get(target, []):
+            match = re.fullmatch(pattern, entry['path'])
+            if entry['type'] == 'blob' and match:
+                yield f'{target}/{match.group(1).lower()}.webp', f'{source}/{entry["path"]}', entry['sha'], 'icon' if target == 'profile-modules' else 'skill'
+
+
 def convert(data, kind):
     """The source PNG, sized for the page, as WebP bytes and its (width, height)."""
     with Image.open(io.BytesIO(data)) as source:
@@ -168,10 +193,12 @@ def convert(data, kind):
         image = source.convert('RGB' if kind == 'bg' else 'RGBA')
     if kind == 'bg' and image.width > 1280:
         image = image.resize((1280, round(image.height * 1280 / image.width)), Image.Resampling.LANCZOS)
+    if kind == 'skill' and image.width > 96:
+        image = image.resize((96, round(image.height * 96 / image.width)), Image.Resampling.LANCZOS)
     if kind == 'medal' and image.height > 96:
         image = image.resize((round(image.width * 96 / image.height), 96), Image.Resampling.LANCZOS)
     out = io.BytesIO()
-    if kind == 'ui':
+    if kind in ('ui', 'icon'):
         image.save(out, 'WEBP', lossless=True, method=6)
     else:
         image.save(out, 'WEBP', quality=82 if kind in ('bg', 'portrait') else 90, method=6)
@@ -206,10 +233,21 @@ def main():
             raise ValueError(f'{folder}: the tree listing was truncated')
         ui_listing[folder] = tree['tree']
 
+    icon_listing = {}
+    for target, (path, _) in ICON_FOLDERS.items():
+        parent, name = path.rsplit('/', 1)
+        entry = next((entry for entry in api(f'repos/{REPO}/contents/{urllib.parse.quote(parent)}?ref={commit}') if entry['name'] == name), None)
+        if not entry:
+            raise ValueError(f'{path} is not in {REPO}@{commit[:12]}: the dump moved it')
+        tree = api(f'repos/{REPO}/git/trees/{entry["sha"]}')
+        if tree.get('truncated'):
+            raise ValueError(f'{path}: the tree listing was truncated')
+        icon_listing[target] = tree['tree']
+
     sources = json.loads(SOURCES.read_text()) if SOURCES.exists() else {}
     manifest_path = ROOT / 'asset-manifest.json'
     manifest = json.loads(manifest_path.read_text())
-    wanted = [job for job in [*ui_jobs(ui_listing), *jobs(listing), *portrait_jobs(portrait_tree['tree'])] if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
+    wanted = [job for job in [*ui_jobs(ui_listing), *icon_jobs(icon_listing), *jobs(listing), *portrait_jobs(portrait_tree['tree'])] if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
     changed = []
     deadline = time.monotonic() + MAX_SECONDS
     for target, path, blob, kind in wanted[:MAX_NEW]:

@@ -11,7 +11,7 @@ Icons, banner art, event art, and other image media used by [Arkpedia](https://g
 | `headhunting-banner-images/`, `event-poster/`, `content-art/`, `album-covers/`, `cg-collection/` | Banners, event art, music covers, and scenes. |
 | `stages-images/`, `ra-map/`, `enemies-icons/`, `enemy-stat-icons/` | Stage maps and enemy artwork. |
 | `*-marks/`, `alliance-icons/`, `stronghold-*/`, `item-icons/`, `material-icons/` | Mode emblems, game-mode UI, and material icons. |
-| `profile-avatars/`, `profile-namecards/`, `profile-medals/`, `profile-portraits/`, `profile-ui/` | The game's player profile card, for the account page: avatars, each card theme's background and head panel (every variant), medals, operator portraits in each outfit, and the card's own sprites. Named by the game's ids, in lower case. |
+| `profile-avatars/`, `profile-namecards/`, `profile-medals/`, `profile-portraits/`, `profile-ui/`, `profile-modules/`, `profile-skills/` | The game's player profile card, for the account page: avatars, each card theme's background and head panel (every variant), medals, operator portraits in each outfit, the card's own sprites, and the module marks and skill icons its support units show. Named by the game's ids, in lower case. |
 | `cursors/` | The site's cursors. |
 | `originals/` | Preserved original image files. |
 | `originals/source-art/` | Manual captures retained so masked/processed emblems can be reproduced. See its provenance notes. |
