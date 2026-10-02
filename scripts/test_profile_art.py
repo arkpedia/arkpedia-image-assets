@@ -22,6 +22,10 @@ class ProfileArtTests(unittest.TestCase):
                 {'path': '[uc]nc_moon_1/skin_style/bg.png', 'sha': 'b', 'type': 'blob'},
                 {'path': '[uc]nc_moon_1/skin_style/name_card_long.png', 'sha': 'c', 'type': 'blob'},
                 {'path': '[uc]nc_moon_1/skin_style/sdk.png', 'sha': 'd', 'type': 'blob'},
+                {'path': '[uc]nc_moon_1/skin_style/name_card_short.png', 'sha': 'f', 'type': 'blob'},
+                {'path': '[uc]nc_avemujica_1/skin_style/name_card_short_2.png', 'sha': 'g', 'type': 'blob'},
+                {'path': '[uc]nc_avemujica_1/skin_style/name_card_long_2.png', 'sha': 'h', 'type': 'blob'},
+                {'path': '[uc]nc_rhodes_light/skin_style/short.png', 'sha': 'i', 'type': 'blob'},
             ],
             'medalicon': [{'path': 'act10rune/medal_activity_10rune_035.png', 'sha': 'e', 'type': 'blob'}],
         }
@@ -29,6 +33,10 @@ class ProfileArtTests(unittest.TestCase):
             'profile-avatars/avatar_special_41.webp',
             'profile-namecards/nc_moon_1-bg.webp',
             'profile-namecards/nc_moon_1-strip.webp',
+            'profile-namecards/nc_moon_1-head.webp',
+            'profile-namecards/nc_avemujica_1-head-2.webp',
+            'profile-namecards/nc_avemujica_1-strip-2.webp',
+            'profile-namecards/nc_rhodes_light-head.webp',
             'profile-medals/medal_activity_10rune_035.webp',
         ])
 
