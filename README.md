@@ -11,6 +11,8 @@ Icons, banner art, event art, and other image media used by [Arkpedia](https://g
 | `headhunting-banner-images/`, `event-poster/`, `content-art/`, `album-covers/`, `cg-collection/` | Banners, event art, music covers, and scenes. |
 | `stages-images/`, `ra-map/`, `enemies-icons/`, `enemy-stat-icons/` | Stage maps and enemy artwork. |
 | `*-marks/`, `alliance-icons/`, `stronghold-*/`, `item-icons/`, `material-icons/` | Mode emblems, game-mode UI, and material icons. |
+| `profile-avatars/`, `profile-namecards/`, `profile-medals/`, `profile-portraits/`, `profile-ui/` | The game's player profile card, for the account page: avatars, each card theme's background and head panel (every variant), medals, operator portraits in each outfit, and the card's own sprites. Named by the game's ids, in lower case. |
+| `cursors/` | The site's cursors. |
 | `originals/` | Preserved original image files. |
 | `originals/source-art/` | Manual captures retained so masked/processed emblems can be reproduced. See its provenance notes. |
 | `sources/` and `source.json` | Per-import provenance and the initial repository import source. |
@@ -22,8 +24,8 @@ Root delivery folders retain their existing names because deployed applications 
 
 1. Add the delivery file to its existing category; prefer WebP for compact delivery and retain a useful original under `originals/`.
 2. Record its actual upstream source or manual-capture provenance. Do not replace unknown provenance with a guess.
-3. Update `asset-manifest.json` with its size and SHA-256 digest.
-4. In the private application, update `data/assets/external-asset-index.json` and run `npm run check:assets`. Publish the asset before the application references it.
+3. Update `asset-manifest.json` with its size, dimensions and SHA-256 digest (`python scripts/validate_images.py --staged` checks it).
+4. Publish it here first. Then, in the private application, run `npm run assets:update`, which pins this repository's new commit and rebuilds the asset indexes; a new top-level folder also needs `config/asset-folders.json`. Pages pick up art through the content release's pins, so the nightly release (or a manual one) makes it live.
 
 Operator artwork and responsive variants belong in [arkpedia-skin-assets](https://github.com/arkpedia/arkpedia-skin-assets); voice recordings belong in the language-specific voice repositories; palette corrections belong in [arkpedia-color-palette](https://github.com/arkpedia/arkpedia-color-palette).
 
@@ -39,4 +41,12 @@ The content release in the website repository (`Prepare content release`) also p
 
 Global event and featured-banner art is refreshed daily from explicitly English uploads. The importer reads release windows and image paths from `arkpedia-data`, records image provenance in `sources/global-banner-art.json`, retries missing English uploads, and validates every changed image against the asset manifest. Recurring Standard/Kernel banners have their own discovery step. In January (UTC), until the wiki creates the new year's banner page, it finds no rows for that year instead of failing; from February 1 a missing page fails the job. Every wiki read follows a redirect, so a moved page or upload is still found, and a banner page the API answers with `#REDIRECT` (a double redirect) fails the job in any month. Consumers use pinned files in this repository, never the upstream image host.
 
-The run has one job per source, in this order: Global key art, recurring banners, then the mirror sync above. Each validates and publishes only what it changed, and each runs whether or not the one before it passed, so an operator-data problem cannot hold back a Global key-art swap; a failed job still marks the whole run red. They run one after another rather than in parallel because `asset-manifest.json` is a single line, so two commits that both touch it cannot be rebased onto each other; each job starts from the branch tip, including the previous job's commit. The mirror job publishes nothing when the sync changed only `lastSyncedCommit`: most upstream commits touch no mapped image, and a commit for that alone would move this repository's HEAD and re-pin every image URL in the next content release for identical bytes. So `lastSyncedCommit` lags upstream until a mapped image, manifest row, map row or source blob changes. The Global and recurring jobs stage nothing unless a wiki upload they track changed.
+The player profile card's art (the `profile-*` folders) has its own job, `profile-art` (`scripts/sync_profile_art.py`). It mirrors the Global client's dump at `ArknightsAssets/ArknightsAssets2` (branch `en`):
+- player avatars and medals;
+- each card theme's background, and its head and strip panels for every variant;
+- each operator's portrait in each outfit (`charportraits/`, the `skins/` and `linkages/` copies preferred);
+- an allow-list of the card's own sprites and the elite and potential badges.
+
+`sources/profile-art.json` records each file's upstream blob, so a file is fetched again only when the game changes it. A run starts no new file after `MAX_SECONDS` (720) or `MAX_NEW` files, and the next run carries on, so a large first sync spreads over several runs instead of overrunning the job's time limit.
+
+The run has one job per source, in this order: Global key art, recurring banners, profile art, then the mirror sync above. Each validates and publishes only what it changed, and each runs whether or not the one before it passed, so an operator-data problem cannot hold back a Global key-art swap; a failed job still marks the whole run red. They run one after another rather than in parallel because `asset-manifest.json` is a single line, so two commits that both touch it cannot be rebased onto each other; each job starts from the branch tip, including the previous job's commit. The mirror job publishes nothing when the sync changed only `lastSyncedCommit`: most upstream commits touch no mapped image, and a commit for that alone would move this repository's HEAD and re-pin every image URL in the next content release for identical bytes. So `lastSyncedCommit` lags upstream until a mapped image, manifest row, map row or source blob changes. The Global and recurring jobs stage nothing unless a wiki upload they track changed.
