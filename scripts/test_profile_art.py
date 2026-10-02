@@ -53,13 +53,16 @@ class ProfileArtTests(unittest.TestCase):
     def test_module_marks_and_skill_icons_are_published_under_the_games_ids(self):
         listing = {
             'profile-modules': [{'path': 'arc-y.png', 'sha': 'a', 'type': 'blob'}, {'path': 'AMB-X.png', 'sha': 'b', 'type': 'blob'}],
-            'profile-skills': [{'path': 'skill_icon_skchr_ascln_2.png', 'sha': 'c', 'type': 'blob'}, {'path': 'notes.txt', 'sha': 'd', 'type': 'blob'}],
+            'profile-skills': [{'path': 'skill_icon_skchr_ascln_2.png', 'sha': 'c', 'type': 'blob'}, {'path': 'notes.txt', 'sha': 'd', 'type': 'blob'},
+                               {'path': 'skill_icon_skcom_enchant[1].png', 'sha': 'e', 'type': 'blob'}],
         }
         jobs = {job[0]: (job[1], job[3]) for job in icon_jobs(listing)}
         self.assertEqual(jobs, {
             'profile-modules/arc-y.webp': ('assets/dyn/arts/ui/uniequipdirection/arc-y.png', 'icon'),
             'profile-modules/amb-x.webp': ('assets/dyn/arts/ui/uniequipdirection/AMB-X.png', 'icon'),
             'profile-skills/skchr_ascln_2.webp': ('assets/dyn/arts/skills/skill_icon_skchr_ascln_2.png', 'skill'),
+            # A shared icon, named with its index as a suffix: no brackets in a URL.
+            'profile-skills/skcom_enchant_1.webp': ('assets/dyn/arts/skills/skill_icon_skcom_enchant[1].png', 'skill'),
         })
 
     def test_a_sprite_the_dump_moved_fails_the_run(self):

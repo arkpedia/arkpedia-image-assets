@@ -31,6 +31,7 @@ named by the game's own ids:
 
   arts/ui/uniequipdirection/arc-y.png         -> profile-modules/arc-y.webp
   arts/skills/skill_icon_skchr_ascln_2.png    -> profile-skills/skchr_ascln_2.webp  (96px)
+  arts/skills/skill_icon_skcom_enchant[1].png -> profile-skills/skcom_enchant_1.webp (a shared icon)
 
 And each operator's portrait in each outfit, which the card shows its support units in, from
 assets/dyn/arts/charportraits/ (180x360):
@@ -100,7 +101,13 @@ PORTRAITS = 'assets/dyn/arts/charportraits'
 # Every module type's mark (ARC-Y, AMB-X...) as the support unit shows it, and every skill's icon,
 # both named by the game's own ids (uniequip typeIcon, skill iconId or skillId).
 ICON_FOLDERS = {'profile-modules': ('assets/dyn/arts/ui/uniequipdirection', r'([\w-]+)\.png'),
-                'profile-skills': ('assets/dyn/arts/skills', r'skill_icon_([\w-]+)\.png')}
+                'profile-skills': ('assets/dyn/arts/skills', r'skill_icon_([\w\[\]-]+)\.png')}
+
+
+def icon_name(game_id):
+    """The published name of a game icon id: lower case, and a shared skill icon's bracketed
+    index ("skcom_enchant[1]") as a suffix ("skcom_enchant_1"), as the page writes it."""
+    return re.sub(r'\[(\d+)\]', r'_\1', game_id).lower()
 UI_FOLDERS = {'namecardv2': 'assets/dyn/ui/[uc]namecardv2', 'elite_hub': 'assets/dyn/arts/elite_hub', 'potential_hub': 'assets/dyn/arts/potential_hub'}
 
 
@@ -181,7 +188,7 @@ def icon_jobs(listing):
         for entry in listing.get(target, []):
             match = re.fullmatch(pattern, entry['path'])
             if entry['type'] == 'blob' and match:
-                yield f'{target}/{match.group(1).lower()}.webp', f'{source}/{entry["path"]}', entry['sha'], 'icon' if target == 'profile-modules' else 'skill'
+                yield f'{target}/{icon_name(match.group(1))}.webp', f'{source}/{entry["path"]}', entry['sha'], 'icon' if target == 'profile-modules' else 'skill'
 
 
 def convert(data, kind):
