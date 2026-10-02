@@ -9,6 +9,11 @@ client's dump, ArknightsAssets/ArknightsAssets2 (branch en), under assets/dyn/ar
   namecardskin/[uc]<id>/skin_style/bg.png     -> profile-namecards/<id>-bg.webp    (1280 wide)
   namecardskin/[uc]<id>/skin_style/name_card_long.png
                                               -> profile-namecards/<id>-strip.webp
+  namecardskin/[uc]<id>/skin_style/name_card_short.png
+                                              -> profile-namecards/<id>-head.webp   (the card's head panel)
+  ..._long_<n>.png, ..._short_<n>.png         -> <id>-strip-<n>.webp, <id>-head-<n>.webp
+                                                 (a style with variants the player picks from;
+                                                 nc_rhodes_light names them long.png and short.png)
   medalicon/<group>/<medal id>.png            -> profile-medals/<medal id>.webp   (96px tall)
 
 and the card's own sprites, which the page draws the card with, from assets/dyn/ui/[uc]namecardv2/
@@ -72,6 +77,9 @@ UI_SPRITES = {
         'prefabs/module_collect/human_resource.png', 'prefabs/module_collect/rhodes_island_decor.png',
         'prefabs/module_collect/no_use_icon_circle.png', 'prefabs/module_collect/no_use_icon_x.png',
         'crossappshare/remake_name_card_v2_simple_controller/name_card_uid_bg.png',
+        'prefabs/module_avatar_simple/extend_btn.png',
+        'prefabs/module_equip/module_collection_bg.png', 'prefabs/module_equip/module_collection_bg_icon.png',
+        'prefabs/module_mainline/mainline_human.png', 'prefabs/module_mainline/mainline_icon.png',
     },
     'elite_hub': {'elite_0.png', 'elite_1.png', 'elite_2.png'},
     'potential_hub': {f'potential_{level}_small.png' for level in range(6)},
@@ -102,10 +110,11 @@ def jobs(listing):
         if entry['type'] == 'blob' and re.fullmatch(r'[\w-]+\.png', name):
             yield f'profile-avatars/{name[:-4]}.webp', f'{UI}/playeravatar/{name}', entry['sha'], 'avatar'
     for entry in listing.get('namecardskin', []):
-        match = re.fullmatch(r'\[uc\](nc_[\w-]+)/skin_style/(bg|name_card_long)\.png', entry['path'])
+        match = re.fullmatch(r'\[uc\](nc_[\w-]+)/skin_style/(?:(bg)|(?:name_card_)?(long|short)(?:_(\d+))?)\.png', entry['path'])
         if entry['type'] == 'blob' and match:
-            card, part = match.groups()
-            yield f'profile-namecards/{card}-{"bg" if part == "bg" else "strip"}.webp', f'{UI}/namecardskin/{entry["path"]}', entry['sha'], part
+            card, bg, shape, variant = match.groups()
+            name = 'bg' if bg else f'{"strip" if shape == "long" else "head"}{f"-{variant}" if variant else ""}'
+            yield f'profile-namecards/{card}-{name}.webp', f'{UI}/namecardskin/{entry["path"]}', entry['sha'], 'bg' if bg else shape
     for entry in listing.get('medalicon', []):
         match = re.fullmatch(r'[\w-]+/(medal_[\w-]+)\.png', entry['path'])
         if entry['type'] == 'blob' and match:
