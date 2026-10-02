@@ -572,5 +572,10 @@
     "url": "https://www.canva.com/design/DAHBABXJpds/tgUQ72n0pCw8HHq56-OBOA/view#MAHBN8cfC9A",
     "sha256": "26ff6c41cdab50c9eb3bc73ea298459eff16deb15c2cbfe2dca980f4652d1d9f",
     "importer": "story-map"
+  },
+  "album-covers/矢量突破拟生态OST_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20260929/b6b48b83c8d2e7b444b0847c72ee49c7.jpg",
+    "sha256": "98f1cb58af30f4296b5e445c795448ce2c8fd0ed1a776310bbbd79d98c6aa41c",
+    "importer": "album-covers"
   }
 }
