@@ -34,8 +34,10 @@ in skins/ and linkages/ at a higher quality than at the top, so those copies win
 The file names are the game's ids, so the page needs no table to find them. The dump is read
 at one commit for the whole run, and each file's git blob is recorded in
 sources/profile-art.json, so a file is fetched again only when the game changes it. There are
-some three thousand medals: a run publishes at most MAX_NEW new files (default 1500) and the
-next run carries on, so no run outlasts the job's time limit.
+some three thousand medals and thirteen hundred portraits: a run publishes at most MAX_NEW new
+files (default 1500), and starts no new one after MAX_SECONDS (default 720, well inside the
+job's 25 minutes, which a run of all the portraits overran and was cancelled with nothing
+published); the next run carries on where it stopped.
 """
 import hashlib
 import io
@@ -43,6 +45,7 @@ import json
 import os
 import re
 import subprocess
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -57,6 +60,7 @@ UI = 'assets/dyn/arts/ui'
 UA = 'Arkpedia-assets/1.0 (+https://arkpedia.net)'
 SSL = __import__('ssl').create_default_context(cafile=certifi.where())
 MAX_NEW = int(os.environ.get('MAX_NEW', '1500'))
+MAX_SECONDS = float(os.environ.get('MAX_SECONDS', '720'))
 SOURCES = ROOT / 'sources' / 'profile-art.json'
 # The card's sprites the page uses, by the folder each is listed from (ui_jobs).
 UI_SPRITES = {
@@ -196,7 +200,10 @@ def main():
     manifest = json.loads(manifest_path.read_text())
     wanted = [job for job in [*ui_jobs(ui_listing), *jobs(listing), *portrait_jobs(portrait_tree['tree'])] if not (job[0] in manifest['files'] and sources.get(job[0]) == job[2])]
     changed = []
+    deadline = time.monotonic() + MAX_SECONDS
     for target, path, blob, kind in wanted[:MAX_NEW]:
+        if time.monotonic() > deadline:
+            break
         content, (width, height) = convert(fetch(commit, path), kind)
         (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
         (ROOT / target).write_bytes(content)
@@ -210,7 +217,7 @@ def main():
         SOURCES.parent.mkdir(parents=True, exist_ok=True)
         SOURCES.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
         subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', str(SOURCES.relative_to(ROOT)), *changed], cwd=ROOT, check=True)
-    left = max(0, len(wanted) - MAX_NEW)
+    left = len(wanted) - len(changed)
     print(f'Profile art at {REPO}@{commit[:12]}: {len(changed)} published' + (f', {left} left for the next run.' if left else ', all current.'))
 
 
