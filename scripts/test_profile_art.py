@@ -1,7 +1,7 @@
 import io
 import unittest
 from PIL import Image
-from sync_profile_art import UI_SPRITES, convert, jobs, portrait_jobs, portrait_name, ui_jobs
+from sync_profile_art import UI_SPRITES, convert, icon_jobs, jobs, portrait_jobs, portrait_name, ui_jobs
 
 
 def png(size, mode='RGBA'):
@@ -42,12 +42,25 @@ class ProfileArtTests(unittest.TestCase):
 
     def test_the_cards_sprites_are_published_under_their_own_names(self):
         listing = {folder: [{'path': path, 'sha': path, 'type': 'blob'} for path in paths] for folder, paths in UI_SPRITES.items()}
-        listing['namecardv2'].append({'path': 'prefabs/module_equip/style_change_icon.png', 'sha': 'x', 'type': 'blob'})
+        listing['namecardv2'].append({'path': 'sub_skin_change_view/back_mask.png', 'sha': 'x', 'type': 'blob'})
         targets = {job[0]: job[1] for job in ui_jobs(listing)}
         self.assertEqual(len(targets), sum(len(paths) for paths in UI_SPRITES.values()))
         self.assertEqual(targets['profile-ui/level_bg.webp'], 'assets/dyn/ui/[uc]namecardv2/prefabs/module_avatar_simple/level_bg.png')
         self.assertEqual(targets['profile-ui/elite_2.webp'], 'assets/dyn/arts/elite_hub/elite_2.png')
-        self.assertNotIn('profile-ui/style_change_icon.webp', targets)
+        self.assertNotIn('profile-ui/back_mask.webp', targets)
+        self.assertEqual(targets['profile-ui/operator_collect_bg.webp'], 'assets/dyn/ui/[uc]namecardv2/prefabs/module_collect/operator_collect_bg.png')
+
+    def test_module_marks_and_skill_icons_are_published_under_the_games_ids(self):
+        listing = {
+            'profile-modules': [{'path': 'arc-y.png', 'sha': 'a', 'type': 'blob'}, {'path': 'AMB-X.png', 'sha': 'b', 'type': 'blob'}],
+            'profile-skills': [{'path': 'skill_icon_skchr_ascln_2.png', 'sha': 'c', 'type': 'blob'}, {'path': 'notes.txt', 'sha': 'd', 'type': 'blob'}],
+        }
+        jobs = {job[0]: (job[1], job[3]) for job in icon_jobs(listing)}
+        self.assertEqual(jobs, {
+            'profile-modules/arc-y.webp': ('assets/dyn/arts/ui/uniequipdirection/arc-y.png', 'icon'),
+            'profile-modules/amb-x.webp': ('assets/dyn/arts/ui/uniequipdirection/AMB-X.png', 'icon'),
+            'profile-skills/skchr_ascln_2.webp': ('assets/dyn/arts/skills/skill_icon_skchr_ascln_2.png', 'skill'),
+        })
 
     def test_a_sprite_the_dump_moved_fails_the_run(self):
         listing = {folder: [{'path': path, 'sha': path, 'type': 'blob'} for path in paths if 'level_bg' not in path] for folder, paths in UI_SPRITES.items()}
