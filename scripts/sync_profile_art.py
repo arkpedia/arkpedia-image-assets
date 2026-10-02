@@ -73,6 +73,8 @@ UI_SPRITES = {
         'prefabs/module_avatar_simple/level_bg.png', 'prefabs/module_avatar_simple/share_btn.png',
         'prefabs/module_sign/resume_icon.png', 'prefabs/assist_icon.png', 'prefabs/team_back.png',
         'prefabs/assist_char/left_up_back.png', 'prefabs/assist_char/elite_and_potential_bg.png',
+        # The support unit's lent skill at Mastery 3.
+        'prefabs/assist_char/spec_max_icon.png',
         'prefabs/module_collect/icon_skin.png', 'prefabs/module_collect/decor_skin.png',
         'prefabs/module_collect/human_resource.png', 'prefabs/module_collect/rhodes_island_decor.png',
         'prefabs/module_collect/no_use_icon_circle.png', 'prefabs/module_collect/no_use_icon_x.png',
