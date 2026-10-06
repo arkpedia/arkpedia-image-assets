@@ -3,13 +3,11 @@ import datetime as dt
 import hashlib
 import io
 import json
-import os
 from pathlib import Path
 import tempfile
 import unittest
-from PIL import Image
 import sync_recurring_banner_art
-from sync_recurring_banner_art import card_jobs, client_card_art, image_info, place_client_cards, rows, wikitext
+from sync_recurring_banner_art import image_info, read_sources, rows, wikitext
 from unittest.mock import patch
 
 # The API's answer (HTTP 200) for Headhunting/Banners/2027 on 2026-09-23, before the page existed.
@@ -71,14 +69,11 @@ class YearlyPageTests(unittest.TestCase):
         self.assertEqual(fetch.call_args.args[0]['redirects'], 1)
 
     def run_main(self, today, payload=MISSING):
-        with tempfile.TemporaryDirectory() as temp, tempfile.TemporaryDirectory() as data:
+        with tempfile.TemporaryDirectory() as temp:
             root = Path(temp); manifest = '{"files":{}}\n'
             (root / 'asset-manifest.json').write_text(manifest)
-            (Path(data) / 'source/data').mkdir(parents=True)
-            (Path(data) / 'source/data/headhunting_banners.json').write_text('[]')
             out = io.StringIO()
             with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=today), \
-                    patch.dict(os.environ, {'ARKPEDIA_DATA_ROOT': data}), \
                     patch('sync_recurring_banner_art.fetch', return_value=payload) as fetch, contextlib.redirect_stdout(out):
                 try:
                     sync_recurring_banner_art.main()
@@ -102,96 +97,48 @@ class YearlyPageTests(unittest.TestCase):
             self.run_main(dt.date(2027, 6, 1), REDIRECT)
 
 
-def banner(name, pool, start, end, kind='standard', image=None):
-    return {'name': name, 'pull_type': kind, 'globalPoolId': pool, 'banner_image': image or f"/headhunting-banner-images/{name.replace('#', '')}.webp",
-        'global_window': {'startAt': f'{start}T11:00:00.000Z', 'endAt': f'{end}T11:00:00.000Z'}}
+class SourceTests(unittest.TestCase):
+    TARGET = 'headhunting-banner-images/Standard Pool 175 (Global).webp'
+    INFO = {'batchcomplete': '', 'query': {'pages': {'1': {'title': 'File:EN Standard Pool 175 banner.png',
+        'imageinfo': [{'url': 'https://arknights.wiki.gg/images/EN_Standard_Pool_175_banner.png', 'sha1': 'a' * 40}]}}}}
 
+    def test_only_wiki_uploads_may_be_recorded(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'recurring-banner-art.json'
+            self.assertEqual(read_sources(path), {})
+            path.write_text(json.dumps({self.TARGET: 'a' * 40}))
+            self.assertEqual(read_sources(path), {self.TARGET: 'a' * 40})
+            # The client-card stand-ins this script once made, and anything else that is not a wiki sha1.
+            for other in ('client-card:' + 'c' * 40 + ':pic.png', 'A' * 40, ''):
+                path.write_text(json.dumps({self.TARGET: other}))
+                with self.assertRaisesRegex(ValueError, 'Only wiki uploads'):
+                    read_sources(path)
 
-def card_png(size=(467, 239), margin=19, color=(200, 40, 40)):
-    """A card shaped like the client's: opaque, in a soft transparent margin."""
-    image = Image.new('RGBA', size, (0, 0, 0, 0))
-    image.paste(Image.new('RGBA', (size[0] - 2 * margin, size[1] - 40), color + (255,)), (margin, 0))
-    out = io.BytesIO(); image.save(out, 'PNG')
-    return out.getvalue()
-
-
-class ClientCardTests(unittest.TestCase):
-    TODAY = dt.date(2026, 10, 1)
-
-    def jobs(self, banners):
-        with tempfile.TemporaryDirectory() as data:
-            (Path(data) / 'source/data').mkdir(parents=True)
-            (Path(data) / 'source/data/headhunting_banners.json').write_text(json.dumps(banners))
-            return list(card_jobs(Path(data), self.TODAY))
-
-    def test_recorded_recurring_banners_near_today_are_the_jobs(self):
-        self.assertEqual(self.jobs([
-            banner('Standard Pool #177 (Global)', 'DOUBLE_EN_41_0_9', '2026-10-09', '2026-10-23'),
-            banner('Kernel #63 (Global)', 'CLASSIC_DOUBLE_EN_41_0_4', '2026-10-06', '2026-10-20', 'kernel'),
-            # Too far ahead, long over, not recurring, or no pool to find the card by.
-            banner('Standard Pool #179 (Global)', 'DOUBLE_EN_42_0_1', '2026-11-06', '2026-11-20'),
-            banner('Standard Pool #150 (Global)', 'DOUBLE_EN_35_0_5', '2025-08-01', '2025-08-15'),
-            banner('[Limited] Something', 'LIMITED_41_0_1', '2026-10-01', '2026-10-15', 'limited'),
-            {**banner('Standard Pool #176 (Global)', None, '2026-09-25', '2026-10-09'), 'globalPoolId': None},
-        ]), [('Standard Pool #177 (Global)', 'DOUBLE_EN_41_0_9', 'headhunting-banner-images/Standard Pool 177 (Global).webp'),
-             ('Kernel #63 (Global)', 'CLASSIC_DOUBLE_EN_41_0_4', 'headhunting-banner-images/Kernel 63 (Global).webp')])
-
-    def test_a_path_outside_the_banner_art_fails(self):
-        with self.assertRaisesRegex(ValueError, 'Unexpected art path'):
-            self.jobs([banner('Standard Pool #177 (Global)', 'DOUBLE_EN_41_0_9', '2026-10-09', '2026-10-23', image='/../asset-manifest.json')])
-
-    def test_the_card_is_framed_whole_at_the_wiki_art_size(self):
-        art = client_card_art(card_png())
-        self.assertEqual(art.size, (1024, 559))
-        # The card's opaque part (429x199) fills the width; the bands above and below are its
-        # own colours blurred and darkened, not the transparent margin's black.
-        self.assertEqual(art.getpixel((512, 280)), (200, 40, 40))
-        band = art.getpixel((512, 5))
-        self.assertTrue(band[0] > 40 and band[0] < 200, band)
-
-    def test_cards_go_only_where_no_art_is(self):
+    def test_the_wiki_upload_is_published_with_its_sha1(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            manifest = {'files': {'headhunting-banner-images/Standard Pool 176 (Global).webp': {'bytes': 1, 'sha256': 'x'}}}
-            sources, asked, refs = {}, [], []
-            jobs = [('Standard Pool #176 (Global)', 'DOUBLE_EN_41_0_8', 'headhunting-banner-images/Standard Pool 176 (Global).webp'),
-                    ('Standard Pool #177 (Global)', 'DOUBLE_EN_41_0_9', 'headhunting-banner-images/Standard Pool 177 (Global).webp'),
-                    ('Kernel #63 (Global)', 'CLASSIC_DOUBLE_EN_41_0_4', 'headhunting-banner-images/Kernel 63 (Global).webp')]
-            fetch = lambda ref, pool: asked.append((ref, pool)) or (card_png() if pool.startswith('DOUBLE') else None)
-            with patch('sync_recurring_banner_art.ROOT', root), contextlib.redirect_stdout(io.StringIO()) as out:
-                changed = place_client_cards(jobs, manifest, sources, fetch=fetch, ref=lambda: refs.append(1) or 'c' * 40)
-            # #176 has art already: its card is never fetched. One resolve serves the run.
-            self.assertEqual(asked, [('c' * 40, 'DOUBLE_EN_41_0_9'), ('c' * 40, 'CLASSIC_DOUBLE_EN_41_0_4')])
-            self.assertEqual(refs, [1])
-            target = 'headhunting-banner-images/Standard Pool 177 (Global).webp'
-            self.assertEqual(changed, [target])
-            data = (root / target).read_bytes()
-            self.assertEqual(manifest['files'][target], {'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(), 'width': 1024, 'height': 559})
-            self.assertEqual(sources, {target: f"client-card:{'c' * 40}:assets/dyn/%5B%5Ben%5D%5D/arts/ui/homebanners/gacha/picdouble_en_41_0_9.png"})
-            self.assertIn('Waiting for art: Kernel #63 (Global)', out.getvalue())
-        # Nothing to place: no resolve at all.
-        with patch('sync_recurring_banner_art.ROOT', root):
-            self.assertEqual(place_client_cards(jobs[:1], manifest, {}, fetch=fetch, ref=lambda: self.fail('resolved')), [])
-
-    def test_the_wiki_upload_replaces_a_card(self):
-        target = 'headhunting-banner-images/Standard Pool 175 (Global).webp'
-        info = {'batchcomplete': '', 'query': {'pages': {'1': {'title': 'File:EN Standard Pool 175 banner.png',
-            'imageinfo': [{'url': 'https://arknights.wiki.gg/images/EN_Standard_Pool_175_banner.png', 'sha1': 'a' * 40}]}}}}
-        with tempfile.TemporaryDirectory() as temp, tempfile.TemporaryDirectory() as data:
-            root = Path(temp)
-            (root / 'asset-manifest.json').write_text(json.dumps({'files': {target: {'bytes': 4, 'sha256': 'card'}}}))
-            (root / 'sources').mkdir()
-            (root / 'sources/recurring-banner-art.json').write_text(json.dumps({target: 'client-card:' + 'c' * 40 + ':pic.png'}))
-            (Path(data) / 'source/data').mkdir(parents=True)
-            (Path(data) / 'source/data/headhunting_banners.json').write_text('[]')
+            (root / 'asset-manifest.json').write_text(json.dumps({'files': {}}))
             with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=dt.date(2026, 9, 12)), \
-                    patch.dict(os.environ, {'ARKPEDIA_DATA_ROOT': data}), patch('sync_recurring_banner_art.fetch', side_effect=[PAGE, info]), \
+                    patch('sync_recurring_banner_art.fetch', side_effect=[PAGE, self.INFO]), \
                     patch('sync_recurring_banner_art.download', return_value=b'wiki') as download, patch('subprocess.run'), \
                     contextlib.redirect_stdout(io.StringIO()):
                 sync_recurring_banner_art.main()
             download.assert_called_once_with('https://arknights.wiki.gg/images/EN_Standard_Pool_175_banner.png')
-            self.assertEqual(json.loads((root / 'asset-manifest.json').read_text())['files'][target]['sha256'], hashlib.sha256(b'wiki').hexdigest())
-            self.assertEqual(json.loads((root / 'sources/recurring-banner-art.json').read_text())[target], 'a' * 40)
+            self.assertEqual(json.loads((root / 'asset-manifest.json').read_text())['files'][self.TARGET]['sha256'], hashlib.sha256(b'wiki').hexdigest())
+            self.assertEqual(json.loads((root / 'sources/recurring-banner-art.json').read_text()), {self.TARGET: 'a' * 40})
+
+    def test_a_banner_without_a_wiki_upload_gets_no_art(self):
+        missing = {'batchcomplete': '', 'query': {'pages': {'-1': {'title': 'File:EN Standard Pool 175 banner.png', 'missing': ''}}}}
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'asset-manifest.json').write_text(json.dumps({'files': {}}))
+            with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=dt.date(2026, 9, 12)), \
+                    patch('sync_recurring_banner_art.fetch', side_effect=[PAGE, missing]), \
+                    patch('sync_recurring_banner_art.download') as download, contextlib.redirect_stdout(io.StringIO()) as out:
+                sync_recurring_banner_art.main()
+            download.assert_not_called()
+            self.assertEqual(out.getvalue(), 'Recurring banner art is current.\n')
+            self.assertEqual(sorted(p.name for p in root.iterdir()), ['asset-manifest.json'])
 
 
 if __name__ == '__main__':
