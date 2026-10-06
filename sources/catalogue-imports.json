@@ -657,5 +657,17 @@
     "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/08/10/HmZoDvDN.png",
     "sha256": "e81759d56d96abf646a32eadf2d8e49cf10eff2948e85ba4bbc0470ba2743d98",
     "importer": "story-map"
+  },
+  "event-poster/CN 5101-1.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260929/77e4be6e8952f9027dd611befc59111a.jpg",
+    "sha256": "5470cceccb438b0099693249fa6c077733feb41941a0414e86b7751f1b3c7272"
+  },
+  "headhunting-banner-images/CN 5101-2.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260929/61906002d14af20348268b00ee96cb75.jpg",
+    "sha256": "b3c68ed9b7f5bcc290cdfeb202a3a6952844be1e93809ce62bad8c982d36cc7f"
+  },
+  "headhunting-banner-images/Joint Operation #19.webp": {
+    "url": "https://arknights.wiki.gg/images/EN_Joint_Operation_19_banner.png?fa5acf",
+    "sha256": "8eb2a3dd7c203b1333e96cdc16ef0dd668b37de3186dcf44b0ab1b1ffff4b688"
   }
 }
