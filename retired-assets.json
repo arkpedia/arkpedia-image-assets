@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "paths": {
+    "headhunting-banner-images/Joint Operation 22.webp": {
+      "reason": "CN art (Chinese text, CN's dates and operators); the site shows nothing of CN's for Joint Operations until Global carries them",
+      "removed": "#32"
+    },
+    "headhunting-banner-images/Joint Operation 23.webp": {
+      "reason": "CN art (Chinese text, CN's dates and operators); the site shows nothing of CN's for Joint Operations until Global carries them",
+      "removed": "#32"
+    },
+    "headhunting-banner-images/Orienteering 7.webp": {
+      "reason": "CN art (Chinese text, CN's dates and operators); the site shows nothing of CN's for Orienteerings until Global carries them",
+      "removed": "#32"
+    },
+    "headhunting-banner-images/Standard Pool 177 (Global).webp": {
+      "reason": "A stand-in framed from the client's home card, not the official art; the banner shows no art until the wiki's official upload",
+      "removed": "#33"
+    }
+  }
+}

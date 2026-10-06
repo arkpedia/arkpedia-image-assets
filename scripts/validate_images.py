@@ -15,6 +15,24 @@ MEDIA = {'.png', '.webp', '.jpg', '.jpeg', '.avif', '.gif', '.ico', '.svg'}
 def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
 
+def retired_paths():
+    """retired-assets.json: published paths removed on purpose, each with its reason. arkpedia/arkpedia's
+    pin step refuses any other removal (scripts/lib/published-asset-index.mjs), so a removal is
+    listed here in the same PR that deletes the file."""
+    path = ROOT / 'retired-assets.json'
+    if not path.exists():
+        return {}
+    document = json.loads(path.read_text())
+    if document.get('schemaVersion') != 1 or not isinstance(document.get('paths'), dict):
+        raise ValueError('retired-assets.json must be {"schemaVersion": 1, "paths": {"<path>": {"reason": ...}}}')
+    for item, entry in document['paths'].items():
+        parts = Path(item).parts
+        if Path(item).is_absolute() or item.startswith('.') or '..' in parts or '.' in parts:
+            raise ValueError(f'retired-assets.json: unsafe path: {item}')
+        if not isinstance(entry, dict) or not str(entry.get('reason', '')).strip():
+            raise ValueError(f'retired-assets.json: {item} gives no reason')
+    return document['paths']
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--staged', action='store_true')
@@ -34,6 +52,10 @@ def main():
     unlisted = media - records.keys()
     if missing or unlisted:
         raise ValueError(f'Inventory mismatch: missing={sorted(missing)[:12]}, unlisted={sorted(unlisted)[:12]}')
+    retired = retired_paths()
+    still = sorted(p for p in retired if p in records or p in tracked)
+    if still:
+        raise ValueError(f'Retired but still published: {still[:12]}')
     if args.staged:
         deleted = git('diff', '--cached', '--name-only', '--diff-filter=D', '-z').decode().split('\0')
         if any(Path(p).suffix.lower() in MEDIA for p in deleted if p):
