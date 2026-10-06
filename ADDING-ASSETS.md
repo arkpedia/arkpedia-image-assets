@@ -81,6 +81,15 @@ nothing logs it. `npm run check:assets` in the website repository is the check t
 names the exact path it expected. Rename the file to match, or fix the record —
 whichever is actually wrong — rather than adding a second copy.
 
+## Removing published art
+
+arkpedia/arkpedia's daily pin step refuses to adopt a commit that stops publishing a path it published before, so a broken manifest can never empty the site's art. To remove a file on purpose, in the same PR:
+
+1. Delete the file, its `asset-manifest.json` row and any `sources/*.json` record.
+2. Add the path to `retired-assets.json` with the reason, e.g. `"headhunting-banner-images/Standard Pool 177 (Global).webp": { "reason": "a stand-in, not the official art", "removed": "#33" }`.
+
+`validate_images.py` fails if a retired path is still published. The site then shows no art for that path (a page that names it falls back), until a new file is published under the same path; remove its `retired-assets.json` entry in that PR.
+
 ## Rolling back
 
 Revert the commit here, then run `npm run assets:update` again in the website
