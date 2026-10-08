@@ -1,0 +1,375 @@
+{
+  "announcement": "https://ak.hypergryph.com/news/3046",
+  "files": [
+    {
+      "target": "material-icons/2026 Celebration Operator Permit.webp",
+      "itemId": "voucher_item_pick7301",
+      "iconId": "voucher_recruitR6_g",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_recruitR6_g.png"
+    },
+    {
+      "target": "material-icons/A Sealed Vow Headhunting Permit (ten-roll).webp",
+      "itemId": "LIMITED_TKT_GACHA_10_7301",
+      "iconId": "LIMITED_TKT_GACHA_10_7301",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/LIMITED_TKT_GACHA_10_7301.png"
+    },
+    {
+      "target": "material-icons/Emergency Sanity Booster.webp",
+      "itemId": "ap_supply_lt_80",
+      "iconId": "ap_supply_lt_80",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/ap_supply_lt_80.png"
+    },
+    {
+      "target": "material-icons/Emergency Sanity Concentrate.webp",
+      "itemId": "ap_supply_lt_120",
+      "iconId": "ap_supply_lt_120",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/ap_supply_lt_120.png"
+    },
+    {
+      "target": "material-icons/Expedited Plan.webp",
+      "itemId": "7002",
+      "iconId": "TKT_INST_FIN",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/TKT_INST_FIN.png"
+    },
+    {
+      "target": "material-icons/Kernel Headhunting Permit.webp",
+      "itemId": "classic_gacha",
+      "iconId": "classic_gacha",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/classic_gacha.png"
+    },
+    {
+      "target": "material-icons/Life Specimen.webp",
+      "itemId": "randomMaterial_message3",
+      "iconId": "randomMaterial_message3",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/randomMaterial_message3.png"
+    },
+    {
+      "target": "material-icons/Outfit Voucher.webp",
+      "itemId": "voucher_skin",
+      "iconId": "voucher_skin",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_skin.png"
+    },
+    {
+      "target": "material-icons/Professional Operator Training Device.webp",
+      "itemId": "voucher_skill_specialLevelMax_4",
+      "iconId": "voucher_skill_specialLevelMax_4",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_skill_specialLevelMax_4.png"
+    },
+    {
+      "target": "material-icons/Senior Operator Training Apparatus.webp",
+      "itemId": "voucher_levelmax_5",
+      "iconId": "voucher_levelmax_5",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_levelmax_5.png"
+    },
+    {
+      "target": "material-icons/Senior Operator Training Device.webp",
+      "itemId": "voucher_skill_specialLevelMax_5",
+      "iconId": "voucher_skill_specialLevelMax_5",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_skill_specialLevelMax_5.png"
+    },
+    {
+      "target": "material-icons/Senior Operator Training Invitation Letter.webp",
+      "itemId": "voucher_elite_II_5",
+      "iconId": "voucher_elite_II_5",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_elite_II_5.png"
+    },
+    {
+      "target": "material-icons/Special Event Transfer Permit.webp",
+      "itemId": "voucher_recruitR6_pick7201",
+      "iconId": "voucher_recruitR6_pick7201",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_recruitR6_pick7201.png"
+    },
+    {
+      "target": "material-icons/T3 Material Voucher.webp",
+      "itemId": "advanced_material_voucher_perm",
+      "iconId": "advanced_material_issue_voucher",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/advanced_material_issue_voucher.png"
+    },
+    {
+      "target": "material-icons/T4 Material Voucher.webp",
+      "itemId": "premium_material_voucher_perm",
+      "iconId": "premium_material_issue_voucher",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/premium_material_issue_voucher.png"
+    },
+    {
+      "target": "material-icons/T5 Material Voucher.webp",
+      "itemId": "precious_material_voucher_perm",
+      "iconId": "precious_material_issue_voucher",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/precious_material_issue_voucher.png"
+    },
+    {
+      "target": "material-icons/Ten-roll Headhunting Permit.webp",
+      "itemId": "7004",
+      "iconId": "TKT_GACHA_10",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/TKT_GACHA_10.png"
+    },
+    {
+      "target": "material-icons/Ten-roll Kernel Headhunting Permit.webp",
+      "itemId": "classic_gacha_10",
+      "iconId": "classic_gacha_10",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/classic_gacha_10.png"
+    },
+    {
+      "target": "material-icons/Top Operator Training Apparatus.webp",
+      "itemId": "voucher_levelmax_6",
+      "iconId": "voucher_levelmax_6",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_levelmax_6.png"
+    },
+    {
+      "target": "material-icons/Top Operator Training Device.webp",
+      "itemId": "voucher_skill_specialLevelMax_6",
+      "iconId": "voucher_skill_specialLevelMax_6",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_skill_specialLevelMax_6.png"
+    },
+    {
+      "target": "material-icons/Top Operator Training Invitation Letter.webp",
+      "itemId": "voucher_elite_II_6",
+      "iconId": "voucher_elite_II_6",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_elite_II_6.png"
+    },
+    {
+      "target": "material-icons/Top Operator Transfer Permit - Kernel.webp",
+      "itemId": "voucher_class_pick7301",
+      "iconId": "voucher_class_pick6101",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/voucher_class_pick6101.png"
+    },
+    {
+      "target": "content-art/critical-phase-packs/Rhodes Island Headhunting Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_237_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_237",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Rhodes Island Headhunting Pack - Kernel.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_238_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_238",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Duck Lord's Coin Purse.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_228_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_228",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Comprehensive Skill Training Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_261_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_261",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Advanced Special Training Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_258_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_258",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Special Training Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_257_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_257",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Senior Operator Training Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_234_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_234",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Top Operator Training Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_170_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_170",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Vanguard Chip Pack.webp",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/shop/gpimages/activity/Once_227_img.png",
+      "crop": [
+        0,
+        120,
+        253,
+        373
+      ],
+      "gameGoodId": "GP_Once_227",
+      "note": "Recurring shop artwork, visually matched to the 7th anniversary announcement."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Celebration Support Pack.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/84a617c2e04da1ed64966c7832b1abd0.jpg",
+      "crop": [
+        602,
+        24,
+        1021,
+        250
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Celebration Supply Pack.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/84a617c2e04da1ed64966c7832b1abd0.jpg",
+      "crop": [
+        1090,
+        10,
+        1555,
+        257
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Celebration Kernel Headhunting Pack.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/84a617c2e04da1ed64966c7832b1abd0.jpg",
+      "crop": [
+        204,
+        46,
+        562,
+        257
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Kal'tsit's Suitcase.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/7384920b4bd4c468f814cb0ac05e3da3.jpg",
+      "crop": [
+        604,
+        56,
+        1040,
+        259
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Comprehensive Materials Pack.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/fe0bfae5b12d62f070a2909b501ef865.jpg",
+      "crop": [
+        220,
+        0,
+        545,
+        255
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Medic Chip Pack.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/54a603dfc2b95c34fb27b87dc69a2f1d.jpg",
+      "crop": [
+        258,
+        77,
+        550,
+        336
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Starter Synchronization Pack.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/593e42da280e5a66033f7f4ff170c533.jpg",
+      "crop": [
+        697,
+        26,
+        1250,
+        443
+      ],
+      "note": "Pack artwork from official CN notice 3046. Crop excludes prices and sale dates."
+    },
+    {
+      "target": "material-icons/furni_act72d6_audioPlayer_01.webp",
+      "url": "https://torappu.prts.wiki/assets/furniture/furni_act72d6_audioPlayer_01.png"
+    },
+    {
+      "target": "material-icons/furniM_act73d0_messageboard_01.webp",
+      "url": "https://torappu.prts.wiki/assets/furniture/furniM_act73d0_messageboard_01.png"
+    },
+    {
+      "target": "material-icons/Home Screen UI - Reconstruction.webp",
+      "url": "https://web.hycdn.cn/upload/image/20260424/ffd7196695964a782a35d3551d546e87.jpg",
+      "crop": [
+        908,
+        41,
+        1177,
+        195
+      ]
+    },
+    {
+      "target": "material-icons/Echoes of Recollection.webp",
+      "url": "https://torappu.prts.wiki/assets/furniture/furni_act72d6_audioPlayer_01.png"
+    },
+    {
+      "target": "material-icons/New Information Terminal.webp",
+      "url": "https://torappu.prts.wiki/assets/furniture/furniM_act73d0_messageboard_01.png"
+    },
+    {
+      "target": "material-icons/Custom Special Ten-roll Headhunting Permit.webp",
+      "urls": [
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_1.png",
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_2.png",
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_3.png"
+      ],
+      "layout": "Three game ticket icons, alpha / beta / gamma; no prices or dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Newcomer Special Headhunting Pack.webp",
+      "urls": [
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_1.png",
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_2.png",
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_3.png"
+      ],
+      "layout": "Three game ticket icons, alpha / beta / gamma; no prices or dates."
+    },
+    {
+      "target": "content-art/critical-phase-packs/Welcome Special Headhunting Pack.webp",
+      "urls": [
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_1.png",
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_2.png",
+        "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/2026recruitment10_3.png"
+      ],
+      "layout": "Three game ticket icons, alpha / beta / gamma; no prices or dates."
+    }
+  ]
+}
