@@ -11,6 +11,9 @@ than a stand-in. (Interim art framed from the client's small home-screen card wa
 published here once and removed: it looked nothing like the official banner.)
 sources/recurring-banner-art.json records each file's wiki sha1, and a run
 refuses any other kind of source, so nothing but the wiki's upload is published.
+For a retired interim image, a reviewed retirement entry may declare
+restoreFrom: recurring-wiki-upload. Only a successful official-upload download
+then clears that entry, together with publishing its image and source hash.
 """
 import datetime
 import hashlib
@@ -125,6 +128,9 @@ def main():
     sources = read_sources(sources_path)
     manifest_path = ROOT / 'asset-manifest.json'
     manifest = json.loads(manifest_path.read_text())
+    retired_path = ROOT / 'retired-assets.json'
+    retired = json.loads(retired_path.read_text()) if retired_path.exists() else {'schemaVersion': 1, 'paths': {}}
+    restored = []
     changed = []
 
     for kind, number, start, end in rows(text):
@@ -136,12 +142,18 @@ def main():
         info = image_info(title)
         if not info or target in manifest['files'] and sources.get(target) == info['sha1']:
             continue
+        retirement = retired['paths'].get(target)
+        if retirement and retirement.get('restoreFrom') != 'recurring-wiki-upload':
+            raise ValueError(f'{target} is retired without approval to restore its official wiki upload')
         data = download(info['url'])
         (ROOT / target).parent.mkdir(parents=True, exist_ok=True)
         (ROOT / target).write_bytes(data)
         manifest['files'][target] = {'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
         sources[target] = info['sha1']
         changed.append(target)
+        if retirement:
+            del retired['paths'][target]
+            restored.append(target)
 
 
     if changed:
@@ -149,7 +161,11 @@ def main():
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')) + '\n')
         sources_path.parent.mkdir(parents=True, exist_ok=True)
         sources_path.write_text(json.dumps(dict(sorted(sources.items())), indent=2) + '\n')
-        subprocess.run(['git', 'add', '--sparse', '--', 'asset-manifest.json', 'sources/recurring-banner-art.json', *changed], cwd=ROOT, check=True)
+        metadata = ['asset-manifest.json', 'sources/recurring-banner-art.json']
+        if restored:
+            retired_path.write_text(json.dumps(retired, ensure_ascii=False, indent=2) + '\n')
+            metadata.append('retired-assets.json')
+        subprocess.run(['git', 'add', '--sparse', '--', *metadata, *changed], cwd=ROOT, check=True)
         print('\n'.join(f'  + {path}' for path in changed))
     else:
         print('Recurring banner art is current.')

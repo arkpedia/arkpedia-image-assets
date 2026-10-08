@@ -140,6 +140,46 @@ class SourceTests(unittest.TestCase):
             self.assertEqual(out.getvalue(), 'Recurring banner art is current.\n')
             self.assertEqual(sorted(p.name for p in root.iterdir()), ['asset-manifest.json'])
 
+    def test_official_upload_restores_only_an_approved_retired_path(self):
+        for approved in (False, True):
+            with self.subTest(approved=approved), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                (root / 'asset-manifest.json').write_text(json.dumps({'files': {}}))
+                entry = {'reason': 'Removed interim client-card artwork'}
+                if approved:
+                    entry['restoreFrom'] = 'recurring-wiki-upload'
+                retired = {'schemaVersion': 1, 'paths': {self.TARGET: entry, 'unrelated.webp': {'reason': 'Unrelated retirement'}}}
+                (root / 'retired-assets.json').write_text(json.dumps(retired))
+                with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=dt.date(2026, 9, 12)), \
+                        patch('sync_recurring_banner_art.fetch', side_effect=[PAGE, self.INFO]), \
+                        patch('sync_recurring_banner_art.download', return_value=b'official-wiki') as download, patch('subprocess.run') as stage, \
+                        contextlib.redirect_stdout(io.StringIO()):
+                    if approved:
+                        sync_recurring_banner_art.main()
+                        self.assertEqual(json.loads((root / 'retired-assets.json').read_text())['paths'], {'unrelated.webp': {'reason': 'Unrelated retirement'}})
+                        self.assertIn('retired-assets.json', stage.call_args.args[0])
+                        self.assertTrue((root / self.TARGET).exists())
+                    else:
+                        with self.assertRaisesRegex(ValueError, 'retired without approval'):
+                            sync_recurring_banner_art.main()
+                        download.assert_not_called()
+                        stage.assert_not_called()
+                        self.assertEqual(json.loads((root / 'retired-assets.json').read_text()), retired)
+
+    def test_missing_official_upload_keeps_approved_retirement(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'asset-manifest.json').write_text(json.dumps({'files': {}}))
+            retired = {'schemaVersion': 1, 'paths': {self.TARGET: {'reason': 'Removed interim art', 'restoreFrom': 'recurring-wiki-upload'}}}
+            (root / 'retired-assets.json').write_text(json.dumps(retired))
+            missing = {'query': {'pages': {'-1': {'missing': ''}}}}
+            with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=dt.date(2026, 9, 12)), \
+                    patch('sync_recurring_banner_art.fetch', side_effect=[PAGE, missing]), patch('sync_recurring_banner_art.download') as download, \
+                    contextlib.redirect_stdout(io.StringIO()):
+                sync_recurring_banner_art.main()
+            download.assert_not_called()
+            self.assertEqual(json.loads((root / 'retired-assets.json').read_text()), retired)
+
 
 if __name__ == '__main__':
     unittest.main()
