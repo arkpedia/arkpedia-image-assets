@@ -25242,6 +25242,171 @@
       "sourcePath": "avatar/char_4015_spuria_epoque#58.png",
       "sourceBlob": "001dd3833fa4786ca764fb974b687c4ea589b5df",
       "maxWidth": 180
+    },
+    "base-skill-icons/Gallus² - Poultry Engineering.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd1.png",
+      "sourceBlob": "94d0067d6c6601464eae13de194e9f2fb4c23e43",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Gallus² - Poultry Motivation.webp": {
+      "sourcePath": "building_skill/bskill_power_rec_spd_ext&tag.png",
+      "sourceBlob": "5b9b99f39524ca588c45079b986d1573edc8d7c6",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Rhodes Island Recon - Hunting Helper.webp": {
+      "sourcePath": "building_skill/bskill_dorm_buddy.png",
+      "sourceBlob": "ccd8cf9db851280fee8903dbc7b780a5d8a13e41",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Rhodes Island Recon - Stealth Expert.webp": {
+      "sourcePath": "building_skill/bskill_meet_buddy.png",
+      "sourceBlob": "cdcfd07fea7151b1946fca4edea6072a0e6c7bdd",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Crackborne - Rare Respite.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one1.png",
+      "sourceBlob": "ad1fad1e5a9513be6c44b4ed880469f551e7626c",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Crackborne - Working Around the Clock.webp": {
+      "sourcePath": "building_skill/bskill_man_exp&spd&cost1.png",
+      "sourceBlob": "2eded3e3b82889442222af3add65f1818a0631e5",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Jacinta - An Heiress's Eye.webp": {
+      "sourcePath": "building_skill/bskill_tra_wt&cost1.png",
+      "sourceBlob": "d20330b41c7f702803a84f634ffc1116ff2f5576",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Jacinta - The Campbell Name.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd2.png",
+      "sourceBlob": "be0b43b5e48356e6d87dae3c2c39acf54108074b",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Pedro - Supporter Expert α.webp": {
+      "sourcePath": "building_skill/bskill_train_supporter1.png",
+      "sourceBlob": "1af0fbe9221a2069cb15905b00b5bd6db1c2dc96",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Pedro - Combat Techniques Supportive Ranger.webp": {
+      "sourcePath": "building_skill/bskill_train_supportiveranger.png",
+      "sourceBlob": "aab0793f2c0770b54a570ad28450fd6f1577ad9b",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Timeslot - Overlooked Talent.webp": {
+      "sourcePath": "building_skill/bskill_ws_asc1.png",
+      "sourceBlob": "b13798e3dc20d1721d096736cbd878735354c9ac",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Timeslot - Six Minutes Before Being Late.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd3.png",
+      "sourceBlob": "7b90f206c49f34c6b439ebaf73bd6a466cd7b132",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Zinogre S Catapult - On a Whim α.webp": {
+      "sourcePath": "building_skill/bskill_train_mh2_guard&sniper1.png",
+      "sourceBlob": "1e51e2b92262f23c950bb3218f5808e029b46def",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Zinogre S Catapult - On a Whim β.webp": {
+      "sourcePath": "building_skill/bskill_train_mh2_guard&sniper2.png",
+      "sourceBlob": "ee0947c0f3b0377a8b1940d3a11eb67d269b86c8",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Zinogre S Catapult - Mood Maker.webp": {
+      "sourcePath": "building_skill/bskill_tra_spd3&catap2.png",
+      "sourceBlob": "ea51ab57fc677e4ea4f5f01f9d98939d162a654e",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Angelina the Mellow Wish - Veteran Messenger.webp": {
+      "sourcePath": "building_skill/bskill_meet_spdNotOwned1.png",
+      "sourceBlob": "503c6e8336bdae2ca45a77281d88b10cbe6e9336",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Angelina the Mellow Wish - My Own Wish.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_condChar.png",
+      "sourceBlob": "a8ac0d62b10b9e0ae1f0ea2a8410384ed4e8fd78",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Aphrissa - Orirock Analysis.webp": {
+      "sourcePath": "building_skill/bskill_man_originium2.png",
+      "sourceBlob": "cd3158e24a9ceb12345bf41865e34a1b5134f972",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Aphrissa - DIY Orirock.webp": {
+      "sourcePath": "building_skill/bskill_ws_orirock.png",
+      "sourceBlob": "bffac5b51103f6b9ee29cbfef713bbb5a09f9990",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Closure - Chief Engineer.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_cost.png",
+      "sourceBlob": "fe06bdb410b0988cf0ec82847eb76f81a9853ca4",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Closure - Special Orders.webp": {
+      "sourcePath": "building_skill/bskill_tra_closure.png",
+      "sourceBlob": "292e6d1e923774689b8f58664539f6b4163c7478",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Kal'tsit - Esperanta - Technical Explanation.webp": {
+      "sourcePath": "building_skill/bskill_ws_p5.png",
+      "sourceBlob": "ebf0126e82fde231d7642807ea2d4f2ad6451716",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Kal'tsit - Esperanta - Theoretical Innovation.webp": {
+      "sourcePath": "building_skill/bskill_ws_p_kalts2.png",
+      "sourceBlob": "0c811f8ea6fd2e20c608302824f6c588b8e3a8e8",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Kal'tsit - Esperanta - The Ark of Terra.webp": {
+      "sourcePath": "building_skill/bskill_hire_kalts2.png",
+      "sourceBlob": "7d6017a06b7b1d3472ee08d61c98a11d7e60df84",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Mechanist - Combat Guidance Video.webp": {
+      "sourcePath": "building_skill/bskill_man_exp2.png",
+      "sourceBlob": "a6e8e1ae31ddbc061d871d5d62d207dba7d4e4f4",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Mechanist - I Slept Already.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_mechanist.png",
+      "sourceBlob": "56871b4b529ad591fb19d5d5325a5408712a27df",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Thumpy - Rabbit Holes Everywhere.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one2.png",
+      "sourceBlob": "6c3e1b5875e6fc8abc1ff1f81cd5a24ea0bd00ae",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Thumpy - Former Star Operator.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd5.png",
+      "sourceBlob": "ff6353998fbaa88c419760edd9f2b78c5e14aa8e",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Violet Mizutsune Orchid - Office Person of the Year.webp": {
+      "sourcePath": "building_skill/bskill_ctrl_orchd2.png",
+      "sourceBlob": "d7c739cd7bc972dd02bef89fda768f654b6e7866",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Violet Mizutsune Orchid - A Captain's Resolve.webp": {
+      "sourcePath": "building_skill/bskill_tra_orchd2.png",
+      "sourceBlob": "a5382723550684b3712fbc0079a16119ae8b4561",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Viy - I Don't Understand.webp": {
+      "sourcePath": "building_skill/bskill_train_caster&vanguard1.png",
+      "sourceBlob": "3e9555c3ceacfea04cb415112babdb7665dc973a",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Viy - Learning by Analogy.webp": {
+      "sourcePath": "building_skill/bskill_train_caster&vanguard2.png",
+      "sourceBlob": "8bff7cb4b09d3635861e22e118b3b6b32e3ea76c",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Viy - Artisan.webp": {
+      "sourcePath": "building_skill/bskill_man_spd_veen.png",
+      "sourceBlob": "c27b26dfa22ac1590d39a356b5dad48a890bbc67",
+      "maxWidth": 128
     }
   },
   "namingSource": {

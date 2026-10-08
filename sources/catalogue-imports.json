@@ -661,5 +661,137 @@
   "headhunting-banner-images/Joint Operation #19.webp": {
     "url": "https://arknights.wiki.gg/images/EN_Joint_Operation_19_banner.png?fa5acf",
     "sha256": "8eb2a3dd7c203b1333e96cdc16ef0dd668b37de3186dcf44b0ab1b1ffff4b688"
+  },
+  "base-skill-icons/Gallus² - Poultry Engineering.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_pow_spd1.png",
+    "sha256": "3842966b24ccf0fb6a3dae33eac3ea6ea8a2fd67f08839dcc46364bbd9facbca"
+  },
+  "base-skill-icons/Gallus² - Poultry Motivation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_power_rec_spd_ext%26tag.png",
+    "sha256": "18ddd9ceec3d462ed2d67db53e4a134a06396f69bad5edc161431e76cdc14391"
+  },
+  "base-skill-icons/Rhodes Island Recon - Hunting Helper.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_buddy.png",
+    "sha256": "6114cf78e6d2852e5466495d2657a19d9dd53480b5ff6c12b18fdd3dae130c0e"
+  },
+  "base-skill-icons/Rhodes Island Recon - Stealth Expert.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_buddy.png",
+    "sha256": "3febcbe3c0323768f3fec17866efb7025fbac02e7c04c7553191517d0a0b7a1f"
+  },
+  "base-skill-icons/Crackborne - Rare Respite.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_one1.png",
+    "sha256": "79f3266e2c5ab4bc04059fa9f3db5c1958b38492ff173ae4359fc3111a68cb23"
+  },
+  "base-skill-icons/Crackborne - Working Around the Clock.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_exp%26spd%26cost1.png",
+    "sha256": "516b93bda27875475e02623879f26315244628eebb9fa76cac8b6ac36d0de609"
+  },
+  "base-skill-icons/Jacinta - An Heiress's Eye.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_wt%26cost1.png",
+    "sha256": "cb274054533e8bc50f586d7d1ee5f6e6a2e6a4b8e8dd1d2c2752773f5e6c8533"
+  },
+  "base-skill-icons/Jacinta - The Campbell Name.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spd2.png",
+    "sha256": "794b0fc781ff11716c95c0b848dd2803eaafce105f957eab148b72e2441cef0a"
+  },
+  "base-skill-icons/Pedro - Supporter Expert α.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_supporter1.png",
+    "sha256": "e35f998092214ea913d9cf8c7cc141cfed769ba78c3aa2dd29dbb183a8156718"
+  },
+  "base-skill-icons/Pedro - Combat Techniques Supportive Ranger.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_supportiveranger.png",
+    "sha256": "9067702c6b64e12ef205ea78cccec5b51b7172b5841ffa797815f09c6be88354"
+  },
+  "base-skill-icons/Timeslot - Overlooked Talent.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_asc1.png",
+    "sha256": "6affcab4aa51d9ab6881b328dc00661ae964b7c8b386c4986462b49d081aedfa"
+  },
+  "base-skill-icons/Timeslot - Six Minutes Before Being Late.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_pow_spd3.png",
+    "sha256": "9d0ab1f6bee78fdc66d9f668c44c512031a05087b2a647960bfc08e0f990a28a"
+  },
+  "base-skill-icons/Zinogre S Catapult - On a Whim α.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_mh2_guard%26sniper1.png",
+    "sha256": "21afaf74458369a6077596dde80353b0fc5a0253de589d6616f83bd8d077f3d8"
+  },
+  "base-skill-icons/Zinogre S Catapult - On a Whim β.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_mh2_guard%26sniper2.png",
+    "sha256": "02909d64cb88743e2265d45d5c0019a3e650cf5f99c40aec8efbb973fe71689d"
+  },
+  "base-skill-icons/Zinogre S Catapult - Mood Maker.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_spd3%26catap2.png",
+    "sha256": "642f11336eb731b876f29e5e1b5bb518fe3c4037e79d7d23a17178d00362d0ca"
+  },
+  "base-skill-icons/Angelina the Mellow Wish - Veteran Messenger.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spdNotOwned1.png",
+    "sha256": "5412b591f714a685f72ca82597fabfc3460bcdc198646d0ca0c4ef8228310e11"
+  },
+  "base-skill-icons/Angelina the Mellow Wish - My Own Wish.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spd%26cost_condChar.png",
+    "sha256": "ffe7f7f091f0fb3c67605c51cb55afeeea43b021f29906636d83d7f6fff8e1cf"
+  },
+  "base-skill-icons/Aphrissa - Orirock Analysis.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_originium2.png",
+    "sha256": "69555b7ebd7db4a3fce3df167b2aef009e9b4390b7e608c5ddd69ac0f26167f4"
+  },
+  "base-skill-icons/Aphrissa - DIY Orirock.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_orirock.png",
+    "sha256": "5dd761e6014a01c8c0dccbf5661ad671810b6b88f7b9a7c860ee1b4b792d99d9"
+  },
+  "base-skill-icons/Closure - Chief Engineer.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ctrl_cost.png",
+    "sha256": "74f9bdf1e952e091d89b1dcc93da86249bf7dd52af73e75c3355bfd07514039d"
+  },
+  "base-skill-icons/Closure - Special Orders.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_closure.png",
+    "sha256": "850cb75d92babc94e04a43207315dd25466640538b32ca0a15ed5bc658728b35"
+  },
+  "base-skill-icons/Kal'tsit - Esperanta - Technical Explanation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_p5.png",
+    "sha256": "e44ad90aaedbb73568a27a5a85d9a11f2414c7306c81c7f6662e9b39f40ae29b"
+  },
+  "base-skill-icons/Kal'tsit - Esperanta - Theoretical Innovation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_p_kalts2.png",
+    "sha256": "3d6e5b85f59fe82b1b26aa58c11dc1e00773b8214b8c10a214b14a160a847516"
+  },
+  "base-skill-icons/Kal'tsit - Esperanta - The Ark of Terra.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_kalts2.png",
+    "sha256": "a4a808d0b9b8e087ca06e4006c4a3f3f9a178ccfd43c5b44c16ef210270bceb1"
+  },
+  "base-skill-icons/Mechanist - Combat Guidance Video.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_exp2.png",
+    "sha256": "ed4e8abe8086dc47e18123b99de057bf54bb29409d82506bbd36c8fa79009974"
+  },
+  "base-skill-icons/Mechanist - I Slept Already.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_mechanist.png",
+    "sha256": "b56809d1bf00554b0343061e0d81bf0000b6726697899121965f828550e44a16"
+  },
+  "base-skill-icons/Thumpy - Rabbit Holes Everywhere.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_one2.png",
+    "sha256": "313fae1a8c7e5a145d39113e4862d14b618cf3107a296f7130c8bb9c0497c6d7"
+  },
+  "base-skill-icons/Thumpy - Former Star Operator.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd5.png",
+    "sha256": "4c54b4a30ed581668905407f4ea81baf1c5004a47e424726df4ea1d2c27063b6"
+  },
+  "base-skill-icons/Violet Mizutsune Orchid - Office Person of the Year.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ctrl_orchd2.png",
+    "sha256": "f7355aaf7b20e98380e17ae7b7b6f076b56e126850c2ddd2926533a952628ef7"
+  },
+  "base-skill-icons/Violet Mizutsune Orchid - A Captain's Resolve.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_orchd2.png",
+    "sha256": "b44d60c054e4dcbbbada9744281c49d9044c26d742b7224a0dc6dfc0557735ff"
+  },
+  "base-skill-icons/Viy - I Don't Understand.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_caster%26vanguard1.png",
+    "sha256": "ec9d0e421f6b6f6d8594e2058ce66ceee512efcb2d305f8ab0c79247efefb891"
+  },
+  "base-skill-icons/Viy - Learning by Analogy.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_caster%26vanguard2.png",
+    "sha256": "e2ed908d619f987c97ce189c3c7d16c4abd5a30f5f7d5f232d27a1bf7d44cbb9"
+  },
+  "base-skill-icons/Viy - Artisan.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_veen.png",
+    "sha256": "12fd3a31e899c0c4786f819db9e2baa3de9520cd11d7678af3160147f60fd4a3"
   }
 }
