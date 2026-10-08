@@ -793,5 +793,21 @@
   "base-skill-icons/Viy - Artisan.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_veen.png",
     "sha256": "12fd3a31e899c0c4786f819db9e2baa3de9520cd11d7678af3160147f60fd4a3"
+  },
+  "material-icons/液化醚吸聚体.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_YHT4.png",
+    "sha256": "f49a6e20dbbf56861d85ffd8cf3dc8b6a790402cdb2cd577f2807e17bc382658"
+  },
+  "material-icons/液化高能气体.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_YHT.png",
+    "sha256": "0b368bfad72042951bb5c1913797dd74e2a2c7cd27f3e820d3ad67d8df087c20"
+  },
+  "material-icons/电极单元.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ.png",
+    "sha256": "e4bb9b594ab21df36b62fb0047749e209e77e2e35b1609d0d04da59d25878dd2"
+  },
+  "material-icons/聚能动力单元.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ4.png",
+    "sha256": "6f1e516e7a16333ce6f0057188c8a270b34af3329101125b6302092a694c6ed5"
   }
 }

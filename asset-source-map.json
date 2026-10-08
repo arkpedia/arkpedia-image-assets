@@ -25407,6 +25407,26 @@
       "sourcePath": "building_skill/bskill_man_spd_veen.png",
       "sourceBlob": "c27b26dfa22ac1590d39a356b5dad48a890bbc67",
       "maxWidth": 128
+    },
+    "material-icons/液化醚吸聚体.webp": {
+      "sourcePath": "item/MTL_SL_YHT4.png",
+      "sourceBlob": "96b835168506d15595ae7760b7d91e5af390240a",
+      "maxWidth": 183
+    },
+    "material-icons/液化高能气体.webp": {
+      "sourcePath": "item/MTL_SL_YHT.png",
+      "sourceBlob": "38022b0d5ee2855becc76dbbd62bdfbb7d3f37ea",
+      "maxWidth": 183
+    },
+    "material-icons/电极单元.webp": {
+      "sourcePath": "item/MTL_SL_DJ.png",
+      "sourceBlob": "48d9db2e2646b56bcda3333c39694d26a56ebe5c",
+      "maxWidth": 183
+    },
+    "material-icons/聚能动力单元.webp": {
+      "sourcePath": "item/MTL_SL_DJ4.png",
+      "sourceBlob": "46eb2ef6fb8ab3a3a6cc97cf8c6bdfdf43878267",
+      "maxWidth": 183
     }
   },
   "namingSource": {
