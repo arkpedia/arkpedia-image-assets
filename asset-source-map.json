@@ -25442,6 +25442,111 @@
       "sourcePath": "building_skill/bskill_hire_spd&cost6.png",
       "sourceBlob": "d5d6f3cb37c9a4e1dedf4b0ab5894c3138b55134",
       "maxWidth": 128
+    },
+    "base-skill-icons/Clementia - 合作原则.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_char.png",
+      "sourceBlob": "9b690294dd451853dac07f39b40bb31e3c4beb3e",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Clementia - 谈判技巧.webp": {
+      "sourcePath": "building_skill/bskill_meet_spd&cost_clms.png",
+      "sourceBlob": "1eb3b506d05b7ef6154c9fac8218474b1cf10acd",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Homebound - 拾荒者.webp": {
+      "sourcePath": "building_skill/bskill_recycle_spd&cost1.png",
+      "sourceBlob": "954f3446e7a62e0b5f682b3a94ae74777ab919c6",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Homebound - 指尖的光.webp": {
+      "sourcePath": "building_skill/bskill_ws_Refractor.png",
+      "sourceBlob": "545ec1054d1b3ff84ff240741c091dc9989b4bdd",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Homebound - 捡海人.webp": {
+      "sourcePath": "building_skill/bskill_recycle_spd&cost2.png",
+      "sourceBlob": "ff2dc8e895fe8872c4b866acbffd69911c1627b8",
+      "maxWidth": 128
+    },
+    "five-star-icons/de Toledo - Base.webp": {
+      "sourcePath": "avatar/char_393_toledo.png",
+      "sourceBlob": "edad067afafdae2bd3af0e68ae5f32445fb60896",
+      "maxWidth": 180
+    },
+    "five-star-icons/de Toledo - Elite 2.webp": {
+      "sourcePath": "avatar/char_393_toledo_2.png",
+      "sourceBlob": "bac31273a6034a6d04c292c26923a2f47fba25ba",
+      "maxWidth": 180
+    },
+    "five-star-icons/Homebound - Base.webp": {
+      "sourcePath": "avatar/char_4232_hbound.png",
+      "sourceBlob": "ba7b3472c145c8edb60db3e12b1716274f648ff8",
+      "maxWidth": 180
+    },
+    "five-star-icons/Homebound - Elite 2.webp": {
+      "sourcePath": "avatar/char_4232_hbound_2.png",
+      "sourceBlob": "842c9ca13fad34ff3e2eadab89b31e6d69379560",
+      "maxWidth": 180
+    },
+    "five-star-icons/Leto - 来日欢歌.webp": {
+      "sourcePath": "avatar/char_194_leto_sightseer#4.png",
+      "sourceBlob": "08dcc9642a3ffa5a19685e17d77e310cad69a5d6",
+      "maxWidth": 180
+    },
+    "six-star-icons/Clementia - Base.webp": {
+      "sourcePath": "avatar/char_4231_clemnt.png",
+      "sourceBlob": "a3489f6f2f924262e78f5271dc1ee0d72156c5a1",
+      "maxWidth": 180
+    },
+    "six-star-icons/Clementia - Elite 2.webp": {
+      "sourcePath": "avatar/char_4231_clemnt_2.png",
+      "sourceBlob": "8c5345e75d9c6fdd6fc3083839c753195997072e",
+      "maxWidth": 180
+    },
+    "six-star-icons/Mantra - 万籁俱寂.webp": {
+      "sourcePath": "avatar/char_4204_mantra_sightseer#4.png",
+      "sourceBlob": "430443cffc48c7a4fe628640c9bed15971d11cf9",
+      "maxWidth": 180
+    },
+    "six-star-icons/Tragodia - 真我自扼.webp": {
+      "sourcePath": "avatar/char_1042_phatm2_sightseer#4.png",
+      "sourceBlob": "1950d2016bcf01b510ca7e6b92450ba18585f778",
+      "maxWidth": 180
+    },
+    "skill-icons/Clementia - 与海为敌.webp": {
+      "sourcePath": "skill/skill_icon_skchr_clemnt_3.png",
+      "sourceBlob": "c52123c6a7a4350f75d0d9948f93e55ebfe68dd0",
+      "maxWidth": 128
+    },
+    "skill-icons/Clementia - 冲蚀.webp": {
+      "sourcePath": "skill/skill_icon_skchr_clemnt_1.png",
+      "sourceBlob": "7514aac3858de81fdccf92e64173787947b6ca55",
+      "maxWidth": 128
+    },
+    "skill-icons/Clementia - 风暴潮.webp": {
+      "sourcePath": "skill/skill_icon_skchr_clemnt_2.png",
+      "sourceBlob": "800eac2e37849d168d29067f2abdd5dbc967fab1",
+      "maxWidth": 128
+    },
+    "skill-icons/de Toledo - 以假乱真.webp": {
+      "sourcePath": "skill/skill_icon_skchr_toledo_1.png",
+      "sourceBlob": "ab37bf1a1fef9f18940f942dd37f8d812b07168d",
+      "maxWidth": 128
+    },
+    "skill-icons/de Toledo - 危言耸听.webp": {
+      "sourcePath": "skill/skill_icon_skchr_toledo_2.png",
+      "sourceBlob": "c1dd7f613b239d93078dd9340e1d7877168818bd",
+      "maxWidth": 128
+    },
+    "skill-icons/Homebound - 座浅.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hbound_2.png",
+      "sourceBlob": "6e08aec091b22d859103d1d9de2b694893d795d8",
+      "maxWidth": 128
+    },
+    "skill-icons/Homebound - 触礁.webp": {
+      "sourcePath": "skill/skill_icon_skchr_hbound_1.png",
+      "sourceBlob": "4c3bcef524caea9793c25c8d0e2dcd6841c2c849",
+      "maxWidth": 128
     }
   },
   "namingSource": {

@@ -1566,5 +1566,89 @@
     "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_yanprivateschool.png",
     "sha256": "9e8c4509afe27fe0fdd9b69ec88c1712fc4f8fae2aa7a575d0a2014fb3f49611",
     "importer": "furniture-art"
+  },
+  "base-skill-icons/Clementia - 合作原则.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_meet_spd%26cost_char.png",
+    "sha256": "b304b231439c0a052529b4a2f4030aa19145c19ce7cce7173b3b6221cc4fd42a"
+  },
+  "base-skill-icons/Clementia - 谈判技巧.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_meet_spd%26cost_clms.png",
+    "sha256": "cc05af15f3c2db15db17f4b836850fd2baaa6711901c76d1cf01c1a96e79bf2f"
+  },
+  "base-skill-icons/Homebound - 拾荒者.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_recycle_spd%26cost1.png",
+    "sha256": "a36cb80841e2a3e8ebefbe53a48c06a528bb5aab90ffeade8c94616969829b97"
+  },
+  "base-skill-icons/Homebound - 指尖的光.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_ws_Refractor.png",
+    "sha256": "99900116330649f66fd36c7bb1ab635101ea134bc372ec240761d8e8a1c63f79"
+  },
+  "base-skill-icons/Homebound - 捡海人.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_recycle_spd%26cost2.png",
+    "sha256": "0f0e389a102e56f6bcb825c24e4184df41ba3566c22aed0d351e82a3b3d14852"
+  },
+  "five-star-icons/de Toledo - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_393_toledo.png",
+    "sha256": "0ac52484ed0d4e4aa8ced6b7d590c986122752091a27a50f4860d2eeec162832"
+  },
+  "five-star-icons/de Toledo - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_393_toledo_2.png",
+    "sha256": "feacad23e894c585d0e3a773da0533ad2f14ab0d784e160851c638989e43ab92"
+  },
+  "five-star-icons/Homebound - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4232_hbound.png",
+    "sha256": "ccbe6efaef1e7c0f698409985efda43837cf85630722fee4cae60cb0d2af30ea"
+  },
+  "five-star-icons/Homebound - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4232_hbound_2.png",
+    "sha256": "22684abf1a33cf51148bf7f3c003ff05b13c4e48750469415793ce720a565b3e"
+  },
+  "five-star-icons/Leto - 来日欢歌.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_194_leto_sightseer%234.png",
+    "sha256": "3e7f16b3c583ada1dfac0c22e89c712ce869086dffb5268ac2f3bbc23ecabc08"
+  },
+  "six-star-icons/Clementia - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4231_clemnt.png",
+    "sha256": "44438cc910a68decc12de9226e3c6de175a0067922871d6c80c55defb916ec1f"
+  },
+  "six-star-icons/Clementia - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4231_clemnt_2.png",
+    "sha256": "ca066c977c6714f141a9d87dbf33156005d997897616ef0a34ed8c1e085b21f1"
+  },
+  "six-star-icons/Mantra - 万籁俱寂.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4204_mantra_sightseer%234.png",
+    "sha256": "e5cd7c212dfa86f3e9ba6647437eae5e68af2f5c9096b8dae0dd67af0b93e071"
+  },
+  "six-star-icons/Tragodia - 真我自扼.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_1042_phatm2_sightseer%234.png",
+    "sha256": "c54e1a950852bce34494742b2b6432dbf8a618cf25814f1340053bfcb32fbfba"
+  },
+  "skill-icons/Clementia - 与海为敌.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_clemnt_3.png",
+    "sha256": "e0ae77f9ea1d7e3c35853d4dfe60fd0f3fb96f56d656d473f4c9bea9f1dd36e7"
+  },
+  "skill-icons/Clementia - 冲蚀.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_clemnt_1.png",
+    "sha256": "135c3dc4063b9bd433cc397222dade7700d122f5cbb34cfeb49019ad11507198"
+  },
+  "skill-icons/Clementia - 风暴潮.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_clemnt_2.png",
+    "sha256": "0569432c0af6ae7a37c0c5ecd20b1ed43dbad1a7b0c18f0a75b7657cf851f027"
+  },
+  "skill-icons/de Toledo - 以假乱真.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_toledo_1.png",
+    "sha256": "df5bc6a51d46311fb1a5b5d8fc7529e2703ef098901ae808074e539fcb4800bb"
+  },
+  "skill-icons/de Toledo - 危言耸听.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_toledo_2.png",
+    "sha256": "f804c3896f7fd9e2c27021bbb1941f41a3376665e0d805eeaac2bcce000df65d"
+  },
+  "skill-icons/Homebound - 座浅.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_hbound_2.png",
+    "sha256": "cb0dcc79cc8c6faeb71522b71be447e718da2f6a52a4477614c44338d3b91895"
+  },
+  "skill-icons/Homebound - 触礁.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_hbound_1.png",
+    "sha256": "d95f2bab8a9ea4f1401eb53c477ae87eaa48d81d42100650d0abcfb52c548b84"
   }
 }
