@@ -809,5 +809,17 @@
   "material-icons/聚能动力单元.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ4.png",
     "sha256": "6f1e516e7a16333ce6f0057188c8a270b34af3329101125b6302092a694c6ed5"
+  },
+  "base-skill-icons/de Toledo - 忠实拥趸.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_hireToRecAll2.png",
+    "sha256": "5a8a70e9c5df15d9b53a867b232743fe675fbad9d4095c2b4d1e2614a7361641"
+  },
+  "base-skill-icons/de Toledo - 拉拢听众.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd%26cost4.png",
+    "sha256": "89a431eecbf8fedf0d141bf4f36e3f4420bc897f65b133491c39bd4f98284e12"
+  },
+  "base-skill-icons/de Toledo - 聚众宣讲.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd%26cost6.png",
+    "sha256": "7fa84e300d2b7db0f75a261fe593cdbdfa5f75a499e1c47b8863d1168cdd9ff3"
   }
 }

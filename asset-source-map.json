@@ -25427,6 +25427,21 @@
       "sourcePath": "item/MTL_SL_DJ4.png",
       "sourceBlob": "46eb2ef6fb8ab3a3a6cc97cf8c6bdfdf43878267",
       "maxWidth": 183
+    },
+    "base-skill-icons/de Toledo - 忠实拥趸.webp": {
+      "sourcePath": "building_skill/bskill_dorm_hireToRecAll2.png",
+      "sourceBlob": "76e96cb84ffd090d775f70279ff7daa8a3860869",
+      "maxWidth": 128
+    },
+    "base-skill-icons/de Toledo - 拉拢听众.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost4.png",
+      "sourceBlob": "97534a0ac8ec05e925421b5a9a9e3ad1a72f3751",
+      "maxWidth": 128
+    },
+    "base-skill-icons/de Toledo - 聚众宣讲.webp": {
+      "sourcePath": "building_skill/bskill_hire_spd&cost6.png",
+      "sourceBlob": "d5d6f3cb37c9a4e1dedf4b0ab5894c3138b55134",
+      "maxWidth": 128
     }
   },
   "namingSource": {
