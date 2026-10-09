@@ -1511,5 +1511,60 @@
     "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/08/10/HmZoDvDN.png",
     "sha256": "e81759d56d96abf646a32eadf2d8e49cf10eff2948e85ba4bbc0470ba2743d98",
     "importer": "story-map"
+  },
+  "content-art/furni_set_cloudRestaurant-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_cloudrestaurant.png",
+    "sha256": "1e7d254f07a271f1ed8475d014064d52b9626f418ae0f4c24332f48ad2d99f2d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_dreamCastle-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_dreamcastle.png",
+    "sha256": "fd23b9e471864bbe0ebf507fcf9e6084903d794c21a99361005a09e9a3270ec5",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_eliteLounge-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_elitelounge.png",
+    "sha256": "3487832d32decc9d2089d4bc3d417724b7f1e114744c58408271b9ce6b2e70fe",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_minosMed-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_minosmed.png",
+    "sha256": "dc1423b7de30f1e1b1ac251e22f1800392e2ba2706371fe96b62ab98bf493b42",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_odenShop-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_odenshop.png",
+    "sha256": "dd5b9a1f283979a0b928dc08061f27bff60ef9684e4625d4d5fec7128d485a3b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_receptionRoom-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_receptionroom.png",
+    "sha256": "7e19fc8e9d8f076419a3af92511b106b3cabb964814a71a929765b5e68f194ea",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_teaCanteen-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_teacanteen.png",
+    "sha256": "3236cb871e6af15925b4cffafdd023765a6d26f7a4bb1317427228b75ef50c75",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_tradeLounge-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_tradelounge.png",
+    "sha256": "6d7da03b41a0dc788613c9a7be7b8b36015ee2e9e607883778e9f8a2fc448833",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_ursusRoom-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_ursusroom.png",
+    "sha256": "ae4df1012fb42603179f51e6c25ba9192731e519081dfa56f295d822364afad8",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_videoStudio-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_videostudio.png",
+    "sha256": "2f7aee795496ee9c6807002f4c5e03d2f333556f52d3976116966599f489b514",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_yanPrivateSchool-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_yanprivateschool.png",
+    "sha256": "9e8c4509afe27fe0fdd9b69ec88c1712fc4f8fae2aa7a575d0a2014fb3f49611",
+    "importer": "furniture-art"
   }
 }
