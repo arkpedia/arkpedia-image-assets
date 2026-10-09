@@ -1,17 +1,896 @@
 {
-  "event-poster/Dolly's Playground.webp": {
-    "url": "https://arknights.wiki.gg/images/CN_Dolly%27s_Playground_banner.png?438426",
-    "sha256": "54d70260da1bec6e5bd9f0acf3319d8778c02d814c56a0233904c006d6d2f344"
-  },
   "album-covers/月明人间_cover.webp": {
     "url": "https://web.hycdn.cn/siren/pic/20260924/e5e0325a016972b56f74de5554e814a2.png",
     "sha256": "6a7d138bdcaf8eaf1b14fbefee0557fd6902b5139340ffe107ee5668fad7c0b5",
+    "importer": "album-covers"
+  },
+  "album-covers/矢量突破拟生态OST_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20260929/b6b48b83c8d2e7b444b0847c72ee49c7.jpg",
+    "sha256": "98f1cb58af30f4296b5e445c795448ce2c8fd0ed1a776310bbbd79d98c6aa41c",
     "importer": "album-covers"
   },
   "album-covers/逐影集趣ost_cover.webp": {
     "url": "https://web.hycdn.cn/siren/pic/20260921/b75d27f545fc6c927e57fd7897cb87c4.jpg",
     "sha256": "0b6607c88c0334d19b673002603c716f162aa557f83a25e54e1e1eddddae486e",
     "importer": "album-covers"
+  },
+  "base-skill-icons/Angelina the Mellow Wish - My Own Wish.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spd%26cost_condChar.png",
+    "sha256": "ffe7f7f091f0fb3c67605c51cb55afeeea43b021f29906636d83d7f6fff8e1cf"
+  },
+  "base-skill-icons/Angelina the Mellow Wish - Veteran Messenger.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spdNotOwned1.png",
+    "sha256": "5412b591f714a685f72ca82597fabfc3460bcdc198646d0ca0c4ef8228310e11"
+  },
+  "base-skill-icons/Aphrissa - DIY Orirock.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_orirock.png",
+    "sha256": "5dd761e6014a01c8c0dccbf5661ad671810b6b88f7b9a7c860ee1b4b792d99d9"
+  },
+  "base-skill-icons/Aphrissa - Orirock Analysis.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_originium2.png",
+    "sha256": "69555b7ebd7db4a3fce3df167b2aef009e9b4390b7e608c5ddd69ac0f26167f4"
+  },
+  "base-skill-icons/Closure - Chief Engineer.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ctrl_cost.png",
+    "sha256": "74f9bdf1e952e091d89b1dcc93da86249bf7dd52af73e75c3355bfd07514039d"
+  },
+  "base-skill-icons/Closure - Special Orders.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_closure.png",
+    "sha256": "850cb75d92babc94e04a43207315dd25466640538b32ca0a15ed5bc658728b35"
+  },
+  "base-skill-icons/Crackborne - Rare Respite.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_one1.png",
+    "sha256": "79f3266e2c5ab4bc04059fa9f3db5c1958b38492ff173ae4359fc3111a68cb23"
+  },
+  "base-skill-icons/Crackborne - Working Around the Clock.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_exp%26spd%26cost1.png",
+    "sha256": "516b93bda27875475e02623879f26315244628eebb9fa76cac8b6ac36d0de609"
+  },
+  "base-skill-icons/Gallus² - Poultry Engineering.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_pow_spd1.png",
+    "sha256": "3842966b24ccf0fb6a3dae33eac3ea6ea8a2fd67f08839dcc46364bbd9facbca"
+  },
+  "base-skill-icons/Gallus² - Poultry Motivation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_power_rec_spd_ext%26tag.png",
+    "sha256": "18ddd9ceec3d462ed2d67db53e4a134a06396f69bad5edc161431e76cdc14391"
+  },
+  "base-skill-icons/Jacinta - An Heiress's Eye.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_wt%26cost1.png",
+    "sha256": "cb274054533e8bc50f586d7d1ee5f6e6a2e6a4b8e8dd1d2c2752773f5e6c8533"
+  },
+  "base-skill-icons/Jacinta - The Campbell Name.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spd2.png",
+    "sha256": "794b0fc781ff11716c95c0b848dd2803eaafce105f957eab148b72e2441cef0a"
+  },
+  "base-skill-icons/Kal'tsit - Esperanta - Technical Explanation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_p5.png",
+    "sha256": "e44ad90aaedbb73568a27a5a85d9a11f2414c7306c81c7f6662e9b39f40ae29b"
+  },
+  "base-skill-icons/Kal'tsit - Esperanta - The Ark of Terra.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_kalts2.png",
+    "sha256": "a4a808d0b9b8e087ca06e4006c4a3f3f9a178ccfd43c5b44c16ef210270bceb1"
+  },
+  "base-skill-icons/Kal'tsit - Esperanta - Theoretical Innovation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_p_kalts2.png",
+    "sha256": "3d6e5b85f59fe82b1b26aa58c11dc1e00773b8214b8c10a214b14a160a847516"
+  },
+  "base-skill-icons/Mechanist - Combat Guidance Video.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_exp2.png",
+    "sha256": "ed4e8abe8086dc47e18123b99de057bf54bb29409d82506bbd36c8fa79009974"
+  },
+  "base-skill-icons/Mechanist - I Slept Already.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_mechanist.png",
+    "sha256": "b56809d1bf00554b0343061e0d81bf0000b6726697899121965f828550e44a16"
+  },
+  "base-skill-icons/Pedro - Combat Techniques Supportive Ranger.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_supportiveranger.png",
+    "sha256": "9067702c6b64e12ef205ea78cccec5b51b7172b5841ffa797815f09c6be88354"
+  },
+  "base-skill-icons/Pedro - Supporter Expert α.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_supporter1.png",
+    "sha256": "e35f998092214ea913d9cf8c7cc141cfed769ba78c3aa2dd29dbb183a8156718"
+  },
+  "base-skill-icons/Rhodes Island Recon - Hunting Helper.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_buddy.png",
+    "sha256": "6114cf78e6d2852e5466495d2657a19d9dd53480b5ff6c12b18fdd3dae130c0e"
+  },
+  "base-skill-icons/Rhodes Island Recon - Stealth Expert.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_buddy.png",
+    "sha256": "3febcbe3c0323768f3fec17866efb7025fbac02e7c04c7553191517d0a0b7a1f"
+  },
+  "base-skill-icons/Thumpy - Former Star Operator.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd5.png",
+    "sha256": "4c54b4a30ed581668905407f4ea81baf1c5004a47e424726df4ea1d2c27063b6"
+  },
+  "base-skill-icons/Thumpy - Rabbit Holes Everywhere.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_one2.png",
+    "sha256": "313fae1a8c7e5a145d39113e4862d14b618cf3107a296f7130c8bb9c0497c6d7"
+  },
+  "base-skill-icons/Timeslot - Overlooked Talent.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_asc1.png",
+    "sha256": "6affcab4aa51d9ab6881b328dc00661ae964b7c8b386c4986462b49d081aedfa"
+  },
+  "base-skill-icons/Timeslot - Six Minutes Before Being Late.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_pow_spd3.png",
+    "sha256": "9d0ab1f6bee78fdc66d9f668c44c512031a05087b2a647960bfc08e0f990a28a"
+  },
+  "base-skill-icons/Violet Mizutsune Orchid - A Captain's Resolve.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_orchd2.png",
+    "sha256": "b44d60c054e4dcbbbada9744281c49d9044c26d742b7224a0dc6dfc0557735ff"
+  },
+  "base-skill-icons/Violet Mizutsune Orchid - Office Person of the Year.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ctrl_orchd2.png",
+    "sha256": "f7355aaf7b20e98380e17ae7b7b6f076b56e126850c2ddd2926533a952628ef7"
+  },
+  "base-skill-icons/Viy - Artisan.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_veen.png",
+    "sha256": "12fd3a31e899c0c4786f819db9e2baa3de9520cd11d7678af3160147f60fd4a3"
+  },
+  "base-skill-icons/Viy - I Don't Understand.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_caster%26vanguard1.png",
+    "sha256": "ec9d0e421f6b6f6d8594e2058ce66ceee512efcb2d305f8ab0c79247efefb891"
+  },
+  "base-skill-icons/Viy - Learning by Analogy.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_caster%26vanguard2.png",
+    "sha256": "e2ed908d619f987c97ce189c3c7d16c4abd5a30f5f7d5f232d27a1bf7d44cbb9"
+  },
+  "base-skill-icons/Zinogre S Catapult - Mood Maker.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_spd3%26catap2.png",
+    "sha256": "642f11336eb731b876f29e5e1b5bb518fe3c4037e79d7d23a17178d00362d0ca"
+  },
+  "base-skill-icons/Zinogre S Catapult - On a Whim α.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_mh2_guard%26sniper1.png",
+    "sha256": "21afaf74458369a6077596dde80353b0fc5a0253de589d6616f83bd8d077f3d8"
+  },
+  "base-skill-icons/Zinogre S Catapult - On a Whim β.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_mh2_guard%26sniper2.png",
+    "sha256": "02909d64cb88743e2265d45d5c0019a3e650cf5f99c40aec8efbb973fe71689d"
+  },
+  "base-skill-icons/de Toledo - 忠实拥趸.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_hireToRecAll2.png",
+    "sha256": "5a8a70e9c5df15d9b53a867b232743fe675fbad9d4095c2b4d1e2614a7361641"
+  },
+  "base-skill-icons/de Toledo - 拉拢听众.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd%26cost4.png",
+    "sha256": "89a431eecbf8fedf0d141bf4f36e3f4420bc897f65b133491c39bd4f98284e12"
+  },
+  "base-skill-icons/de Toledo - 聚众宣讲.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd%26cost6.png",
+    "sha256": "7fa84e300d2b7db0f75a261fe593cdbdfa5f75a499e1c47b8863d1168cdd9ff3"
+  },
+  "content-art/furni_set_Airship-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_Airship.png",
+    "sha256": "d780310d53151b4a9109819b1f8f5ab98d26b11b5eaa36a024239eebb41869d9",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_Airship-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_airship.png",
+    "sha256": "75fa63a7ee57127f10e1653d328f5a183a0e70cadface30bd433a80a7b4f10b0",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_BSsafehouse-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_BSsafehouse.png",
+    "sha256": "1151f389b8abd7d1b259dab6247c1fedb0fba2fc15a4357e9146faa77a57e1ba",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_BSsafehouse-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bssafehouse.png",
+    "sha256": "9d5d4dff211da9d3467f04ba6f4c2966c6151e9cf2130f7b5af8964841519a3e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_HunterInstitute-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_HunterInstitute.png",
+    "sha256": "a0c3ae5e7976f12d429690c6951d51edf74b987b1d27b96e554868b33a355d06",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_HunterInstitute-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_hunterinstitute.png",
+    "sha256": "5850e7b356ab544f29859a37ca5a210c71ea1fb5a8c902a144ba25e93504672a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_LAbbey-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_LAbbey.png",
+    "sha256": "37216a35ad78ca9f1d3f28199660a465fa502ef03b68e3321f069268ec317b8c",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_LAbbey-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_labbey.png",
+    "sha256": "5d3d19f5c7c5630329ba27cbb5fbbfda40c73464e626da7fef261e28cab86fd6",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_NHL-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_NHL.png",
+    "sha256": "15e0e8c44f018a6dbe4b820e2c0de10cb1d9f9b6a18ee7a795847bd781904729",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_NHL-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_nhl.png",
+    "sha256": "5276178b50c02ddaa254898091ee873043c0e520c073a31c844660b355a8ed91",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_R6-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_R6.png",
+    "sha256": "8edd91049c1d1a2f18214311ff47d29e3ffa9e24336b0cde6c08df561c2606e6",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_R6-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_r6.png",
+    "sha256": "2a67655702036a79f6f7bc91536a1eb01f978d1615b80dff5780b4f43955aa17",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_ScarMarket-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_ScarMarket.png",
+    "sha256": "fb760362491fb3bab804530bd7d5322c3786bd4d55c6235eafea2ac45671c636",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_ScarMarket-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_scarmarket.png",
+    "sha256": "786e7c1c57f13cb9832c8f990e79202460cc0010bb0fa3ad14de870fc1566bce",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_TianshiMansion-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_TianshiMansion.png",
+    "sha256": "5184ab6c07529c6aca88b6913c2fb7612e553a91ead606d1ae72613507ce97a2",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_TianshiMansion-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tianshimansion.png",
+    "sha256": "f1662f707590c88889acf83b9807cc7e33fdf3a9e648a0063bd8d5a85622dd42",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_abyssal-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_abyssal.png",
+    "sha256": "3ee68750f77106a7332277bc8a537294a384acdc233e606d88f15d8f98da6f0b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_abyssal-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_abyssal.png",
+    "sha256": "3ee68750f77106a7332277bc8a537294a384acdc233e606d88f15d8f98da6f0b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_amuselounge-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_amuselounge.png",
+    "sha256": "dad9a0358b0e7c01b6142d150544ab45b81b3b7a46e33ce51c29afd466de5db6",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_amuselounge-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_amuselounge.png",
+    "sha256": "dad9a0358b0e7c01b6142d150544ab45b81b3b7a46e33ce51c29afd466de5db6",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_artmuseum-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_artmuseum.png",
+    "sha256": "087cd17132fe47aa1d91a9358478c60b64977ebc9d06508cbfb71246d05059c7",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_artmuseum-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_artmuseum.png",
+    "sha256": "087cd17132fe47aa1d91a9358478c60b64977ebc9d06508cbfb71246d05059c7",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_bauhaus-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_bauhaus.png",
+    "sha256": "e253ec179836972e040117453a4b41c0c4aaaaad329842c5bb6e507964544b94",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_bauhaus-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bauhaus.png",
+    "sha256": "e253ec179836972e040117453a4b41c0c4aaaaad329842c5bb6e507964544b94",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_beach-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_beach.png",
+    "sha256": "9757175a4cb040a1e67a7ed5987a072cae07efb3f41e4ba7dc23af9d53d80406",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_beach-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_beach.png",
+    "sha256": "9757175a4cb040a1e67a7ed5987a072cae07efb3f41e4ba7dc23af9d53d80406",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_beerhouse-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_beerhouse.png",
+    "sha256": "29ed0e442d1764cfd89de966c7d6da58966d013676530b99c0920e03408220ac",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_beerhouse-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_beerhouse.png",
+    "sha256": "29ed0e442d1764cfd89de966c7d6da58966d013676530b99c0920e03408220ac",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_bolivar-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_bolivar.png",
+    "sha256": "032af3671dc92850dd61989e266a683049be117c596e3543169d72f30f8cd429",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_bolivar-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bolivar.png",
+    "sha256": "032af3671dc92850dd61989e266a683049be117c596e3543169d72f30f8cd429",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_bookshop-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_bookshop.png",
+    "sha256": "f4ace44b184c35c7d34e9514ccc42bbbeba5034d6d27aeb745f988c152669c1e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_bookshop-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bookshop.png",
+    "sha256": "f4ace44b184c35c7d34e9514ccc42bbbeba5034d6d27aeb745f988c152669c1e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_camp-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_camp.png",
+    "sha256": "f30609d01fdf7864fbbb73df5daa69616e3252ad07a61b509e13678b57902253",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_camp-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_camp.png",
+    "sha256": "f30609d01fdf7864fbbb73df5daa69616e3252ad07a61b509e13678b57902253",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_citizengarden-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_citizengarden.png",
+    "sha256": "c61c03036a6f574b0b0dbb49804fd2fa8f9be62919cb2a9fdccfd994563433df",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_citizengarden-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_citizengarden.png",
+    "sha256": "c61c03036a6f574b0b0dbb49804fd2fa8f9be62919cb2a9fdccfd994563433df",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_classroom-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_classroom.png",
+    "sha256": "89dede1be4fe8f6cabbad94a56db4f64fe358b1d533ee1a174814bd7a5bb6979",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_classroom-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_classroom.png",
+    "sha256": "89dede1be4fe8f6cabbad94a56db4f64fe358b1d533ee1a174814bd7a5bb6979",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_cloudRestaurant-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_cloudrestaurant.png",
+    "sha256": "1e7d254f07a271f1ed8475d014064d52b9626f418ae0f4c24332f48ad2d99f2d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_coastCottage-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_coastCottage.png",
+    "sha256": "685630d285eea814061051454611db3935e3b9b4e74b633e05f951218c57011e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_coastCottage-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_coastcottage.png",
+    "sha256": "e3035d51fa5848ab6daecfc0c62227d082ffd5986526f0bea56857de9aa2159e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_concertHall-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_concertHall.png",
+    "sha256": "1332d4f2587a78522bc6ec4926710f7ac99226f2df54ccccba3b60f4c4905801",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_concertHall-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_concerthall.png",
+    "sha256": "1dc075a96e6492af26d76043e54f03ce6009d32061e9e800c1e380209a96bd6c",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_countryside-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_countryside.png",
+    "sha256": "d304492b994f7825e46fff23ee92c42b790426e0bc0102f1d845829d350f62ec",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_countryside-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_countryside.png",
+    "sha256": "d304492b994f7825e46fff23ee92c42b790426e0bc0102f1d845829d350f62ec",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_court-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_court.png",
+    "sha256": "139893b9a33bd44d95a948b2ae874ad9fee4b68cf3a694178190f4c0694f7f7b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_court-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_court.png",
+    "sha256": "139893b9a33bd44d95a948b2ae874ad9fee4b68cf3a694178190f4c0694f7f7b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_cultureroom-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_cultureroom.png",
+    "sha256": "a3feff92abdf1e8943afaf6f4e718701e11d9539fe6fe79c2e8c241ba488750e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_cultureroom-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_cultureroom.png",
+    "sha256": "a3feff92abdf1e8943afaf6f4e718701e11d9539fe6fe79c2e8c241ba488750e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_dessertShop-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_dessertshop.png",
+    "sha256": "300f59d54841a358206f6e429038aed6ae5a7d0a1549f7ac627d6942217d595b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_dreamCastle-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_dreamcastle.png",
+    "sha256": "fd23b9e471864bbe0ebf507fcf9e6084903d794c21a99361005a09e9a3270ec5",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_durin-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_durin.png",
+    "sha256": "6c1c4833c23585d9c4843a460dfe0a33a5691a419370cb3886214884429a899d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_durin-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_durin.png",
+    "sha256": "6c1c4833c23585d9c4843a460dfe0a33a5691a419370cb3886214884429a899d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_eastern-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_eastern.png",
+    "sha256": "40b9c1271be8bae6a2c27bc3a34a716628bcdf73170837bc81441f71075e16df",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_eastern-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_eastern.png",
+    "sha256": "40b9c1271be8bae6a2c27bc3a34a716628bcdf73170837bc81441f71075e16df",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_eliteLounge-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_elitelounge.png",
+    "sha256": "3487832d32decc9d2089d4bc3d417724b7f1e114744c58408271b9ce6b2e70fe",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_fNearl-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_fNearl.png",
+    "sha256": "076a806d5cb2473c2c89e90276c04778c40ecda7740490c71e8a48fb3f0df493",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_fNearl-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_fnearl.png",
+    "sha256": "1321b119ff1b2932156b221d0f82f1b318bd5c43e20be3e7bcfe9dfd8dac6bee",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_goldBoat-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_goldBoat.png",
+    "sha256": "be79040ecbc5553371caa9b7e5268186430122a57ecbda2297da4b6d5f5542f7",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_goldBoat-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_goldboat.png",
+    "sha256": "661acaf3958c3e3e80c1c8d1f61c22c7f0dae8ad375e03b60dff5b4723d8af6a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_guitar-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_guitar.png",
+    "sha256": "6cbe99b83e7c4a4d24f882e30a01bb6f23287ba575255deff70cdc6c3e3b3bc2",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_guitar-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_guitar.png",
+    "sha256": "6cbe99b83e7c4a4d24f882e30a01bb6f23287ba575255deff70cdc6c3e3b3bc2",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_gunworkshop-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_gunworkshop.png",
+    "sha256": "e5c995cfe535777043658b3055ab808e672705db097ce9d3168c5c3716b0d477",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_gunworkshop-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_gunworkshop.png",
+    "sha256": "e5c995cfe535777043658b3055ab808e672705db097ce9d3168c5c3716b0d477",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_icu-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_icu.png",
+    "sha256": "8f006d0e7376d44aafd5c15532610ef635b59356bf3248ed56644500c0431cf6",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_icu-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_icu.png",
+    "sha256": "8f006d0e7376d44aafd5c15532610ef635b59356bf3248ed56644500c0431cf6",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_idealCity-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_idealCity.png",
+    "sha256": "374d3518fc7b23fec42601f570f99f198b56c8d34ecf6a6c8b5322ddb1c7300c",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_idealCity-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_idealcity.png",
+    "sha256": "5ce737d12da657d6ad7952397efa9906097d3dac56de49d35f09af6068fe2c92",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_inkArt-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_inkArt.png",
+    "sha256": "4237158b86e3341bb1fdd0018d39ca501bdaaad9798329335a59b10f237a0a83",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_inkArt-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_inkart.png",
+    "sha256": "08dd687950ffb65aa6f858d3b6f0dbcb4a0cba69bc070c9fed9ee2fd2a34af36",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_kazimierz-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_kazimierz.png",
+    "sha256": "6d3d1b787b3f9bc849814d73d67eb7f9241acb2ebf607c00a09c939071600b4d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_kazimierz-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_kazimierz.png",
+    "sha256": "6d3d1b787b3f9bc849814d73d67eb7f9241acb2ebf607c00a09c939071600b4d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_knights-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_knights.png",
+    "sha256": "a9f723a08658b9d716828e6c564717a2f2669cf9c4b4d85c1e2fd9bdb1217381",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_knights-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_knights.png",
+    "sha256": "a9f723a08658b9d716828e6c564717a2f2669cf9c4b4d85c1e2fd9bdb1217381",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_lightArt-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_lightArt.png",
+    "sha256": "499999d70218ee4ce6e9e9bb9f3299be342fce4057cbafb6c1ed31083dd3076b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_lightArt-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_lightart.png",
+    "sha256": "eeed9cb911182921bcd73a1cfd83cc1bb1629ba3ae9ec0a9985f23b541c18448",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_magicAcademy-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_magicAcademy.png",
+    "sha256": "587cfd6e378a05f321dd177e618726a3dc13b2888f5701943f8bdd0f7a85ddb2",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_magicAcademy-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_magicacademy.png",
+    "sha256": "7ee334e0241ecd54974d521ef0606ace9f52359be529f4ac0850306d64cdb927",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_martialClub-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_martialClub.png",
+    "sha256": "42a4aebf7fabd20b7e1e998af1523d578d51aa5d5be21cbd8f1fb8f61cb59b50",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_martialClub-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_martialclub.png",
+    "sha256": "191424b3ddc969209d723d6024d2b328c5f8edc52fa1cd2d145c83f348b2f0ba",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_mindsanctum-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_mindsanctum.png",
+    "sha256": "24d95e1111f0fc7ef4a6a1dcf9d091b8c48b884eee5aa68e4ad78084a4ec3b41",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_mindsanctum-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_mindsanctum.png",
+    "sha256": "24d95e1111f0fc7ef4a6a1dcf9d091b8c48b884eee5aa68e4ad78084a4ec3b41",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_minosMed-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_minosmed.png",
+    "sha256": "dc1423b7de30f1e1b1ac251e22f1800392e2ba2706371fe96b62ab98bf493b42",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_mis-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_mis.png",
+    "sha256": "8c1db6124965c1edaff6340c76fc6392a48d24cf93c767d0dae8985d72b4a59f",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_mis-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_mis.png",
+    "sha256": "8c1db6124965c1edaff6340c76fc6392a48d24cf93c767d0dae8985d72b4a59f",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_msVillage-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_msVillage.png",
+    "sha256": "139775847d4f9b68676158e1831e2130d786268ab0ff8f7876e7b3469bafbafa",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_msVillage-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_msvillage.png",
+    "sha256": "1a15b6f62e6af12255377081c3e5bc0dfab2dd4850af91ebfd472fce8ea0fbff",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_nightView-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_nightView.png",
+    "sha256": "66a6f4842d69c9bdea0c2999b7f27c52a3a7b2dcf323362d5bd901bfbbb24248",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_nightView-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_nightview.png",
+    "sha256": "d29370555de92f497e8fb9d16fb7ebe0591ca91d3b014f69da70165a27a4a8ab",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_odenShop-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_odenshop.png",
+    "sha256": "dd5b9a1f283979a0b928dc08061f27bff60ef9684e4625d4d5fec7128d485a3b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_penguin-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_penguin.png",
+    "sha256": "f9f88fe7c7ce0a21d06b534e5d51014c8d7643ca013d828d0c06507fa8a18eff",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_penguin-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_penguin.png",
+    "sha256": "f9f88fe7c7ce0a21d06b534e5d51014c8d7643ca013d828d0c06507fa8a18eff",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_perfumer-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_perfumer.png",
+    "sha256": "1341e93cab56ec8d04600dbf4f117a7ee76e1898d10a640941e6a10ddce29847",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_perfumer-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_perfumer.png",
+    "sha256": "1341e93cab56ec8d04600dbf4f117a7ee76e1898d10a640941e6a10ddce29847",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_photoStudio-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_photoStudio.png",
+    "sha256": "780c5565b4f6ca341066fd859057d62ef242f072d925547908cc3131906f9194",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_photoStudio-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_photostudio.png",
+    "sha256": "05d76237533f1f8fab0af95c7f0455d9571496a278f385037c1b5c7eaf4eb271",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_pizzeria-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_pizzeria.png",
+    "sha256": "00946b761ea75fc7ff264f72c04d33f5a3f816ba872b27819cbed0c1416a3238",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_pizzeria-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_pizzeria.png",
+    "sha256": "00946b761ea75fc7ff264f72c04d33f5a3f816ba872b27819cbed0c1416a3238",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_postOffice-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_postOffice.png",
+    "sha256": "75661d8716dad9d613784e182582be28c1b128749f22eb7ef4195d563c28533a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_postOffice-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_postoffice.png",
+    "sha256": "7bd885fdf724d3db806aee600c378f89afcaccda3309d3877104ffedde83e23b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_prison-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_prison.png",
+    "sha256": "f8f718a74e9bbf1c1d5893f9f2ee1ad5adfd63d0adf1d8021e537f91e26b0c2e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_prison-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_prison.png",
+    "sha256": "f8f718a74e9bbf1c1d5893f9f2ee1ad5adfd63d0adf1d8021e537f91e26b0c2e",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_receptionRoom-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_receptionroom.png",
+    "sha256": "7e19fc8e9d8f076419a3af92511b106b3cabb964814a71a929765b5e68f194ea",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_rhineLab-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_rhineLab.png",
+    "sha256": "57e2d2dbac2a13187945fb06bfe69aeaf46b885bffab8938cee828b13ec95ed8",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_rhineLab-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_rhinelab.png",
+    "sha256": "74ca4604aff6daddaf37ba9f96f83d7b30f54e16fa4cce3201522adfba3dca1a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_rhodesKitchen-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_rhodesKitchen.png",
+    "sha256": "b3975d2fb7ea2eea57017a4c38acd302a06d90a8f6d5e1b31d657327496751da",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_rhodesKitchen-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_rhodeskitchen.png",
+    "sha256": "53975f9857a932a9695efbe7314c0eee7b08a198c3c613b5195b5e456caa1a3d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_shipRoom-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_shipRoom.png",
+    "sha256": "765a1021976300fd48bdc95e8e1774c35647874eee45fa7790d6253d1bd6f8ae",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_shipRoom-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_shiproom.png",
+    "sha256": "7d87e0f6b3af5cf1d7f89278b952f66609151a33bfd178393b4325382c80996c",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_shuttle-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_shuttle.png",
+    "sha256": "b4dcaa85895a8e5ce74136e63b814386ab222d1c8383226ce9c390a06dac14e3",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_shuttle-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_shuttle.png",
+    "sha256": "b4dcaa85895a8e5ce74136e63b814386ab222d1c8383226ce9c390a06dac14e3",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_spirit-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_spirit.png",
+    "sha256": "ff7a3f9de5c77f73ab73d3f358a5c719409bd7067b121662f6d0df98eaa57573",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_spirit-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_spirit.png",
+    "sha256": "ff7a3f9de5c77f73ab73d3f358a5c719409bd7067b121662f6d0df98eaa57573",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_springfeast-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_springfeast.png",
+    "sha256": "5577503e867b5645b90ae07c470bb190900f33ffebc39550e20300981bcd3f90",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_springfeast-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_springfeast.png",
+    "sha256": "5577503e867b5645b90ae07c470bb190900f33ffebc39550e20300981bcd3f90",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_stage-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_stage.png",
+    "sha256": "ef9239841928d069d94f771e6e80f6c9fb82999672458e08711718815793e73a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_stage-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_stage.png",
+    "sha256": "ef9239841928d069d94f771e6e80f6c9fb82999672458e08711718815793e73a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_tailorShop-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_tailorShop.png",
+    "sha256": "302a13f94b202be04ab77306c030d607faa79ec266100d292d6a78981155c643",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_tailorShop-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tailorshop.png",
+    "sha256": "caa3fb78171c112ba95de99687a9d5429a0838f36e9597fe30e1b3984191342a",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_tarahouse-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_tarahouse.png",
+    "sha256": "9f2d86f10eb7f4509a6637d49287d581982ad814bb294997a05eb6b48f908015",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_tarahouse-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tarahouse.png",
+    "sha256": "9f2d86f10eb7f4509a6637d49287d581982ad814bb294997a05eb6b48f908015",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_teaCanteen-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_teacanteen.png",
+    "sha256": "3236cb871e6af15925b4cffafdd023765a6d26f7a4bb1317427228b75ef50c75",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_teaHouse-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_teaHouse.png",
+    "sha256": "7be9ecba78e3d0e8aef74607240f188a466f97ed4fd5b037eda945be01b5a76b",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_teaHouse-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_teahouse.png",
+    "sha256": "dc31024e77d4d37574f6df990b5b72cc30bd2ba7087e0eeccffbd46319d86419",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_tradeLounge-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tradelounge.png",
+    "sha256": "6d7da03b41a0dc788613c9a7be7b8b36015ee2e9e607883778e9f8a2fc448833",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_trainStation-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_trainStation.png",
+    "sha256": "795da2bd16002c15ba6fb6f15d2b7ac8ee55324e3b01c5c12b50e82b62d223c1",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_trainStation-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_trainstation.png",
+    "sha256": "b0b9d11233be75689f8296df0b46135c8cb930c9c889c29f604d20bef5bafe89",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_ursusRoom-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_ursusroom.png",
+    "sha256": "ae4df1012fb42603179f51e6c25ba9192731e519081dfa56f295d822364afad8",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_vcWarRoom-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_vcWarRoom.png",
+    "sha256": "b6f3119b7c79b8ed5aa19d66c1d90d9e91853c0b0def59a700bba9c1bc0a1905",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_vcWarRoom-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_vcwarroom.png",
+    "sha256": "26e86005c269ee2a5efc0bde5479c8f8e9c5e8f46fffa8af30cfa173e45f3de0",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_videoStudio-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_videostudio.png",
+    "sha256": "2f7aee795496ee9c6807002f4c5e03d2f333556f52d3976116966599f489b514",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_village-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_village.png",
+    "sha256": "cd0585cab7b79cec148e95b442fd1304b9848fa67b47b440e5822c4d17569a84",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_village-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_village.png",
+    "sha256": "cd0585cab7b79cec148e95b442fd1304b9848fa67b47b440e5822c4d17569a84",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_villagemanor-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_villagemanor.png",
+    "sha256": "30ab241e7676c1336142bc4094f83b4ae0326bab619693702275c80aa383b591",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_villagemanor-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_villagemanor.png",
+    "sha256": "30ab241e7676c1336142bc4094f83b4ae0326bab619693702275c80aa383b591",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_westCoast-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_westCoast.png",
+    "sha256": "98b3bb9b93dee43aee02b725f91f21d45283598172f37bb0bc9aaf517d2254a8",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_westCoast-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_westcoast.png",
+    "sha256": "4ddf8c68019f740b9df367a9ce992cbd82a1ea399ca5b8df687d6d7897dba38d",
+    "importer": "furniture-art"
+  },
+  "content-art/furni_set_yanPrivateSchool-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_yanprivateschool.png",
+    "sha256": "9e8c4509afe27fe0fdd9b69ec88c1712fc4f8fae2aa7a575d0a2014fb3f49611",
+    "importer": "furniture-art"
+  },
+  "event-poster/CN 5101-1.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260929/77e4be6e8952f9027dd611befc59111a.jpg",
+    "sha256": "5470cceccb438b0099693249fa6c077733feb41941a0414e86b7751f1b3c7272"
+  },
+  "event-poster/Dolly's Playground.webp": {
+    "url": "https://arknights.wiki.gg/images/CN_Dolly%27s_Playground_banner.png?438426",
+    "sha256": "54d70260da1bec6e5bd9f0acf3319d8778c02d814c56a0233904c006d6d2f344"
+  },
+  "event-poster/Vector Breakthrough Bio Mimicry.webp": {
+    "url": "https://arknights.wiki.gg/images/CN_Vector_Breakthrough_Bio_Mimicry_banner.png?d5101c",
+    "sha256": "26d948f4004c57ef1f4d6b28667e731aeb9bab926522cb58e34bdb28eb3b49fa"
+  },
+  "five-star-icons/Greyy the Lightningbearer - 千尺俯瞰.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/avatar/char_1027_greyy2_wild%2312.png",
+    "sha256": "5503496d4bc2964e941cdd908fd9dfc4a16feb9a1ca527a1db9c4e52addd9c1c"
+  },
+  "five-star-icons/Spuria - 慵怠哼唱.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/avatar/char_4015_spuria_epoque%2358.png",
+    "sha256": "be25a1c182fc9433d6f011ddeee298753f794159176af322e84019aae6c8bfc4"
+  },
+  "headhunting-banner-images/CN 5101-2.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260929/61906002d14af20348268b00ee96cb75.jpg",
+    "sha256": "b3c68ed9b7f5bcc290cdfeb202a3a6952844be1e93809ce62bad8c982d36cc7f"
+  },
+  "headhunting-banner-images/Joint Operation #19.webp": {
+    "url": "https://arknights.wiki.gg/images/EN_Joint_Operation_19_banner.png?fa5acf",
+    "sha256": "8eb2a3dd7c203b1333e96cdc16ef0dd668b37de3186dcf44b0ab1b1ffff4b688"
+  },
+  "material-icons/液化醚吸聚体.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_YHT4.png",
+    "sha256": "f49a6e20dbbf56861d85ffd8cf3dc8b6a790402cdb2cd577f2807e17bc382658"
+  },
+  "material-icons/液化高能气体.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_YHT.png",
+    "sha256": "0b368bfad72042951bb5c1913797dd74e2a2c7cd27f3e820d3ad67d8df087c20"
+  },
+  "material-icons/电极单元.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ.png",
+    "sha256": "e4bb9b594ab21df36b62fb0047749e209e77e2e35b1609d0d04da59d25878dd2"
+  },
+  "material-icons/聚能动力单元.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ4.png",
+    "sha256": "6f1e516e7a16333ce6f0057188c8a270b34af3329101125b6302092a694c6ed5"
   },
   "stages-images/cf-9.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act24side_09_1.png",
@@ -107,18 +986,6 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/bb71653fcafc46130f70c6eec3d383888f670573/map/act51side_tr01.png",
     "sha256": "ddbad18765ea5ed5fbb2f2f3814fd81b4806f7af0af8070ced0daf1488e17f8a",
     "importer": "stage-renders"
-  },
-  "event-poster/Vector Breakthrough Bio Mimicry.webp": {
-    "url": "https://arknights.wiki.gg/images/CN_Vector_Breakthrough_Bio_Mimicry_banner.png?d5101c",
-    "sha256": "26d948f4004c57ef1f4d6b28667e731aeb9bab926522cb58e34bdb28eb3b49fa"
-  },
-  "five-star-icons/Greyy the Lightningbearer - 千尺俯瞰.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/avatar/char_1027_greyy2_wild%2312.png",
-    "sha256": "5503496d4bc2964e941cdd908fd9dfc4a16feb9a1ca527a1db9c4e52addd9c1c"
-  },
-  "five-star-icons/Spuria - 慵怠哼唱.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/avatar/char_4015_spuria_epoque%2358.png",
-    "sha256": "be25a1c182fc9433d6f011ddeee298753f794159176af322e84019aae6c8bfc4"
   },
   "story-map/MAHBA-AL0bw.webp": {
     "url": "https://www.canva.com/design/DAHBABXJpds/tgUQ72n0pCw8HHq56-OBOA/view#MAHBA-AL0bw",
@@ -565,11 +1432,6 @@
     "sha256": "26ff6c41cdab50c9eb3bc73ea298459eff16deb15c2cbfe2dca980f4652d1d9f",
     "importer": "story-map"
   },
-  "album-covers/矢量突破拟生态OST_cover.webp": {
-    "url": "https://web.hycdn.cn/siren/pic/20260929/b6b48b83c8d2e7b444b0847c72ee49c7.jpg",
-    "sha256": "98f1cb58af30f4296b5e445c795448ce2c8fd0ed1a776310bbbd79d98c6aa41c",
-    "importer": "album-covers"
-  },
   "story-map/manga-angelina-sketches-of-this-messenger-s-journey.webp": {
     "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/07/16/IgV2qsIo.jpeg",
     "sha256": "edada71271b1c2db317646f00e5678ff333fb0d2041322b59c5a9815721c554a",
@@ -649,855 +1511,5 @@
     "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/08/10/HmZoDvDN.png",
     "sha256": "e81759d56d96abf646a32eadf2d8e49cf10eff2948e85ba4bbc0470ba2743d98",
     "importer": "story-map"
-  },
-  "event-poster/CN 5101-1.webp": {
-    "url": "https://web.hycdn.cn/upload/image/20260929/77e4be6e8952f9027dd611befc59111a.jpg",
-    "sha256": "5470cceccb438b0099693249fa6c077733feb41941a0414e86b7751f1b3c7272"
-  },
-  "headhunting-banner-images/CN 5101-2.webp": {
-    "url": "https://web.hycdn.cn/upload/image/20260929/61906002d14af20348268b00ee96cb75.jpg",
-    "sha256": "b3c68ed9b7f5bcc290cdfeb202a3a6952844be1e93809ce62bad8c982d36cc7f"
-  },
-  "headhunting-banner-images/Joint Operation #19.webp": {
-    "url": "https://arknights.wiki.gg/images/EN_Joint_Operation_19_banner.png?fa5acf",
-    "sha256": "8eb2a3dd7c203b1333e96cdc16ef0dd668b37de3186dcf44b0ab1b1ffff4b688"
-  },
-  "base-skill-icons/Gallus² - Poultry Engineering.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_pow_spd1.png",
-    "sha256": "3842966b24ccf0fb6a3dae33eac3ea6ea8a2fd67f08839dcc46364bbd9facbca"
-  },
-  "base-skill-icons/Gallus² - Poultry Motivation.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_power_rec_spd_ext%26tag.png",
-    "sha256": "18ddd9ceec3d462ed2d67db53e4a134a06396f69bad5edc161431e76cdc14391"
-  },
-  "base-skill-icons/Rhodes Island Recon - Hunting Helper.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_buddy.png",
-    "sha256": "6114cf78e6d2852e5466495d2657a19d9dd53480b5ff6c12b18fdd3dae130c0e"
-  },
-  "base-skill-icons/Rhodes Island Recon - Stealth Expert.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_buddy.png",
-    "sha256": "3febcbe3c0323768f3fec17866efb7025fbac02e7c04c7553191517d0a0b7a1f"
-  },
-  "base-skill-icons/Crackborne - Rare Respite.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_one1.png",
-    "sha256": "79f3266e2c5ab4bc04059fa9f3db5c1958b38492ff173ae4359fc3111a68cb23"
-  },
-  "base-skill-icons/Crackborne - Working Around the Clock.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_exp%26spd%26cost1.png",
-    "sha256": "516b93bda27875475e02623879f26315244628eebb9fa76cac8b6ac36d0de609"
-  },
-  "base-skill-icons/Jacinta - An Heiress's Eye.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_wt%26cost1.png",
-    "sha256": "cb274054533e8bc50f586d7d1ee5f6e6a2e6a4b8e8dd1d2c2752773f5e6c8533"
-  },
-  "base-skill-icons/Jacinta - The Campbell Name.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spd2.png",
-    "sha256": "794b0fc781ff11716c95c0b848dd2803eaafce105f957eab148b72e2441cef0a"
-  },
-  "base-skill-icons/Pedro - Supporter Expert α.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_supporter1.png",
-    "sha256": "e35f998092214ea913d9cf8c7cc141cfed769ba78c3aa2dd29dbb183a8156718"
-  },
-  "base-skill-icons/Pedro - Combat Techniques Supportive Ranger.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_supportiveranger.png",
-    "sha256": "9067702c6b64e12ef205ea78cccec5b51b7172b5841ffa797815f09c6be88354"
-  },
-  "base-skill-icons/Timeslot - Overlooked Talent.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_asc1.png",
-    "sha256": "6affcab4aa51d9ab6881b328dc00661ae964b7c8b386c4986462b49d081aedfa"
-  },
-  "base-skill-icons/Timeslot - Six Minutes Before Being Late.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_pow_spd3.png",
-    "sha256": "9d0ab1f6bee78fdc66d9f668c44c512031a05087b2a647960bfc08e0f990a28a"
-  },
-  "base-skill-icons/Zinogre S Catapult - On a Whim α.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_mh2_guard%26sniper1.png",
-    "sha256": "21afaf74458369a6077596dde80353b0fc5a0253de589d6616f83bd8d077f3d8"
-  },
-  "base-skill-icons/Zinogre S Catapult - On a Whim β.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_mh2_guard%26sniper2.png",
-    "sha256": "02909d64cb88743e2265d45d5c0019a3e650cf5f99c40aec8efbb973fe71689d"
-  },
-  "base-skill-icons/Zinogre S Catapult - Mood Maker.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_spd3%26catap2.png",
-    "sha256": "642f11336eb731b876f29e5e1b5bb518fe3c4037e79d7d23a17178d00362d0ca"
-  },
-  "base-skill-icons/Angelina the Mellow Wish - Veteran Messenger.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spdNotOwned1.png",
-    "sha256": "5412b591f714a685f72ca82597fabfc3460bcdc198646d0ca0c4ef8228310e11"
-  },
-  "base-skill-icons/Angelina the Mellow Wish - My Own Wish.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_meet_spd%26cost_condChar.png",
-    "sha256": "ffe7f7f091f0fb3c67605c51cb55afeeea43b021f29906636d83d7f6fff8e1cf"
-  },
-  "base-skill-icons/Aphrissa - Orirock Analysis.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_originium2.png",
-    "sha256": "69555b7ebd7db4a3fce3df167b2aef009e9b4390b7e608c5ddd69ac0f26167f4"
-  },
-  "base-skill-icons/Aphrissa - DIY Orirock.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_orirock.png",
-    "sha256": "5dd761e6014a01c8c0dccbf5661ad671810b6b88f7b9a7c860ee1b4b792d99d9"
-  },
-  "base-skill-icons/Closure - Chief Engineer.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ctrl_cost.png",
-    "sha256": "74f9bdf1e952e091d89b1dcc93da86249bf7dd52af73e75c3355bfd07514039d"
-  },
-  "base-skill-icons/Closure - Special Orders.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_closure.png",
-    "sha256": "850cb75d92babc94e04a43207315dd25466640538b32ca0a15ed5bc658728b35"
-  },
-  "base-skill-icons/Kal'tsit - Esperanta - Technical Explanation.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_p5.png",
-    "sha256": "e44ad90aaedbb73568a27a5a85d9a11f2414c7306c81c7f6662e9b39f40ae29b"
-  },
-  "base-skill-icons/Kal'tsit - Esperanta - Theoretical Innovation.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ws_p_kalts2.png",
-    "sha256": "3d6e5b85f59fe82b1b26aa58c11dc1e00773b8214b8c10a214b14a160a847516"
-  },
-  "base-skill-icons/Kal'tsit - Esperanta - The Ark of Terra.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_kalts2.png",
-    "sha256": "a4a808d0b9b8e087ca06e4006c4a3f3f9a178ccfd43c5b44c16ef210270bceb1"
-  },
-  "base-skill-icons/Mechanist - Combat Guidance Video.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_exp2.png",
-    "sha256": "ed4e8abe8086dc47e18123b99de057bf54bb29409d82506bbd36c8fa79009974"
-  },
-  "base-skill-icons/Mechanist - I Slept Already.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_mechanist.png",
-    "sha256": "b56809d1bf00554b0343061e0d81bf0000b6726697899121965f828550e44a16"
-  },
-  "base-skill-icons/Thumpy - Rabbit Holes Everywhere.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_dorm_one2.png",
-    "sha256": "313fae1a8c7e5a145d39113e4862d14b618cf3107a296f7130c8bb9c0497c6d7"
-  },
-  "base-skill-icons/Thumpy - Former Star Operator.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_hire_spd5.png",
-    "sha256": "4c54b4a30ed581668905407f4ea81baf1c5004a47e424726df4ea1d2c27063b6"
-  },
-  "base-skill-icons/Violet Mizutsune Orchid - Office Person of the Year.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_ctrl_orchd2.png",
-    "sha256": "f7355aaf7b20e98380e17ae7b7b6f076b56e126850c2ddd2926533a952628ef7"
-  },
-  "base-skill-icons/Violet Mizutsune Orchid - A Captain's Resolve.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_tra_orchd2.png",
-    "sha256": "b44d60c054e4dcbbbada9744281c49d9044c26d742b7224a0dc6dfc0557735ff"
-  },
-  "base-skill-icons/Viy - I Don't Understand.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_caster%26vanguard1.png",
-    "sha256": "ec9d0e421f6b6f6d8594e2058ce66ceee512efcb2d305f8ab0c79247efefb891"
-  },
-  "base-skill-icons/Viy - Learning by Analogy.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_train_caster%26vanguard2.png",
-    "sha256": "e2ed908d619f987c97ce189c3c7d16c4abd5a30f5f7d5f232d27a1bf7d44cbb9"
-  },
-  "base-skill-icons/Viy - Artisan.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/building_skill/bskill_man_spd_veen.png",
-    "sha256": "12fd3a31e899c0c4786f819db9e2baa3de9520cd11d7678af3160147f60fd4a3"
-  },
-  "material-icons/液化醚吸聚体.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_YHT4.png",
-    "sha256": "f49a6e20dbbf56861d85ffd8cf3dc8b6a790402cdb2cd577f2807e17bc382658"
-  },
-  "material-icons/液化高能气体.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_YHT.png",
-    "sha256": "0b368bfad72042951bb5c1913797dd74e2a2c7cd27f3e820d3ad67d8df087c20"
-  },
-  "material-icons/电极单元.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ.png",
-    "sha256": "e4bb9b594ab21df36b62fb0047749e209e77e2e35b1609d0d04da59d25878dd2"
-  },
-  "material-icons/聚能动力单元.webp": {
-    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/d89e2600c7214e13ab1042a616a9f690f7f5dd95/item/MTL_SL_DJ4.png",
-    "sha256": "6f1e516e7a16333ce6f0057188c8a270b34af3329101125b6302092a694c6ed5"
-  },
-  "content-art/furni_set_abyssal-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_abyssal.png",
-    "sha256": "3ee68750f77106a7332277bc8a537294a384acdc233e606d88f15d8f98da6f0b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_abyssal-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_abyssal.png",
-    "sha256": "3ee68750f77106a7332277bc8a537294a384acdc233e606d88f15d8f98da6f0b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_amuselounge-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_amuselounge.png",
-    "sha256": "dad9a0358b0e7c01b6142d150544ab45b81b3b7a46e33ce51c29afd466de5db6",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_amuselounge-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_amuselounge.png",
-    "sha256": "dad9a0358b0e7c01b6142d150544ab45b81b3b7a46e33ce51c29afd466de5db6",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_artmuseum-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_artmuseum.png",
-    "sha256": "087cd17132fe47aa1d91a9358478c60b64977ebc9d06508cbfb71246d05059c7",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_artmuseum-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_artmuseum.png",
-    "sha256": "087cd17132fe47aa1d91a9358478c60b64977ebc9d06508cbfb71246d05059c7",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_bauhaus-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_bauhaus.png",
-    "sha256": "e253ec179836972e040117453a4b41c0c4aaaaad329842c5bb6e507964544b94",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_bauhaus-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bauhaus.png",
-    "sha256": "e253ec179836972e040117453a4b41c0c4aaaaad329842c5bb6e507964544b94",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_beach-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_beach.png",
-    "sha256": "9757175a4cb040a1e67a7ed5987a072cae07efb3f41e4ba7dc23af9d53d80406",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_beach-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_beach.png",
-    "sha256": "9757175a4cb040a1e67a7ed5987a072cae07efb3f41e4ba7dc23af9d53d80406",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_beerhouse-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_beerhouse.png",
-    "sha256": "29ed0e442d1764cfd89de966c7d6da58966d013676530b99c0920e03408220ac",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_beerhouse-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_beerhouse.png",
-    "sha256": "29ed0e442d1764cfd89de966c7d6da58966d013676530b99c0920e03408220ac",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_bolivar-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_bolivar.png",
-    "sha256": "032af3671dc92850dd61989e266a683049be117c596e3543169d72f30f8cd429",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_bolivar-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bolivar.png",
-    "sha256": "032af3671dc92850dd61989e266a683049be117c596e3543169d72f30f8cd429",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_bookshop-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_bookshop.png",
-    "sha256": "f4ace44b184c35c7d34e9514ccc42bbbeba5034d6d27aeb745f988c152669c1e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_bookshop-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bookshop.png",
-    "sha256": "f4ace44b184c35c7d34e9514ccc42bbbeba5034d6d27aeb745f988c152669c1e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_camp-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_camp.png",
-    "sha256": "f30609d01fdf7864fbbb73df5daa69616e3252ad07a61b509e13678b57902253",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_camp-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_camp.png",
-    "sha256": "f30609d01fdf7864fbbb73df5daa69616e3252ad07a61b509e13678b57902253",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_citizengarden-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_citizengarden.png",
-    "sha256": "c61c03036a6f574b0b0dbb49804fd2fa8f9be62919cb2a9fdccfd994563433df",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_citizengarden-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_citizengarden.png",
-    "sha256": "c61c03036a6f574b0b0dbb49804fd2fa8f9be62919cb2a9fdccfd994563433df",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_classroom-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_classroom.png",
-    "sha256": "89dede1be4fe8f6cabbad94a56db4f64fe358b1d533ee1a174814bd7a5bb6979",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_classroom-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_classroom.png",
-    "sha256": "89dede1be4fe8f6cabbad94a56db4f64fe358b1d533ee1a174814bd7a5bb6979",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_countryside-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_countryside.png",
-    "sha256": "d304492b994f7825e46fff23ee92c42b790426e0bc0102f1d845829d350f62ec",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_countryside-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_countryside.png",
-    "sha256": "d304492b994f7825e46fff23ee92c42b790426e0bc0102f1d845829d350f62ec",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_court-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_court.png",
-    "sha256": "139893b9a33bd44d95a948b2ae874ad9fee4b68cf3a694178190f4c0694f7f7b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_court-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_court.png",
-    "sha256": "139893b9a33bd44d95a948b2ae874ad9fee4b68cf3a694178190f4c0694f7f7b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_cultureroom-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_cultureroom.png",
-    "sha256": "a3feff92abdf1e8943afaf6f4e718701e11d9539fe6fe79c2e8c241ba488750e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_cultureroom-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_cultureroom.png",
-    "sha256": "a3feff92abdf1e8943afaf6f4e718701e11d9539fe6fe79c2e8c241ba488750e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_durin-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_durin.png",
-    "sha256": "6c1c4833c23585d9c4843a460dfe0a33a5691a419370cb3886214884429a899d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_durin-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_durin.png",
-    "sha256": "6c1c4833c23585d9c4843a460dfe0a33a5691a419370cb3886214884429a899d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_eastern-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_eastern.png",
-    "sha256": "40b9c1271be8bae6a2c27bc3a34a716628bcdf73170837bc81441f71075e16df",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_eastern-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_eastern.png",
-    "sha256": "40b9c1271be8bae6a2c27bc3a34a716628bcdf73170837bc81441f71075e16df",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_guitar-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_guitar.png",
-    "sha256": "6cbe99b83e7c4a4d24f882e30a01bb6f23287ba575255deff70cdc6c3e3b3bc2",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_guitar-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_guitar.png",
-    "sha256": "6cbe99b83e7c4a4d24f882e30a01bb6f23287ba575255deff70cdc6c3e3b3bc2",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_gunworkshop-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_gunworkshop.png",
-    "sha256": "e5c995cfe535777043658b3055ab808e672705db097ce9d3168c5c3716b0d477",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_gunworkshop-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_gunworkshop.png",
-    "sha256": "e5c995cfe535777043658b3055ab808e672705db097ce9d3168c5c3716b0d477",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_icu-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_icu.png",
-    "sha256": "8f006d0e7376d44aafd5c15532610ef635b59356bf3248ed56644500c0431cf6",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_icu-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_icu.png",
-    "sha256": "8f006d0e7376d44aafd5c15532610ef635b59356bf3248ed56644500c0431cf6",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_kazimierz-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_kazimierz.png",
-    "sha256": "6d3d1b787b3f9bc849814d73d67eb7f9241acb2ebf607c00a09c939071600b4d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_kazimierz-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_kazimierz.png",
-    "sha256": "6d3d1b787b3f9bc849814d73d67eb7f9241acb2ebf607c00a09c939071600b4d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_knights-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_knights.png",
-    "sha256": "a9f723a08658b9d716828e6c564717a2f2669cf9c4b4d85c1e2fd9bdb1217381",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_knights-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_knights.png",
-    "sha256": "a9f723a08658b9d716828e6c564717a2f2669cf9c4b4d85c1e2fd9bdb1217381",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_mindsanctum-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_mindsanctum.png",
-    "sha256": "24d95e1111f0fc7ef4a6a1dcf9d091b8c48b884eee5aa68e4ad78084a4ec3b41",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_mindsanctum-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_mindsanctum.png",
-    "sha256": "24d95e1111f0fc7ef4a6a1dcf9d091b8c48b884eee5aa68e4ad78084a4ec3b41",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_mis-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_mis.png",
-    "sha256": "8c1db6124965c1edaff6340c76fc6392a48d24cf93c767d0dae8985d72b4a59f",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_mis-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_mis.png",
-    "sha256": "8c1db6124965c1edaff6340c76fc6392a48d24cf93c767d0dae8985d72b4a59f",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_penguin-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_penguin.png",
-    "sha256": "f9f88fe7c7ce0a21d06b534e5d51014c8d7643ca013d828d0c06507fa8a18eff",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_penguin-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_penguin.png",
-    "sha256": "f9f88fe7c7ce0a21d06b534e5d51014c8d7643ca013d828d0c06507fa8a18eff",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_perfumer-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_perfumer.png",
-    "sha256": "1341e93cab56ec8d04600dbf4f117a7ee76e1898d10a640941e6a10ddce29847",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_perfumer-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_perfumer.png",
-    "sha256": "1341e93cab56ec8d04600dbf4f117a7ee76e1898d10a640941e6a10ddce29847",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_pizzeria-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_pizzeria.png",
-    "sha256": "00946b761ea75fc7ff264f72c04d33f5a3f816ba872b27819cbed0c1416a3238",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_pizzeria-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_pizzeria.png",
-    "sha256": "00946b761ea75fc7ff264f72c04d33f5a3f816ba872b27819cbed0c1416a3238",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_prison-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_prison.png",
-    "sha256": "f8f718a74e9bbf1c1d5893f9f2ee1ad5adfd63d0adf1d8021e537f91e26b0c2e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_prison-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_prison.png",
-    "sha256": "f8f718a74e9bbf1c1d5893f9f2ee1ad5adfd63d0adf1d8021e537f91e26b0c2e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_shuttle-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_shuttle.png",
-    "sha256": "b4dcaa85895a8e5ce74136e63b814386ab222d1c8383226ce9c390a06dac14e3",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_shuttle-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_shuttle.png",
-    "sha256": "b4dcaa85895a8e5ce74136e63b814386ab222d1c8383226ce9c390a06dac14e3",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_spirit-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_spirit.png",
-    "sha256": "ff7a3f9de5c77f73ab73d3f358a5c719409bd7067b121662f6d0df98eaa57573",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_spirit-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_spirit.png",
-    "sha256": "ff7a3f9de5c77f73ab73d3f358a5c719409bd7067b121662f6d0df98eaa57573",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_springfeast-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_springfeast.png",
-    "sha256": "5577503e867b5645b90ae07c470bb190900f33ffebc39550e20300981bcd3f90",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_springfeast-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_springfeast.png",
-    "sha256": "5577503e867b5645b90ae07c470bb190900f33ffebc39550e20300981bcd3f90",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_stage-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_stage.png",
-    "sha256": "ef9239841928d069d94f771e6e80f6c9fb82999672458e08711718815793e73a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_stage-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_stage.png",
-    "sha256": "ef9239841928d069d94f771e6e80f6c9fb82999672458e08711718815793e73a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_tarahouse-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_tarahouse.png",
-    "sha256": "9f2d86f10eb7f4509a6637d49287d581982ad814bb294997a05eb6b48f908015",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_tarahouse-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tarahouse.png",
-    "sha256": "9f2d86f10eb7f4509a6637d49287d581982ad814bb294997a05eb6b48f908015",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_village-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_village.png",
-    "sha256": "cd0585cab7b79cec148e95b442fd1304b9848fa67b47b440e5822c4d17569a84",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_village-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_village.png",
-    "sha256": "cd0585cab7b79cec148e95b442fd1304b9848fa67b47b440e5822c4d17569a84",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_villagemanor-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_villagemanor.png",
-    "sha256": "30ab241e7676c1336142bc4094f83b4ae0326bab619693702275c80aa383b591",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_villagemanor-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_villagemanor.png",
-    "sha256": "30ab241e7676c1336142bc4094f83b4ae0326bab619693702275c80aa383b591",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_Airship-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_Airship.png",
-    "sha256": "d780310d53151b4a9109819b1f8f5ab98d26b11b5eaa36a024239eebb41869d9",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_Airship-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_airship.png",
-    "sha256": "75fa63a7ee57127f10e1653d328f5a183a0e70cadface30bd433a80a7b4f10b0",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_BSsafehouse-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_BSsafehouse.png",
-    "sha256": "1151f389b8abd7d1b259dab6247c1fedb0fba2fc15a4357e9146faa77a57e1ba",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_BSsafehouse-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_bssafehouse.png",
-    "sha256": "9d5d4dff211da9d3467f04ba6f4c2966c6151e9cf2130f7b5af8964841519a3e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_HunterInstitute-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_HunterInstitute.png",
-    "sha256": "a0c3ae5e7976f12d429690c6951d51edf74b987b1d27b96e554868b33a355d06",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_HunterInstitute-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_hunterinstitute.png",
-    "sha256": "5850e7b356ab544f29859a37ca5a210c71ea1fb5a8c902a144ba25e93504672a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_LAbbey-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_LAbbey.png",
-    "sha256": "37216a35ad78ca9f1d3f28199660a465fa502ef03b68e3321f069268ec317b8c",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_LAbbey-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_labbey.png",
-    "sha256": "5d3d19f5c7c5630329ba27cbb5fbbfda40c73464e626da7fef261e28cab86fd6",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_NHL-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_NHL.png",
-    "sha256": "15e0e8c44f018a6dbe4b820e2c0de10cb1d9f9b6a18ee7a795847bd781904729",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_NHL-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_nhl.png",
-    "sha256": "5276178b50c02ddaa254898091ee873043c0e520c073a31c844660b355a8ed91",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_R6-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_R6.png",
-    "sha256": "8edd91049c1d1a2f18214311ff47d29e3ffa9e24336b0cde6c08df561c2606e6",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_R6-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_r6.png",
-    "sha256": "2a67655702036a79f6f7bc91536a1eb01f978d1615b80dff5780b4f43955aa17",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_ScarMarket-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_ScarMarket.png",
-    "sha256": "fb760362491fb3bab804530bd7d5322c3786bd4d55c6235eafea2ac45671c636",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_ScarMarket-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_scarmarket.png",
-    "sha256": "786e7c1c57f13cb9832c8f990e79202460cc0010bb0fa3ad14de870fc1566bce",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_TianshiMansion-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_TianshiMansion.png",
-    "sha256": "5184ab6c07529c6aca88b6913c2fb7612e553a91ead606d1ae72613507ce97a2",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_TianshiMansion-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tianshimansion.png",
-    "sha256": "f1662f707590c88889acf83b9807cc7e33fdf3a9e648a0063bd8d5a85622dd42",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_cloudRestaurant-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_cloudrestaurant.png",
-    "sha256": "1e7d254f07a271f1ed8475d014064d52b9626f418ae0f4c24332f48ad2d99f2d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_coastCottage-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_coastCottage.png",
-    "sha256": "685630d285eea814061051454611db3935e3b9b4e74b633e05f951218c57011e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_coastCottage-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_coastcottage.png",
-    "sha256": "e3035d51fa5848ab6daecfc0c62227d082ffd5986526f0bea56857de9aa2159e",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_concertHall-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_concertHall.png",
-    "sha256": "1332d4f2587a78522bc6ec4926710f7ac99226f2df54ccccba3b60f4c4905801",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_concertHall-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_concerthall.png",
-    "sha256": "1dc075a96e6492af26d76043e54f03ce6009d32061e9e800c1e380209a96bd6c",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_dreamCastle-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_dreamcastle.png",
-    "sha256": "fd23b9e471864bbe0ebf507fcf9e6084903d794c21a99361005a09e9a3270ec5",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_eliteLounge-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_elitelounge.png",
-    "sha256": "3487832d32decc9d2089d4bc3d417724b7f1e114744c58408271b9ce6b2e70fe",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_fNearl-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_fNearl.png",
-    "sha256": "076a806d5cb2473c2c89e90276c04778c40ecda7740490c71e8a48fb3f0df493",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_fNearl-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_fnearl.png",
-    "sha256": "1321b119ff1b2932156b221d0f82f1b318bd5c43e20be3e7bcfe9dfd8dac6bee",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_goldBoat-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_goldBoat.png",
-    "sha256": "be79040ecbc5553371caa9b7e5268186430122a57ecbda2297da4b6d5f5542f7",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_goldBoat-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_goldboat.png",
-    "sha256": "661acaf3958c3e3e80c1c8d1f61c22c7f0dae8ad375e03b60dff5b4723d8af6a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_idealCity-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_idealCity.png",
-    "sha256": "374d3518fc7b23fec42601f570f99f198b56c8d34ecf6a6c8b5322ddb1c7300c",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_idealCity-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_idealcity.png",
-    "sha256": "5ce737d12da657d6ad7952397efa9906097d3dac56de49d35f09af6068fe2c92",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_inkArt-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_inkArt.png",
-    "sha256": "4237158b86e3341bb1fdd0018d39ca501bdaaad9798329335a59b10f237a0a83",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_inkArt-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_inkart.png",
-    "sha256": "08dd687950ffb65aa6f858d3b6f0dbcb4a0cba69bc070c9fed9ee2fd2a34af36",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_lightArt-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_lightArt.png",
-    "sha256": "499999d70218ee4ce6e9e9bb9f3299be342fce4057cbafb6c1ed31083dd3076b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_lightArt-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_lightart.png",
-    "sha256": "eeed9cb911182921bcd73a1cfd83cc1bb1629ba3ae9ec0a9985f23b541c18448",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_magicAcademy-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_magicAcademy.png",
-    "sha256": "587cfd6e378a05f321dd177e618726a3dc13b2888f5701943f8bdd0f7a85ddb2",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_magicAcademy-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_magicacademy.png",
-    "sha256": "7ee334e0241ecd54974d521ef0606ace9f52359be529f4ac0850306d64cdb927",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_martialClub-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_martialClub.png",
-    "sha256": "42a4aebf7fabd20b7e1e998af1523d578d51aa5d5be21cbd8f1fb8f61cb59b50",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_martialClub-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_martialclub.png",
-    "sha256": "191424b3ddc969209d723d6024d2b328c5f8edc52fa1cd2d145c83f348b2f0ba",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_minosMed-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_minosmed.png",
-    "sha256": "dc1423b7de30f1e1b1ac251e22f1800392e2ba2706371fe96b62ab98bf493b42",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_msVillage-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_msVillage.png",
-    "sha256": "139775847d4f9b68676158e1831e2130d786268ab0ff8f7876e7b3469bafbafa",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_msVillage-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_msvillage.png",
-    "sha256": "1a15b6f62e6af12255377081c3e5bc0dfab2dd4850af91ebfd472fce8ea0fbff",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_nightView-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_nightView.png",
-    "sha256": "66a6f4842d69c9bdea0c2999b7f27c52a3a7b2dcf323362d5bd901bfbbb24248",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_nightView-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_nightview.png",
-    "sha256": "d29370555de92f497e8fb9d16fb7ebe0591ca91d3b014f69da70165a27a4a8ab",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_odenShop-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_odenshop.png",
-    "sha256": "dd5b9a1f283979a0b928dc08061f27bff60ef9684e4625d4d5fec7128d485a3b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_photoStudio-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_photoStudio.png",
-    "sha256": "780c5565b4f6ca341066fd859057d62ef242f072d925547908cc3131906f9194",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_photoStudio-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_photostudio.png",
-    "sha256": "05d76237533f1f8fab0af95c7f0455d9571496a278f385037c1b5c7eaf4eb271",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_postOffice-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_postOffice.png",
-    "sha256": "75661d8716dad9d613784e182582be28c1b128749f22eb7ef4195d563c28533a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_postOffice-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_postoffice.png",
-    "sha256": "7bd885fdf724d3db806aee600c378f89afcaccda3309d3877104ffedde83e23b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_receptionRoom-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_receptionroom.png",
-    "sha256": "7e19fc8e9d8f076419a3af92511b106b3cabb964814a71a929765b5e68f194ea",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_rhineLab-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_rhineLab.png",
-    "sha256": "57e2d2dbac2a13187945fb06bfe69aeaf46b885bffab8938cee828b13ec95ed8",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_rhineLab-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_rhinelab.png",
-    "sha256": "74ca4604aff6daddaf37ba9f96f83d7b30f54e16fa4cce3201522adfba3dca1a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_rhodesKitchen-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_rhodesKitchen.png",
-    "sha256": "b3975d2fb7ea2eea57017a4c38acd302a06d90a8f6d5e1b31d657327496751da",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_rhodesKitchen-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_rhodeskitchen.png",
-    "sha256": "53975f9857a932a9695efbe7314c0eee7b08a198c3c613b5195b5e456caa1a3d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_shipRoom-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_shipRoom.png",
-    "sha256": "765a1021976300fd48bdc95e8e1774c35647874eee45fa7790d6253d1bd6f8ae",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_shipRoom-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_shiproom.png",
-    "sha256": "7d87e0f6b3af5cf1d7f89278b952f66609151a33bfd178393b4325382c80996c",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_tailorShop-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_tailorShop.png",
-    "sha256": "302a13f94b202be04ab77306c030d607faa79ec266100d292d6a78981155c643",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_tailorShop-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tailorshop.png",
-    "sha256": "caa3fb78171c112ba95de99687a9d5429a0838f36e9597fe30e1b3984191342a",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_teaCanteen-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_teacanteen.png",
-    "sha256": "3236cb871e6af15925b4cffafdd023765a6d26f7a4bb1317427228b75ef50c75",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_teaHouse-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_teaHouse.png",
-    "sha256": "7be9ecba78e3d0e8aef74607240f188a466f97ed4fd5b037eda945be01b5a76b",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_teaHouse-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_teahouse.png",
-    "sha256": "dc31024e77d4d37574f6df990b5b72cc30bd2ba7087e0eeccffbd46319d86419",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_tradeLounge-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_tradelounge.png",
-    "sha256": "6d7da03b41a0dc788613c9a7be7b8b36015ee2e9e607883778e9f8a2fc448833",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_trainStation-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_trainStation.png",
-    "sha256": "795da2bd16002c15ba6fb6f15d2b7ac8ee55324e3b01c5c12b50e82b62d223c1",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_trainStation-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_trainstation.png",
-    "sha256": "b0b9d11233be75689f8296df0b46135c8cb930c9c889c29f604d20bef5bafe89",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_ursusRoom-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_ursusroom.png",
-    "sha256": "ae4df1012fb42603179f51e6c25ba9192731e519081dfa56f295d822364afad8",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_vcWarRoom-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_vcWarRoom.png",
-    "sha256": "b6f3119b7c79b8ed5aa19d66c1d90d9e91853c0b0def59a700bba9c1bc0a1905",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_vcWarRoom-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_vcwarroom.png",
-    "sha256": "26e86005c269ee2a5efc0bde5479c8f8e9c5e8f46fffa8af30cfa173e45f3de0",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_videoStudio-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_videostudio.png",
-    "sha256": "2f7aee795496ee9c6807002f4c5e03d2f333556f52d3976116966599f489b514",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_westCoast-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets/c0be4e4428f79c7e87c6889067a6906361ae979b/assets/torappu/dynamicassets/arts/ui/furnithemes/furni_set_westCoast.png",
-    "sha256": "98b3bb9b93dee43aee02b725f91f21d45283598172f37bb0bc9aaf517d2254a8",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_westCoast-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_westcoast.png",
-    "sha256": "4ddf8c68019f740b9df367a9ce992cbd82a1ea399ca5b8df687d6d7897dba38d",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_yanPrivateSchool-en.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_yanprivateschool.png",
-    "sha256": "9e8c4509afe27fe0fdd9b69ec88c1712fc4f8fae2aa7a575d0a2014fb3f49611",
-    "importer": "furniture-art"
-  },
-  "content-art/furni_set_dessertShop-cn.webp": {
-    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_dessertshop.png",
-    "sha256": "300f59d54841a358206f6e429038aed6ae5a7d0a1549f7ac627d6942217d595b",
-    "importer": "furniture-art"
   }
 }
