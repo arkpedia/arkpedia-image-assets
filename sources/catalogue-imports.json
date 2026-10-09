@@ -1650,5 +1650,10 @@
   "skill-icons/Homebound - 触礁.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_hbound_1.png",
     "sha256": "d95f2bab8a9ea4f1401eb53c477ae87eaa48d81d42100650d0abcfb52c548b84"
+  },
+  "album-covers/大地之盐_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261008/ee50cf996aa41b8f7b7af37679b2b114.jpg",
+    "sha256": "80194678045f1977f82a69cf37ffe73e582849d97bb32037b082e3c5ad128602",
+    "importer": "album-covers"
   }
 }
