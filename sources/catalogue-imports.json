@@ -1494,5 +1494,10 @@
     "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/a35da5eef942e49263177a79b8983652f7ee507d/assets/dyn/arts/ui/furnithemes/furni_set_yanprivateschool.png",
     "sha256": "9e8c4509afe27fe0fdd9b69ec88c1712fc4f8fae2aa7a575d0a2014fb3f49611",
     "importer": "furniture-art"
+  },
+  "content-art/furni_set_dessertShop-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/404cf368572a4f346f66614612c40fd7779012b5/assets/dyn/arts/ui/furnithemes/furni_set_dessertshop.png",
+    "sha256": "300f59d54841a358206f6e429038aed6ae5a7d0a1549f7ac627d6942217d595b",
+    "importer": "furniture-art"
   }
 }
