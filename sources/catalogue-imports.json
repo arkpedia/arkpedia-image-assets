@@ -3000,5 +3000,355 @@
     "url": "https://torappu.prts.wiki/assets/furniture/furni_act57d6_newYearPic_01.png",
     "sha256": "0390e48bb6b23a68680afcd4d8d2e2b794c97b926499dbadfaa525decf9d781d",
     "importer": "reward-icons"
+  },
+  "material-icons/furni_act61d0_confessionalTricycle_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act61d0_confessionalTricycle_01.png",
+    "sha256": "adadb45287d7c4b079396b49f82cf48fd2f79d3a3a75024c1c5f87c46b9f9b4f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act64d5_motorcycle_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act64d5_motorcycle_01.png",
+    "sha256": "5dd7d0ec3fe578bca98cf7e5cd582f9f97871409315ecf3a549919311a37786c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act67d0_frostEffigy_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act67d0_frostEffigy_01.png",
+    "sha256": "a63ad4f182e275dfed13b8380db9854dbfed2b3a7ddcd07de905a130e12bf828",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act68d4_mailbox_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act68d4_mailbox_01.png",
+    "sha256": "c75e147142ab57d4277a576d6ab74882dea9c83c4375f72975f4b110fc2a3645",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act76d0_messageTree_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act76d0_messageTree_01.png",
+    "sha256": "fa30380e73062815caf187ce5fdf8035a432de7ca8747e5f2cc548f3f4ea838b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act7d5_apron.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act7d5_apron.png",
+    "sha256": "20f2e04b8fd34b87b6d7aafc6050c4dec611b935e6b2d30a1a502775f52a3880",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act7d5_atomicClock.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act7d5_atomicClock.png",
+    "sha256": "9a74fba3c8573cf763efd4e567f7eadf18dfabc6417b249d7361a1c2f862d9d5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act7d5_bookshelf.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act7d5_bookshelf.png",
+    "sha256": "e632f5722eab07bcd65c90a91c143d5077fd02531226466eb1697c60141332e1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act7d5_petHouse.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act7d5_petHouse.png",
+    "sha256": "81f972f078d290473e38d86651ea0e6a65019782fa3b558f2908187095ba0b6a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act7d5_wallSticker.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act7d5_wallSticker.png",
+    "sha256": "2344cd8dd203adb81d2e16a1fc580dc6a2defb688a6c981ecf33592777e96ed9",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act7d5_weaponRack.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act7d5_weaponRack.png",
+    "sha256": "c36e7bdec24d84537c0c18b99b0595ad7a96b48f52885ca1d74257421c210200",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_brochure_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_brochure_01.png",
+    "sha256": "90e31270b2b61868f8972ed012c183349731ded6e50f3fc28c26b78e3dc4781e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_carpet_01.png",
+    "sha256": "58fdb8eb628878616eb4a1f17f7dd48ef1778c389c8292ec51cf3355ffaf4ec0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_chandelier_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_chandelier_01.png",
+    "sha256": "ca51faed093c1283adbbffded1dfe66c80b3e72c8fbfda2a79a0b508d2beb830",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_droplight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_droplight_01.png",
+    "sha256": "bdd3429a94073733b43c67441f308740fba94584afd4b5201b020dc86f1f3a0c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_fence_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_fence_01.png",
+    "sha256": "a880b89a8dcb20620e40a4ee5ec25722527f60007f6fa1bbd04b411b3d820945",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_floor_01.png",
+    "sha256": "c3e2050fddc7b2cde8bdbe7fe3dba72a1f4b830fe67a55d2117d003889ecd6e3",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_headset_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_headset_01.png",
+    "sha256": "d57c70de0d464d112e9ea24fc2feb2a370631e21f88bd8fe0810351f7c59aa40",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_plant_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_plant_01.png",
+    "sha256": "5b68c8e77b430c2dbf3af41adebdc11ca6517bd182c4c816ad0a75d49c14f174",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_wallpaper_01.png",
+    "sha256": "f671c85a6cfb6fbb5485fa3e5ae821bc053f33c8e690a60fc867d95bd7ca6d17",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_artmuseum_weirdexhibit_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_artmuseum_weirdexhibit_01.png",
+    "sha256": "9dc54d7761bcf1a824157ca3d83db846cc5bec1a150ffdaa8db5a58a9ecd28ca",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_banner1_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_banner1_01.png",
+    "sha256": "db76e8d95e032d947895e08708cf30107841a7117db83e99d9968429765223b1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_banner2_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_banner2_01.png",
+    "sha256": "b9f542b47308932089a5f556a31955474d46891109285595cadb07df483f3ac1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_ceilingLight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_ceilingLight_01.png",
+    "sha256": "e685044fb5aef3b526b0ccbd2436112d8a64d1f3a7705fc38d70223c6381e84a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_diningTable1_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_diningTable1_01.png",
+    "sha256": "637dcc8418f5e653dce0fdc86a4b278f19613cb5df49ca9b9eacb0fc8056e305",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_diningTable2_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_diningTable2_01.png",
+    "sha256": "263a6c4cca0697dab6da819469223a321caf0b5bde1eb272d21d388f9723278f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_floor_01.png",
+    "sha256": "02005c24969f867f2f9ad581bfda58c2077f7a37e1461c9f17b02d296e1ee3de",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_framedArt1_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_framedArt1_01.png",
+    "sha256": "1334b2791f97a131d1fbfaeb93d73e4ec6519a492d11a79d2fc681a621583b58",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_framedArt2_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_framedArt2_01.png",
+    "sha256": "f2cd7546f0b3c088bd85e580ad2fb0914be985cfeb5c2d6fa18cb1e392a6cf83",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_slopedCeiling1_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_slopedCeiling1_01.png",
+    "sha256": "afaaad0e24618eb7de57bc3b86ace6fe71a6a6a7c05b1337e09263926820d9f7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_slopedCeiling2_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_slopedCeiling2_01.png",
+    "sha256": "b103b6bf48ccf4ab0acaa75f839aacb9bf6bbe11cdcefb11db2a1b042d1dbc6b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_wallSticker_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_wallSticker_01.png",
+    "sha256": "e3c6b779b1ae680c25444d798a0f65f9a310b89f54190d28e968494dea0072db",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_beerhouse_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_beerhouse_wallpaper_01.png",
+    "sha256": "3482c7d5b2236e61fe377dd9828d6f6dddaf0d1c3a7763cf53333812bd697ffb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_carpet_01.png",
+    "sha256": "e1cdc63c7df5c5c6e18e21195db3fb1ca31fd29c050d89c68266205f8c8d295d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_ceilinglamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_ceilinglamp_01.png",
+    "sha256": "dd554bcc0a57755e65fa41dd5213c9fe4a6e171c43936d6259cf3080c9c7fa26",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_column_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_column_01.png",
+    "sha256": "ff23ad72a828b77aabbd9b2cf6dd2bb10307f12572c30a91bcfe40445812f8de",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_curtain_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_curtain_01.png",
+    "sha256": "1a622d5034a9816b59d35030b580a41694a08952fae62e49564824d92ed9e1e9",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_floor_01.png",
+    "sha256": "da2106bbdbe4098d00fb909aa8950d8459aa81a9fc3d268f19cb352450de9162",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_pot_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_pot_01.png",
+    "sha256": "62d4062ac2fe74323f354999f02165e8874b35a019fc00ec668fa73c3a724575",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_sofa_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_sofa_01.png",
+    "sha256": "526ee483e0500d39d68e1202269acccfc53e9b8c92364f2d973611733cbef955",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_soundSystem_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_soundSystem_01.png",
+    "sha256": "425743a514829b70f33c57579710348488dc182561182bec305ef9d3fe3d2ccd",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_wall_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_wall_01.png",
+    "sha256": "dab0393ae850fc2606936beef6fa38fbdfcbe63bd31f828816d847ffe7612350",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_bolivar_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_bolivar_wallpaper_01.png",
+    "sha256": "c9ada531eafcfc34f8bbf47fbcb52f3b3ca17303eb1c05191074bee9065c2959",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_bench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_bench_01.png",
+    "sha256": "9751b6657e5c1e7668ef3eff828377cbfa2fa5ad72fff36a75f8666ba2cc409b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_bigvase_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_bigvase_01.png",
+    "sha256": "d300f1ccb449d7ae9d9d0d94ddfdbbc33884cfcfa9a471cee420011d23ec5179",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_ceilingplant_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_ceilingplant_01.png",
+    "sha256": "1fa81039d8fd8340b6927e6b0b728c9c50716b3a4d89e5711b57815230785dc7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_cutoff_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_cutoff_01.png",
+    "sha256": "6a119f164a28f59bf9ed6470cb56b718a93baea12a9112831229de625f483222",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_floor_01.png",
+    "sha256": "aa7c89ec6013f7837080db60206f6c94393252321a8b24db25a1176b79b0ee91",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_flowerdeco_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_flowerdeco_01.png",
+    "sha256": "93840977c593821e8a02788e08522b2d352461ef1c5985e7539537a585bad311",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_jewelcat_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_jewelcat_01.png",
+    "sha256": "4535fccf21ba6ea1396746312ef7d1f5c6a99f4e9d3becca3b654e701af74b83",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_plantwall_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_plantwall_01.png",
+    "sha256": "7c51b1bba4cd9754030bd5e921d748467ee0ed3b363b41dde2c996de9769ca3e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_shelf_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_shelf_01.png",
+    "sha256": "523293dc2c121fc1fd2a6eb4b83a9d2d34b29cafc2e91a80c96f5fbfc76979ff",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_sink_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_sink_01.png",
+    "sha256": "9412ae1a5a7e972de11da022845f404d75bb87b19f2f7f6fc202d954b1fb671e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_tray_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_tray_01.png",
+    "sha256": "12d6326ada18f65980c7ffca25f8c810386d502120e94b914d620539b52fbeb8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_vaseshelf_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_vaseshelf_01.png",
+    "sha256": "5e7f5a61bcd1ea9a25195460463dfbc568ad94722308d29579369fb0ae5ccf5c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_citizengarden_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_citizengarden_wallpaper_01.png",
+    "sha256": "ab71b77e631bb1ac6266b99a60622feaeda2805b95a47052a28652cc7393c317",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_carpet_01.png",
+    "sha256": "66174cb33aaf22da9fbc43faadd193be4ae073a970f3cb91b0b1912a25ed228d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_chandelier_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_chandelier_01.png",
+    "sha256": "f083d4e57cb958432c57f00375897846a745b772a03ac0ce0d5c1425c133edaf",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_equiplight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_equiplight_01.png",
+    "sha256": "4d0e02666bde6811058234b647b5ba92adc8276172ae9e922318fd446b00e035",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_floor_01.png",
+    "sha256": "428f065490ed6d6bbefce8c4f400be8fb5e47f99d8b481ede1ace1b1fbf245a7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_lamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_lamp_01.png",
+    "sha256": "84ca298712d45159f26ffc3bb3a4a94060747fbd74148ae5fc4c5e113ae061b6",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_pool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_pool_01.png",
+    "sha256": "8f6ad03b220b696fba79c7587bc14c3e6573f5dbb0256f2a841093485c53410c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_stoneclock_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_stoneclock_01.png",
+    "sha256": "d9bc4e5b90e0be6546ce2a43bbe00eb88692705bf83ca8726904e0603332ccc9",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_wallpaper_01.png",
+    "sha256": "910ad37247b65f45260722a2e35e356cca6d4aca0c5744a8851142eef2e104f5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_bar_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_bar_01.png",
+    "sha256": "f8502f3242f5f7d30e7604b697af2a501c726c7e5d24294241e939ec19bdd2ec",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_carpet_01.png",
+    "sha256": "4ce5f3ad2889801a36ae4b3211b0d8a82dbd6948e29180e4a88d2e297d068f17",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_ceilingLight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_ceilingLight_01.png",
+    "sha256": "7776bb80486cac1ad1a533a01de43896b09013d172d35f7cce2c2d0bc016f0dd",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_clock_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_clock_01.png",
+    "sha256": "9692d50bfbbf22b089d878273fd74bb71b053f5f867a7aca15863b8a713dd1a3",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_floor_01.png",
+    "sha256": "e1ae7f7ff84008bbbd5a783e4c615b8dee88fb00c966087abf44a342b98ff6fb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_plant_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_plant_02.png",
+    "sha256": "e8d1fb35a59a7e75f027a2f7e7f5a5ff5b220e9077c4113ee828a2e521194111",
+    "importer": "reward-icons"
   }
 }
