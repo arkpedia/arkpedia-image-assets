@@ -1655,5 +1655,1350 @@
     "url": "https://web.hycdn.cn/siren/pic/20261008/ee50cf996aa41b8f7b7af37679b2b114.jpg",
     "sha256": "80194678045f1977f82a69cf37ffe73e582849d97bb32037b082e3c5ad128602",
     "importer": "album-covers"
+  },
+  "material-icons/'Strawberry flavor, please!'.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furniM_act61d0_messageboard_01.png",
+    "sha256": "1af30516f678e331850a951613403dcddee63eb10b0e1d129b4da659d23a92ab",
+    "importer": "reward-icons"
+  },
+  "material-icons/A New Sight.webp": {
+    "url": "https://arknights.wiki.gg/images/A_New_Sight.png?60157a",
+    "sha256": "07ecf3bb47e62ef829c292f65dcdbdb770e8015018691583f7085c45b2155023",
+    "importer": "reward-icons"
+  },
+  "material-icons/A Pleasant Banquet Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5801.png",
+    "sha256": "440e82c1aa87af2cf783cf22fdf46ace373fb1061d45e044468aa9b86c00696b",
+    "importer": "reward-icons"
+  },
+  "material-icons/A Window Away.webp": {
+    "url": "https://arknights.wiki.gg/images/A_Window_Away.png?1863c4",
+    "sha256": "3b59d910a6e8bb80aa1a9e6f206e0b1427d84c3bfbdd0f6034db37660f9be061",
+    "importer": "reward-icons"
+  },
+  "material-icons/Adeptus Sprawiedliwi Prestige.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/act13side_token_model.png",
+    "sha256": "f62313ad1693013ad10368bf06e3608fafa4df9f910cb65d19a911a5162b7c06",
+    "importer": "reward-icons"
+  },
+  "material-icons/Advance Patchwork.webp": {
+    "url": "https://arknights.wiki.gg/images/Advance_Patchwork.png?e5b086",
+    "sha256": "d934caa744a6ef5ccfabb8485d452bb0c1ca498f5b768f51e8f298c8f49ce766",
+    "importer": "reward-icons"
+  },
+  "material-icons/Antique Display Cabinet.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act19d0_showcase_01.png",
+    "sha256": "94acc7356a17eb5796ed595a7fe7941ca7195955afce3eb0dcaee8222c9e87da",
+    "importer": "reward-icons"
+  },
+  "material-icons/Armorless Union Prestige.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/act13side_token_model.png",
+    "sha256": "f62313ad1693013ad10368bf06e3608fafa4df9f910cb65d19a911a5162b7c06",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ashen White Twig Tree.webp": {
+    "url": "https://arknights.wiki.gg/images/Ashen_White_Twig_Tree.png?3ee6b1",
+    "sha256": "5ac17079578e0d964149a8b92e7e0c25723af8b77474cba9f60ce4176da52087",
+    "importer": "reward-icons"
+  },
+  "material-icons/Audible Redemption.webp": {
+    "url": "https://arknights.wiki.gg/images/Audible_Redemption.png?d3e0f9",
+    "sha256": "369dffdaa574a681abaed73ff9a34d3e0fc3981141dd0f6244f68fd58d3d2caa",
+    "importer": "reward-icons"
+  },
+  "material-icons/Awakening Commemoration Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_903.png",
+    "sha256": "fecc4a9eb019f0e0c3a9387c9fbd715d4b5d66b5f6ed19bec2cfee573651228a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Awards Ceremony.webp": {
+    "url": "https://arknights.wiki.gg/images/Awards_Ceremony.png?ef7d21",
+    "sha256": "03474c5c68837dbe75e4251baadcaa122e98e6481e3e812311302f71426ba8d0",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ballad of Vagabonds Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_6401.png",
+    "sha256": "6b81f0cf6bd91da973e3f7e4f80017c38813481674ab62309701674485872d6d",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ballads Tumbling Through Myriad Dreams Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_6501.png",
+    "sha256": "bc2ef00f081da68072f94e946ecb82e8a3fc82c31fe5b2796daaaa5cbe7e6959",
+    "importer": "reward-icons"
+  },
+  "material-icons/Bountiful Harmony Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_4701.png",
+    "sha256": "76853ba2bc341569f7c28afabab2e280fc91f0cf0bee697d37d9beef20df8681",
+    "importer": "reward-icons"
+  },
+  "material-icons/Brand New Uniform.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act10d5_coatRack_01.png",
+    "sha256": "af7b22a74c9225ca77d233120b04ff10431676d23cd47a72cf8581e61ea1e156",
+    "importer": "reward-icons"
+  },
+  "material-icons/Breaking Waves Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2101.png",
+    "sha256": "d147b1ef1837af8821c737318badf092036a4c8c14b08c9c60a5a0a68bbab972",
+    "importer": "reward-icons"
+  },
+  "material-icons/Bright Glitter Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5301.png",
+    "sha256": "222369602b3b01c0f5db2f6c9ebf7e99f8b666b56f7106b4e18e5b70b4a4a2aa",
+    "importer": "reward-icons"
+  },
+  "material-icons/Candleglow Sonata Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_4401.png",
+    "sha256": "fa4872fc87ef4ff687b529f0e81b51458b0d3a5dd3f7339ed768286a59c6191f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Club Poster.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act10d5_banner_01.png",
+    "sha256": "24407ee3727677cddc385e7ed0c2e597339095aaca320d24925d7770854e3cfa",
+    "importer": "reward-icons"
+  },
+  "material-icons/Cohesion.webp": {
+    "url": "https://arknights.wiki.gg/images/Cohesion.png?f538e7",
+    "sha256": "086c6c56a35731dc93eb4d736fd63be87d48e8fbf09c27a0797ffa93f7b2fb09",
+    "importer": "reward-icons"
+  },
+  "material-icons/Collection (furniture).webp": {
+    "url": "https://arknights.wiki.gg/images/Collection_%28furniture%29.png?6c804f",
+    "sha256": "0091d4996ffffd66a26f121e81ee3d4eec219b041456016262b263b605c87835",
+    "importer": "reward-icons"
+  },
+  "material-icons/Command Reconstruction Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_60_0_1_GACHA.png",
+    "sha256": "cfe9899582d6c863d6ec8361f15fe0311fe5d3b948105c60496b070d0000e03a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Command Reconstruction Ten-roll Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_60_0_1_GACHA_10.png",
+    "sha256": "5b9695b74ee37f443ec1ee52d1f7da88f1d1f17a4e9e944ffc42f191459cbd28",
+    "importer": "reward-icons"
+  },
+  "material-icons/Concealed Edge.webp": {
+    "url": "https://arknights.wiki.gg/images/Concealed_Edge.png?e742ee",
+    "sha256": "c759d8cb27d594b52473b6948b2d795dab886bc08f31f162b096fa4f4ec15009",
+    "importer": "reward-icons"
+  },
+  "material-icons/Cultivating Hope.webp": {
+    "url": "https://arknights.wiki.gg/images/Cultivating_Hope.png?1ad1d0",
+    "sha256": "df75065037c5686fa4af78efee7110e569d2af9527bc218ae6f3c8caf622cf1f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Dark Clouds.webp": {
+    "url": "https://arknights.wiki.gg/images/Dark_Clouds.png?92f2f5",
+    "sha256": "1795f3ccf67313a4d4034571c14d2321d06475b98f9d90d3fbf0326ae8ae22ad",
+    "importer": "reward-icons"
+  },
+  "material-icons/Dawn Enkindlers Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5001.png",
+    "sha256": "7d7b51d5b6245f28cb9aac826225b42b44bf7c2ea97c8471a367afc72f6beb1f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Duel With Oneself.webp": {
+    "url": "https://arknights.wiki.gg/images/Duel_With_Oneself.png?654a4d",
+    "sha256": "7e958f073f138364f7f45b7311aceb9f9fcc8b2b3556612ae1cb61bfa1f0a1ce",
+    "importer": "reward-icons"
+  },
+  "material-icons/Elevations.webp": {
+    "url": "https://arknights.wiki.gg/images/Elevations.png?e1c273",
+    "sha256": "3e31a431793b5fc5710c673c559afe356f3e37fb9a7be29a928cb900a29f7672",
+    "importer": "reward-icons"
+  },
+  "material-icons/Elite Advancement Token.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/act1vhalfidle_itempack_asc.png",
+    "sha256": "c610e973eb29ba4357282d0e19e84b815b91fc5710900329c6794e4a00a93691",
+    "importer": "reward-icons"
+  },
+  "material-icons/Emptiness.webp": {
+    "url": "https://arknights.wiki.gg/images/Emptiness.png?d5caca",
+    "sha256": "4831fef35f2a48796f38f2c9ba748976c114f4a51b04563442ed44d0d4bd24e6",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ensemble.webp": {
+    "url": "https://arknights.wiki.gg/images/Ensemble.png?7f6c10",
+    "sha256": "9765916752093192b12fa9b52304bfa400ee03811370eff41b209beca2f84934",
+    "importer": "reward-icons"
+  },
+  "material-icons/Examplary Believer Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_6101.png",
+    "sha256": "73048a6f202a1c58fc2b4da4db1d1aa5edc3ca482b0675be52496fa30644c3fb",
+    "importer": "reward-icons"
+  },
+  "material-icons/Exclusive Ten-roll Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_66_0_1_GACHA_10.png",
+    "sha256": "7e95beb8e8a2eb4415045c1119af8a6a1d9f074ebe27f1b20b2cd36fc8e29d69",
+    "importer": "reward-icons"
+  },
+  "material-icons/Expert Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_1701.png",
+    "sha256": "17792bacdb6b39336988929da55b2a569dc9379d5d7e492fe58d420e6aff8ff3",
+    "importer": "reward-icons"
+  },
+  "material-icons/Faith and Vigor.webp": {
+    "url": "https://arknights.wiki.gg/images/Faith_and_Vigor.png?260e82",
+    "sha256": "2a3bc4529d4e970e946031be6cd2eeb63a895974e6eada34501d483c3265980b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Feeding Station.webp": {
+    "url": "https://arknights.wiki.gg/images/Feeding_Station.png?ad4fd4",
+    "sha256": "620207d28442290c7be0b140087f496ff7f493e3b3192af8dc5a1120b1110b8e",
+    "importer": "reward-icons"
+  },
+  "material-icons/Fenced But Free.webp": {
+    "url": "https://arknights.wiki.gg/images/Fenced_But_Free.png?ff77a5",
+    "sha256": "a1a6ab6db17dfe9708a2d1562ca2278169ddc6cc97878190142a35eca86cea32",
+    "importer": "reward-icons"
+  },
+  "material-icons/Flaming Radiance Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2301.png",
+    "sha256": "034ad8cfc5510446b78fe2afbed99e4e6a0f6c5deb418538f45f32b4947578e6",
+    "importer": "reward-icons"
+  },
+  "material-icons/Footprints of the Clouds Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_4101.png",
+    "sha256": "85c9875a1c9eab820c438c9b2cfd40ebe9e87f0ebdb0c1c4e981ddbefab3a01c",
+    "importer": "reward-icons"
+  },
+  "material-icons/Fowlbeast Accommodations.webp": {
+    "url": "https://arknights.wiki.gg/images/Fowlbeast_Accommodations.png?65ea8c",
+    "sha256": "ebb1254bf627a1e10bb62db9eef2b13bd619ca3137e2f24353a98775bffe4996",
+    "importer": "reward-icons"
+  },
+  "material-icons/Gang Meeting Spot.webp": {
+    "url": "https://arknights.wiki.gg/images/Gang_Meeting_Spot.png?7b27df",
+    "sha256": "07eab6d0dc786339d683f426bdb7f825b823d09d8b781c3ed8a83754e937f30a",
+    "importer": "reward-icons"
+  },
+  "material-icons/General Chamber of Commerce Prestige.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/act13side_token_model.png",
+    "sha256": "f62313ad1693013ad10368bf06e3608fafa4df9f910cb65d19a911a5162b7c06",
+    "importer": "reward-icons"
+  },
+  "material-icons/Gentle Haven.webp": {
+    "url": "https://arknights.wiki.gg/images/Gentle_Haven.png?5e0c25",
+    "sha256": "fd9a7433f823dfec06067aa9136ad5a5a773343cb7bf0e4a1d56da63ddb667de",
+    "importer": "reward-icons"
+  },
+  "material-icons/Gladiia's Reflection.webp": {
+    "url": "https://arknights.wiki.gg/images/Gladiia%27s_Reflection.png?485cdb",
+    "sha256": "0f68dd1d91d4265bb14e98d185ecf50d474098c211af30164855ad0dc538bcba",
+    "importer": "reward-icons"
+  },
+  "material-icons/Go No Further.webp": {
+    "url": "https://arknights.wiki.gg/images/Go_No_Further.png?7d2a57",
+    "sha256": "b8527aa58a6dd32f5dd98640bbf43c1efb5a8bfe11f5bd6dea3b3da21ed1bf08",
+    "importer": "reward-icons"
+  },
+  "material-icons/Have A Good Meal Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_5401.png",
+    "sha256": "510f52fd89541c6bdbf2957925a2dfcec9481c61fe8caf9a8e921bd0fa45220f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Help Yourself.webp": {
+    "url": "https://arknights.wiki.gg/images/Help_Yourself.png?8d432c",
+    "sha256": "87a140a4ee99bc2014c6aee77150473dbe8dfa1f249d3a1312c7a82086bef621",
+    "importer": "reward-icons"
+  },
+  "material-icons/Homebound's Token.webp": {
+    "url": "https://arknights.wiki.gg/images/Homebound%27s_Token.png?955705",
+    "sha256": "cc07699ad06d17e6d6f1261c428a690f9f3fd53730835446722b9fce65c07455",
+    "importer": "reward-icons"
+  },
+  "material-icons/Implantation.webp": {
+    "url": "https://arknights.wiki.gg/images/Implantation.png?b9713f",
+    "sha256": "aa08acc8ca9fbcf1c4ce7a14aab41c56bd54067fc815a3f28167577d4fe67d0a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Indications.webp": {
+    "url": "https://arknights.wiki.gg/images/Indications.png?b1762c",
+    "sha256": "c8bb3acaf936e98d5aa0d81f26ffc50a7f65c3855b35a814c4050f8205efb11a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Integrated Module Data Chunk.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/itempack_mod_4.png",
+    "sha256": "df3f52c02bf2bc022c896afdc6fd7bf24115a625f1a547b76f11cc2225022d5b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Kjeragandr's Bones.webp": {
+    "url": "https://arknights.wiki.gg/images/Kjeragandr%27s_Bones.png?95bb19",
+    "sha256": "d86842642b7734108206a53a492a75cdfbcc2de2bf75850d4f3a7398c5e1cc74",
+    "importer": "reward-icons"
+  },
+  "material-icons/Light Within Shadows.webp": {
+    "url": "https://arknights.wiki.gg/images/Light_Within_Shadows.png?119088",
+    "sha256": "41f5d6534b0147ec12efe42e5cda40a58980164b2bd4e5baf1606504944d0193",
+    "importer": "reward-icons"
+  },
+  "material-icons/Light and Heat.webp": {
+    "url": "https://arknights.wiki.gg/images/Light_and_Heat.png?2be8a4",
+    "sha256": "cb5be01680afaa9968b988363aac7018b86f6b2cac7968e2b94e07416da5b165",
+    "importer": "reward-icons"
+  },
+  "material-icons/Lighthouse in Morning Mist Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2701.png",
+    "sha256": "017a86441e5537953a4b6c55b52d08fe89cbdb4c284cebf67581d78a477ba128",
+    "importer": "reward-icons"
+  },
+  "material-icons/Like Ending Like Death Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_49_0_1_GACHA.png",
+    "sha256": "f43f3fb48fd7a3bba18f036b3f4debad20fb59c801708250d7321960f6c16fb8",
+    "importer": "reward-icons"
+  },
+  "material-icons/Like Ending Like Death Ten-roll Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_49_0_1_GACHA_10.png",
+    "sha256": "9185f7895e02cfa2003852a5d88b366200f2510827d2910a0459d0b84cb7b88e",
+    "importer": "reward-icons"
+  },
+  "material-icons/Memorial-Limited Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_1401.png",
+    "sha256": "e310beb1ba0a9270c5fec88ec5134e914fd17660213f8f737cadd1dde947ec88",
+    "importer": "reward-icons"
+  },
+  "material-icons/Miscellaneous Wall Decorations.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act10d5_walldecoKit_01.png",
+    "sha256": "1f50e5dff6ec4a52c54150ac66630201048612bc7d2b9cea19ace4a0a9b00eb4",
+    "importer": "reward-icons"
+  },
+  "material-icons/Moon Night Homecoming Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_7001.png",
+    "sha256": "abd5b9641799c03c3ff921f79caa03aae2ded5d3c4cecce003670317b9f0c76a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Never Gilded Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_55_0_1_GACHA.png",
+    "sha256": "5f2498ebcff9923f6506d01ea44cdf67d69b31593378a24800d624530db1b66b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Night Made Bright.webp": {
+    "url": "https://arknights.wiki.gg/images/Night_Made_Bright.png?2742fd",
+    "sha256": "462828e85d4951d0394bd675ca6f5e05b3cec281fd768f72902c3261c2b2a7bb",
+    "importer": "reward-icons"
+  },
+  "material-icons/Nostalgic Habitations.webp": {
+    "url": "https://arknights.wiki.gg/images/Nostalgic_Habitations.png?f96d9c",
+    "sha256": "887fbc1dafa03cb321cb1ddaa37e7657abb36798eebfedcb5babc6348eba81d2",
+    "importer": "reward-icons"
+  },
+  "material-icons/Nyamu Yūtenji's Token.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/p_char_4185_amoris.png",
+    "sha256": "b294f30685855e8928974b381eee6f895bec4b362862bf7282c6218d894ca362",
+    "importer": "reward-icons"
+  },
+  "material-icons/Off the Rails.webp": {
+    "url": "https://arknights.wiki.gg/images/Off_the_Rails.png?fdbf65",
+    "sha256": "efdec3be300c2a48c527b9233e51c3a84f76b164b373feafa722e720087e6173",
+    "importer": "reward-icons"
+  },
+  "material-icons/Old Recollections.webp": {
+    "url": "https://arknights.wiki.gg/images/Old_Recollections.png?1e6089",
+    "sha256": "e77aaf278d8680f2ac24467e5e860b71a891bd35b4fa3c14f8e41755c3e5c8ac",
+    "importer": "reward-icons"
+  },
+  "material-icons/On the Ruins.webp": {
+    "url": "https://arknights.wiki.gg/images/On_the_Ruins.png?cc0e0c",
+    "sha256": "0e1356e0567137fccd2d2cf9f11c353f889ace708a9cad02001c8feef0e60995",
+    "importer": "reward-icons"
+  },
+  "material-icons/Oversized Ursus Doll.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act10d5_plushBear_01.png",
+    "sha256": "4224112a46db0b4199ee60cfc78992939b229190b86684b78df06c1a31ffe988",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Black Wallpaper.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_wallpaper_01.png",
+    "sha256": "c90cc12e2b2ab59b6a7cf9a271ae7396babf0ce74ac1a67b86f10c9acc42b66a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Brick-Pattern Wallpaper.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_brickWallSticker_01.png",
+    "sha256": "04ff7b63d1aa501d26a9f99ee5ce7fa1999f0b82a8b0123098d7f9a95ee01583",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Ceramic Floor.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_floor_01.png",
+    "sha256": "528f956be644e810dbe2d4e901b8936c8ba28b37f1410e27958c5ed9a88945b1",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria High Stool.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_barStool_01.png",
+    "sha256": "b0e2722c4e81fac95a2b4e8a876a5e73b6dfa45418150cb75c966b56f0551194",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Long Table.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_barTable_01.png",
+    "sha256": "8aeeeb8d515fd9263f9736a8e2ed706f16b2c1f6ae1564bcefc05a35c37962d5",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Moveable Table.webp": {
+    "url": "https://arknights.wiki.gg/images/Pizzeria_Moveable_Table.png?8a5068",
+    "sha256": "a4c5ed2745b077df7fc279715fc4bd399e057c8ca3e1b24130aaa3fe2a4e6944",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Poster Column.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_column_01.png",
+    "sha256": "b2992cd40db130a9a72c3928a378ad97807db2b2e549c650b0f5198f1d06ae15",
+    "importer": "reward-icons"
+  },
+  "material-icons/Pizzeria Soft Ceiling Light.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_pizza_ceilingLights_01.png",
+    "sha256": "a66853329f651612fd0cf5ceb57fbd75cdec22072dbe0e5cb4bf65372030e87b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Preludes to the Future Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3801.png",
+    "sha256": "14931b2f00e1d34c9d672bb92dcaa12bdc241c0fb2976772897745a31e047e4f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Prize for Excellence.webp": {
+    "url": "https://arknights.wiki.gg/images/Prize_for_Excellence.png?f6f793",
+    "sha256": "a816a3a57af2cf867d540a29f3d79093c16144e60e8fbaa2d12f7dea349882e3",
+    "importer": "reward-icons"
+  },
+  "material-icons/Projection of Souls.webp": {
+    "url": "https://arknights.wiki.gg/images/Projection_of_Souls.png?84c55f",
+    "sha256": "2b5110d7a3c525ccf40d38bc49681eb6aea77b48206760f22025cf9acd97a191",
+    "importer": "reward-icons"
+  },
+  "material-icons/Purge of Flaws.webp": {
+    "url": "https://arknights.wiki.gg/images/Purge_of_Flaws.png?530ff0",
+    "sha256": "0fdaa9205dff7278e37bac71e35afda5d878bbab977a17f1722fce9f44023b56",
+    "importer": "reward-icons"
+  },
+  "material-icons/Rage of the Many Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_72_0_1_GACHA.png",
+    "sha256": "ca567c07ccc663aa21cdc0b44ed54a1500cddb60b89b1580d087a19429c83f27",
+    "importer": "reward-icons"
+  },
+  "material-icons/Rage of the Many Ten-roll Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_72_0_1_GACHA_10.png",
+    "sha256": "fd444a620f4988eede6eaad000c0c00dfe64497b9e503733b80bb8548fa3ea3b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Reading Desk (Laterano Notarial Hall Lounge).webp": {
+    "url": "https://arknights.wiki.gg/images/Reading_Desk_%28Laterano_Notarial_Hall_Lounge%29.png?1f6c80",
+    "sha256": "38e285a9fc08eb6a48ecf9d5bc6861ac9962a47fee6a97dbc31ce05f32746ac3",
+    "importer": "reward-icons"
+  },
+  "material-icons/Record of Suffering.webp": {
+    "url": "https://arknights.wiki.gg/images/Record_of_Suffering.png?2683a9",
+    "sha256": "b2ce9646c3e940c4c8b4b997389de3580eef75736ad5ef936776baf02d7ee56c",
+    "importer": "reward-icons"
+  },
+  "material-icons/Rhodes Island Supplies.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/randomMaterial_1.png",
+    "sha256": "877e0eb7aa5454aac7bdec5fb9bb2cdf05ce1f07b9a1344d77b2fd77ace0e5a8",
+    "importer": "reward-icons"
+  },
+  "material-icons/Role Model's Sofa.webp": {
+    "url": "https://arknights.wiki.gg/images/Role_Model%27s_Sofa.png?a924ae",
+    "sha256": "c1fb663d50f3a5a72a146514353c66d9f9adeeaa88ad3a099e1dcceefbbc21b7",
+    "importer": "reward-icons"
+  },
+  "material-icons/Scenery of Knowledge.webp": {
+    "url": "https://arknights.wiki.gg/images/Scenery_of_Knowledge.png?d10be5",
+    "sha256": "053fdd44e26c546f6794f753b63f20fd2033396b69f9dc9fba94edc0a3c61e43",
+    "importer": "reward-icons"
+  },
+  "material-icons/Scouting the Light Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_3601.png",
+    "sha256": "66e37cff5eea257ba34b5369e24fbce5370d8f8e920e9cb451f599dad66d800f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Secret Exhibit Do Not Touch.webp": {
+    "url": "https://arknights.wiki.gg/images/Secret_Exhibit_Do_Not_Touch.png?1abd0e",
+    "sha256": "083eb31c3fa5bfd7c1524c3450a1ba6b2ddd6ba194ee68c9719225c8f057d101",
+    "importer": "reward-icons"
+  },
+  "material-icons/Simplicity.webp": {
+    "url": "https://arknights.wiki.gg/images/Simplicity.png?83f940",
+    "sha256": "0a714efe3d7d7fe9b4dc1319997629e30eaf566bbb37ae104af3a5d3f301c24a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Sing while Drinking Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2501.png",
+    "sha256": "187eee71647659489199e354d3f87054c1b0c19cb2993fb5bbe6d34752a742d3",
+    "importer": "reward-icons"
+  },
+  "material-icons/Skadi's Refreshment Point.webp": {
+    "url": "https://arknights.wiki.gg/images/Skadi%27s_Refreshment_Point.png?2ce346",
+    "sha256": "d054ac81167ec5e1fd5cfb126df59361f70f86e1a441829fbe58a9f1ffb6fa92",
+    "importer": "reward-icons"
+  },
+  "material-icons/Song of the Sea Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_1803.png",
+    "sha256": "6d4179646d5809124da02be11fad9764bd848ba01963089070d779b81931a269",
+    "importer": "reward-icons"
+  },
+  "material-icons/Starry Sky.webp": {
+    "url": "https://arknights.wiki.gg/images/Starry_Sky.png?15c219",
+    "sha256": "e95c3b7ac93b9b07aabfed03506126eed9a3e4fd22a4352574596c33877442bd",
+    "importer": "reward-icons"
+  },
+  "material-icons/Stepping Water.webp": {
+    "url": "https://arknights.wiki.gg/images/Stepping_Water.png?10d3a9",
+    "sha256": "1aedaf6eed0510c4426d09341ab9ee0d0df97802bb137f39ec2886a39ff18f71",
+    "importer": "reward-icons"
+  },
+  "material-icons/Sun-Veiling Gauze.webp": {
+    "url": "https://arknights.wiki.gg/images/Sun-Veiling_Gauze.png?a12e64",
+    "sha256": "1d268fced22dec714e26133b75887f95e8df150226639456d0f7713c206fcce6",
+    "importer": "reward-icons"
+  },
+  "material-icons/Sword Holder.webp": {
+    "url": "https://arknights.wiki.gg/images/Sword_Holder.png?b37b3b",
+    "sha256": "1a3acd7e4dd48c2193f66e583d802087769139c33ae0e3dc6e5f165a9638896b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Tango Decadenza Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5601.png",
+    "sha256": "d0a8a9c0cb87733da9536f9883d91e8c90d5a29795b9c3f55b522e2ded8266ef",
+    "importer": "reward-icons"
+  },
+  "material-icons/Tempered into Poetry Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3001.png",
+    "sha256": "1de25bec3fa917afdb0d554158df30345c3a007bfb0aea032cd274daf6c40475",
+    "importer": "reward-icons"
+  },
+  "material-icons/Thank-You Celebration Recruiting Supplies.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/itempack_recruit_1.png",
+    "sha256": "f44c06c2df540b5bced2e7d20d3525eedf03db3552182abc48cfe6d459a17ca4",
+    "importer": "reward-icons"
+  },
+  "material-icons/Thank-You Celebration Supplies.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/randomMaterial_4.png",
+    "sha256": "c40207d7848f83070cc50586200f3a32aa4cb1420a5136b72085c818e3e8199b",
+    "importer": "reward-icons"
+  },
+  "material-icons/The Archives.webp": {
+    "url": "https://arknights.wiki.gg/images/The_Archives.png?9bde3c",
+    "sha256": "5dd18ca5c7509ebe41382695666f216e0bf09b5585187082df8929327e6aa5e9",
+    "importer": "reward-icons"
+  },
+  "material-icons/The Future is Nigh.webp": {
+    "url": "https://arknights.wiki.gg/images/The_Future_is_Nigh.png?b1a871",
+    "sha256": "e8ca4da9c860eb3a7c2e930ce6c2e9bf7bf3b5c63ad15792d93d30bb1a8f4ed7",
+    "importer": "reward-icons"
+  },
+  "material-icons/The Hanging Candle.webp": {
+    "url": "https://arknights.wiki.gg/images/The_Hanging_Candle.png?efa2bd",
+    "sha256": "4208580314bd169ac695e1738ccbd402ebce931d9bc7c0fb0c2a2dc83e9aedd6",
+    "importer": "reward-icons"
+  },
+  "material-icons/The Silent Wavelengths Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/SINGLE_66_0_1_GACHA.png",
+    "sha256": "39fbe66a770aad938dc15c866c27245b2272bea3db9a30fd2684d78b980f7d71",
+    "importer": "reward-icons"
+  },
+  "material-icons/Tide on Sunset Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_1601.png",
+    "sha256": "993534834fb0ed13bddb559ca89141817cb7c70e583ab919e3df3fbfcdeae55e",
+    "importer": "reward-icons"
+  },
+  "material-icons/Top Emergency Sanity Potion.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/ap_supply_lt_100.png",
+    "sha256": "df253266212d18e4b7dc6dbb66f72b7586b04bb8bfd5fea36f18d1c58f889214",
+    "importer": "reward-icons"
+  },
+  "material-icons/Traces of Melted Snow Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_6701.png",
+    "sha256": "5a6f0fc9a76a84578f349854965e04403dfc3e10b84078ecaac37d5bdc0cb5a2",
+    "importer": "reward-icons"
+  },
+  "material-icons/Treading Sand.webp": {
+    "url": "https://arknights.wiki.gg/images/Treading_Sand.png?42a9a7",
+    "sha256": "e3e97d881a8c76d345a2469295c4753ee084f97e2050543abad56ade6aa6c602",
+    "importer": "reward-icons"
+  },
+  "material-icons/Treeshade Lineations.webp": {
+    "url": "https://arknights.wiki.gg/images/Treeshade_Lineations.png?4d3cf4",
+    "sha256": "9fe221b808553a04830c06337febe0f4dc23cecff7a4fcbeae095095844e94aa",
+    "importer": "reward-icons"
+  },
+  "material-icons/Truck Passage.webp": {
+    "url": "https://arknights.wiki.gg/images/Truck_Passage.png?e88462",
+    "sha256": "ccef97d9dac294298f222bdf9fe4fc5520adec4b87a1f20aff1fc6bb0eea7134",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ulpianus's Curtain.webp": {
+    "url": "https://arknights.wiki.gg/images/Ulpianus%27s_Curtain.png?97292f",
+    "sha256": "f6b1cb2124146d6a2aa5fe64616f903dbfe8e17e622d2c03c60ce2b1243a5145",
+    "importer": "reward-icons"
+  },
+  "material-icons/Umiri Yahata's Token.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/p_char_4186_tmoris.png",
+    "sha256": "52713ac44ee5cc53ab80ec6492321b917d714704d506ea59b69d5f53a242d894",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ursus Tableware Cabinet.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act10d5_sideboard_01.png",
+    "sha256": "60ad2a878b48fe649f1607fde2c6459d2715fbd75ce50a980b3c2ac885d63c60",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ursus-style Honey Drink.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act10d5_honeyDrink_01.png",
+    "sha256": "5e1e5bc55bf547d263d34258f3eef0c0601ad2a6d2f19e5989a25d185761c0d6",
+    "importer": "reward-icons"
+  },
+  "material-icons/V Plameni Svechi.webp": {
+    "url": "https://arknights.wiki.gg/images/V_Plameni_Svechi.png?153b87",
+    "sha256": "a13b7185288280458bd79f97c0b172994b2c828c6336701eb9ac37bab11be80e",
+    "importer": "reward-icons"
+  },
+  "material-icons/Waning Lights.webp": {
+    "url": "https://arknights.wiki.gg/images/Waning_Lights.png?4fd9b9",
+    "sha256": "e6290b753ee93e1a47840deee2297a49afc893cb3e87e1c25242610f4b0b8fc9",
+    "importer": "reward-icons"
+  },
+  "material-icons/Wasted Talent.webp": {
+    "url": "https://arknights.wiki.gg/images/Wasted_Talent.png?f9ae2f",
+    "sha256": "414f2cfa6f113fd95b886345d0444eed093870a93948204b4d98bb3579159df2",
+    "importer": "reward-icons"
+  },
+  "material-icons/Window to the Snowy Mountains.webp": {
+    "url": "https://arknights.wiki.gg/images/Window_to_the_Snowy_Mountains.png?70fe9e",
+    "sha256": "d3bcff46dbd697c00957aba92c37e5f2d2dca0fcc66aa4c3c07cf2a5f432f201",
+    "importer": "reward-icons"
+  },
+  "material-icons/Winds of Millennia Unyielding Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3501.png",
+    "sha256": "709701786be970447430aad9ca55802f1ba5f26444b5a240af5c8c52483a52db",
+    "importer": "reward-icons"
+  },
+  "material-icons/Witness of Friendship.webp": {
+    "url": "https://arknights.wiki.gg/images/Witness_of_Friendship.png?c129f7",
+    "sha256": "dc339841084dcdcdeadc1c2de2d3123255a76de3b38f2c1c5ea759a18544b618",
+    "importer": "reward-icons"
+  },
+  "material-icons/Wolumonde Search Warrant.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/act11d0_token_warrant.png",
+    "sha256": "c55f91b5976f58758f9e9d0d3d7a6eb5ca8c2e4d9b8b84dcea019b06b82c94d1",
+    "importer": "reward-icons"
+  },
+  "material-icons/Wolves Stalk Shadows Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3301.png",
+    "sha256": "6f22bf8e2ee25e94a76ec62d7bb8674d3205d4d3b9e510ba67316b0203ace62b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_bunkbed_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_bunkbed_01.png",
+    "sha256": "511f2c76efefdcd1a2bacf4cf6031d6f6560698369acfac42d6574b880fc81f4",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_controldesk_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_controldesk_01.png",
+    "sha256": "cbb4a972a3a351aabe9870da7ad2c2f39e4bb79e28464120207ba86e75931736",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_floor_01.png",
+    "sha256": "8d4f801225549537409e23c148724c14b68d2565e9ab4f859847efe39d395cfd",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_partitiondesk_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_partitiondesk_01.png",
+    "sha256": "470193926e8d3c5496488addc7acb361e1fd385b22e788cb7def0418be060207",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_partitionwall_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_partitionwall_01.png",
+    "sha256": "5b434abda2cfb3fe19a7071a845d28afc43e60bec4f3c1950be993ead43a456d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_table_01.png",
+    "sha256": "84fb08810dc894d5652be0495fd7471b60b55cc7bacc73591567cdf033e04733",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Airship_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Airship_wallpaper_01.png",
+    "sha256": "c6416fb39926e8b8052b7558c793afea0019bc0041d314727fde6c69e87dc6a4",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_ceilingLamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_ceilingLamp_01.png",
+    "sha256": "c126cd13aefd359dbecadaa69a578f4cf17e611afe5bf8c91210c8c176bc8087",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_ceilingLamp_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_ceilingLamp_02.png",
+    "sha256": "5e50c05d00ec08454717681ca0cea2305eff9120def641e030f6444a6325737c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_chair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_chair_01.png",
+    "sha256": "8ec34decfadb68e837d00e9a734c67a73faae84e4ec40f8f6612faa1995a0524",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_chair_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_chair_02.png",
+    "sha256": "d8e87f110f1730501b7801df21030d889b698881d21b915fcedd3f22670b3991",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_chair_03.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_chair_03.png",
+    "sha256": "4e5976771341ba3899b3761a1a4d87eb6103fcb1a84de135bf4192a5fd51a725",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_column_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_column_01.png",
+    "sha256": "f83a3dd2d11604d93ba580929ce25e98f5082d10b2d1f27f201259e280f7165c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_floor_01.png",
+    "sha256": "8e4a31c2b2070c0a452d98e4ad7695355fe83ae00a490eb3ae2078b9f36c1c99",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_pipeline_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_pipeline_01.png",
+    "sha256": "46320141b3d3e2d3714c7e45abbf3ec47e42dcef4e718ce8796f4cd869bb647c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_pottedplant_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_pottedplant_01.png",
+    "sha256": "536ec1b326692a290ad67611bdf05025cfcaea49488d76c3541ea5ae4b996f35",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_table_01.png",
+    "sha256": "6d1a2a08e784279df23c0ae027fd28724d370edea6f308584925449b18ed8c39",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_wallpaper_01.png",
+    "sha256": "ef920c03145967fc294a2530183144081fe08c3f4843f8b8da62cb42b8eebe48",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_wardrobe_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_wardrobe_01.png",
+    "sha256": "834198b637c9dd47e099dc69c12ffc0c6249f1d2e6f4727552ef1a64552b4a78",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_BSsafehouse_workbench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_BSsafehouse_workbench_01.png",
+    "sha256": "6fe76dc925265853e1a14a413948764cb059d0a67db6941252449298637bfc9b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_carpet_01.png",
+    "sha256": "15c6821ef3d2be33af6c10fc7d092b17edc85712d2897ae4a5cd124902093659",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_chandelier_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_chandelier_01.png",
+    "sha256": "34c5d3ce1a9c67a7faddd45d1d66d9c9dc966a5da54a5d5bc9934af80980cf68",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_floor_01.png",
+    "sha256": "125475be7246c9ca87b9bd705446af554f66c498f1a52b43162f46dc5403c8e6",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_largespecimen_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_largespecimen_01.png",
+    "sha256": "75f7d1ca10f9bfd361fd6ce695f3101a3df2f509cf0e0cbdfa96810ee4712114",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_liftplatform_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_liftplatform_01.png",
+    "sha256": "e7ccc5745d2299f5d66f9ae7875ac70cb4b39f4718e7a3e5c3a5ba1543f7d346",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_littlehelper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_littlehelper_01.png",
+    "sha256": "4ec61dfbd32e364adfcd07256fac26aef8be20af982b572ae47c3aadbea9b449",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_nightstand_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_nightstand_01.png",
+    "sha256": "1d2afc6c4a6352201f4ccf35d6c1cf5cb9e61a9ac1af547a1615d46adb876d2b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_pendantlight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_pendantlight_01.png",
+    "sha256": "c42f5382d93edd8dda2e5ee9a34ca9118b2da64565cb984bbc80dd8044dacd4d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_projectionequipment_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_projectionequipment_01.png",
+    "sha256": "dd23a028901d88e0534d0972bb99d5889d81afa12a83340bacae6f1f34d40481",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_samplecabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_samplecabinet_01.png",
+    "sha256": "84981025e22c3ee0598a0243b361fd5c0f00144f3fe4bb871c17230aebec2ca5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_wallpaper_01.png",
+    "sha256": "e023f403978c53b136926dcdfd362a6cc684aa6d8966eeb9e4f0b935c92ad9dd",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_HunterInstitute_waterbed_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_HunterInstitute_waterbed_01.png",
+    "sha256": "d94176de0067f8b5639d5ebb3edd05e8826502bcfd04fa0f677580d61998e1c7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_carpet_01.png",
+    "sha256": "ed1cccb2ec14a58c4847e3bb2d4facc8b44454ffbc6e8f0d073286218a3317dd",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_chair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_chair_01.png",
+    "sha256": "28061eace1d834e02a969ef0f02071d8ad2867e1432b1d7c6adeba533d9aedce",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_chandelier_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_chandelier_01.png",
+    "sha256": "c1b75c39388cd396979419b59c0c054d6dd2bdebe59564a625e45f864ff40a1b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_desk_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_desk_01.png",
+    "sha256": "3cffce5848361b64601fb5de41a590206a7dd3a0e233d0ca11fe2aca8e0b793f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_floor_01.png",
+    "sha256": "3e82a5391ff75a3cd2bf7fad0e857d5049e223e35bc003478177181757a2bea1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_longBench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_longBench_01.png",
+    "sha256": "14650dcfa4729844a048e67fc4645c119b97a89d3c1cdab8faa576c9b7e8f5b2",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_shortBench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_shortBench_01.png",
+    "sha256": "69553bb5bee3b5f1fe4e71a399d856a1dfee35e860de9587e1029e6dc78b86e0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_standLight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_standLight_01.png",
+    "sha256": "74214b31aad5b6d6a31689a29a2cb3626de35e3bb45eb7de042a719d918cd1f3",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_LAbbey_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_LAbbey_wallpaper_01.png",
+    "sha256": "0e2fe5ed435a7a26ede76f58b605005cc0e17e7b0f98349f80f14d03608831f0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_mooncake_B_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_mooncake_B_01.png",
+    "sha256": "8e679b9543a03c6c764329e9236ded758355da8d294939f4f576405102099206",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_mooncake_B_04.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_mooncake_B_04.png",
+    "sha256": "27adb72c4921cce28d7ab47f1702d0155dc7fe5596686a1bea9fa3628aefadf9",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_mooncake_G_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_mooncake_G_01.png",
+    "sha256": "1313b71747c34562eeadccc8260334c101eb4ab8f22ee2c3952c5f1c205f287a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_mooncake_J_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_mooncake_J_01.png",
+    "sha256": "360cd571989020e46490602a1a251f6d883c3d97ce6e83935f7aa796fffcb597",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_mooncake_S_04.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_mooncake_S_04.png",
+    "sha256": "27701f618c8ebc6cb07c1b8cb3096223affabaeba9cbcb05681393a4b7457755",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_mooncake_T_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_mooncake_T_02.png",
+    "sha256": "367ed9da5b46047cfdb63a9610979cc761d0e131f967a89cbeaa13217fb50de0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA_teaTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA_teaTable_01.png",
+    "sha256": "8d57f62abd6caef8c3d0350174545bf0515e6e0e9d14453713df62ee8d70136d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_carpet_01.png",
+    "sha256": "c0fa987826af7a8e5fff6a3ac314220db8ddd9a0170f6854851d8cb1f7fef34c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_ceilingLight_L_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_ceilingLight_L_01.png",
+    "sha256": "4371d764a185e22401f20894b1d991e7e455b3bc07fe6d5fd92b30842cd20c3e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_ceilingLight_S_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_ceilingLight_S_01.png",
+    "sha256": "c2e77e7713d284c21f56087bdfe458921d24880b97d3a03e033532e9bcf87a0e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_coffeeTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_coffeeTable_01.png",
+    "sha256": "40843efc35b00d89be8e228143b3857dcc699138cf3dd6787a4639ffd0450a6b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_floor_01.png",
+    "sha256": "0175a934846d08d567b12480d61c5a93e299070dfdd61950d530de53d3a16d1b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_frame_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_frame_01.png",
+    "sha256": "883ea990e176ddb5b0ab6b1416b63d765935b82fa22b176c62553c178db2e748",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_seat_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_seat_01.png",
+    "sha256": "c244f16aa27ce3cafb4a06e13cede532e884a2d67e787baf2b9877f6b4ea0b8b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_shelf_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_shelf_01.png",
+    "sha256": "ae0f5a6a2eae4f5d66c3f2cfe58cafde8c83d68305bf38dbffe2da54c5453c67",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_showcase_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_showcase_01.png",
+    "sha256": "a346f6266616117f420e20cc6dfb1f6d33dba1d5821e7b07caf3a3ffe5282617",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NHL_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NHL_wallpaper_01.png",
+    "sha256": "24c9284e4817f5f3369b936e86e6ecf30ab7452cd1169180b2a9cc79bc65e2ec",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_ADS_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_ADS_01.png",
+    "sha256": "71ddcf4540f07018c6210025f70d0ed08a7046cb9baa8670f3a9b421f510b72d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_CCEShield_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_CCEShield_01.png",
+    "sha256": "ac76529620a9e4c0b15111b15fde1d070647a25d34d592fabf08384b8035dbfd",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_blackMirrors_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_blackMirrors_01.png",
+    "sha256": "c50b05bc7ca8306d203b74dae6d7505ca241e699ca44cf66b0dd5709bd791580",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_camera_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_camera_01.png",
+    "sha256": "4c7032b7412d9e48e1863f18876b5a785a99e196ff9cf37e1f626caaf95e9690",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_deployableShield_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_deployableShield_01.png",
+    "sha256": "e84db80038780777d0f1dc658f49f2138c1f171fef867983decbb4d7706a230a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_downlight2_C_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_downlight2_C_01.png",
+    "sha256": "f4b6422d387270aeb2bc59e3b9478b15f69284be2b02be3cd1252ec981c51df8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_downlight_C_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_downlight_C_01.png",
+    "sha256": "1a919383c20ab9d52085ebb39859742f0bd386b7305497bae0982bf8c89dea95",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_downlight_R_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_downlight_R_01.png",
+    "sha256": "842720d26cfe08c5084489353bd44af4841f446fafc9918ce159af9731b6c913",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_floor_01.png",
+    "sha256": "5bba455aba734cdb86ea0b0f184eb9bbf0811fbfb5194311ab5d07f6c813cde3",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_grzmotMine_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_grzmotMine_01.png",
+    "sha256": "f7b470cbfe7f71f73b2066209140317b42993dcb9a514e0cd0d3196df702df92",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_newspaperRack_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_newspaperRack_01.png",
+    "sha256": "50ad944d1394dca0691156a602aea7dc95e62c0ee933f72cadac7c9242ba8266",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_reinforceWall_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_reinforceWall_01.png",
+    "sha256": "842e051211994c162aeb4b6752bae4e0d3eed718c36e00053817e1d138dc3346",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_rtilaElectroclaw_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_rtilaElectroclaw_01.png",
+    "sha256": "e40cd87b0b8833f33424357c46f43afd0a356dc107173682d5e8f263a763c9ca",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_shockWire_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_shockWire_01.png",
+    "sha256": "506a1a5d12bcfa28d822dae79ac0a92c38f0b6e995882ed38786a345637c9329",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_shumikhaLauncher_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_shumikhaLauncher_01.png",
+    "sha256": "7b932b6b3adc13f765c35570496fddafc58ab96c73a052d86b443625fc64d738",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_signalDisruptor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_signalDisruptor_01.png",
+    "sha256": "62b411675a22fa517b71e3090c976a2d7c8c41be860b940796d24fc0696067d1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_wallpaper_01.png",
+    "sha256": "69fabeec84901490076d3c18a1251ad4df9c383d78c395f0511377d72a07c0fb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_R6_wood_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_R6_wood_01.png",
+    "sha256": "6371e1e54665b731f6ac415590877b22871f8fd70aeeac4263ab598b98641af0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_SF2023_vase_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_SF2023_vase_01.png",
+    "sha256": "e0dd33c7ba6db3ae7dc8bdea676c8d43f97719f685a2bfedae390abda5ee23fa",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_SF2023_weaponRack_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_SF2023_weaponRack_01.png",
+    "sha256": "45b5391e1fd2a05abd6a69bd722346709afa89fdda1b0388511371270db55335",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_bench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_bench_01.png",
+    "sha256": "a46b8592ea360806347de4444f3de15e8fd81033febcd657373e5a88fe0b99ef",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_carbonfirebox_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_carbonfirebox_01.png",
+    "sha256": "a8b392a3455ee5f0bdc88ade03dd34d34c648b9091b02a46c848928556e7ee3a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_carpet_01.png",
+    "sha256": "fff9eeb63d27135a7ccc30bad2e2774c48491058efd6da1b90a37538ad71c359",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_ironbasket_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_ironbasket_01.png",
+    "sha256": "c984fc19ea77cbb4b72cba424fcbf2ebe6ded8c0729897fba98618d4772d7146",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_ironcabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_ironcabinet_01.png",
+    "sha256": "8fa4b66193be25a4b159a086137268affa965970a3520e7831cd0643980078f8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_longstick_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_longstick_01.png",
+    "sha256": "856abdc7c8764d8485c532a16d60d4657d95ca800d31a7cc00bb64eb8ac70722",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_shoerack_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_shoerack_01.png",
+    "sha256": "88144db47155c32ca1ec1e81fa5bc1963fe16e9e3de1480a668474a73ba6812b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_shortstick_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_shortstick_01.png",
+    "sha256": "98cb665138e9f51aed09c1855555f04229c27943416a595b580f3d40ac006259",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_shortstick_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_shortstick_02.png",
+    "sha256": "4874a3245f1d343dc4b4aab22e584b4a15ded9411a9a590db3602aece8279329",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_stool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_stool_01.png",
+    "sha256": "9ff7540c84d94fff2c38387e566ad285e898cc222dc2ffde982233c6b4f256f2",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_armchair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_armchair_01.png",
+    "sha256": "e085c11cdc0d3e819cefc658b00b17aeaa0989aa6957bedfa49f3d51098044e6",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_cabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_cabinet_01.png",
+    "sha256": "9730e8a6a9f96b2152113824549d68ed46d3a736822ad6cdecd6cadf3ea659b3",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_datashelf_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_datashelf_01.png",
+    "sha256": "ca49dc2c780650bdb6fbe084d9436fb24c77fd34199f7e32d9c5e6e2b9fb538c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_floor_01.png",
+    "sha256": "0dec63b9171335a70f45fe5620da1086f143e57ff1fd08df49a5f1cca3a170a6",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_floorlamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_floorlamp_01.png",
+    "sha256": "2ba01bdb6f06d26e9556a80992e12df50478d7ea2f50f10b85f57dbf35ae25bc",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_largelight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_largelight_01.png",
+    "sha256": "447ac60a2d8d97e1dfa13005534e7c35348d6a6bccaaecaa7a04aab9606ff680",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_minilight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_minilight_01.png",
+    "sha256": "635761cb88914b734676afb6e25439528a0335f6d63850a7eea56bdb5865a5d2",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_querydevice_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_querydevice_01.png",
+    "sha256": "feb7c9c206b8bed6d1ee387bcfa215ebc238dccdc233a787ed07472c76fd718d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_stonecutoff_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_stonecutoff_01.png",
+    "sha256": "bd4a0bc710061652fb782676bef2c9c11b8c88e898c584764a69bf05df5d068e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_walllamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_walllamp_01.png",
+    "sha256": "cad12f3b098f5f674c3ac2756f6b79c7072b5c649e007d0e71025d1ba2cfc5aa",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_TianshiMansion_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_TianshiMansion_wallpaper_01.png",
+    "sha256": "703003c6de53d1aebe13485c0bb9ace86db02234ec4a6f8fe23ad630aca0c927",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_ceilingLamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_ceilingLamp_01.png",
+    "sha256": "ca6746066a25f0ffa334ef75dc4b86bd3804ae9083a1ec5f63d2035cc7436387",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_ceiling_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_ceiling_01.png",
+    "sha256": "d68b74e20bf27df04d8903d3a49e39d0eb889130c868230965898a482c9433e1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_chair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_chair_01.png",
+    "sha256": "7acf2ce44de0d05b2bf07122fe9e9840fa510184ce0510fb0f9d5423fd63bef7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_decal_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_decal_01.png",
+    "sha256": "f6f1167333d86668ee03a9d14a2ccd5af0ac35122448571ff4385bdad9d27967",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_equipment_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_equipment_01.png",
+    "sha256": "30362b43d6c2c424da0fb48e0899a5f079b4e0aee6b3ef7e3e39a9b0e16f2282",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_floor_01.png",
+    "sha256": "c8002bd285945ee0df28e2dbb9f2d2c3ef6adad28bece723ec69bd59cdc32bfa",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_handLamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_handLamp_01.png",
+    "sha256": "f0b1e88bca6906e6e9363c4c8dcda76d81503f5f3ceeec3a96fa6e398e683f39",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_screen_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_screen_01.png",
+    "sha256": "e22802db7ec6883bf6ba9e669716c9c5940dd34fab351bf7a86d3797a507e3cf",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_table_01.png",
+    "sha256": "180650ebef3e34d4305915c4f3bb4a48ce4794d0a7f99610d4200cf1d6a0d2b5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_abyssal_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_abyssal_wallpaper_01.png",
+    "sha256": "26433dd9d5fdd5525d1bf95d6bc02633e38b75cda8ea7b2207f7dda66b878715",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act12d0_throne_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act12d0_throne_01.png",
+    "sha256": "ffc0dd3e5275caf195323d730fc264c879e7fe282b126a21b38ef36f34a206ef",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act14d0_arcadegame_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act14d0_arcadegame_01.png",
+    "sha256": "09f8914dcd7e0fbb1438f72662891b619e3e0198ec885c69cb85231dbf64db6d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act15d0_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act15d0_carpet_01.png",
+    "sha256": "edf6804fe0ec111926401df24e28aff2a01f99d5e9c191905731894665b59908",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act15d0_snowman_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act15d0_snowman_01.png",
+    "sha256": "dfa2d988b0fdf93a5d6f635c17433bbb6b9ade2b028277a28bf1f1853b53e127",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act15d0_stool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act15d0_stool_01.png",
+    "sha256": "2ce7cf381d49f9a75fc2ebbf52c3779c7c92ccc2f25a1b7f7ca92d7a98e16079",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act16d0_drum_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act16d0_drum_01.png",
+    "sha256": "1918e67c68eacc3499f2d88f8cb82209993bfc1c05fbaddcf099ac3170380500",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act16d0_floorLamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act16d0_floorLamp_01.png",
+    "sha256": "8277c6160bc23586ba3ff1305460b5e22f87e6c2368bdcdb7a5c37a065c9a857",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act16d0_walldeco_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act16d0_walldeco_01.png",
+    "sha256": "70aaa72f41181c867bfe9d7d12679416e59412cc99c425c6eb5bac2c3a578602",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act17d0_acog_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act17d0_acog_01.png",
+    "sha256": "ea7508e6885a8980060df3f4ccb379a981ceec0494de9c13d1c23aaff26e8b68",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act17d0_box_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act17d0_box_01.png",
+    "sha256": "4f48482a0eb567936a5fad82bf76215ae1353218bb22deaf7228198a6e796d82",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act18d0_cabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act18d0_cabinet_01.png",
+    "sha256": "40162231e506703ad21d2f72d095237703fd31d5f4458b30f0a059c858bc0556",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act1dp_frame_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act1dp_frame_01.png",
+    "sha256": "66591adbde2eee7ff5b54fd071a209c8259f4c4762bf4a44e7d527ab6e34ba60",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act1vhalfidle_bonsai_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act1vhalfidle_bonsai_01.png",
+    "sha256": "130532bc5921bd88d5b01cea57069a4aade36d67fa8ba21139808dbdf39486ae",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act21d0_fan_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act21d0_fan_01.png",
+    "sha256": "8847f312db39f6334b5d443fb6546074f2972b2736f38ccee4569bcd1fe20b49",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act21d0_foodCart_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act21d0_foodCart_01.png",
+    "sha256": "8b9421feb1ecd223e05c7e68d2fecad587e10fc1a0bf995304195edd0314ea21",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act22d0_chair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act22d0_chair_01.png",
+    "sha256": "5a26413a044e35198313f5f9199f9952a3b2f63bf3ee47850d7cf9e09466eda8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act23d0_decoration_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act23d0_decoration_01.png",
+    "sha256": "a549e1486783e3da8c419f4ac8dd8be1b4413b12b46656040a0e3f6bd0546cfe",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act24d0_dunhuang_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act24d0_dunhuang_01.png",
+    "sha256": "1ede298e7d3d9f3d44b0d35c035162a3fb7313745329c93ac0e40ffc054405e5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act24d0_house_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act24d0_house_01.png",
+    "sha256": "027a230e2a8c55f5c9898274a429a550b51300dbdaf5df2785bf9a8e19aaa452",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act24d0_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act24d0_table_01.png",
+    "sha256": "379c515b8d07c0ab3e40cc2ea5e59d5d91cfac544c6bd34177d42dae4c64bb24",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act25d0_decoration_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act25d0_decoration_01.png",
+    "sha256": "2a3c9669e440b4b3d46924b0b23ca8577ee80edcdc5f779eaa1481038cb58915",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act25d0_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act25d0_table_01.png",
+    "sha256": "453faa8167310858f272ab3a1ebcc85f3e80f2346eb40ec46027506ac3514026",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act27d0_prizeWheel_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act27d0_prizeWheel_01.png",
+    "sha256": "9760438916cfc82237e0e1b056e153a7a68e78f103c7084ce5013cfb401f8c68",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act30d0_fan_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act30d0_fan_01.png",
+    "sha256": "4daf0b4839abf2634f3cc20142c10a09ed1b00c3c4a412e83badf83d8cf254c7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act34d2_greetingCard_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act34d2_greetingCard_01.png",
+    "sha256": "918820265d8acf4edba3682616790d5210f7f95cf668c8e3750adc021f799887",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act36d0_MaterialBox_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act36d0_MaterialBox_01.png",
+    "sha256": "a2ab82e609a50ccecef6411a45ab39665bccb23fa25d2e23eb855dbfaf470218",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act36d0_grill_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act36d0_grill_01.png",
+    "sha256": "4ca902d672f387a95f40a49b81d44ffd41720cf3f4a9de0dd7e463472a63f755",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act41d0_magmapool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act41d0_magmapool_01.png",
+    "sha256": "26c825f12eef0674ae9129e7c6fc1986e5c2c315345c38779f399fb36a6a2993",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act44d0_rise_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act44d0_rise_01.png",
+    "sha256": "9cb26c91e8e6a15d89847d98c8820f1450d4a820f31f6b87e944714db241fd1e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act45d4_newYearPic_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act45d4_newYearPic_01.png",
+    "sha256": "deedd20689a6e858c20b6dbfad943e8c156c04fec8e3652e8b6b9e867a9f713b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act50d0_hourGlass_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act50d0_hourGlass_01.png",
+    "sha256": "afd3322b97959fc66ea0ed495107b1ef04de7a6190ea7dc65f3ac10d8d4b5878",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act53d0_orangeStorm_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act53d0_orangeStorm_01.png",
+    "sha256": "0b82eae80857b80c8b5da1c1f2f131621b310c5bbc070dd8b839fca1ec4c378a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act54d0_displayCabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act54d0_displayCabinet_01.png",
+    "sha256": "9c743fa3014eb71b8ff6e47d4a652eb7a3dc2c14cdad949f51b0b7289c885bdf",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act56d0_carnivalfloat_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act56d0_carnivalfloat_01.png",
+    "sha256": "0ca67bc9b9801360b6f57d40d9680ee17ba1b860e725a08ebc2ebf7cf0bd824b",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act57d6_newYearPic_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act57d6_newYearPic_01.png",
+    "sha256": "0390e48bb6b23a68680afcd4d8d2e2b794c97b926499dbadfaa525decf9d781d",
+    "importer": "reward-icons"
   }
 }
