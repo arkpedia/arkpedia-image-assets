@@ -5719,5 +5719,55 @@
     "url": "https://torappu.prts.wiki/assets/furniture/furni_westCoast_fireplace_01.png",
     "sha256": "79eea4b51f90fcd11ce426637ec4b52a8d21b47335e77f2ed4808c3bad6cd590",
     "importer": "reward-icons"
+  },
+  "material-icons/furni_westCoast_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_westCoast_floor_01.png",
+    "sha256": "1b2c9adac9af1b8c2ebe2954d271763c52fb9a3364e552cdadba9d231bf926c9",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_westCoast_longBench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_westCoast_longBench_01.png",
+    "sha256": "df378a8754f18b80bb5e8efff28253ba47e7d3488d3e148486572c252aec5f2e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_westCoast_palm_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_westCoast_palm_01.png",
+    "sha256": "ac2e6d1a24fc7171a14217cf199981731da3f2898a92bbe286011570c53b59d5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_westCoast_stool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_westCoast_stool_01.png",
+    "sha256": "c12ee01a1138837f2bbee770cea36472559888b1eee29b05896f10bcf02a3d3a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_westCoast_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_westCoast_wallpaper_01.png",
+    "sha256": "c19e1f08dd8f119b7452b180d56bd5d73b9ce2b965013b8acb1834e3f2f21a8f",
+    "importer": "reward-icons"
+  },
+  "material-icons/一逢满月十连寻访凭证 (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_7701.png",
+    "sha256": "42d0ee859ef6ddadf3b2180164ad37b1db6c0f25f9738d003151dab05da7304e",
+    "importer": "reward-icons"
+  },
+  "material-icons/封缄诺言寻访凭证 (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_7301.png",
+    "sha256": "f661a3505cd8ac58ff0e83b2220612a838488b8523055cdfc9ca0a83547c17a6",
+    "importer": "reward-icons"
+  },
+  "material-icons/弓吟空跃寻访凭证 (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_7401.png",
+    "sha256": "811296c1ab03ec4d2a6e735385a22c9a80bb6fd2321805b92e474c483d17ffc3",
+    "importer": "reward-icons"
+  },
+  "material-icons/搭车漫游寻访凭证 (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_7601.png",
+    "sha256": "403cb0e3ed298740075b83535b7862065f7d1fc1bf9f09fd34bce79cf07823f5",
+    "importer": "reward-icons"
+  },
+  "material-icons/新型信息终端机.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furniM_act73d0_messageboard_01.png",
+    "sha256": "75aeaf80837fb14ce9fa615ba4b5162ab1d595f1d7c3205d47fa9dbf83d53dc4",
+    "importer": "reward-icons"
   }
 }

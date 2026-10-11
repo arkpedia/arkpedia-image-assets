@@ -25787,6 +25787,26 @@
       "sourcePath": "item/LIMITED_TKT_GACHA_10_3301.png",
       "sourceBlob": "56fb4327668bc9333a66b5614f8487e9eb80fb87",
       "maxWidth": 183
+    },
+    "material-icons/一逢满月十连寻访凭证 (ten-roll).webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_7701.png",
+      "sourceBlob": "a39e927cde1dde7136c931cd77e7646a5fc73604",
+      "maxWidth": 183
+    },
+    "material-icons/封缄诺言寻访凭证 (ten-roll).webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_7301.png",
+      "sourceBlob": "e511ecf3c615e1b28be3356dfb93be9d67fa3d90",
+      "maxWidth": 183
+    },
+    "material-icons/弓吟空跃寻访凭证 (ten-roll).webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_7401.png",
+      "sourceBlob": "7428cc7121f859f4954bb682eaa5546553e04dbf",
+      "maxWidth": 183
+    },
+    "material-icons/搭车漫游寻访凭证 (ten-roll).webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_7601.png",
+      "sourceBlob": "f9c18f70b02212c63472fa8c090dec18130235fa",
+      "maxWidth": 183
     }
   },
   "namingSource": {
