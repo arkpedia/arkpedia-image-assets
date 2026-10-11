@@ -3350,5 +3350,9 @@
     "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_plant_02.png",
     "sha256": "e8d1fb35a59a7e75f027a2f7e7f5a5ff5b220e9077c4113ee828a2e521194111",
     "importer": "reward-icons"
+  },
+  "event-poster/CN 1454-1.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20261008/e493ee34fe5d994546ee11d40ee56ccd.JPG",
+    "sha256": "15bde95103cb114a5a68f4e72757183b5e3fae718a440ffe87a4ef8435d0935c"
   }
 }
