@@ -14,6 +14,7 @@ client's dump, ArknightsAssets/ArknightsAssets2 (branch en), under assets/dyn/ar
   ..._long_<n>.png, ..._short_<n>.png         -> <id>-strip-<n>.webp, <id>-head-<n>.webp
                                                  (a style with variants the player picks from;
                                                  nc_rhodes_light names them long.png and short.png)
+  medal/suitbkg/<group id>.png               -> profile-medals/<group id>-background.webp
   medalicon/<group>/<medal id>.png            -> profile-medals/<medal id>.webp   (96px tall)
 
 and the card's own sprites, which the page draws the card with, from assets/dyn/ui/[uc]namecardv2/
@@ -138,8 +139,13 @@ def jobs(listing):
             card, bg, shape, variant = match.groups()
             name = 'bg' if bg else f'{"strip" if shape == "long" else "head"}{f"-{variant}" if variant else ""}'
             yield f'profile-namecards/{card}-{name}.webp', f'{UI}/namecardskin/{entry["path"]}', entry['sha'], 'bg' if bg else shape
+    # The set canvas includes its official event logo and empty medal silhouettes.
+    for entry in listing.get('medal', []):
+        match = re.fullmatch(r'suitbkg/(medalgroup[\w-]+)\.png', entry['path'])
+        if entry['type'] == 'blob' and match:
+            yield f'profile-medals/{match.group(1)}-background.webp', f'{UI}/medal/{entry["path"]}', entry['sha'], 'bg'
     for entry in listing.get('medalicon', []):
-        match = re.fullmatch(r'[\w-]+/(medal_[\w-]+)\.png', entry['path'])
+        match = re.fullmatch(r'(?:[\w-]+/)?(medal_[\w-]+)\.png', entry['path'])
         if entry['type'] == 'blob' and match:
             yield f'profile-medals/{match.group(1)}.webp', f'{UI}/medalicon/{entry["path"]}', entry['sha'], 'medal'
 
@@ -216,7 +222,7 @@ def main():
     commit = api(f'repos/{REPO}/commits/{BRANCH}')['sha']
     folders = {entry['name']: entry['sha'] for entry in api(f'repos/{REPO}/contents/{UI}?ref={commit}') if entry['type'] == 'dir'}
     listing = {}
-    for folder in ('playeravatar', 'namecardskin', 'medalicon'):
+    for folder in ('playeravatar', 'namecardskin', 'medal', 'medalicon'):
         if folder not in folders:
             raise ValueError(f'{UI}/{folder} is not in {REPO}@{commit[:12]}: the dump moved it')
         tree = api(f'repos/{REPO}/git/trees/{folders[folder]}?recursive=1')

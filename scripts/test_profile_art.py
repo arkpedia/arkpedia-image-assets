@@ -40,6 +40,17 @@ class ProfileArtTests(unittest.TestCase):
             'profile-medals/medal_activity_10rune_035.webp',
         ])
 
+    def test_set_backgrounds_and_root_level_medal_icons(self):
+        listing = {
+            'medal': [{'path': 'suitbkg/medalgroupactivity11d0.png', 'sha': 'bg', 'type': 'blob'},
+                      {'path': 'suitbkg/diy#default.png', 'sha': 'diy', 'type': 'blob'}],
+            'medalicon': [{'path': 'medal_activity_5bossrush_01.png', 'sha': 'icon', 'type': 'blob'}],
+        }
+        self.assertEqual(list(jobs(listing)), [
+            ('profile-medals/medalgroupactivity11d0-background.webp', 'assets/dyn/arts/ui/medal/suitbkg/medalgroupactivity11d0.png', 'bg', 'bg'),
+            ('profile-medals/medal_activity_5bossrush_01.webp', 'assets/dyn/arts/ui/medalicon/medal_activity_5bossrush_01.png', 'icon', 'medal'),
+        ])
+
     def test_the_cards_sprites_are_published_under_their_own_names(self):
         listing = {folder: [{'path': path, 'sha': path, 'type': 'blob'} for path in paths] for folder, paths in UI_SPRITES.items()}
         listing['namecardv2'].append({'path': 'sub_skin_change_view/back_mask.png', 'sha': 'x', 'type': 'blob'})
