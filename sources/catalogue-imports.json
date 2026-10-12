@@ -5769,5 +5769,225 @@
     "url": "https://torappu.prts.wiki/assets/furniture/furniM_act73d0_messageboard_01.png",
     "sha256": "75aeaf80837fb14ce9fa615ba4b5162ab1d595f1d7c3205d47fa9dbf83d53dc4",
     "importer": "reward-icons"
+  },
+  "material-icons/Top Operator Transfer Permit - Starter.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/voucher_recruitR6_pick5301.png",
+    "sha256": "bfbc95128231349437698d7783c3fbe6b6464be8a2bbf92b5e72261a875888cb",
+    "importer": "reward-icons"
+  },
+  "material-icons/Advanced Material Voucher.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/advanced_material_issue_voucher.png",
+    "sha256": "e38531363625ec44496beddd3057d8184c343bd70f49084ec79dfbf97642a171",
+    "importer": "reward-icons"
+  },
+  "material-icons/Senior Operator Transfer Permit - Starter.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/voucher_item_4pick1_5301.png",
+    "sha256": "ee90978907ca223e3ba229809c280261d26c2ec69de77d5de030550dd79f5c47",
+    "importer": "reward-icons"
+  },
+  "material-icons/Senior Operator Skill Training Pack.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/voucher_skill_specialLevelMax_5.png",
+    "sha256": "54c851524bd5faaa90fd3cb77e867ea3b1ad4762c0636fd08dcfc2e1f720ba9b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Professional Operator Skill Training Pack.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/voucher_skill_specialLevelMax_4.png",
+    "sha256": "fbeada5022d8ae0d7f8821a897ffee131a39d357cef6ad469d1756844354b823",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ballads Tumbling Through Myriad Dreams Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_6501.png",
+    "sha256": "bc2ef00f081da68072f94e946ecb82e8a3fc82c31fe5b2796daaaa5cbe7e6959",
+    "importer": "reward-icons"
+  },
+  "material-icons/Examplary Believer Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_6101.png",
+    "sha256": "73048a6f202a1c58fc2b4da4db1d1aa5edc3ca482b0675be52496fa30644c3fb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furniM_act61d0_messageboard_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furniM_act61d0_messageboard_01.png",
+    "sha256": "1af30516f678e331850a951613403dcddee63eb10b0e1d129b4da659d23a92ab",
+    "importer": "reward-icons"
+  },
+  "material-icons/Professional Operator Training Invitation Letter.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/voucher_elite_II_4.png",
+    "sha256": "8d2a8e9bc617ad77e1b9e665a83f38f69f627deb54692c335b2cd5b03b39551f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Have A Good Meal Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_5401.png",
+    "sha256": "510f52fd89541c6bdbf2957925a2dfcec9481c61fe8caf9a8e921bd0fa45220f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Dawn Enkindlers Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5001.png",
+    "sha256": "7d7b51d5b6245f28cb9aac826225b42b44bf7c2ea97c8471a367afc72f6beb1f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_MA2020_rabbit_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_MA2020_rabbit_01.png",
+    "sha256": "e43cfc5504105fec1142ebb6e5d0c4ff752e7ed87dd3483685d2db4a7a9fd234",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_oct1st_seating_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_oct1st_seating_01.png",
+    "sha256": "d6000227163255c199be6dd5fddb2899c1d9be0f2d553ad0f6f771bcdc658488",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act9d0_walllamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act9d0_walllamp_01.png",
+    "sha256": "2f79bfc97ee6c7fb09a3f27e6d65e0476958d632eb9a5b926ab2afdfebacd776",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act9d0_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act9d0_carpet_01.png",
+    "sha256": "904603b59fa0d2895d3dbe69cafa78b92a9bd628b40ddcb9f20dfadcc95079f0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act9d0_bed_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act9d0_bed_01.png",
+    "sha256": "e601a678327a5d24df552270b026d44fd41d5f4281b391a527e2bac80ec2c14f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Half Year Anniversary Red Envelope.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/randomDiamondShd_1.png",
+    "sha256": "85be94c9a79ef31af4d254b78a56dcf1687aa423e3372d1f3f74d42eea23b8f1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NY2020_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NY2020_wallpaper_01.png",
+    "sha256": "520ff75e42bdb0b38ddbe299c8bdf39cd7b51d004200c16a3249e6fca61ebf32",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_NY2020_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_NY2020_floor_01.png",
+    "sha256": "cd9b12f9d3808034847a1d2494364b76856a08622967b72f4f35e098f4d0a754",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act38d0_Galleria_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act38d0_Galleria_01.png",
+    "sha256": "5ba0d9ed30652fe698c34a6ec85ada8e0faa0241e9b993354af79e53775c6a4b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Moon Night Homecoming Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_7001.png",
+    "sha256": "abd5b9641799c03c3ff921f79caa03aae2ded5d3c4cecce003670317b9f0c76a",
+    "importer": "reward-icons"
+  },
+  "material-icons/Traces of Melted Snow Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_6701.png",
+    "sha256": "5a6f0fc9a76a84578f349854965e04403dfc3e10b84078ecaac37d5bdc0cb5a2",
+    "importer": "reward-icons"
+  },
+  "material-icons/Ballad of Vagabonds Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_6401.png",
+    "sha256": "6b81f0cf6bd91da973e3f7e4f80017c38813481674ab62309701674485872d6d",
+    "importer": "reward-icons"
+  },
+  "material-icons/A Pleasant Banquet Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5801.png",
+    "sha256": "440e82c1aa87af2cf783cf22fdf46ace373fb1061d45e044468aa9b86c00696b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Tango Decadenza Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5601.png",
+    "sha256": "d0a8a9c0cb87733da9536f9883d91e8c90d5a29795b9c3f55b522e2ded8266ef",
+    "importer": "reward-icons"
+  },
+  "material-icons/Bright Glitter Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_5301.png",
+    "sha256": "222369602b3b01c0f5db2f6c9ebf7e99f8b666b56f7106b4e18e5b70b4a4a2aa",
+    "importer": "reward-icons"
+  },
+  "material-icons/Bountiful Harmony Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_4701.png",
+    "sha256": "76853ba2bc341569f7c28afabab2e280fc91f0cf0bee697d37d9beef20df8681",
+    "importer": "reward-icons"
+  },
+  "material-icons/Candleglow Sonata Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_4401.png",
+    "sha256": "fa4872fc87ef4ff687b529f0e81b51458b0d3a5dd3f7339ed768286a59c6191f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Footprints of the Clouds Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_4101.png",
+    "sha256": "85c9875a1c9eab820c438c9b2cfd40ebe9e87f0ebdb0c1c4e981ddbefab3a01c",
+    "importer": "reward-icons"
+  },
+  "material-icons/Preludes to the Future Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3801.png",
+    "sha256": "14931b2f00e1d34c9d672bb92dcaa12bdc241c0fb2976772897745a31e047e4f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Scouting the Light Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_3601.png",
+    "sha256": "66e37cff5eea257ba34b5369e24fbce5370d8f8e920e9cb451f599dad66d800f",
+    "importer": "reward-icons"
+  },
+  "material-icons/Winds of Millennia Unyielding Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3501.png",
+    "sha256": "709701786be970447430aad9ca55802f1ba5f26444b5a240af5c8c52483a52db",
+    "importer": "reward-icons"
+  },
+  "material-icons/Wolves Stalk Shadows Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3301.png",
+    "sha256": "6f22bf8e2ee25e94a76ec62d7bb8674d3205d4d3b9e510ba67316b0203ace62b",
+    "importer": "reward-icons"
+  },
+  "material-icons/Tempered into Poetry Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_3001.png",
+    "sha256": "1de25bec3fa917afdb0d554158df30345c3a007bfb0aea032cd274daf6c40475",
+    "importer": "reward-icons"
+  },
+  "material-icons/Lighthouse in Morning Mist Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2701.png",
+    "sha256": "017a86441e5537953a4b6c55b52d08fe89cbdb4c284cebf67581d78a477ba128",
+    "importer": "reward-icons"
+  },
+  "material-icons/Sing while Drinking Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2501.png",
+    "sha256": "187eee71647659489199e354d3f87054c1b0c19cb2993fb5bbe6d34752a742d3",
+    "importer": "reward-icons"
+  },
+  "material-icons/Flaming Radiance Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2301.png",
+    "sha256": "034ad8cfc5510446b78fe2afbed99e4e6a0f6c5deb418538f45f32b4947578e6",
+    "importer": "reward-icons"
+  },
+  "material-icons/Breaking Waves Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_2101.png",
+    "sha256": "d147b1ef1837af8821c737318badf092036a4c8c14b08c9c60a5a0a68bbab972",
+    "importer": "reward-icons"
+  },
+  "material-icons/Song of the Sea Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_1803.png",
+    "sha256": "6d4179646d5809124da02be11fad9764bd848ba01963089070d779b81931a269",
+    "importer": "reward-icons"
+  },
+  "material-icons/Tide on Sunset Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_1601.png",
+    "sha256": "993534834fb0ed13bddb559ca89141817cb7c70e583ab919e3df3fbfcdeae55e",
+    "importer": "reward-icons"
+  },
+  "material-icons/Memorial-Limited Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_1401.png",
+    "sha256": "e310beb1ba0a9270c5fec88ec5134e914fd17660213f8f737cadd1dde947ec88",
+    "importer": "reward-icons"
+  },
+  "material-icons/Awakening Commemoration Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_903.png",
+    "sha256": "fecc4a9eb019f0e0c3a9387c9fbd715d4b5d66b5f6ed19bec2cfee573651228a",
+    "importer": "reward-icons"
+  },
+  "material-icons/LINKAGE_TKT_GACHA_10_4801.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_4801.png",
+    "sha256": "0b463ae2b596432b420da087ab577f83c1133042ff064db8095008ae8494879c",
+    "importer": "reward-icons"
+  },
+  "material-icons/LINKAGE_TKT_GACHA_10_1701.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LINKAGE_TKT_GACHA_10_1701.png",
+    "sha256": "17792bacdb6b39336988929da55b2a569dc9379d5d7e492fe58d420e6aff8ff3",
+    "importer": "reward-icons"
   }
 }

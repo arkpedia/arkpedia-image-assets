@@ -25807,6 +25807,181 @@
       "sourcePath": "item/LIMITED_TKT_GACHA_10_7601.png",
       "sourceBlob": "f9c18f70b02212c63472fa8c090dec18130235fa",
       "maxWidth": 183
+    },
+    "material-icons/Top Operator Transfer Permit - Starter.webp": {
+      "sourcePath": "item/voucher_recruitR6_pick5301.png",
+      "sourceBlob": "65052f6e0ddc2595af3ea09f3e06206eb2994430",
+      "maxWidth": 183
+    },
+    "material-icons/Advanced Material Voucher.webp": {
+      "sourcePath": "item/advanced_material_issue_voucher.png",
+      "sourceBlob": "3728cea5281c3a2c8aadeda94fc35b9620d4e1dd",
+      "maxWidth": 183
+    },
+    "material-icons/Senior Operator Transfer Permit - Starter.webp": {
+      "sourcePath": "item/voucher_item_4pick1_5301.png",
+      "sourceBlob": "dfb9b01b5ed23bf7e5fc444d99124977ce5293ce",
+      "maxWidth": 183
+    },
+    "material-icons/Senior Operator Skill Training Pack.webp": {
+      "sourcePath": "item/voucher_skill_specialLevelMax_5.png",
+      "sourceBlob": "9d1a002f0e56ce529929581dccc4625cb5d719ff",
+      "maxWidth": 183
+    },
+    "material-icons/Professional Operator Skill Training Pack.webp": {
+      "sourcePath": "item/voucher_skill_specialLevelMax_4.png",
+      "sourceBlob": "6d41029b34ed94f8b060ed0680748065adf4d4a3",
+      "maxWidth": 183
+    },
+    "material-icons/Ballads Tumbling Through Myriad Dreams Headhunting Permit.webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_6501.png",
+      "sourceBlob": "e866a770214f2e6d7ff381d138f84e5bae1bfff0",
+      "maxWidth": 183
+    },
+    "material-icons/Examplary Believer Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_6101.png",
+      "sourceBlob": "1d51c4b225408a2b9bd29ff50e3a320eb55fb2a5",
+      "maxWidth": 183
+    },
+    "material-icons/Professional Operator Training Invitation Letter.webp": {
+      "sourcePath": "item/voucher_elite_II_4.png",
+      "sourceBlob": "21a27d76a6db53d6b0805e1cb3585154d63bcd61",
+      "maxWidth": 183
+    },
+    "material-icons/Have A Good Meal Headhunting Permit.webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_5401.png",
+      "sourceBlob": "c6f429fd6c5c18cdbadbb2fe20a9ebab534f9138",
+      "maxWidth": 183
+    },
+    "material-icons/Dawn Enkindlers Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_5001.png",
+      "sourceBlob": "fe13f8f935e4406ed7010c4e8de5aeab9e1d6a6f",
+      "maxWidth": 183
+    },
+    "material-icons/Half Year Anniversary Red Envelope.webp": {
+      "sourcePath": "item/randomDiamondShd_1.png",
+      "sourceBlob": "bcaa3846abcd40a4d5d900e2679e83489016bb7a",
+      "maxWidth": 183
+    },
+    "material-icons/Moon Night Homecoming Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_7001.png",
+      "sourceBlob": "46be199ba56bac796c6ff9d6db5afa88fc54d183",
+      "maxWidth": 183
+    },
+    "material-icons/Traces of Melted Snow Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_6701.png",
+      "sourceBlob": "20ff36618e0d6b5eaaea2d9741cd94814a80a58b",
+      "maxWidth": 183
+    },
+    "material-icons/Ballad of Vagabonds Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_6401.png",
+      "sourceBlob": "e7b486ca24e8d23470adc95b16428c2368698a2e",
+      "maxWidth": 183
+    },
+    "material-icons/A Pleasant Banquet Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_5801.png",
+      "sourceBlob": "6ab3b3cd3eb6fd7c68722cc69e130523afa15542",
+      "maxWidth": 183
+    },
+    "material-icons/Tango Decadenza Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_5601.png",
+      "sourceBlob": "5847321571defc3da124b94c238726f6019a709d",
+      "maxWidth": 183
+    },
+    "material-icons/Bright Glitter Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_5301.png",
+      "sourceBlob": "9d2697f93e8fa738f5eb69e4ceec0ec54a1b4930",
+      "maxWidth": 183
+    },
+    "material-icons/Bountiful Harmony Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_4701.png",
+      "sourceBlob": "160e24121d434c3403d4244a36dc37564102a22f",
+      "maxWidth": 183
+    },
+    "material-icons/Candleglow Sonata Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_4401.png",
+      "sourceBlob": "9a3b2982f6515cc41cd0e2c56241b91d24d34f76",
+      "maxWidth": 183
+    },
+    "material-icons/Footprints of the Clouds Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_4101.png",
+      "sourceBlob": "02761786dfaee8afd41b56b26a08987b9380c76e",
+      "maxWidth": 183
+    },
+    "material-icons/Preludes to the Future Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_3801.png",
+      "sourceBlob": "9724e6cc9e78dcadc69198a0b525dee4331d90c2",
+      "maxWidth": 183
+    },
+    "material-icons/Scouting the Light Headhunting Permit.webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_3601.png",
+      "sourceBlob": "5d3bf250bbe09e0e8d0f740cfd30157c59b9039c",
+      "maxWidth": 183
+    },
+    "material-icons/Winds of Millennia Unyielding Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_3501.png",
+      "sourceBlob": "886dc2da6ffe706b6f8794a5dfc86e702dbe2939",
+      "maxWidth": 183
+    },
+    "material-icons/Wolves Stalk Shadows Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_3301.png",
+      "sourceBlob": "56fb4327668bc9333a66b5614f8487e9eb80fb87",
+      "maxWidth": 183
+    },
+    "material-icons/Tempered into Poetry Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_3001.png",
+      "sourceBlob": "2c2e984d0c6255665bedbf7811d7b2174fc7e3ab",
+      "maxWidth": 183
+    },
+    "material-icons/Lighthouse in Morning Mist Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_2701.png",
+      "sourceBlob": "66cc4ba5ac0cc484ff708dadc74b9cd9309902ca",
+      "maxWidth": 183
+    },
+    "material-icons/Sing while Drinking Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_2501.png",
+      "sourceBlob": "756d752a2a1082b6b1c74f54f0b7dc7dd347bda1",
+      "maxWidth": 183
+    },
+    "material-icons/Flaming Radiance Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_2301.png",
+      "sourceBlob": "0ea8ae934764fa8e0b0b49cf1db91b840d875ea1",
+      "maxWidth": 183
+    },
+    "material-icons/Breaking Waves Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_2101.png",
+      "sourceBlob": "6be7e3f833b4e2cecafec34d0ea27ea3f47cf3da",
+      "maxWidth": 183
+    },
+    "material-icons/Song of the Sea Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_1803.png",
+      "sourceBlob": "2a3d82317ee8ee842b22fdd0c2acade279ea6c6f",
+      "maxWidth": 183
+    },
+    "material-icons/Tide on Sunset Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_1601.png",
+      "sourceBlob": "f6d66e4ee61c6dd57f9e16c6f7a817bb4e072246",
+      "maxWidth": 183
+    },
+    "material-icons/Memorial-Limited Headhunting Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_1401.png",
+      "sourceBlob": "492665838479a39f16953795818f5201c581dcbb",
+      "maxWidth": 183
+    },
+    "material-icons/Awakening Commemoration Permit.webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_903.png",
+      "sourceBlob": "ce99145d75623e6aff676ffa796d09a9e0019961",
+      "maxWidth": 183
+    },
+    "material-icons/LINKAGE_TKT_GACHA_10_4801.webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_4801.png",
+      "sourceBlob": "7218352ddff584525db213a1af8d470bdfce4000",
+      "maxWidth": 183
+    },
+    "material-icons/LINKAGE_TKT_GACHA_10_1701.webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_1701.png",
+      "sourceBlob": "2af4527de3bf79e3d81346af76ac596b063616dc",
+      "maxWidth": 183
     }
   },
   "namingSource": {
