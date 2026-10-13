@@ -25997,6 +25997,121 @@
       "sourcePath": "item/randomMaterial_4.png",
       "sourceBlob": "72a3acf4593695b1d97cb8c88ea191a9588ed64a",
       "maxWidth": 183
+    },
+    "material-icons/2003.webp": {
+      "sourcePath": "item/sprite_exp_card_t3.png",
+      "sourceBlob": "dce123c5e8a530f63043e9d2fcb36d02c299989a",
+      "maxWidth": 183
+    },
+    "material-icons/2004.webp": {
+      "sourcePath": "item/sprite_exp_card_t4.png",
+      "sourceBlob": "c9a09bc9b7c81d8a509c4c07ef00bb6653866414",
+      "maxWidth": 183
+    },
+    "material-icons/30013.webp": {
+      "sourcePath": "item/MTL_SL_G3.png",
+      "sourceBlob": "c203fc988641325b5f8fd7eef18ab7f081b1c0bf",
+      "maxWidth": 183
+    },
+    "material-icons/30023.webp": {
+      "sourcePath": "item/MTL_SL_STRG3.png",
+      "sourceBlob": "387992a5648482a903c864eb30086c95e38f860d",
+      "maxWidth": 183
+    },
+    "material-icons/3003.webp": {
+      "sourcePath": "item/MTL_GOLD3.png",
+      "sourceBlob": "d1b66a455b603d9ca29773979164803babed50a4",
+      "maxWidth": 183
+    },
+    "material-icons/31033.webp": {
+      "sourcePath": "item/MTL_SL_OC3.png",
+      "sourceBlob": "721103fcca400f6a0df1a300b86109e28acdaeee",
+      "maxWidth": 183
+    },
+    "material-icons/32001.webp": {
+      "sourcePath": "item/MTL_ASC_DI.png",
+      "sourceBlob": "5791cb31788f9ee84ff487f32c2ccbade031a2b2",
+      "maxWidth": 183
+    },
+    "material-icons/3272.webp": {
+      "sourcePath": "item/MTL_ASC_SUP2.png",
+      "sourceBlob": "5556cd27263979cc38c98c6661685261e6d86325",
+      "maxWidth": 183
+    },
+    "material-icons/3301.webp": {
+      "sourcePath": "item/MTL_SKILL1.png",
+      "sourceBlob": "6977bc40c04975a0d36fa27986879308fe6fcd29",
+      "maxWidth": 183
+    },
+    "material-icons/3302.webp": {
+      "sourcePath": "item/MTL_SKILL2.png",
+      "sourceBlob": "48ca15be2c2a52b0dc719ef2958907865d7902d0",
+      "maxWidth": 183
+    },
+    "material-icons/3303.webp": {
+      "sourcePath": "item/MTL_SKILL3.png",
+      "sourceBlob": "c132cbf635ba7706bce02b581b8d1ae2852a45b2",
+      "maxWidth": 183
+    },
+    "material-icons/3401.webp": {
+      "sourcePath": "item/COIN_FURN.png",
+      "sourceBlob": "2c3621f740bf7b644ca39066b26d8bdd0db49fcb",
+      "maxWidth": 183
+    },
+    "material-icons/4001.webp": {
+      "sourcePath": "item/GOLD.png",
+      "sourceBlob": "2f7691a1af0cf8f247829dccd231696b7e951e93",
+      "maxWidth": 183
+    },
+    "material-icons/4002.webp": {
+      "sourcePath": "item/DIAMOND.png",
+      "sourceBlob": "64d75d7648ad609e5ab1031295e7ef009a07b55f",
+      "maxWidth": 183
+    },
+    "material-icons/4003.webp": {
+      "sourcePath": "item/DIAMOND_SHD.png",
+      "sourceBlob": "b1d1f8740ec0a11dc96bfbfaeed2612826f380b6",
+      "maxWidth": 183
+    },
+    "material-icons/7001.webp": {
+      "sourcePath": "item/TKT_RECRUIT.png",
+      "sourceBlob": "c2108f881fe13b19942d1123df093d9336b8dcf9",
+      "maxWidth": 183
+    },
+    "material-icons/7002.webp": {
+      "sourcePath": "item/TKT_INST_FIN.png",
+      "sourceBlob": "0f1578405285c735c383c0c70781638cef2c1704",
+      "maxWidth": 183
+    },
+    "material-icons/7003.webp": {
+      "sourcePath": "item/TKT_GACHA.png",
+      "sourceBlob": "6c2428ff114bd306ffeab3dd4f3349db3c5c1f6a",
+      "maxWidth": 183
+    },
+    "material-icons/ap_supply_lt_100.webp": {
+      "sourcePath": "item/ap_supply_lt_100.png",
+      "sourceBlob": "b967a50c6724f105b09cc735a21a8e82e1a475a8",
+      "maxWidth": 183
+    },
+    "material-icons/ap_supply_lt_120.webp": {
+      "sourcePath": "item/ap_supply_lt_120.png",
+      "sourceBlob": "8e52d5bc942fac6a81a16821ae1ceb07ccb66637",
+      "maxWidth": 183
+    },
+    "material-icons/mod_unlock_token.webp": {
+      "sourcePath": "item/mod_unlock_token.png",
+      "sourceBlob": "197757ac8f2fc90299534c32e9756f63a14ceca5",
+      "maxWidth": 183
+    },
+    "material-icons/mod_update_token_1.webp": {
+      "sourcePath": "item/mod_update_token_1.png",
+      "sourceBlob": "06a52d5eccb78cdc55fc9651509d5f8893beddae",
+      "maxWidth": 183
+    },
+    "material-icons/mod_update_token_2.webp": {
+      "sourcePath": "item/mod_update_token_2.png",
+      "sourceBlob": "e6c145c4d6cb7d541d6c1b21bf3dc0714ab96f5e",
+      "maxWidth": 183
     }
   },
   "namingSource": {
