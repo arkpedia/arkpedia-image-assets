@@ -181,5 +181,46 @@ class SourceTests(unittest.TestCase):
             self.assertEqual(json.loads((root / 'retired-assets.json').read_text()), retired)
 
 
+# The wiki's Kernel Locating #13 row as its 2026 page will carry it (the official Global post of
+# 2026-10-09 announces 2026/10/20-11/03); no stage published Kernel Locating art before.
+LOCATING_PAGE = {'parse': {'title': 'Headhunting/Banners/2026', 'wikitext': {'*': '{{Banners cell\n|type = kernel locating\n|no = 13\n'
+    '|start = 2026/10/20 04:00:00\n|end = 2026/11/03 03:59:59\n|operators1 = A, B\n|operators2 = C, D, E}}'}}}
+LOCATING_TARGET = 'headhunting-banner-images/Kernel Locating 13 (Global).webp'
+LOCATING_INFO = {'batchcomplete': '', 'query': {'pages': {'1': {'title': 'File:EN Kernel Locating 13 banner.png',
+    'imageinfo': [{'url': 'https://arknights.wiki.gg/images/EN_Kernel_Locating_13_banner.png', 'sha1': 'b' * 40}]}}}}
+
+
+class KernelLocatingTests(unittest.TestCase):
+    def test_kernel_locating_rows_are_read(self):
+        self.assertEqual(list(rows(LOCATING_PAGE['parse']['wikitext']['*'])), [('kernel locating', '13', dt.date(2026, 10, 20), dt.date(2026, 11, 3))])
+
+    def test_its_wiki_upload_is_published_under_the_name_the_site_records(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'asset-manifest.json').write_text(json.dumps({'files': {}}))
+            with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=dt.date(2026, 10, 19)), \
+                    patch('sync_recurring_banner_art.fetch', side_effect=[LOCATING_PAGE, LOCATING_INFO]) as fetch, \
+                    patch('sync_recurring_banner_art.download', return_value=b'locating') as download, patch('subprocess.run'), \
+                    contextlib.redirect_stdout(io.StringIO()):
+                sync_recurring_banner_art.main()
+            self.assertEqual(fetch.call_args.args[0]['titles'], 'File:EN Kernel Locating 13 banner.png')
+            download.assert_called_once_with('https://arknights.wiki.gg/images/EN_Kernel_Locating_13_banner.png')
+            files = json.loads((root / 'asset-manifest.json').read_text())['files']
+            self.assertEqual(files[LOCATING_TARGET]['sha256'], hashlib.sha256(b'locating').hexdigest())
+            self.assertEqual(json.loads((root / 'sources/recurring-banner-art.json').read_text()), {LOCATING_TARGET: 'b' * 40})
+
+    def test_a_retired_kernel_locating_path_needs_the_same_approval(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'asset-manifest.json').write_text(json.dumps({'files': {}}))
+            retired = {'schemaVersion': 1, 'paths': {LOCATING_TARGET: {'reason': 'Removed interim art'}}}
+            (root / 'retired-assets.json').write_text(json.dumps(retired))
+            with patch('sync_recurring_banner_art.ROOT', root), patch('sync_recurring_banner_art.utc_today', return_value=dt.date(2026, 10, 19)), \
+                    patch('sync_recurring_banner_art.fetch', side_effect=[LOCATING_PAGE, LOCATING_INFO]), \
+                    patch('sync_recurring_banner_art.download') as download, self.assertRaisesRegex(ValueError, 'retired without approval'):
+                sync_recurring_banner_art.main()
+            download.assert_not_called()
+
+
 if __name__ == '__main__':
     unittest.main()

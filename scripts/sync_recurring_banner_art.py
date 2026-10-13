@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish current Standard and Kernel banner art from the EN wiki uploads.
+"""Publish current Standard, Kernel and Kernel Locating banner art from the EN wiki uploads.
 
 Recurring banners are not present in the public resource mirror used by
 sync_images.py. Their structured yearly wiki rows name the banner number and
@@ -78,12 +78,19 @@ def wikitext(today):
     return text
 
 
+# A row's type and the name both its wiki upload (File:EN <prefix> <no> banner.png) and the
+# published file (headhunting-banner-images/<prefix> <no> (Global).webp) use. Kernel Locating
+# was left out, so #13 (2026/10/20) had no way in; the app's records already name
+# 'Kernel Locating <no> (Global).webp', as #1-#12 from the bulk import do.
+PREFIX = {'standard': 'Standard Pool', 'kernel': 'Kernel', 'kernel locating': 'Kernel Locating'}
+
+
 def rows(text):
     for block in re.findall(r'\{\{Banners cell\s*([\s\S]*?)\}\}', text):
         fields = dict(re.findall(r'^\s*\|\s*([^=]+?)\s*=\s*(.*?)\s*$', block, re.M))
         kind = fields.get('type', '').strip()
         number = fields.get('no', '').strip()
-        if kind not in {'standard', 'kernel'} or not number.isdigit():
+        if kind not in PREFIX or not number.isdigit():
             continue
         try:
             start = datetime.datetime.strptime(fields['start'].split()[0], '%Y/%m/%d').date()
@@ -136,7 +143,7 @@ def main():
     for kind, number, start, end in rows(text):
         if start > today + SOON or end < today - RECENT:
             continue
-        prefix = 'Standard Pool' if kind == 'standard' else 'Kernel'
+        prefix = PREFIX[kind]
         target = f'headhunting-banner-images/{prefix} {number} (Global).webp'
         title = f'File:EN {prefix} {number} banner.png'
         info = image_info(title)

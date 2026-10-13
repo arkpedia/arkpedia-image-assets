@@ -78,7 +78,7 @@ jobs:
       - name: Test yearly banner page handling
         run: python -m unittest discover -s scripts -p 'test_recurring_banner_art.py'
       # Only the wiki's upload (Yostar's official art); a banner without one has no art yet.
-      - name: Sync recurring Standard and Kernel banner art
+      - name: Sync recurring Standard, Kernel and Kernel Locating banner art
         run: python scripts/sync_recurring_banner_art.py
       - name: Validate changed media and complete inventory
         run: python scripts/validate_images.py --staged
