@@ -25982,6 +25982,21 @@
       "sourcePath": "item/LINKAGE_TKT_GACHA_10_1701.png",
       "sourceBlob": "2af4527de3bf79e3d81346af76ac596b063616dc",
       "maxWidth": 183
+    },
+    "material-icons/Bounty Coin.webp": {
+      "sourcePath": "item/1stact.png",
+      "sourceBlob": "4261a22f8f7aa176524edd044b628a3c90e09e6a",
+      "maxWidth": 183
+    },
+    "material-icons/randomMaterial_5d5.webp": {
+      "sourcePath": "item/randomMaterial_4.png",
+      "sourceBlob": "72a3acf4593695b1d97cb8c88ea191a9588ed64a",
+      "maxWidth": 183
+    },
+    "material-icons/randomMaterial_6d5.webp": {
+      "sourcePath": "item/randomMaterial_4.png",
+      "sourceBlob": "72a3acf4593695b1d97cb8c88ea191a9588ed64a",
+      "maxWidth": 183
     }
   },
   "namingSource": {
