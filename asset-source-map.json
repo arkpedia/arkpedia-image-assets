@@ -26112,6 +26112,21 @@
       "sourcePath": "item/mod_update_token_2.png",
       "sourceBlob": "e6c145c4d6cb7d541d6c1b21bf3dc0714ab96f5e",
       "maxWidth": 183
+    },
+    "base-skill-icons/Homebound - Beachcomber.webp": {
+      "sourcePath": "building_skill/bskill_recycle_spd&cost2.png",
+      "sourceBlob": "ff2dc8e895fe8872c4b866acbffd69911c1627b8",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Homebound - Light at the Fingertips.webp": {
+      "sourcePath": "building_skill/bskill_ws_Refractor.png",
+      "sourceBlob": "545ec1054d1b3ff84ff240741c091dc9989b4bdd",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Homebound - Scavenger.webp": {
+      "sourcePath": "building_skill/bskill_recycle_spd&cost1.png",
+      "sourceBlob": "954f3446e7a62e0b5f682b3a94ae74777ab919c6",
+      "maxWidth": 128
     }
   },
   "namingSource": {
