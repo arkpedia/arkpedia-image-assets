@@ -26172,6 +26172,146 @@
       "sourcePath": "avatar/npc_025_patriot.png",
       "maxWidth": 180,
       "sourceBlob": "0cde686d0686b392ba6920c6348acd317fa4b29c"
+    },
+    "base-skill-icons/Closure - Special Order.webp": {
+      "sourcePath": "building_skill/bskill_tra_closure.png",
+      "sourceBlob": "292e6d1e923774689b8f58664539f6b4163c7478",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Crackborne - 'Round the Clock'.webp": {
+      "sourcePath": "building_skill/bskill_man_exp&spd&cost1.png",
+      "sourceBlob": "2eded3e3b82889442222af3add65f1818a0631e5",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Crackborne - A Rare Rest.webp": {
+      "sourcePath": "building_skill/bskill_dorm_one1.png",
+      "sourceBlob": "ad1fad1e5a9513be6c44b4ed880469f551e7626c",
+      "maxWidth": 128
+    },
+    "base-skill-icons/GALLUS² - Clucktivation Mechanism.webp": {
+      "sourcePath": "building_skill/bskill_power_rec_spd_ext&tag.png",
+      "sourceBlob": "5b9b99f39524ca588c45079b986d1573edc8d7c6",
+      "maxWidth": 128
+    },
+    "base-skill-icons/GALLUS² - Clucktrical Engineering.webp": {
+      "sourcePath": "building_skill/bskill_pow_spd1.png",
+      "sourceBlob": "94d0067d6c6601464eae13de194e9f2fb4c23e43",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Kal'tsit Esperanta - 'Terra's Ark'.webp": {
+      "sourcePath": "building_skill/bskill_hire_kalts2.png",
+      "sourceBlob": "7d6017a06b7b1d3472ee08d61c98a11d7e60df84",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Kal'tsit Esperanta - Technical Elucidation.webp": {
+      "sourcePath": "building_skill/bskill_ws_p5.png",
+      "sourceBlob": "ebf0126e82fde231d7642807ea2d4f2ad6451716",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Kal'tsit Esperanta - Theoretical Innovation.webp": {
+      "sourcePath": "building_skill/bskill_ws_p_kalts2.png",
+      "sourceBlob": "0c811f8ea6fd2e20c608302824f6c588b8e3a8e8",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Pramanix - Karlan Saintess.webp": {
+      "sourcePath": "building_skill/bskill_dorm_single&one22.png",
+      "sourceBlob": "9641fc68bf1e8173056676c0ec1268fcdc146660",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Viy - 'I Don't Get It'.webp": {
+      "sourcePath": "building_skill/bskill_train_caster&vanguard1.png",
+      "sourceBlob": "3e9555c3ceacfea04cb415112babdb7665dc973a",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Viy - 'Learning By Analogy'.webp": {
+      "sourcePath": "building_skill/bskill_train_caster&vanguard2.png",
+      "sourceBlob": "8bff7cb4b09d3635861e22e118b3b6b32e3ea76c",
+      "maxWidth": 128
+    },
+    "material-icons/Energy Accumulation Motor Unit.webp": {
+      "sourcePath": "item/MTL_SL_DJ4.png",
+      "sourceBlob": "46eb2ef6fb8ab3a3a6cc97cf8c6bdfdf43878267",
+      "maxWidth": 183
+    },
+    "material-icons/Liquefied Ether Adsorbent.webp": {
+      "sourcePath": "item/MTL_SL_YHT4.png",
+      "sourceBlob": "96b835168506d15595ae7760b7d91e5af390240a",
+      "maxWidth": 183
+    },
+    "material-icons/Liquefied High-Energy Gas.webp": {
+      "sourcePath": "item/MTL_SL_YHT.png",
+      "sourceBlob": "38022b0d5ee2855becc76dbbd62bdfbb7d3f37ea",
+      "maxWidth": 183
+    },
+    "one-star-icons/GALLUS² - Base.webp": {
+      "sourcePath": "avatar/char_4227_gallus.png",
+      "sourceBlob": "75950d79828883c07ac5f8bcbd5000cef47cf60e",
+      "maxWidth": 180
+    },
+    "six-star-icons/Kal'tsit Esperanta - Base.webp": {
+      "sourcePath": "avatar/char_1052_kalts2.png",
+      "sourceBlob": "81aaa68e29ffe8cd8837ff955cef2ef2cc076bf1",
+      "maxWidth": 180
+    },
+    "six-star-icons/Kal'tsit Esperanta - Elite 2.webp": {
+      "sourcePath": "avatar/char_1052_kalts2_2.png",
+      "sourceBlob": "0e53399b08d6a3071436767f9ee3b03ac8c2dfad",
+      "maxWidth": 180
+    },
+    "six-star-icons/Mon3tr - Sharpened Claws.webp": {
+      "sourcePath": "avatar/char_4179_monstr_boc#11.png",
+      "sourceBlob": "b0d8f5196860247dec236e6eb7ec265ce0a32e27",
+      "maxWidth": 180
+    },
+    "skill-icons/Closure - Model Expansion.webp": {
+      "sourcePath": "skill/skill_icon_skchr_closur_2.png",
+      "sourceBlob": "e6eca5d3d5b13f29d38fd08bc58da46f5aa0fe64",
+      "maxWidth": 128
+    },
+    "skill-icons/Closure - Recursive Tactics.webp": {
+      "sourcePath": "skill/skill_icon_skchr_closur_1.png",
+      "sourceBlob": "8b422aa50ff168523956b0f9ed076dc1af520473",
+      "maxWidth": 128
+    },
+    "skill-icons/Crackborne - Cracking Dam.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tanya_2.png",
+      "sourceBlob": "96ada4ef438336271ca71748c6e2ae4909423dd0",
+      "maxWidth": 128
+    },
+    "skill-icons/Crackborne - Decontamination.webp": {
+      "sourcePath": "skill/skill_icon_skchr_tanya_1.png",
+      "sourceBlob": "dac664fe64575d5c0a5590ebdf6ace15eb464b4b",
+      "maxWidth": 128
+    },
+    "skill-icons/Kal'tsit Esperanta - Kriza Responda Bastiono.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kalts2_1.png",
+      "sourceBlob": "491809d30c7d5a5ec9c07d636fdd1298e26d5a72",
+      "maxWidth": 128
+    },
+    "skill-icons/Kal'tsit Esperanta - Renaskiĝo Malkatena.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kalts2_3.png",
+      "sourceBlob": "fddc2c3c9a75469777ca0b48dc4fb9660906928f",
+      "maxWidth": 128
+    },
+    "skill-icons/Kal'tsit Esperanta - Repuŝado Defenda.webp": {
+      "sourcePath": "skill/skill_icon_skchr_kalts2_2.png",
+      "sourceBlob": "1a08a68c5529e304c3ac20671f6161bdda12de3c",
+      "maxWidth": 128
+    },
+    "skill-icons/Viy - 'By Blood Cleansed'.webp": {
+      "sourcePath": "skill/skill_icon_skchr_veen_2.png",
+      "sourceBlob": "7983a0f1b6291c55cb68fb5d537e3ed6071a4616",
+      "maxWidth": 128
+    },
+    "skill-icons/Viy - 'From Wailing Born'.webp": {
+      "sourcePath": "skill/skill_icon_skchr_veen_1.png",
+      "sourceBlob": "3cb2b6238724bce123dba67dff9b5964ebd60472",
+      "maxWidth": 128
+    },
+    "skill-icons/Viy - 'With Iron Engraved'.webp": {
+      "sourcePath": "skill/skill_icon_skchr_veen_3.png",
+      "sourceBlob": "287da409ad0813f0e9cd77d0080294197b3030ea",
+      "maxWidth": 128
     }
   },
   "namingSource": {

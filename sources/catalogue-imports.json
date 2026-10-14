@@ -6451,5 +6451,117 @@
   "base-skill-icons/Homebound - Scavenger.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_recycle_spd%26cost1.png",
     "sha256": "a36cb80841e2a3e8ebefbe53a48c06a528bb5aab90ffeade8c94616969829b97"
+  },
+  "base-skill-icons/Closure - Special Order.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_tra_closure.png",
+    "sha256": "850cb75d92babc94e04a43207315dd25466640538b32ca0a15ed5bc658728b35"
+  },
+  "base-skill-icons/Crackborne - 'Round the Clock'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_man_exp%26spd%26cost1.png",
+    "sha256": "516b93bda27875475e02623879f26315244628eebb9fa76cac8b6ac36d0de609"
+  },
+  "base-skill-icons/Crackborne - A Rare Rest.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_dorm_one1.png",
+    "sha256": "79f3266e2c5ab4bc04059fa9f3db5c1958b38492ff173ae4359fc3111a68cb23"
+  },
+  "base-skill-icons/GALLUS² - Clucktivation Mechanism.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_power_rec_spd_ext%26tag.png",
+    "sha256": "18ddd9ceec3d462ed2d67db53e4a134a06396f69bad5edc161431e76cdc14391"
+  },
+  "base-skill-icons/GALLUS² - Clucktrical Engineering.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_pow_spd1.png",
+    "sha256": "3842966b24ccf0fb6a3dae33eac3ea6ea8a2fd67f08839dcc46364bbd9facbca"
+  },
+  "base-skill-icons/Kal'tsit Esperanta - 'Terra's Ark'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_hire_kalts2.png",
+    "sha256": "a4a808d0b9b8e087ca06e4006c4a3f3f9a178ccfd43c5b44c16ef210270bceb1"
+  },
+  "base-skill-icons/Kal'tsit Esperanta - Technical Elucidation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_ws_p5.png",
+    "sha256": "e44ad90aaedbb73568a27a5a85d9a11f2414c7306c81c7f6662e9b39f40ae29b"
+  },
+  "base-skill-icons/Kal'tsit Esperanta - Theoretical Innovation.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_ws_p_kalts2.png",
+    "sha256": "3d6e5b85f59fe82b1b26aa58c11dc1e00773b8214b8c10a214b14a160a847516"
+  },
+  "base-skill-icons/Pramanix - Karlan Saintess.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_dorm_single%26one22.png",
+    "sha256": "ed58d82080b9fe7c2d652acf16aeb097d38976e2f4936f89f9069950604f9767"
+  },
+  "base-skill-icons/Viy - 'I Don't Get It'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_train_caster%26vanguard1.png",
+    "sha256": "ec9d0e421f6b6f6d8594e2058ce66ceee512efcb2d305f8ab0c79247efefb891"
+  },
+  "base-skill-icons/Viy - 'Learning By Analogy'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/building_skill/bskill_train_caster%26vanguard2.png",
+    "sha256": "e2ed908d619f987c97ce189c3c7d16c4abd5a30f5f7d5f232d27a1bf7d44cbb9"
+  },
+  "material-icons/Energy Accumulation Motor Unit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/MTL_SL_DJ4.png",
+    "sha256": "6f1e516e7a16333ce6f0057188c8a270b34af3329101125b6302092a694c6ed5"
+  },
+  "material-icons/Liquefied Ether Adsorbent.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/MTL_SL_YHT4.png",
+    "sha256": "f49a6e20dbbf56861d85ffd8cf3dc8b6a790402cdb2cd577f2807e17bc382658"
+  },
+  "material-icons/Liquefied High-Energy Gas.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/MTL_SL_YHT.png",
+    "sha256": "0b368bfad72042951bb5c1913797dd74e2a2c7cd27f3e820d3ad67d8df087c20"
+  },
+  "one-star-icons/GALLUS² - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4227_gallus.png",
+    "sha256": "d7f5488dc14134fae304c5bd15fadd3a3fe845cb27ab2e9fc3988cbb11013c20"
+  },
+  "six-star-icons/Kal'tsit Esperanta - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_1052_kalts2.png",
+    "sha256": "2d6f4399a68d27b1e8cd798ebee4e1b509ff89e2611f9ed68f31ab7e805c7323"
+  },
+  "six-star-icons/Kal'tsit Esperanta - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_1052_kalts2_2.png",
+    "sha256": "36a8d206287f4deacd759d48aa1adb6f25ca342525d7936ead7d84d623145058"
+  },
+  "six-star-icons/Mon3tr - Sharpened Claws.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4179_monstr_boc%2311.png",
+    "sha256": "52df17514cb3aff817f0006adfbe36f3dc6aa020704ae421102c0ee5a691e0b8"
+  },
+  "skill-icons/Closure - Model Expansion.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_closur_2.png",
+    "sha256": "6bde6d90830274236ad80c65a6418a87804d898711bfc55ea7c3a979a9ad2d36"
+  },
+  "skill-icons/Closure - Recursive Tactics.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_closur_1.png",
+    "sha256": "5029ceff7ad2c33d5bb983a99b3cbe3c7eebcebd41f44da0f3e8eac594140feb"
+  },
+  "skill-icons/Crackborne - Cracking Dam.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_tanya_2.png",
+    "sha256": "7ccae051c6d94f5100978b463ebf3bbfc7193d62c78800e773486fa5ec287f7d"
+  },
+  "skill-icons/Crackborne - Decontamination.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_tanya_1.png",
+    "sha256": "5430d1fdf7aa7494b960c55c0226cb248ee16b824fd12e5e632592c70a53bed0"
+  },
+  "skill-icons/Kal'tsit Esperanta - Kriza Responda Bastiono.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_kalts2_1.png",
+    "sha256": "e1e611f1103f53224414d203adcca4b0143f46ffd093e1e80b9ee65c278d255e"
+  },
+  "skill-icons/Kal'tsit Esperanta - Renaskiĝo Malkatena.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_kalts2_3.png",
+    "sha256": "7942ae070074533f7352bdcf5cb7e459a15a2d849026b1fc839e516354c49f61"
+  },
+  "skill-icons/Kal'tsit Esperanta - Repuŝado Defenda.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_kalts2_2.png",
+    "sha256": "1811c6e21bb8b15b1a0a2b9a1fb5c0c49761c247f01c863e41a70e93b0e3d9d7"
+  },
+  "skill-icons/Viy - 'By Blood Cleansed'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_veen_2.png",
+    "sha256": "a1e920ff1266a671c4789182c9d404db47e7bde890dd3029af3730bf567de63f"
+  },
+  "skill-icons/Viy - 'From Wailing Born'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_veen_1.png",
+    "sha256": "02069d413355adbf1865611311a99c7987e912bfecfab0a511b69b5d5d4e3000"
+  },
+  "skill-icons/Viy - 'With Iron Engraved'.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_veen_3.png",
+    "sha256": "f2118c5a721e6ba74416ea324584278f0caf2cea94ba14471b98ce0985051e7e"
   }
 }
