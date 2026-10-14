@@ -1,0 +1,75 @@
+{
+  "npc-icons/Alty.webp": {
+    "title": "File:Alty.png",
+    "url": "https://arknights.wiki.gg/images/Alty.png?e92e09",
+    "wikiSha1": "e92e09d22b87652afcd2db118089b66987c72dda",
+    "sha256": "e1c14c8a07d429608454fef3795614686574c61398ce2368b0cf5698f64c8213",
+    "processing": "the face cropped from the 1024x1024 story sprite, box (left, top, size) = (375, 20, 220), scaled to 180x180 WebP"
+  },
+  "npc-icons/Aya.webp": {
+    "title": "File:Aya.png",
+    "url": "https://arknights.wiki.gg/images/Aya.png?bb7739",
+    "wikiSha1": "bb77399bbe12156c613bbaaaf0b2677ddd8ed64a",
+    "sha256": "c997e36c681af4a77b7e2369cfddd79b20793120e92003ce5363b8d2497896b9",
+    "processing": "the face cropped from the 1024x1024 story sprite, box (left, top, size) = (390, 10, 220), scaled to 180x180 WebP"
+  },
+  "npc-icons/Dan.webp": {
+    "title": "File:Dan.png",
+    "url": "https://arknights.wiki.gg/images/Dan.png?cedcb7",
+    "wikiSha1": "cedcb7e3c8a6cc4a4bad3e120d99027135698ad5",
+    "sha256": "b46c4d846da1d0ae6d65cc6589a05e55a6c2945c0746e2d536b8d15791180905",
+    "processing": "the face cropped from the 1024x1024 story sprite, box (left, top, size) = (385, 25, 220), scaled to 180x180 WebP"
+  },
+  "npc-icons/Doctor.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/npc_001_doctor.png",
+    "sha256": "8ed5176fd990fcae32ce505e9b05d5e8661d14277ee1866ce776878732d610e4",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Emperor.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/npc_105_emperor.png",
+    "sha256": "eb6cb5c74f96b3beca0e8f34e00a379648a4b3f7c4c910fee1c17463e2c24ba9",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Frost (Alive Until Sunset).webp": {
+    "title": "File:Frost (Alive Until Sunset).png",
+    "url": "https://arknights.wiki.gg/images/Frost_%28Alive_Until_Sunset%29.png?c6eabf",
+    "wikiSha1": "c6eabf96b1d4d790afbfd848e05f06c719cab0bd",
+    "sha256": "e3c9b5845d83850b2a91ea4bff115ed8db1d76461114fa141daa9bae74a8a78e",
+    "processing": "the face cropped from the 1024x1024 story sprite, box (left, top, size) = (370, 30, 220), scaled to 180x180 WebP"
+  },
+  "npc-icons/Misery.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_615_acspec.png",
+    "sha256": "9faf83078530415b61175f0f1684503d33375f0e71ec756cd393dcad147390e3",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Patriot.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/npc_025_patriot.png",
+    "sha256": "021252629fd417234a2418ea3afcc6f72b5e05cb5f46b17a82203a3467323371",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Rat King.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/npc_111_mousek.png",
+    "sha256": "bc6938c3c98fa38183a5ddb77b3d963f526be35609346a60dc0d55fe613175be",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Sharp.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_508_aguard.png",
+    "sha256": "969e8fa3bc9c48347915e31526cead9a0a183584480e26c8c0584738172f5edf",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Theresa.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/npc_1296_tersia.png",
+    "sha256": "211eb81a073dcabf89d9c7397e2414161d6c8ff87fd3dfc3a6a5a3d080aa39b5",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Theresis.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/npc_1297_theresis.png",
+    "sha256": "6c5e1078ef193fc9e0918e9e284ff6f1b141506acf7fb5135e86647349e76146",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  },
+  "npc-icons/Touch.webp": {
+    "source": "https://github.com/yuanyan3060/ArknightsGameResource/blob/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_510_amedic.png",
+    "sha256": "dcd867a52c23066a4af20af6c3b2b9130e372a775597065106898b8785742b66",
+    "processing": "encoded as the mirror sync encodes avatars (180x180 WebP)"
+  }
+}

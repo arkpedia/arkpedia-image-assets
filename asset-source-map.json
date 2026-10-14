@@ -26127,6 +26127,42 @@
       "sourcePath": "building_skill/bskill_recycle_spd&cost1.png",
       "sourceBlob": "954f3446e7a62e0b5f682b3a94ae74777ab919c6",
       "maxWidth": 128
+    },
+    "npc-icons/Doctor.webp": {
+      "sourcePath": "avatar/npc_001_doctor.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Theresis.webp": {
+      "sourcePath": "avatar/npc_1297_theresis.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Theresa.webp": {
+      "sourcePath": "avatar/npc_1296_tersia.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Rat King.webp": {
+      "sourcePath": "avatar/npc_111_mousek.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Touch.webp": {
+      "sourcePath": "avatar/char_510_amedic.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Sharp.webp": {
+      "sourcePath": "avatar/char_508_aguard.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Misery.webp": {
+      "sourcePath": "avatar/char_615_acspec.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Emperor.webp": {
+      "sourcePath": "avatar/npc_105_emperor.png",
+      "maxWidth": 180
+    },
+    "npc-icons/Patriot.webp": {
+      "sourcePath": "avatar/npc_025_patriot.png",
+      "maxWidth": 180
     }
   },
   "namingSource": {
