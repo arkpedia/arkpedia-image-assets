@@ -26130,44 +26130,53 @@
     },
     "npc-icons/Doctor.webp": {
       "sourcePath": "avatar/npc_001_doctor.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "f1e49531413b4af2e87b9ac04a4c126add28fd8a"
     },
     "npc-icons/Theresis.webp": {
       "sourcePath": "avatar/npc_1297_theresis.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "aec104105a65d6392bdf282a44661bc0c4c7b878"
     },
     "npc-icons/Theresa.webp": {
       "sourcePath": "avatar/npc_1296_tersia.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "d6fadc22d9a8d99f56eea6a298364bd2222f6c20"
     },
     "npc-icons/Rat King.webp": {
       "sourcePath": "avatar/npc_111_mousek.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "065167ff690bf5eda72c90175808631700e94711"
     },
     "npc-icons/Touch.webp": {
       "sourcePath": "avatar/char_510_amedic.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "588ac25ff148d0b542fc2236d9fce4144cd99e87"
     },
     "npc-icons/Sharp.webp": {
       "sourcePath": "avatar/char_508_aguard.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "d40842990837869d7e075adadc662238247c2afc"
     },
     "npc-icons/Misery.webp": {
       "sourcePath": "avatar/char_615_acspec.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "47e911f36afb4aadcd3750fd2fe4240b7bbd1866"
     },
     "npc-icons/Emperor.webp": {
       "sourcePath": "avatar/npc_105_emperor.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "d611a4acefb53e7b6af661bee0c4f9eee6c49c3e"
     },
     "npc-icons/Patriot.webp": {
       "sourcePath": "avatar/npc_025_patriot.png",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "sourceBlob": "0cde686d0686b392ba6920c6348acd317fa4b29c"
     }
   },
   "namingSource": {
     "repository": "Kengxxiao/ArknightsGameData_YoStar",
     "revision": "57010cb5b2afea112cae57daa756b58676ba6850"
   },
-  "lastSyncedCommit": "abf56c57d616c034cec02a869eb7d62cc7a32212"
+  "lastSyncedCommit": "9bf239661e37766fba585806fb9fa67e79bb679e"
 }
