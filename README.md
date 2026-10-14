@@ -10,6 +10,7 @@ Icons, banner art, event art, and other image media used by [Arkpedia](https://g
 | `*-star-icons/`, `skill-icons/`, `base-skill-icons/` | Operator portraits and skill icons. |
 | `headhunting-banner-images/`, `event-poster/`, `content-art/`, `album-covers/`, `cg-collection/` | Banners, event art, music covers, and scenes. |
 | `stages-images/`, `ra-map/`, `enemies-icons/`, `enemy-stat-icons/` | Stage maps and enemy artwork. |
+| `npc-icons/` | Portraits of story characters who are not playable operators, for the music pages' Browse by character: the game's NPC avatars (mapped to the mirror's `avatar/`), and faces cropped from story sprites where no avatar exists. Provenance in `sources/npc-icons.json`. |
 | `*-marks/`, `alliance-icons/`, `stronghold-*/`, `item-icons/`, `material-icons/` | Mode emblems, game-mode UI, and material icons. |
 | `profile-avatars/`, `profile-namecards/`, `profile-medals/`, `profile-portraits/`, `profile-ui/`, `profile-modules/`, `profile-skills/` | The game's player profile card, for the account page: avatars, each card theme's background and head panel (every variant), medals, operator portraits in each outfit, the card's own sprites, and the module marks and skill icons its support units show. Named by the game's ids, in lower case. |
 | `cursors/` | The site's cursors. |
