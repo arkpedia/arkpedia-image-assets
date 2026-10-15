@@ -26422,6 +26422,121 @@
       "sourcePath": "map/tr_28.png",
       "sourceBlob": "832919456530b6acc667a68b376dab3c731a44b5",
       "maxWidth": 512
+    },
+    "enemies-icons/Experimental Subject F-009.webp": {
+      "sourcePath": "enemy/enemy_10201_muinf.png",
+      "maxWidth": 128,
+      "sourceBlob": "6940911b62046bf0a800950d170103f31ca56f3a"
+    },
+    "enemies-icons/Rampaging F-009.webp": {
+      "sourcePath": "enemy/enemy_10201_muinf_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ef2041dd3e2702e5749149afb27b7f77bea267a7"
+    },
+    "enemies-icons/Experimental Subject R-044.webp": {
+      "sourcePath": "enemy/enemy_10202_mubow.png",
+      "maxWidth": 128,
+      "sourceBlob": "d6ffe642bfa114bb6c32b79609b78b2b4d775b57"
+    },
+    "enemies-icons/Rampaging R-044.webp": {
+      "sourcePath": "enemy/enemy_10202_mubow_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "3f674ce5652a982c96a1aa9859a7b246d0f1eb14"
+    },
+    "enemies-icons/Heterogeneous Fungi.webp": {
+      "sourcePath": "enemy/enemy_10203_mumag.png",
+      "maxWidth": 128,
+      "sourceBlob": "283fbe6354763c7c6ac8f263b08a7552da3c4a30"
+    },
+    "enemies-icons/Sanguine Heterogeneous Fungi.webp": {
+      "sourcePath": "enemy/enemy_10203_mumag_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8103d73c0b0ade371a33dc08b8569cb1e0b6cf35"
+    },
+    "enemies-icons/Rockbreaker (ES7).webp": {
+      "sourcePath": "enemy/enemy_10204_mudia.png",
+      "maxWidth": 128,
+      "sourceBlob": "e7cff87f86c8308d223c8e58426b6a7a5a651d91"
+    },
+    "enemies-icons/Sanguine Rockbreaker.webp": {
+      "sourcePath": "enemy/enemy_10204_mudia_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "39030bc7e65c0edbd13e9e97f3f2f5689c173aa0"
+    },
+    "enemies-icons/Experimental Subject A-000.webp": {
+      "sourcePath": "enemy/enemy_10205_mufly.png",
+      "maxWidth": 128,
+      "sourceBlob": "57572f085fdd173485eefbfe2f32904e391437ca"
+    },
+    "enemies-icons/Rampaging A-000.webp": {
+      "sourcePath": "enemy/enemy_10205_mufly_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "a4befa01109ecf681bef766eb82352f1d488973e"
+    },
+    "enemies-icons/Trimortalis.webp": {
+      "sourcePath": "enemy/enemy_10206_muveg.png",
+      "maxWidth": 128,
+      "sourceBlob": "77e42bebcae2226defd0fe8eef49d1c87707af46"
+    },
+    "enemies-icons/Sanguine Trimortalis.webp": {
+      "sourcePath": "enemy/enemy_10206_muveg_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "6ceffb38553c944f88d2f13865801f1f7cea3dc7"
+    },
+    "enemies-icons/'Shishiga'.webp": {
+      "sourcePath": "enemy/enemy_10207_mubrut.png",
+      "maxWidth": 128,
+      "sourceBlob": "a6970ad5f519197a9686d57626128b4d1da81c5f"
+    },
+    "enemies-icons/Angry 'Shishiga'.webp": {
+      "sourcePath": "enemy/enemy_10207_mubrut_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "2bd3b9c37f4f19a20c6a4037eddf9a4509857c77"
+    },
+    "enemies-icons/'Likho'.webp": {
+      "sourcePath": "enemy/enemy_10208_mucow.png",
+      "maxWidth": 128,
+      "sourceBlob": "edc2219754a067098990dc4da9212b7925844077"
+    },
+    "enemies-icons/Roaming 'Likho'.webp": {
+      "sourcePath": "enemy/enemy_10208_mucow_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9f3140985a14dccbbe07b8d1f24d97a34ecb6b4e"
+    },
+    "enemies-icons/'Rusalka'.webp": {
+      "sourcePath": "enemy/enemy_10209_mubag.png",
+      "maxWidth": 128,
+      "sourceBlob": "2487aeee76e67761888d73553a100bea3b0d0c7a"
+    },
+    "enemies-icons/Dancing 'Rusalka'.webp": {
+      "sourcePath": "enemy/enemy_10209_mubag_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "b23297131cedecddceaf38230f6ae83f79427707"
+    },
+    "enemies-icons/Ursus War Caster.webp": {
+      "sourcePath": "enemy/enemy_10210_muwiz.png",
+      "maxWidth": 128,
+      "sourceBlob": "14d929e7ed68307e969dcf4043362ffbcdb88bdd"
+    },
+    "enemies-icons/Leak Source.webp": {
+      "sourcePath": "enemy/enemy_10211_murad.png",
+      "maxWidth": 128,
+      "sourceBlob": "850de7304150866d3c2b4a031cecb0ac9b59dcc9"
+    },
+    "enemies-icons/AMa-10.webp": {
+      "sourcePath": "enemy/enemy_1590_muama.png",
+      "maxWidth": 128,
+      "sourceBlob": "f998e2086daa295b4b090f8b078bd01f25ee47b7"
+    },
+    "enemies-icons/AMa-10 Isomer.webp": {
+      "sourcePath": "enemy/enemy_1591_mutwin.png",
+      "maxWidth": 128,
+      "sourceBlob": "09ed27bb80f58ffbfd64a4118d2f923200eed753"
+    },
+    "enemies-icons/'Alpha and Omega'.webp": {
+      "sourcePath": "enemy/enemy_1593_musnake.png",
+      "maxWidth": 128,
+      "sourceBlob": "7154ea058cebfeee3d553759804d7c4bcf512995"
     }
   },
   "namingSource": {
