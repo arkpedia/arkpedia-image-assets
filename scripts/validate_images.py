@@ -5,12 +5,48 @@ import hashlib
 import io
 import json
 import subprocess
+import unicodedata
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA = {'.png', '.webp', '.jpg', '.jpeg', '.avif', '.gif', '.ico', '.svg'}
+
+# Existing aliases have different bytes. Preserve both until their consumers and
+# provenance have a reviewed migration; new collisions must not join this debt.
+KNOWN_CASE_COLLISIONS = {
+    frozenset({'one-star-icons/Gallus² - Base.webp', 'one-star-icons/GALLUS² - Base.webp'}):
+        'Existing case-only aliases; preserve both published originals pending a reviewed migration.',
+}
+
+def manifest_records(manifest):
+    records = {}
+    for path, row in manifest['files'].items():
+        records[path] = row
+        if row.get('original'):
+            records[row['original']['path']] = row['original']
+        for widths in row.get('variants', {}).values():
+            for variant in widths.values():
+                records[variant['path']] = variant
+    return records
+
+def validate_case_inventory(paths, allowed=KNOWN_CASE_COLLISIONS):
+    """Full inventory policy, even when only staged image bytes are decoded."""
+    grouped = {}
+    for path in paths:
+        key = unicodedata.normalize('NFC', path).casefold()
+        grouped.setdefault(key, set()).add(path)
+    collisions = {frozenset(group) for group in grouped.values() if len(group) > 1}
+    unexpected = collisions - allowed.keys()
+    if unexpected:
+        raise ValueError(f'New case-insensitive media collisions: {sorted(sorted(group) for group in unexpected)}')
+    stale = allowed.keys() - collisions
+    if stale:
+        raise ValueError(f'Remove resolved case-collision exceptions: {sorted(sorted(group) for group in stale)}')
+    if any(not str(reason).strip() for reason in allowed.values()):
+        raise ValueError('Every case-collision exception needs a reason')
+    return len(collisions)
 
 def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
@@ -38,14 +74,8 @@ def main():
     parser.add_argument('--staged', action='store_true')
     args = parser.parse_args()
     manifest = json.loads((ROOT / 'asset-manifest.json').read_text())
-    records = {}
-    for path, row in manifest['files'].items():
-        records[path] = row
-        if row.get('original'):
-            records[row['original']['path']] = row['original']
-        for widths in row.get('variants', {}).values():
-            for variant in widths.values():
-                records[variant['path']] = variant
+    records = manifest_records(manifest)
+    legacy_collisions = validate_case_inventory(records)
     tracked = {p for p in git('ls-files', '-z').decode().split('\0') if p}
     media = {p for p in tracked if Path(p).suffix.lower() in MEDIA and not p.startswith('scripts/')}
     missing = set(records) - tracked
@@ -83,6 +113,8 @@ def main():
             if row.get('width') and (image.width, image.height) != (row['width'], row['height']):
                 raise ValueError(f'Dimensions differ from manifest: {path}')
     print(f'Validated complete inventory ({len(records)} paths), decoded and hashed {len(paths)} images.')
+    if legacy_collisions:
+        print(f'Preserved {legacy_collisions} reviewed legacy case-collision group; no new collisions allowed.')
 
 if __name__ == '__main__':
     main()

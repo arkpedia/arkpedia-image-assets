@@ -113,3 +113,9 @@ Revert the commit here through a reviewed change, then prepare and verify a new
 content release. To undo a published release without touching this
 repository at all, run **Content release** on `arkpedia-data` by hand with an
 earlier approved commit SHA; only the live pointer moves.
+
+### Case-insensitive checkouts
+
+New media paths must also be unique after Unicode normalization and case folding, including folder names. The complete inventory check enforces this in full and staged validation. Keep a region/original variant under an explicitly different path; changing only letter case cannot distinguish artwork on a case-insensitive checkout.
+
+The existing `one-star-icons/Gallus² - Base.webp` / `GALLUS² - Base.webp` pair is a documented exception with different bytes. Both published files remain intact pending a consumer/provenance migration. Do not delete either to make a macOS checkout appear clean. The validator rejects new collisions and stale exceptions once a reviewed migration removes a pair.
