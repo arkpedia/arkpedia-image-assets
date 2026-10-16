@@ -6698,5 +6698,575 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/item/LIMITED_TKT_GACHA_10_7301.png",
     "sha256": "f661a3505cd8ac58ff0e83b2220612a838488b8523055cdfc9ca0a83547c17a6",
     "importer": "reward-icons"
+  },
+  "story-map/timo-1stact-b414e7d434.webp": {
+    "url": "https://arknights.timo.beer/covers/1stact.jpg?v=b414e7d434",
+    "sha256": "9f5251950e47dd59ef0253a8c74f6d0cd1710fd47442dd22448cd5df3a199ebb",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act10d5-29a9b6a593.webp": {
+    "url": "https://arknights.timo.beer/covers/act10d5.jpg?v=29a9b6a593",
+    "sha256": "68363eef1bb3e3e9622d5b2ca73b44d30d3cc28762eea77565cf488232f0b106",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act10mini-63c7f10d75.webp": {
+    "url": "https://arknights.timo.beer/covers/act10mini.jpg?v=63c7f10d75",
+    "sha256": "f050826d244dbc704e0674113edabf8c1a200189002ec6db0b34391539453623",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act11d0-140726540e.webp": {
+    "url": "https://arknights.timo.beer/covers/act11d0.jpg?v=140726540e",
+    "sha256": "2d912717cbe133c6db4829aca3ca7a02432b662de693980fdd3c132d46f8dfce",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act11mini-bf16c99354.webp": {
+    "url": "https://arknights.timo.beer/covers/act11mini.jpg?v=bf16c99354",
+    "sha256": "88c21a165228d552e47cf445f50cfe6b4e3068e200b5ea7bc85c0a83f2befeaf",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act12d0-967279c174.webp": {
+    "url": "https://arknights.timo.beer/covers/act12d0.jpg?v=967279c174",
+    "sha256": "f8e34a9a55036297f702d87609d4501b9af003d355b882b6a332e392486dd55d",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act12mini-1434f1cad6.webp": {
+    "url": "https://arknights.timo.beer/covers/act12mini.jpg?v=1434f1cad6",
+    "sha256": "b7e87d4bc99f1e5747a63132ac1eb9b57a8b9e2835ab8d7e868fd8c3aadb9287",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act12side-ed4f4c5a46.webp": {
+    "url": "https://arknights.timo.beer/covers/act12side.jpg?v=ed4f4c5a46",
+    "sha256": "644e1632a0e97afeebd1925e3daf72291cca818daaf8913697a0e9b212dd0fbc",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act13d0-052843720e.webp": {
+    "url": "https://arknights.timo.beer/covers/act13d0.jpg?v=052843720e",
+    "sha256": "7cc49468007a816c4578e3f2fcce2fbe849c7650c7ce0e2db70a9d2ff511d839",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act13d5-b4148323d0.webp": {
+    "url": "https://arknights.timo.beer/covers/act13d5.jpg?v=b4148323d0",
+    "sha256": "ceb8214084dd79122693b4fa12af6b1003543496ed843ccc3f36e02c8f1802ce",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act13mini-9c3f14e821.webp": {
+    "url": "https://arknights.timo.beer/covers/act13mini.jpg?v=9c3f14e821",
+    "sha256": "062567b767c94e39b31e079ace3980475ea0386e5a6b4361ba0a66bce2c1354f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act13side-a85a03d644.webp": {
+    "url": "https://arknights.timo.beer/covers/act13side.jpg?v=a85a03d644",
+    "sha256": "da2895b56f26a51428a39cca617151d4f4c3e64a14e1fccfb313a25fd15b97ec",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act14mini-f6280c369e.webp": {
+    "url": "https://arknights.timo.beer/covers/act14mini.jpg?v=f6280c369e",
+    "sha256": "167732ce81a77107fe4a318e4857170fdc51efb3d27cdce9450a2ea8daa062e9",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act14side-de99a64d8f.webp": {
+    "url": "https://arknights.timo.beer/covers/act14side.jpg?v=de99a64d8f",
+    "sha256": "f779a94b3142f1dae2958a6ef1fb3ec70ce46f698ed0d2bb2dbe97549476e2dc",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act15d0-4fb6052083.webp": {
+    "url": "https://arknights.timo.beer/covers/act15d0.jpg?v=4fb6052083",
+    "sha256": "69a5140a6c87320637f7380ace8e0366c563ec97d32242831101b00c7382ec96",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act15d5-dab8db760e.webp": {
+    "url": "https://arknights.timo.beer/covers/act15d5.jpg?v=dab8db760e",
+    "sha256": "088c73076990d7d4d4c01acf26b5919b1c83f369a3a888ca5444ec68bbdeafab",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act15mini-9e17c8286a.webp": {
+    "url": "https://arknights.timo.beer/covers/act15mini.jpg?v=9e17c8286a",
+    "sha256": "bac428ab7eeee34f52a5c3d9245111f3c9436fb98d30ff0861ef6bdae3420f53",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act15side-f8de63ef0e.webp": {
+    "url": "https://arknights.timo.beer/covers/act15side.jpg?v=f8de63ef0e",
+    "sha256": "191b6c134ec0ec077e76fd63774a742729b40eba0b37d65db07f7288f3bd23e3",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act16d5-495d0f471b.webp": {
+    "url": "https://arknights.timo.beer/covers/act16d5.jpg?v=495d0f471b",
+    "sha256": "6692f73ad3cf785279b94e545b08d643fe840118b103ea09e8862325a033a06d",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act16mini-6e8c9182c7.webp": {
+    "url": "https://arknights.timo.beer/covers/act16mini.jpg?v=6e8c9182c7",
+    "sha256": "724c61de34789f045d3fe387d384e5a4367eb0aa4cd9f949059a299cd2f23ea6",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act16side-a898399e1d.webp": {
+    "url": "https://arknights.timo.beer/covers/act16side.jpg?v=a898399e1d",
+    "sha256": "4a84f98c43860d4074b99fc60f39dc8dc32b140e9d5aab0b54c77f2f922889f7",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act17d0-b641ab6fc1.webp": {
+    "url": "https://arknights.timo.beer/covers/act17d0.jpg?v=b641ab6fc1",
+    "sha256": "59b4e17f2d78c5cee7e0c63b2912fd929ef37e1871b43c1187bd3dacceb86468",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act17d7-5440bc32b3.webp": {
+    "url": "https://arknights.timo.beer/covers/act17d7.jpg?v=5440bc32b3",
+    "sha256": "3c79ddfab745aedfa4387a0d142785517bfc107157bdc34d0d6586b0f712372c",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act17mini-231c81ba48.webp": {
+    "url": "https://arknights.timo.beer/covers/act17mini.jpg?v=231c81ba48",
+    "sha256": "441ce9c9fd13509b1f26fce1d4aa9684e9e360ae411e30fd0bfe24bedbdd7d65",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act17side-0106466f28.webp": {
+    "url": "https://arknights.timo.beer/covers/act17side.jpg?v=0106466f28",
+    "sha256": "896eee2624df03208ae95daad988331f73a296bb7de919a8e523d9d86d5c0a5f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act18d0-c0b577e14a.webp": {
+    "url": "https://arknights.timo.beer/covers/act18d0.jpg?v=c0b577e14a",
+    "sha256": "d00388edc100ccbfa23556a4fb797c95eb51b2c2750f9612c21a0215597d8625",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act18d3-308b33b2d7.webp": {
+    "url": "https://arknights.timo.beer/covers/act18d3.jpg?v=308b33b2d7",
+    "sha256": "b6c8f6083b7976d44ff070ce955438605da9bc5938f57dfa78fc133ddcadddb3",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act18mini-3f1b9c1b6b.webp": {
+    "url": "https://arknights.timo.beer/covers/act18mini.jpg?v=3f1b9c1b6b",
+    "sha256": "98c68d0fdd434e5278dfbec52ace85617888f5436b4d405995649d9d4b2130e5",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act18side-2bb99f3bb9.webp": {
+    "url": "https://arknights.timo.beer/covers/act18side.jpg?v=2bb99f3bb9",
+    "sha256": "04ce9da8da0f3b6ee738fa49241f9f325de1ac95054192d37f06e3afbd0cd706",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act19mini-ce363753d8.webp": {
+    "url": "https://arknights.timo.beer/covers/act19mini.jpg?v=ce363753d8",
+    "sha256": "a7cf189a005810a1e92fbf96031738ba4f9a380ea694476a7df1a62030b3a9c4",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act19side-6a1edefcc2.webp": {
+    "url": "https://arknights.timo.beer/covers/act19side.jpg?v=6a1edefcc2",
+    "sha256": "4deb9d18dca4f0df9932321d36d123df03c73a20c12db0d8d518afe7889d72f0",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act1lock-b5405111ba.webp": {
+    "url": "https://arknights.timo.beer/covers/act1lock.jpg?v=b5405111ba",
+    "sha256": "7227191db79c2157ae7d334cec4655251fe810a41c66091c96d6f6e55960fa21",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act1sandbox-7bc867399e.webp": {
+    "url": "https://arknights.timo.beer/covers/act1sandbox.jpg?v=7bc867399e",
+    "sha256": "dd609a118fcacebdc5c94c7910d6330804025b2aad4c446a9d5449915df30d4b",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act1vautochess-dd80fde8c7.webp": {
+    "url": "https://arknights.timo.beer/covers/act1vautochess.jpg?v=dd80fde8c7",
+    "sha256": "27ef668217556ab8429f249990b0f0e784b28b713fbaf39af576ae14334c5650",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act1vhalfidle-e23e6e2317.webp": {
+    "url": "https://arknights.timo.beer/covers/act1vhalfidle.jpg?v=e23e6e2317",
+    "sha256": "62b8d98e1d7c455cb45b3e6255d4472a534952b353d37c8c66bad420042548e7",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act20mini-0f0b05d38b.webp": {
+    "url": "https://arknights.timo.beer/covers/act20mini.jpg?v=0f0b05d38b",
+    "sha256": "cd9c2a0c430939e7e4a37cd43f8d00aa86ab1cad53b739014b352f794ebd38ae",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act20side-48969c14b7.webp": {
+    "url": "https://arknights.timo.beer/covers/act20side.jpg?v=48969c14b7",
+    "sha256": "1f6b9b4fd45fd6c46cd4aa502db44b299674c5daebd823c4f02ccc60639c3cc2",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act21mini-9fd50095b9.webp": {
+    "url": "https://arknights.timo.beer/covers/act21mini.jpg?v=9fd50095b9",
+    "sha256": "6f18065e0cbf44afb980bf2d8ec020370472e0f40ccb648215b9031b8704eb49",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act21side-693713a7e7.webp": {
+    "url": "https://arknights.timo.beer/covers/act21side.jpg?v=693713a7e7",
+    "sha256": "6e5198b0992bf73f464652ff8b6093fa6853509adb2266551d2e7fea08f15706",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act22side-71bda87252.webp": {
+    "url": "https://arknights.timo.beer/covers/act22side.jpg?v=71bda87252",
+    "sha256": "312ee3237bd0425552f776fee1a8a0e5547f1855f1fa87db9e13e8e54fcc0b05",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act23side-ac37363137.webp": {
+    "url": "https://arknights.timo.beer/covers/act23side.jpg?v=ac37363137",
+    "sha256": "95d1344d450978744784406a2cc8a518f453a497840d09b3aae4049c0c78cc9b",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act24side-4de9221043.webp": {
+    "url": "https://arknights.timo.beer/covers/act24side.jpg?v=4de9221043",
+    "sha256": "79404ceba32f26d4d888688ca1a587ec8265e8fb3cea1879e163a9d5dd70018e",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act25side-f42994e62f.webp": {
+    "url": "https://arknights.timo.beer/covers/act25side.jpg?v=f42994e62f",
+    "sha256": "dea3e35b5c482850db97c8f689da84bb19da4f11b893a72207c5187a2f90556a",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act26side-ed038c9bff.webp": {
+    "url": "https://arknights.timo.beer/covers/act26side.jpg?v=ed038c9bff",
+    "sha256": "1bfaafabd112b3dc135f9dfec82d7c4b5985b2ea30435654ad3c3686be443a4f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act27side-8cfaacf8ee.webp": {
+    "url": "https://arknights.timo.beer/covers/act27side.jpg?v=8cfaacf8ee",
+    "sha256": "34309d594a2c482e8f083068d6ca6235deea2e2c2a51e4eff680ddb7369f43da",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act28side-c3997a11d9.webp": {
+    "url": "https://arknights.timo.beer/covers/act28side.jpg?v=c3997a11d9",
+    "sha256": "ecdf22c83c302a25aef28c031412a292669b179043bbb1cc4b02b29c64ad637a",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act29side-441011b15f.webp": {
+    "url": "https://arknights.timo.beer/covers/act29side.jpg?v=441011b15f",
+    "sha256": "b61fd1dc4a38bdb8656af812df7dfb0566cf016733ce6f22be119e0d78032277",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act30side-bee0c9e429.webp": {
+    "url": "https://arknights.timo.beer/covers/act30side.jpg?v=bee0c9e429",
+    "sha256": "fedb18b92bf35cbf85fc467370f56afa0c179e4244336ac693985a89d238e936",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act31side-5c5a7c5f8a.webp": {
+    "url": "https://arknights.timo.beer/covers/act31side.jpg?v=5c5a7c5f8a",
+    "sha256": "16112139571b0c5a38143c48272032a102fcdc39dfb3d524e2e238eef0d513f5",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act32side-e695b65b59.webp": {
+    "url": "https://arknights.timo.beer/covers/act32side.jpg?v=e695b65b59",
+    "sha256": "1788e26ecb1b16d3b52d40ea2ad9da360bef594cf4734e70ae5415398574af6a",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act33side-ae3966ee71.webp": {
+    "url": "https://arknights.timo.beer/covers/act33side.jpg?v=ae3966ee71",
+    "sha256": "cbe96faeffdc2d6e9040864356e99db82b118f2910d4939acc3253497977f451",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act34side-22de4cecfb.webp": {
+    "url": "https://arknights.timo.beer/covers/act34side.jpg?v=22de4cecfb",
+    "sha256": "dfdfca6c9605ff161127f325e998e4c52568e4e6bcbe2223bf974a063e3ae25c",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act35side-65cbb13c2b.webp": {
+    "url": "https://arknights.timo.beer/covers/act35side.jpg?v=65cbb13c2b",
+    "sha256": "779d5cb205877090bf7368bf434e57d37c4b5436fc966082be13b959855ea4c4",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act36side-ec79be0edc.webp": {
+    "url": "https://arknights.timo.beer/covers/act36side.jpg?v=ec79be0edc",
+    "sha256": "ad0287546a53729f348ff55861e6838529f56720571cf11f88e6a681ceca0192",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act37side-4cf4cfb3b3.webp": {
+    "url": "https://arknights.timo.beer/covers/act37side.jpg?v=4cf4cfb3b3",
+    "sha256": "4ccde047a87ec0e433c625b74b758d324724354e8ef484347be7446d577baafc",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act38side-2b2a7278f5.webp": {
+    "url": "https://arknights.timo.beer/covers/act38side.jpg?v=2b2a7278f5",
+    "sha256": "8dba3fe01ce250eba2ff882754bb8353283ec325ada07274b98026acceb388fd",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act39side-9d07e31aa0.webp": {
+    "url": "https://arknights.timo.beer/covers/act39side.jpg?v=9d07e31aa0",
+    "sha256": "bccef2eae79c3465bd8b315d23ee15da01f403a881d32453d20950feac9b1a03",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act3d0-e0a25ce3c9.webp": {
+    "url": "https://arknights.timo.beer/covers/act3d0.jpg?v=e0a25ce3c9",
+    "sha256": "29dde4fda273ce6750c6711ad51925ea7a445c1410c68b579d73e8ed16f75a09",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act3fun-659e12050f.webp": {
+    "url": "https://arknights.timo.beer/covers/act3fun.jpg?v=659e12050f",
+    "sha256": "96bfaf9b515663998f21627982a1f78a6e4cd382725f64213a118947fbaaf2f7",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act40side-1d1b401112.webp": {
+    "url": "https://arknights.timo.beer/covers/act40side.jpg?v=1d1b401112",
+    "sha256": "c2c2261fafb31e58440122a589b9405284a5f6e5fa801bd7c952f7a085d4d9af",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act41side-bdda2ad1ab.webp": {
+    "url": "https://arknights.timo.beer/covers/act41side.jpg?v=bdda2ad1ab",
+    "sha256": "e9f6f254e852f5693da859151c28ad21a41aa3c26e0b6f5c18fd57c9c80eef99",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act42side-dfe4da39e1.webp": {
+    "url": "https://arknights.timo.beer/covers/act42side.jpg?v=dfe4da39e1",
+    "sha256": "bce726cd2524d17d523a58d8e9d21b832ac047cf7cf6991f71fbe338b12b7b01",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act43side-9f9d4ec7b3.webp": {
+    "url": "https://arknights.timo.beer/covers/act43side.jpg?v=9f9d4ec7b3",
+    "sha256": "2e7cd473e5a7ba5b024efc27b69bb11e22b5468a3a2df994dfcc3d74e8ee2a54",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act44side-dd82cdb6c7.webp": {
+    "url": "https://arknights.timo.beer/covers/act44side.jpg?v=dd82cdb6c7",
+    "sha256": "5deaaa83ff965ba68a8128b0c666c6f6fbaf9ac44f658f0b61a22636109df539",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act45side-75b4333008.webp": {
+    "url": "https://arknights.timo.beer/covers/act45side.jpg?v=75b4333008",
+    "sha256": "cdac252bbb5bd36e7419607ec912b88313bccf5b6bae0fd100682c077748287b",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act46side-3ae44e71b1.webp": {
+    "url": "https://arknights.timo.beer/covers/act46side.jpg?v=3ae44e71b1",
+    "sha256": "4c026f6d58014db686a9e8431001c1e315d77ab5823ab13f8e7a9d7e82e8bcf0",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act47side-748987c53a.webp": {
+    "url": "https://arknights.timo.beer/covers/act47side.jpg?v=748987c53a",
+    "sha256": "5470e8d83afa696605695a626d4f2101e55508b82ee6c0b1083782d042e72b6f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act48side-126e19038f.webp": {
+    "url": "https://arknights.timo.beer/covers/act48side.jpg?v=126e19038f",
+    "sha256": "e0a91ff669bfe0e2c2301b936d460f8d2d64f27a2209816bc5cf6fb96a08272c",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act49side-b94e1becad.webp": {
+    "url": "https://arknights.timo.beer/covers/act49side.jpg?v=b94e1becad",
+    "sha256": "dcd0855e76ae3e312c09af8265eeb673755433b9c8659ff493f35ea2b5c4ceff",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act4d0-300b9b51fe.webp": {
+    "url": "https://arknights.timo.beer/covers/act4d0.jpg?v=300b9b51fe",
+    "sha256": "91b609946489140832333108972d5c21e743effeb7c9848b60bda9754696cc63",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act4fun-2a44ce7bae.webp": {
+    "url": "https://arknights.timo.beer/covers/act4fun.jpg?v=2a44ce7bae",
+    "sha256": "b092e0325ef64a538c7fad8545618edc63bf3f7251e8ce6c3b2856a84a8caff2",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act50side-fc135be39e.webp": {
+    "url": "https://arknights.timo.beer/covers/act50side.jpg?v=fc135be39e",
+    "sha256": "05543edd55a395c8c8c9586932fb5144b95406c2f17adbea450da6051ad9913f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act51side-efe4a46812.webp": {
+    "url": "https://arknights.timo.beer/covers/act51side.jpg?v=efe4a46812",
+    "sha256": "12a76e4c4b3396ab5b2637d910791723ac837c6877a220131a09d841777bb2e7",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act52side-9f33273530.webp": {
+    "url": "https://arknights.timo.beer/covers/act52side.jpg?v=9f33273530",
+    "sha256": "9b5c580e37f1beffa45c2de7295ae9ba704979cc6b452e55dadb9154916f86e1",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act53side-df7e710b60.webp": {
+    "url": "https://arknights.timo.beer/covers/act53side.jpg?v=df7e710b60",
+    "sha256": "642260ee5fcedfcbeddfac6f220469401a035a4b7ccb157a2d1adf0867ce2280",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act54side-a9897d5962.webp": {
+    "url": "https://arknights.timo.beer/covers/act54side.jpg?v=a9897d5962",
+    "sha256": "588b71356d82e4060bd48858d5fdbf7f3e71323c767dc090c1b3b1e1d13406c5",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act5d0-f8d7517cc5.webp": {
+    "url": "https://arknights.timo.beer/covers/act5d0.jpg?v=f8d7517cc5",
+    "sha256": "b095bf5b24f0bf4d822a328625eb4ed9eb49a1ab3ba2bb39ada4b9c6d91e2407",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act5d1-65c2965ac1.webp": {
+    "url": "https://arknights.timo.beer/covers/act5d1.jpg?v=65c2965ac1",
+    "sha256": "24b82eaa5ac027576a1cd7cfc58226b0742e6515e2030cf1b80a7ffdfdcb5ea8",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act5fun-84969eb4d3.webp": {
+    "url": "https://arknights.timo.beer/covers/act5fun.jpg?v=84969eb4d3",
+    "sha256": "7b9d66a38a8aaefcb59886db81c63110c4870f7202854b24339391cbf9b4b071",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act6d5-40c235420b.webp": {
+    "url": "https://arknights.timo.beer/covers/act6d5.jpg?v=40c235420b",
+    "sha256": "d9809806fb54c88f09a04f676bf52a5eb79bcbe801d90322af2e8832f5e1c45b",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act6fun-2a09c670d3.webp": {
+    "url": "https://arknights.timo.beer/covers/act6fun.jpg?v=2a09c670d3",
+    "sha256": "61f1e5fad8cc0af50a7244b113adede0b3cedcbbadc0023c1264a18f871d6b4f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act7d5-8dc0b4a170.webp": {
+    "url": "https://arknights.timo.beer/covers/act7d5.jpg?v=8dc0b4a170",
+    "sha256": "23aafd30aedd148c3a7f53a3574227f3235e449ac63050d921d5819d76884246",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act7mini-18f47ade4f.webp": {
+    "url": "https://arknights.timo.beer/covers/act7mini.jpg?v=18f47ade4f",
+    "sha256": "9a5627ccc1304610fcb4677c68c6ed7012bd1d62e933e874242f37efa5a2f00c",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act8mini-628b12709c.webp": {
+    "url": "https://arknights.timo.beer/covers/act8mini.jpg?v=628b12709c",
+    "sha256": "8d568dcab35bc0907edea6ffbbac6d8404bd807691d19e94cd382cf31a8ca4c8",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act9d0-27f70536b3.webp": {
+    "url": "https://arknights.timo.beer/covers/act9d0.jpg?v=27f70536b3",
+    "sha256": "5aad768409d3a056c557562e2183d09071a320c6404f303303743edea95ead64",
+    "importer": "story-covers"
+  },
+  "story-map/timo-act9mini-84a63ac241.webp": {
+    "url": "https://arknights.timo.beer/covers/act9mini.jpg?v=84a63ac241",
+    "sha256": "f9d7a028c1f19f5f99f110353f42092b341d13faebaa11078e027a49f1c7bde6",
+    "importer": "story-covers"
+  },
+  "story-map/timo-legion-7d75db7f40.webp": {
+    "url": "https://arknights.timo.beer/covers/legion.jpg?v=7d75db7f40",
+    "sha256": "453b9877754c1045069c1376df7c12be3d3444a505c522212565534f870f5c19",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_0-21c136495e.webp": {
+    "url": "https://arknights.timo.beer/covers/main_0.jpg?v=21c136495e",
+    "sha256": "99a3808bda6a142b676162f713e6b2817d4beae430fbe4fc918d441c7bf4cd65",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_1-2270d295db.webp": {
+    "url": "https://arknights.timo.beer/covers/main_1.jpg?v=2270d295db",
+    "sha256": "1def69757a0f2d3fbeacd0a2e5a85fe44010d9db9795d623926c9510b163fcde",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_10-bce991a17f.webp": {
+    "url": "https://arknights.timo.beer/covers/main_10.jpg?v=bce991a17f",
+    "sha256": "c907b97a6373110cf50de61ee3e9ff56db5b3bddf9648ec0f483af7431db4df9",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_11-2beb909392.webp": {
+    "url": "https://arknights.timo.beer/covers/main_11.jpg?v=2beb909392",
+    "sha256": "8f3b09290bfada2def632ac4d3bb0c9fefa7d292b2508e1f15dc15cb1077e290",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_12-e7fb2b3093.webp": {
+    "url": "https://arknights.timo.beer/covers/main_12.jpg?v=e7fb2b3093",
+    "sha256": "371dec5d04c3032b01de46a33a1a42e8acd91f570aa8882b46b0d631db64b77b",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_13-8b50e256d2.webp": {
+    "url": "https://arknights.timo.beer/covers/main_13.jpg?v=8b50e256d2",
+    "sha256": "8d3df3ba0e0002ebd687a396720e789dcfa6238ec3eae564084f027742eab95c",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_14-4256f1eb3f.webp": {
+    "url": "https://arknights.timo.beer/covers/main_14.jpg?v=4256f1eb3f",
+    "sha256": "f31d441f9b12c724d958423db2583ac9598abf8b63392a4cb621b9adc495ac2b",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_15-5853b6eef0.webp": {
+    "url": "https://arknights.timo.beer/covers/main_15.jpg?v=5853b6eef0",
+    "sha256": "d63ecc35b86ffb4c83bff979acfa4b5f21a81cd1b5a8df64979b4e14cfd5bbc8",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_16-6e295766f3.webp": {
+    "url": "https://arknights.timo.beer/covers/main_16.jpg?v=6e295766f3",
+    "sha256": "28b37bf6a8bdc4a5f88666222fa91bd4cbf3ae8cbca6c4b1d775cc0bdfbe2b85",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_17-3e77ce8108.webp": {
+    "url": "https://arknights.timo.beer/covers/main_17.jpg?v=3e77ce8108",
+    "sha256": "f785887a5b901817f355696d07c97ecdab46b36ab1fa61c0c485db05c15cb3ed",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_2-446ee57d1f.webp": {
+    "url": "https://arknights.timo.beer/covers/main_2.jpg?v=446ee57d1f",
+    "sha256": "80d33205c5a201ac5593fe4a2adfb6fbe4900c76cbf8c16b5040463705588b41",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_3-cdc6b7b840.webp": {
+    "url": "https://arknights.timo.beer/covers/main_3.jpg?v=cdc6b7b840",
+    "sha256": "5edd343c043f0c016b7425a49f4f795b355b74b85f7f3a5c97e262ef327494b3",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_4-435a8d5a6f.webp": {
+    "url": "https://arknights.timo.beer/covers/main_4.jpg?v=435a8d5a6f",
+    "sha256": "f77458d06befbf0de0c57464d002261821a6307e37cbb4d98f9938fc4fe3876a",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_5-533363c7ee.webp": {
+    "url": "https://arknights.timo.beer/covers/main_5.jpg?v=533363c7ee",
+    "sha256": "4b242f2528ac2c228bc5c9216df1101caf97373be050104953b4fab9ffae7f61",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_6-b33859200f.webp": {
+    "url": "https://arknights.timo.beer/covers/main_6.jpg?v=b33859200f",
+    "sha256": "2e7b11b8527cd9f09cea337650291338ffea61bc40c70e0341b9fb3fd1c9eee1",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_7-b368f263c8.webp": {
+    "url": "https://arknights.timo.beer/covers/main_7.jpg?v=b368f263c8",
+    "sha256": "9e98df098e5fef59d9b06fc44e4a63135fdaf16601c8effa02bcb7c7142325b1",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_8-777ab16522.webp": {
+    "url": "https://arknights.timo.beer/covers/main_8.jpg?v=777ab16522",
+    "sha256": "a261defa342fe18dadc824fa43a0068a37386c07130f890c2418e8061110fada",
+    "importer": "story-covers"
+  },
+  "story-map/timo-main_9-c6c19643eb.webp": {
+    "url": "https://arknights.timo.beer/covers/main_9.jpg?v=c6c19643eb",
+    "sha256": "8fca2f8cd0b13180f728adb967f7e83b92c55a0f4de23857d6e94bb66633109f",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_0-acbafdbb45.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_0.jpg?v=acbafdbb45",
+    "sha256": "ad3ea0d26e4f300fc92e79e9d5a7eddb2dcd96832e3137779033cf664d5464ad",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_1-a452b2d9ff.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_1.jpg?v=a452b2d9ff",
+    "sha256": "7ffdd7e38c0d13d28e18da293752896e6a20f58d5d487bca17bbd78847f40cbe",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_2-a5a095a7ba.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_2.jpg?v=a5a095a7ba",
+    "sha256": "49f24ad0b2952770d92e2498b03aebc58b3f379b0d9d01e38320540a09891c87",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_3-3c550dc26f.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_3.jpg?v=3c550dc26f",
+    "sha256": "d5f88cd3efb71d8927341917ddb307aff8d6e4241f491a5a29ab35965ae13dc3",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_4-b524c3e55d.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_4.jpg?v=b524c3e55d",
+    "sha256": "f49758bd5331f80e1c90bf032274726af543b5ccc61de70d5d9a8e71e375c2d7",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_5-faef615720.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_5.jpg?v=faef615720",
+    "sha256": "d9478038e498163e663bf40e6116f31783d5bd0b5763e4fe9bfc12dbc6fb4cfa",
+    "importer": "story-covers"
+  },
+  "story-map/timo-rogue_6-a1b165ec1f.webp": {
+    "url": "https://arknights.timo.beer/covers/rogue_6.jpg?v=a1b165ec1f",
+    "sha256": "c43321901f770254a698f46a084913ce1edf4ceb8bb8b1d9bfff5c538b0fd3af",
+    "importer": "story-covers"
+  },
+  "story-map/timo-sandbox_1-e46df4bc5c.webp": {
+    "url": "https://arknights.timo.beer/covers/sandbox_1.jpg?v=e46df4bc5c",
+    "sha256": "d4f5592b67bf08330eb17603751f72ed294f59bd6e328eeee748f83f91727319",
+    "importer": "story-covers"
+  },
+  "story-map/timo-sandbox_2-5d86823133.webp": {
+    "url": "https://arknights.timo.beer/covers/sandbox_2.jpg?v=5d86823133",
+    "sha256": "c37a6a1244e2be639c8840c1b8f81e3c64c3b19de02bb99705012b333308811f",
+    "importer": "story-covers"
   }
 }
