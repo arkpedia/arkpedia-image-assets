@@ -26542,6 +26542,21 @@
       "sourcePath": "item/LIMITED_TKT_GACHA_10_7301.png",
       "sourceBlob": "e511ecf3c615e1b28be3356dfb93be9d67fa3d90",
       "maxWidth": 183
+    },
+    "six-star-icons/Blaze the Igniting Spark - 夜行烛火.webp": {
+      "sourcePath": "avatar/char_1040_blaze2_nlc#1.png",
+      "sourceBlob": "6baae599aa41dacac63cdd331fbe12eb6c279c39",
+      "maxWidth": 180
+    },
+    "six-star-icons/Shu - 源远流长.webp": {
+      "sourcePath": "avatar/char_2025_shu_nlc#1.png",
+      "sourceBlob": "354361f6a771097077d448e29589f01d29fe2cc0",
+      "maxWidth": 180
+    },
+    "six-star-icons/Swire the Elegant Wit - 盛世之象.webp": {
+      "sourcePath": "avatar/char_1033_swire2_nlc#1.png",
+      "sourceBlob": "534e2ff5a79ab6cd0ed56abac9a907be04d914dd",
+      "maxWidth": 180
     }
   },
   "namingSource": {

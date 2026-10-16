@@ -7278,5 +7278,17 @@
     "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/17/VQroThLA.jpg",
     "sha256": "89adacc2c7b9612b4fd7e4042fefd49de9719d1217c67f7127b477f3412d5cb4",
     "importer": "story-map"
+  },
+  "six-star-icons/Blaze the Igniting Spark - 夜行烛火.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/70ee919165089e0ac83e8d56fdee7263e2dd5f24/avatar/char_1040_blaze2_nlc%231.png",
+    "sha256": "f62e15ce189ea6a86c7fa80e862fb4daf07a21ff1b6546dac4e2bdae935babcc"
+  },
+  "six-star-icons/Shu - 源远流长.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/70ee919165089e0ac83e8d56fdee7263e2dd5f24/avatar/char_2025_shu_nlc%231.png",
+    "sha256": "ac09209cbb968d7bba2412af90d6122bf3fc0760af7baa42bd11456f4c0dc5aa"
+  },
+  "six-star-icons/Swire the Elegant Wit - 盛世之象.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/70ee919165089e0ac83e8d56fdee7263e2dd5f24/avatar/char_1033_swire2_nlc%231.png",
+    "sha256": "36f6702cc0e10f0b08515b8f5d3f06297442b033610aeab8e4a9a2af8e0c352e"
   }
 }
