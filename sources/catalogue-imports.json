@@ -7268,5 +7268,10 @@
     "url": "https://arknights.timo.beer/covers/sandbox_2.jpg?v=5d86823133",
     "sha256": "c37a6a1244e2be639c8840c1b8f81e3c64c3b19de02bb99705012b333308811f",
     "importer": "story-covers"
+  },
+  "material-icons/Liquified Ether Adsorbent.webp": {
+    "url": "https://arknights.wiki.gg/images/Liquified_Ether_Adsorbent.png?30014e",
+    "sha256": "3ccbbe2bbae401006d0485f32eb96a31fac269f1b4ede2e9d6a1b8e15a534b75",
+    "importer": "reward-icons"
   }
 }
