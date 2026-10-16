@@ -7273,5 +7273,10 @@
     "url": "https://arknights.wiki.gg/images/Liquified_Ether_Adsorbent.png?30014e",
     "sha256": "3ccbbe2bbae401006d0485f32eb96a31fac269f1b4ede2e9d6a1b8e15a534b75",
     "importer": "reward-icons"
+  },
+  "story-map/manga-prelude-suite-the-lone-walker.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/17/VQroThLA.jpg",
+    "sha256": "89adacc2c7b9612b4fd7e4042fefd49de9719d1217c67f7127b477f3412d5cb4",
+    "importer": "story-map"
   }
 }
