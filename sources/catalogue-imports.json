@@ -7290,5 +7290,10 @@
   "six-star-icons/Swire the Elegant Wit - 盛世之象.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/70ee919165089e0ac83e8d56fdee7263e2dd5f24/avatar/char_1033_swire2_nlc%231.png",
     "sha256": "36f6702cc0e10f0b08515b8f5d3f06297442b033610aeab8e4a9a2af8e0c352e"
+  },
+  "story-map/timo-act17d1-474432df48.webp": {
+    "url": "https://arknights.timo.beer/covers/act17d1.jpg?v=474432df48",
+    "sha256": "69b3137cb271c87a17db88555c415167a496727f27a8c4589a8c07bcdcc01ec0",
+    "importer": "story-covers"
   }
 }
