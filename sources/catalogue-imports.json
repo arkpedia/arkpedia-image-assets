@@ -7295,5 +7295,17 @@
     "url": "https://arknights.timo.beer/covers/act17d1.jpg?v=474432df48",
     "sha256": "69b3137cb271c87a17db88555c415167a496727f27a8c4589a8c07bcdcc01ec0",
     "importer": "story-covers"
+  },
+  "event-poster/[Reclamation Algorithm] Relaunch Anchor.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260424/be13d4a10bcd6c8464ed7a32bc70420f.jpg",
+    "sha256": "d285052223cb004413af15e0e27dde59abcceba9faedbd1804d39c3786880a37"
+  },
+  "event-poster/Ato Rerun.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260813/e68e6fe1c3cc2b2542b80cdb38967dd2.jpg",
+    "sha256": "182ac1a7660c747fc30e90ce090fcde0da706547ba232f3633eaeec4cd0eac71"
+  },
+  "event-poster/Interactive Exhibition.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20260724/f4abb4e393453d97014a60b76e828647.jpg",
+    "sha256": "5f17c4f86132a66fd9b79dc9256b6cc3ec636c2dcd4f7893d279988537a08e06"
   }
 }
