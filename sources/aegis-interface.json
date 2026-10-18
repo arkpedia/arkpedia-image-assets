@@ -1,0 +1,45 @@
+{
+  "sourceRepository": "yuanyan3060/ArknightsGameResource",
+  "sourceCommit": "abf56c57d616c034cec02a869eb7d62cc7a32212",
+  "operatorId": "char_4218_aigis",
+  "scope": "Bind existing avatar and two skill icons by original source ID. Preserve the accepted lossless 180px avatar; its composited pixels match the original. Refresh the two 64px skill deliveries to their original 128px size using the existing quality90/method4 WebP encoder. Future sync follows these exact paths and blob IDs.",
+  "assets": [
+    {
+      "path": "five-star-icons/Aegis - Base.webp",
+      "sourcePath": "avatar/char_4218_aigis.png",
+      "sourceBlob": "2ebf3f59c4b1a7584c752864e753a911f46db84f",
+      "sourceBytes": 53421,
+      "sourceSha256": "d6c010f85f1b660acd629788694f4216bce71cc5e90e056d908532dc3747486c",
+      "delivery": {
+        "bytes": 30528,
+        "sha256": "75046c2a5ae7ad117eb1f353f10b8f298098bff597bd582b02b963c1acc0aaa2"
+      }
+    },
+    {
+      "path": "skill-icons/Aegis - Orgia Mode.webp",
+      "sourcePath": "skill/skill_icon_skchr_aigis_1.png",
+      "sourceBlob": "1f484abfe5e5dbab8883a4cbaf5083a67222b5e3",
+      "sourceBytes": 31054,
+      "sourceSha256": "c21ab1468756d6372f00e56e11c285fa7f01959388ba4e5cb59d44ac96b72799",
+      "delivery": {
+        "bytes": 7978,
+        "sha256": "4aa1b839337217f8b10b2eb4b0e580e31fde20ae81855f1271c24bfe7e2567cc",
+        "width": 128,
+        "height": 128
+      }
+    },
+    {
+      "path": "skill-icons/Aegis - Maximum Firepower.webp",
+      "sourcePath": "skill/skill_icon_skchr_aigis_2.png",
+      "sourceBlob": "e76bcf7d39360b102e867c0b3c378f173c9dcee2",
+      "sourceBytes": 30127,
+      "sourceSha256": "3be6f38db64d948c127f80fc4b162df4061e89342f5759acaf22aab0eb737fbb",
+      "delivery": {
+        "bytes": 8466,
+        "sha256": "a9c962c76a7e36cc3e0ad31df20fd333ebd40edf176bcae5421abd98166e0e65",
+        "width": 128,
+        "height": 128
+      }
+    }
+  ]
+}
