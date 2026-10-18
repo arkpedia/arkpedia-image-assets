@@ -26587,6 +26587,11 @@
       "sourcePath": "skill/skill_icon_skchr_yukari_2.png",
       "sourceBlob": "23d57708a44ba4d2e6bcccaa4b97bb99784bed59",
       "maxWidth": 128
+    },
+    "material-icons/“幸福在途”补给包.webp": {
+      "sourcePath": "item/randomMaterial_act53side.png",
+      "sourceBlob": "238d426e85fd88ebd5cba4764c0288ffb291ee79",
+      "maxWidth": 183
     }
   },
   "namingSource": {

@@ -7307,5 +7307,65 @@
   "event-poster/Interactive Exhibition.webp": {
     "url": "https://web.hycdn.cn/upload/image/20260724/f4abb4e393453d97014a60b76e828647.jpg",
     "sha256": "5f17c4f86132a66fd9b79dc9256b6cc3ec636c2dcd4f7893d279988537a08e06"
+  },
+  "content-art/furni_set_rabbitTown-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/59da436d17c732cc8efe13d8f9265920ad2df140/assets/dyn/arts/ui/furnithemes/furni_set_rabbittown.png",
+    "sha256": "a33f07f1084b01b169eb34fdb98a1f74281ac125e5b477e531343c43a332f26b",
+    "importer": "furniture-art"
+  },
+  "material-icons/furni_rabbitTown_absorbentCarpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_absorbentCarpet_01.png",
+    "sha256": "1ab7edf12d39b10941d0428c6a1ca20f4f8fb59dbd4eb5d6cce3d781cd2974d1",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_ceilingLamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_ceilingLamp_01.png",
+    "sha256": "26035c6821548cdef92cb621ff4ed24123496967988f056c0427ff53fa043b46",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_desk_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_desk_01.png",
+    "sha256": "ec22c21b2d17bff8fb3fa4a0290478c625eab5c050559316019d730cd12c7b11",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_floor_01.png",
+    "sha256": "fc50f31776f5b7ebd717afc9e705a86fd3cbb2dd7dc80a7bbd9aca6bba8fbad0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_handbag_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_handbag_01.png",
+    "sha256": "f638b09a99b5eb33e4a26cf7eb77cddca0ba3f40228a32e720be6c724b8ef2a8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_planter_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_planter_01.png",
+    "sha256": "d5eb5c08bb75b063606b024b5ab50354db202beaf18352dd110956e54f0d5258",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_servingTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_servingTable_01.png",
+    "sha256": "09726a74f9424b406a742184266c69e8db3bebbeb03a7ecdd550be73c35310b8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_treeCabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_treeCabinet_01.png",
+    "sha256": "589f22623edfa2ac9f77e737d0e42b7f01f9fd003b9b593dc48102c4a6e2f37e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_wallpaper_01.png",
+    "sha256": "bb274e8d11a09b82b3277babb01bdbbe1accd6c79aca415123996519d8f91ad2",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_terracommericials_fruitMedley_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_terracommericials_fruitMedley_01.png",
+    "sha256": "1ab95afbe04d53db78818e3e6153bf89c31eb8668f06a92798af5f1b7ff61b60",
+    "importer": "reward-icons"
+  },
+  "material-icons/“幸福在途”补给包.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/70ee919165089e0ac83e8d56fdee7263e2dd5f24/item/randomMaterial_act53side.png",
+    "sha256": "5924db0bbd9568d60fc52c6770d6c6ace91aa6bc798756514550c597130a2bf4",
+    "importer": "reward-icons"
   }
 }
