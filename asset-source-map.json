@@ -26572,6 +26572,21 @@
       "sourcePath": "skill/skill_icon_skchr_aigis_2.png",
       "sourceBlob": "e76bcf7d39360b102e867c0b3c378f173c9dcee2",
       "maxWidth": 128
+    },
+    "five-star-icons/Yukari Takeba - Base.webp": {
+      "sourcePath": "avatar/char_4219_yukari.png",
+      "sourceBlob": "cd8a461cbfcb67202a063b1f445546aa5ee01324",
+      "maxWidth": 180
+    },
+    "skill-icons/Yukari Takeba - Cyclone Arrow.webp": {
+      "sourcePath": "skill/skill_icon_skchr_yukari_1.png",
+      "sourceBlob": "e9ed7e9f9451429a14f7d04572f747f1f0467726",
+      "maxWidth": 128
+    },
+    "skill-icons/Yukari Takeba - Tranquility.webp": {
+      "sourcePath": "skill/skill_icon_skchr_yukari_2.png",
+      "sourceBlob": "23d57708a44ba4d2e6bcccaa4b97bb99784bed59",
+      "maxWidth": 128
     }
   },
   "namingSource": {
