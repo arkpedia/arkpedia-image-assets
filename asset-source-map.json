@@ -26557,6 +26557,21 @@
       "sourcePath": "avatar/char_1033_swire2_nlc#1.png",
       "sourceBlob": "534e2ff5a79ab6cd0ed56abac9a907be04d914dd",
       "maxWidth": 180
+    },
+    "five-star-icons/Aegis - Base.webp": {
+      "sourcePath": "avatar/char_4218_aigis.png",
+      "sourceBlob": "2ebf3f59c4b1a7584c752864e753a911f46db84f",
+      "maxWidth": 180
+    },
+    "skill-icons/Aegis - Orgia Mode.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aigis_1.png",
+      "sourceBlob": "1f484abfe5e5dbab8883a4cbaf5083a67222b5e3",
+      "maxWidth": 128
+    },
+    "skill-icons/Aegis - Maximum Firepower.webp": {
+      "sourcePath": "skill/skill_icon_skchr_aigis_2.png",
+      "sourceBlob": "e76bcf7d39360b102e867c0b3c378f173c9dcee2",
+      "maxWidth": 128
     }
   },
   "namingSource": {
