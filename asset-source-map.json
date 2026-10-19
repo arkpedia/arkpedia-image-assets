@@ -26592,6 +26592,26 @@
       "sourcePath": "item/randomMaterial_act53side.png",
       "sourceBlob": "238d426e85fd88ebd5cba4764c0288ffb291ee79",
       "maxWidth": 183
+    },
+    "six-star-icons/Makoto Yuki - Base.webp": {
+      "sourcePath": "avatar/char_4217_makoto.png",
+      "sourceBlob": "ace6f4055e6b86a23d7a7b52e9e9e376c6aa0851",
+      "maxWidth": 180
+    },
+    "skill-icons/Makoto Yuki - Harp of Orpheus.webp": {
+      "sourcePath": "skill/skill_icon_skchr_makoto_1.png",
+      "sourceBlob": "1c936fdb4dcf8f57eed69a4ff0081898ba2c264b",
+      "maxWidth": 128
+    },
+    "skill-icons/Makoto Yuki - Chains of Thanatos.webp": {
+      "sourcePath": "skill/skill_icon_skchr_makoto_2.png",
+      "sourceBlob": "251d403dc9d9c31e57476cdc234da58a86e26c27",
+      "maxWidth": 128
+    },
+    "skill-icons/Makoto Yuki - Dawn-Piercing Blade.webp": {
+      "sourcePath": "skill/skill_icon_skchr_makoto_3.png",
+      "sourceBlob": "1a0ee81116e7d5cf6cbf0c1246cdc7939ffeeec6",
+      "maxWidth": 128
     }
   },
   "namingSource": {
