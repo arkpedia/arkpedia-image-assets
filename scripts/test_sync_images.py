@@ -206,5 +206,30 @@ class EncodingTests(unittest.TestCase):
                 self.assertGreaterEqual(row['maxWidth'], width, f'{asset}: a sync would shrink it from {width}px to {row["maxWidth"]}px')
 
 
+class LosslessRefreshTests(unittest.TestCase):
+    def test_opted_in_webp_refresh_preserves_visible_and_transparent_rgba(self):
+        source = Image.new('RGBA', (16, 16))
+        source.putdata([(x * 17, y * 17, (x ^ y) * 17, (x + y) % 4 * 85)
+                        for y in range(16) for x in range(16)])
+        png = io.BytesIO(); source.save(png, format='PNG'); raw = png.getvalue()
+        blob = hashlib.sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest()
+        entry = {'sourcePath': 'skill/original.png', 'maxWidth': 128, 'lossless': True}
+        with tempfile.TemporaryDirectory() as temp, patch.object(sync_images, 'ROOT', Path(temp)), patch.object(sync_images, 'fetch', return_value=raw):
+            asset, row, accepted = sync_images.sync_one(('skill-icons/Original.webp', entry, blob, 'f' * 40))
+            with Image.open(Path(temp) / asset) as delivered:
+                self.assertEqual(delivered.convert('RGBA').tobytes(), source.tobytes())
+            self.assertEqual(accepted, blob)
+            self.assertEqual((row['width'], row['height']), source.size)
+
+    def test_invalid_encoding_override_cannot_replace_an_existing_image(self):
+        source = io.BytesIO(); Image.new('RGBA', (2, 2)).save(source, format='PNG'); raw = source.getvalue()
+        blob = hashlib.sha1(f'blob {len(raw)}\0'.encode() + raw).hexdigest()
+        with tempfile.TemporaryDirectory() as temp, patch.object(sync_images, 'ROOT', Path(temp)), patch.object(sync_images, 'fetch', return_value=raw):
+            target = Path(temp) / 'Original.webp'; target.write_bytes(b'prior reviewed image')
+            with self.assertRaisesRegex(ValueError, 'lossless must be a boolean'):
+                sync_images.sync_one(('Original.webp', {'sourcePath': 'original.png', 'lossless': 'true'}, blob, 'f' * 40))
+            self.assertEqual(target.read_bytes(), b'prior reviewed image')
+
+
 if __name__ == '__main__':
     unittest.main()
