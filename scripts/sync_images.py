@@ -38,11 +38,15 @@ ENCODINGS = {'.webp': ('WEBP', {'quality': 90, 'method': 4}), '.png': ('PNG', {'
 ITEM_ICON_WIDTH = 183
 
 
-def encoding(asset):
+def encoding(asset, *, lossless=False):
     """(PIL format, save options) for a mapped destination, by its extension."""
     suffix = Path(asset).suffix.lower()
     if suffix not in ENCODINGS:
         raise ValueError(f'{asset}: a mapped file must be named .webp or .png, the formats this sync writes')
+    if not isinstance(lossless, bool):
+        raise ValueError(f'{asset}: lossless must be a boolean')
+    if lossless and suffix == '.webp':
+        return 'WEBP', {'lossless': True, 'exact': True, 'method': 4}
     return ENCODINGS[suffix]
 
 
@@ -310,7 +314,7 @@ def sync_one(job):
         if image.width > max_width:
             image = image.resize((max_width, max(1, round(image.height * max_width / image.width))), Image.Resampling.LANCZOS)
         output = io.BytesIO()
-        image_format, options = encoding(asset)
+        image_format, options = encoding(asset, lossless=entry.get('lossless', False))
         image.save(output, format=image_format, **options)
         encoded = output.getvalue()
         target = ROOT / asset

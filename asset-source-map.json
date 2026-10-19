@@ -14501,7 +14501,8 @@
     "six-star-icons/Aphrissa - Base.webp": {
       "sourcePath": "avatar/char_4229_aphris.png",
       "sourceBlob": "c31dd6395006767fd5365a50678f56df0ac93409",
-      "maxWidth": 180
+      "maxWidth": 180,
+      "lossless": true
     },
     "six-star-icons/Aphrissa - Elite 2.webp": {
       "sourcePath": "avatar/char_4229_aphris_2.png",
@@ -22696,17 +22697,20 @@
     "skill-icons/Aphrissa - Continuous Mapping.webp": {
       "sourcePath": "skill/skill_icon_skchr_aphris_1.png",
       "maxWidth": 128,
-      "sourceBlob": "f8dc4e7cb43eee84f9e82a237002df28dc0332f0"
+      "sourceBlob": "f8dc4e7cb43eee84f9e82a237002df28dc0332f0",
+      "lossless": true
     },
     "skill-icons/Aphrissa - Critical Burst.webp": {
       "sourcePath": "skill/skill_icon_skchr_aphris_2.png",
       "maxWidth": 128,
-      "sourceBlob": "01bc82452e1a21597da8aac074ac25a04fdf1b0b"
+      "sourceBlob": "01bc82452e1a21597da8aac074ac25a04fdf1b0b",
+      "lossless": true
     },
     "skill-icons/Aphrissa - The Essence of Chaos.webp": {
       "sourcePath": "skill/skill_icon_skchr_aphris_3.png",
       "maxWidth": 128,
-      "sourceBlob": "600e2075fdb4f0da37be9ebaf2044b9a1447d8f7"
+      "sourceBlob": "600e2075fdb4f0da37be9ebaf2044b9a1447d8f7",
+      "lossless": true
     },
     "material-icons/Aphrissa's Token.webp": {
       "sourcePath": "item/p_char_4229_aphris.png",
