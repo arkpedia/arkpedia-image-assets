@@ -7367,5 +7367,145 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/70ee919165089e0ac83e8d56fdee7263e2dd5f24/item/randomMaterial_act53side.png",
     "sha256": "5924db0bbd9568d60fc52c6770d6c6ace91aa6bc798756514550c597130a2bf4",
     "importer": "reward-icons"
+  },
+  "album-covers/endfield-a-promise-makes-a-home_cover.webp": {
+    "url": "https://i.ytimg.com/vi/VxOE-NnCCss/maxresdefault.jpg",
+    "sha256": "c5868c9e84125eaad2013d6fc6859a9cfa4bde7334976480fdd880ac3bc7bd01",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-ashen-remains_cover.webp": {
+    "url": "https://i.ytimg.com/vi/us_89_YiAug/maxresdefault.jpg",
+    "sha256": "8db286cc77dc86d1d76e7d2b599e31b8a6975441c262ccc4871e1e0d069f13ba",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-at-the-wake-of-spring-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/4sQd7PNmFOU/maxresdefault.jpg",
+    "sha256": "db1e361f92b91f8f278b8810f0591c9f0947f66f0649f569468ab75a08d6c930",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-blurring_cover.webp": {
+    "url": "https://i.ytimg.com/vi/RLw1pMGD69o/maxresdefault.jpg",
+    "sha256": "cfc30203f2f3ed4dc0188f0e45e985af0eb12274655130c42687b32a4adb7729",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-contingency-contract-re-ignition-experimental-operation-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/sqS0fMeoMJQ/maxresdefault.jpg",
+    "sha256": "b400b29ed889f9daa18e68d2a462895803666d13614661210138b27d6d5fee5f",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-dreamscape-of-wind-and-snow-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/cUlW_OcnM-I/maxresdefault.jpg",
+    "sha256": "bc7a0602f34ae0dc6d89f03f186d91ff303b1340a1a589de9d852620ddee797c",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-eve-of-departure_cover.webp": {
+    "url": "https://i.ytimg.com/vi/Vm4GnL0SgwY/maxresdefault.jpg",
+    "sha256": "fe56ce81fb9a25aff50124b53e7e6132fd1b3d55451d61efa7af6896d96afda4",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-forevermore_cover.webp": {
+    "url": "https://i.ytimg.com/vi/uAMNZqNxjgQ/maxresdefault.jpg",
+    "sha256": "fd8a2950f1e47409bef7fa6c17eac4e7afa137fb5f9f73bfb95c55202b0d8850",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-fragmented-dreams_cover.webp": {
+    "url": "https://i.ytimg.com/vi/XKtbIj5XnKY/maxresdefault.jpg",
+    "sha256": "a8c928bca09fbee258e2045818a5e264b89661189b6ee9d14e20f80e52671023",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-guided-by-echoes_cover.webp": {
+    "url": "https://i.ytimg.com/vi/HX62TCeJIRc/maxresdefault.jpg",
+    "sha256": "290a11676b9c383e64f6215c59fff55716dea2ea0af76e5f3d8df3fa2191e2f0",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-homecoming-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/5c2EBtcCGKI/maxresdefault.jpg",
+    "sha256": "ee0813d7360cb274beddf5b8e35ea40dba61141b68baec6c6f42d9ccc0860808",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-into-the-crimson_cover.webp": {
+    "url": "https://i.ytimg.com/vi/cWkaj8iQ0_U/maxresdefault.jpg",
+    "sha256": "a347be67c788fef3b58014f7735f59cc3d16edb54ed8dbe1e709210ee96892d9",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-journey-to-brickyland_cover.webp": {
+    "url": "https://i.ytimg.com/vi/bSZym-sAgAA/maxresdefault.jpg",
+    "sha256": "9225b75f01f2e8796adc5eaaa9a0973316dffcd854aca3cfff8931a92b7b99c7",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-lollipop-neo-nista_cover.webp": {
+    "url": "https://i.ytimg.com/vi/pl2TT6TLpTc/maxresdefault.jpg",
+    "sha256": "fd818850a9865c69782efa75ba07e1a7642adfd00a44a0b7a0045cb91ab404e2",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-maker-s-luv_cover.webp": {
+    "url": "https://i.ytimg.com/vi/sgCGk3Lz-Vk/maxresdefault.jpg",
+    "sha256": "82ad0e803ad6e778b97a8b1d1e1eda006e4a10c527834a2cbd8ba91fa21f2bcb",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-mirairo-rider_cover.webp": {
+    "url": "https://i.ytimg.com/vi/wZXnjF0DMYs/maxresdefault.jpg",
+    "sha256": "21d60fd175c2b5f41daa413392e874d8be28accce095d507545002be7284bc05",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-ode-to-the-night-stars_cover.webp": {
+    "url": "https://i.ytimg.com/vi/1F3WORC6JeQ/maxresdefault.jpg",
+    "sha256": "18f152a2e1b5bb20a553c4377bb36c4afffd709ce61d7573ed2097b2aa458250",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-old-deep-water-dies-by-rising-tide-it-is-denied-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/57xpaNzWUqo/maxresdefault.jpg",
+    "sha256": "5a9eadfc668d03e83de92b110aa6731706ff56b08ddd114c47a7ba5804606cf9",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-sanctuary-of-ink-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/MffJSOGFsLk/maxresdefault.jpg",
+    "sha256": "9c2c533a9809d2e417f0f553765c3dba86ca2f181504970e7f95560b32152f6b",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-sketches-of-lost-heirlooms-original-soundtrack_cover.webp": {
+    "url": "https://i.ytimg.com/vi/pNnNnVKaN4w/maxresdefault.jpg",
+    "sha256": "30d66fa56653c1c67d3857ef242da521eb2bb693440d474ea50b76ef11ea0aee",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-snapshot_cover.webp": {
+    "url": "https://i.ytimg.com/vi/chrwJCzMj6c/maxresdefault.jpg",
+    "sha256": "2fb4d526fab7c79ce6ae3dbf929d6cb5e28b45613c671ae2b15996a6c4726954",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-the-floaty-envelope_cover.webp": {
+    "url": "https://i.ytimg.com/vi/mm_KVfeduhI/maxresdefault.jpg",
+    "sha256": "dcacbe16af2cd7c89165a15a7d23357d6902ed2e2fea6595159a3a53a8a5e121",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-the-hour-of-floral-rites_cover.webp": {
+    "url": "https://i.ytimg.com/vi/_FlB7y79JYo/maxresdefault.jpg",
+    "sha256": "3963f00c364978c35e899b0404b86ad3ee4fdd868dc4555225d43cafc48260f6",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-thunder-s-legacy_cover.webp": {
+    "url": "https://i.ytimg.com/vi/xSECHMvp-ec/maxresdefault.jpg",
+    "sha256": "a730dacb4a4ad9464a8fd3ff07b15c24fffe21e5cc1bffac41704e755c14e1cf",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-under-my-breath_cover.webp": {
+    "url": "https://i.ytimg.com/vi/5ZTwB1vjF3g/maxresdefault.jpg",
+    "sha256": "28819ed68119efe7fdf3d778b7f776456ad5a740351fb50f9505c0279c0a859b",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-yi_cover.webp": {
+    "url": "https://i.ytimg.com/vi/0_zQPJmfwDU/maxresdefault.jpg",
+    "sha256": "7df6a1d36c7fb3327c400009ab53a212764f7f8d715429e8ad01dc0cabe3128b",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-zeroth-directive-original-soundtrack-vol-1_cover.webp": {
+    "url": "https://i.ytimg.com/vi/OG-kdPECvi4/maxresdefault.jpg",
+    "sha256": "223e09fcb23632f4b1a4e9fa491388db9eea8a7b18856202a9f29a8da9a198f7",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-zeroth-directive-original-soundtrack-vol-2_cover.webp": {
+    "url": "https://i.ytimg.com/vi/ZvyLSraOSV4/maxresdefault.jpg",
+    "sha256": "9fcd6380fcdb6c77165fbfd68b0dcfb9fd7a0a1622fbfc3e4ce719b06ecbd9e5",
+    "importer": "endfield-album-covers"
   }
 }
