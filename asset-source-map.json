@@ -26616,6 +26616,11 @@
       "sourcePath": "skill/skill_icon_skchr_makoto_3.png",
       "sourceBlob": "1a0ee81116e7d5cf6cbf0c1246cdc7939ffeeec6",
       "maxWidth": 128
+    },
+    "material-icons/2026感谢庆典物资补给.webp": {
+      "sourcePath": "item/randomMaterial_4.png",
+      "sourceBlob": "72a3acf4593695b1d97cb8c88ea191a9588ed64a",
+      "maxWidth": 183
     }
   },
   "namingSource": {

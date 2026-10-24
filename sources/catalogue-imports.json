@@ -7507,5 +7507,10 @@
     "url": "https://i.ytimg.com/vi/ZvyLSraOSV4/maxresdefault.jpg",
     "sha256": "9fcd6380fcdb6c77165fbfd68b0dcfb9fd7a0a1622fbfc3e4ce719b06ecbd9e5",
     "importer": "endfield-album-covers"
+  },
+  "material-icons/2026感谢庆典物资补给.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/512db2d9a1b58bfd35f8c93c4c7ff41e284f7b35/item/randomMaterial_4.png",
+    "sha256": "c40207d7848f83070cc50586200f3a32aa4cb1420a5136b72085c818e3e8199b",
+    "importer": "reward-icons"
   }
 }
