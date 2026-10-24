@@ -1,0 +1,37 @@
+{
+  "scope": "Official provider marks for Arkpedia sign-in and linked-account controls. These trademarks remain owned by their respective providers.",
+  "assets": [
+    {
+      "path": "essential-icons/google.png",
+      "sourceUrl": "https://developers.google.com/identity/branding-guidelines",
+      "sourceSelection": "signin-assets.zip; Android + Web, PNG @2x, Light, icon-only square",
+      "retrieved": "2026-10-25",
+      "sourceBytes": 2947,
+      "sourceSha256": "707f430da8d0de13091baa30729a49475cd84af6b1d849b2a76aeabe0c093397",
+      "transformation": "None; original provider bytes, colors and proportions preserved.",
+      "importedFrom": {
+        "repository": "arkpedia/arkpedia",
+        "commit": "f2d9acd32be9b1553a5b97d503822d03a06fda70",
+        "path": "public/icons/auth/google.png"
+      },
+      "dimensions": {
+        "width": 80,
+        "height": 80
+      }
+    },
+    {
+      "path": "essential-icons/discord.svg",
+      "sourceUrl": "https://discord.com/branding",
+      "sourceSelection": "66e3d80db9971f10a9757c99_Symbol.svg; original blurple symbol",
+      "retrieved": "2026-10-25",
+      "sourceBytes": 1310,
+      "sourceSha256": "296286aa112c4400af8e96191ab888f81abd4bd1d5dc7294112a622ef43581b1",
+      "transformation": "None; original provider bytes, colors and proportions preserved.",
+      "importedFrom": {
+        "repository": "arkpedia/arkpedia",
+        "commit": "f2d9acd32be9b1553a5b97d503822d03a06fda70",
+        "path": "public/icons/auth/discord.svg"
+      }
+    }
+  ]
+}
