@@ -7512,5 +7512,10 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/512db2d9a1b58bfd35f8c93c4c7ff41e284f7b35/item/randomMaterial_4.png",
     "sha256": "c40207d7848f83070cc50586200f3a32aa4cb1420a5136b72085c818e3e8199b",
     "importer": "reward-icons"
+  },
+  "album-covers/视相博物馆：演化_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261024/70f8d9d1e53a49e4c200f2aac8217743.jpg",
+    "sha256": "11b665dbbb4daf0d3ecc8cf2de890af9bffb3841ad5e3601bcb72a82e50793c7",
+    "importer": "album-covers"
   }
 }
