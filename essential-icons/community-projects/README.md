@@ -12,3 +12,4 @@ Branding and character artwork belong to their respective owners.
 | arknights-wiki.png | https://arknights.wiki.gg/images/Site-logo.png?c58958 (wiki siteinfo logo) |
 | krooster.webp | https://d3gqz3mx7fd4v.cloudfront.net/images/title/default-h.webp |
 | amiya.png | https://amiya.io/resources/misc/amiya-shock.png (site Open Graph image) |
+| penguin-statistics.png | https://penguin.upyun.galvincdn.com/logos/penguin_stats_logo.png (site Open Graph image) |
