@@ -26621,6 +26621,11 @@
       "sourcePath": "item/randomMaterial_4.png",
       "sourceBlob": "72a3acf4593695b1d97cb8c88ea191a9588ed64a",
       "maxWidth": 183
+    },
+    "stages-images/yan_camp_r_32.webp": {
+      "sourcePath": "map/camp_r_32.png",
+      "sourceBlob": "59d879b7f575411269661218aeeeb240d1b7ab5d",
+      "maxWidth": 512
     }
   },
   "namingSource": {

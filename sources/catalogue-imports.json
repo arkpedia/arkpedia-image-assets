@@ -7522,5 +7522,10 @@
     "url": "https://arknights.timo.beer/covers/limbus_pilgrimage.jpg?v=4668ffbc8c",
     "sha256": "474e9d657a89ceed219ee29af2bf19bc05bd8ce8e4d17142c579f15044583ce9",
     "importer": "story-covers"
+  },
+  "stages-images/yan_camp_r_32.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/f925fd75438a885a9e0220fed06d0a9b94701bc3/map/camp_r_32.png",
+    "sha256": "e990e070dc510389a971ba8bdd70d4ce2b49296f7b870c7d1aee9fd841243aad",
+    "importer": "stage-renders"
   }
 }
