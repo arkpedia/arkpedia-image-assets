@@ -7517,5 +7517,10 @@
     "url": "https://web.hycdn.cn/siren/pic/20261024/70f8d9d1e53a49e4c200f2aac8217743.jpg",
     "sha256": "11b665dbbb4daf0d3ecc8cf2de890af9bffb3841ad5e3601bcb72a82e50793c7",
     "importer": "album-covers"
+  },
+  "story-map/timo-limbus_pilgrimage-4668ffbc8c.webp": {
+    "url": "https://arknights.timo.beer/covers/limbus_pilgrimage.jpg?v=4668ffbc8c",
+    "sha256": "474e9d657a89ceed219ee29af2bf19bc05bd8ce8e4d17142c579f15044583ce9",
+    "importer": "story-covers"
   }
 }
