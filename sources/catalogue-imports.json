@@ -7527,5 +7527,13 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/f925fd75438a885a9e0220fed06d0a9b94701bc3/map/camp_r_32.png",
     "sha256": "e990e070dc510389a971ba8bdd70d4ce2b49296f7b870c7d1aee9fd841243aad",
     "importer": "stage-renders"
+  },
+  "event-poster/CN 0787-8.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20261023/fff0083f0341b86ec21028d1b1ab5ed8.jpg",
+    "sha256": "f2a277cecd0134f11a4c193e4b8d31b9ead355f6b8aa57bc3cef72b9414bbc3b"
+  },
+  "headhunting-banner-images/CN 0787-3.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20261023/f3f6f2b93639a9bbf893eddf73a823b7.JPG",
+    "sha256": "ff3bdcd34811f801db8c72f90645ed071cd78d11bfa29128d94ab5bb5a3b43f3"
   }
 }
