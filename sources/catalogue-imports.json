@@ -7535,5 +7535,10 @@
   "headhunting-banner-images/CN 0787-3.webp": {
     "url": "https://web.hycdn.cn/upload/image/20261023/f3f6f2b93639a9bbf893eddf73a823b7.JPG",
     "sha256": "ff3bdcd34811f801db8c72f90645ed071cd78d11bfa29128d94ab5bb5a3b43f3"
+  },
+  "album-covers/A_Necessary_Message_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261029/c0f971a819437b6bc4e305d51673a485.png",
+    "sha256": "9607d32b0091634f87b3e132990f1afff22186a232d8e2ee8c5971db4b6eb648",
+    "importer": "album-covers"
   }
 }
