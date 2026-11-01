@@ -26861,6 +26861,11 @@
       "sourcePath": "skill/skill_icon_skchr_tocka_3.png",
       "sourceBlob": "3b7447f2d850cdab9acb239459d042a5b65a8dfb",
       "maxWidth": 128
+    },
+    "material-icons/故土新程寻访凭证 (ten-roll).webp": {
+      "sourcePath": "item/LIMITED_TKT_GACHA_10_7901.png",
+      "sourceBlob": "922d816a62050b589777ac1fa5fdcb89dda93f26",
+      "maxWidth": 183
     }
   },
   "namingSource": {

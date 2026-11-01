@@ -7736,5 +7736,80 @@
   "skill-icons/Тоска - 踽踽独行之春.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_tocka_3.png",
     "sha256": "91f65d8cf123faa7e20ecac832ea023082a689a494d170e68cc73f125cb09968"
+  },
+  "album-covers/Тысячу_лет_спустя_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261030/229a3ee4bb19452db2d7944461d51656.png",
+    "sha256": "b0f6be8b4cd497b7ef0818cc197bedddc01e41834c2ddb42e750940a39b108a4",
+    "importer": "album-covers"
+  },
+  "content-art/furni_set_tsarPalace-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/aa5cb25df844ee2b0680428b13cb65d5d4b515a5/assets/dyn/arts/ui/furnithemes/furni_set_tsarpalace.png",
+    "sha256": "471701eaf523498fdb22395173b0e68f67791030020eac0d156c9354ee4e6efc",
+    "importer": "furniture-art"
+  },
+  "material-icons/furni_act79d3_bear_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act79d3_bear_01.png",
+    "sha256": "67c5b3cf1243a927b9ba7d7c90eda81c423dc35feaab13dd9dcc6727afe34ad5",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_terracommericials_FeaturedCannedMeat_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_terracommericials_FeaturedCannedMeat_01.png",
+    "sha256": "6d24e661e04e19ef03edc4482ccba4aec50c218eac5e1d12958ec22f9a774830",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_carpet_01.png",
+    "sha256": "6f5cc93ddb9523a32532f554c2eec47dbced847793d5df75bd84559fdd8a8d59",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_carpet_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_carpet_02.png",
+    "sha256": "8e6c04d93e4dae332e4f5c4b350f876392437f69b86d716fc429b5a66c28c956",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_ceilinglamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_ceilinglamp_01.png",
+    "sha256": "a017283928ef3b34759a2ffcf54da46d58e84252381745e22b077fa2693aed1a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_ceilinglamp_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_ceilinglamp_02.png",
+    "sha256": "e1eea6347ac1ab10d9b29b35ac38accb089eea70316e3072ac84f4771a14aae4",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_coffeeTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_coffeeTable_01.png",
+    "sha256": "aa05a3825105b9820f8f120d79646d6024bb93346a67097fde71c2113845b174",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_fireplace_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_fireplace_01.png",
+    "sha256": "0208ba9b302e7de108a581dd4a8f47fd399c254386a857acfd465832e1f712e7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_floor_01.png",
+    "sha256": "9d0be661d64c39f90e1423649b8feaad4f2d968f20ffbf0912c716dd9944087a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_table_01.png",
+    "sha256": "457a46896b1ba1b43a3b4db0f54b19ad9baffe7d4b223719ff518c18a50da6ed",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_wallpaper_01.png",
+    "sha256": "90304c1373c9089cb0cfc96ee51662b303ec1e9ecb753820421cda4cf78181aa",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_wardrobe_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_wardrobe_01.png",
+    "sha256": "896536917fec95ae802b43d79dd882a0155b66ca728d9d9b23b3c3c8a8639f77",
+    "importer": "reward-icons"
+  },
+  "material-icons/故土新程寻访凭证 (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/item/LIMITED_TKT_GACHA_10_7901.png",
+    "sha256": "0719b538d192065064c37bfececc5c12dd36da143e7cdaf2c71bfcfb9bc03167",
+    "importer": "reward-icons"
   }
 }
