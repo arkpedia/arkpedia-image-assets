@@ -7544,5 +7544,197 @@
   "headhunting-banner-images/Orienteering 7.webp": {
     "url": "https://ark-us-static-online.yo-star.com/announce/images/20261009/12f5c0f19e0eb49b1e2b30301d736a5d.jpg",
     "sha256": "08f0f119815328f2d0cb335cc9deaa0596600ff2d19bf893c661d3e6d9ae4f85"
+  },
+  "base-skill-icons/Caleido - 制镜基本功·α.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_ws_evolve2.png",
+    "sha256": "c01cfaf85d96ba98b9141ff733c2fb5c6bedc9ccd2a4010f0a1526e5311a78b6"
+  },
+  "base-skill-icons/Caleido - 制镜基本功·β.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_ws_evolve3.png",
+    "sha256": "93787eab7880c1fb7f8e4de84bfda6a7857507bf57c66ad27881d6fa46a109f3"
+  },
+  "base-skill-icons/Caleido - 浸剂回收.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_ws_drop_aketon.png",
+    "sha256": "2b1987208b2b41d01cf55a86c3657af23e04e4fc30b1fe9d2f3aa67dc5cdcbfa"
+  },
+  "base-skill-icons/Herdbells - 梅里塔精拣.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_recycle_spd%26cost1.png",
+    "sha256": "a36cb80841e2a3e8ebefbe53a48c06a528bb5aab90ffeade8c94616969829b97"
+  },
+  "base-skill-icons/Herdbells - 花椰菜甄选.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_recycle_spd%26cost2.png",
+    "sha256": "0f0e389a102e56f6bcb825c24e4184df41ba3566c22aed0d351e82a3b3d14852"
+  },
+  "base-skill-icons/Talulah - 剑与昔时.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_train_caster%26vanguard1.png",
+    "sha256": "ec9d0e421f6b6f6d8594e2058ce66ceee512efcb2d305f8ab0c79247efefb891"
+  },
+  "base-skill-icons/Talulah - 火旁新事.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_train_branches1.png",
+    "sha256": "36fd8027ae0aa9c37128ab4c0c692c95e37cbf717f7a48ceb1041ec604e7fd0d"
+  },
+  "base-skill-icons/Ольга - 外交禀赋.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_meet_spd1.png",
+    "sha256": "6751adff1bc4425bb3f669656fa545fdef8ba769857055dba129722508a37636"
+  },
+  "base-skill-icons/Ольга - 群策群力.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_meet_spd%26ussg1.png",
+    "sha256": "1d6866e1b31e0ec2469c3f2fecb4324044f86d884ed3991b851fa2ac6c5ea0f9"
+  },
+  "base-skill-icons/Территория - 人造物之畏.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_pow_spd2.png",
+    "sha256": "d3af361a48a8da129e6b462f7c9571c1c50b69bab06f4b5599d47f12c7b0afe2"
+  },
+  "base-skill-icons/Территория - 无差别回收.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_recycle_spd%26cost4.png",
+    "sha256": "4ab8b644478e70fefbca4a78c037d6f7338cce399f993e457930bf0bc6572a78"
+  },
+  "base-skill-icons/Территория - 无差别转化.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_recycle_spd%26cost5.png",
+    "sha256": "31ba09db8f735bce875754e541f102e5879478dae1dadcb647764ab6b710d793"
+  },
+  "base-skill-icons/Тоска - “无用的人脉”.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_tra_share4.png",
+    "sha256": "7d778797ad12527e37afdd6898524c1dfdbd76dd933dad6bdc6ec47b40dd52fe"
+  },
+  "base-skill-icons/Тоска - “真有用？”.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_tra_share5.png",
+    "sha256": "84aa8acbea195095f516f27770cc554ca6373d02c4dc13f73c1dc973d68862bb"
+  },
+  "base-skill-icons/Тоска - 微小的帮助.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/building_skill/bskill_dorm_unfull2.png",
+    "sha256": "9276d4247e02bc760b58515f154eb6e71aa1400b907face07ebb011b674d96d7"
+  },
+  "event-poster/Vremya, v Put'!.webp": {
+    "url": "https://arknights.wiki.gg/images/CN_Vremya%2C_v_Put%27%21_banner.png?6dcc00",
+    "sha256": "9f00861293d870c42f50873fa2807cede9c8e654be9ea1341f893214a22bf9ce"
+  },
+  "five-star-icons/Alanna - 赤土拉力.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4178_alanna_race%233.png",
+    "sha256": "e61272621a0f587772c25486bec1b26c2763bb0b9a2c4f14e46144065e56d579"
+  },
+  "five-star-icons/Caleido - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4169_caledo.png",
+    "sha256": "708282ca249e21deb5005051d4079e1e8fbb91be39c116e19a5d397201dbfce1"
+  },
+  "five-star-icons/Caleido - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4169_caledo_2.png",
+    "sha256": "5a95c5ae17b6f078300999c456c8cbad037895eaabd3a22ec7642df9a630fa22"
+  },
+  "five-star-icons/Catherine - 暖冬教室.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4162_cathy_kitchen%235.png",
+    "sha256": "e0d8bf37ae83e65d1b6526444ef2627a94abd707feb55e41ae54d29a1f2bb079"
+  },
+  "five-star-icons/Ольга - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4245_alga.png",
+    "sha256": "ec0dcc570fa8cdb7865982a9c5ea92ac1e98933dfae20fc09dc1ff6ef7018440"
+  },
+  "five-star-icons/Ольга - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4245_alga_2.png",
+    "sha256": "f6aaddfafacdbe11a8e804245f9862671ba6ea01d2944abd49a973e702be6ebb"
+  },
+  "four-star-icons/Herdbells - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4170_hdbell.png",
+    "sha256": "a410dd0a6d102234d6b681bf522720e82f80409ea20ec19033053245e414a4bb"
+  },
+  "four-star-icons/Herdbells - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4170_hdbell_2.png",
+    "sha256": "58b7e019a060174c7b2e41d700d288aa36a7f8f744aa6a0cb147ae671cd1d2f8"
+  },
+  "six-star-icons/Horn - 锋光初现.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4039_horn_epoque%2359.png",
+    "sha256": "a73b58eb5bca0d24509cd44ebf58e52d78d91be3beaa57a670a7c56e18393ea0"
+  },
+  "six-star-icons/SilverAsh the Reignfrost - 雪覆伦城.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_1045_svash2_sale%2320.png",
+    "sha256": "f9a3892452cc0e7fe92b96051cede67a8a3df1e96a77a98d4f424bbd3a267017"
+  },
+  "six-star-icons/Talulah - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4247_oxi.png",
+    "sha256": "891dbe6c5af520651b9490823c15a28cde5a53c99288f9a1e8ce81637e8a19dd"
+  },
+  "six-star-icons/Talulah - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4247_oxi_2.png",
+    "sha256": "f418f712e3316c7cbe5763ce45c851ea02a41e1c1ce3af6705345feda1e4a66a"
+  },
+  "six-star-icons/Viviana - 还愿礼.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4098_vvana_epoque%2359.png",
+    "sha256": "ac18aa7c598d5351a646a2ce82a1dbc3263ead9c6bdd46d46355ad0b739e3604"
+  },
+  "six-star-icons/Территория - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4246_dminon.png",
+    "sha256": "e37b0409aa66778d6463afdfcc8470cfe09eb9b8b811fe98aad1cea494252304"
+  },
+  "six-star-icons/Территория - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4246_dminon_2.png",
+    "sha256": "87806a100a9da5484f78ddd3bcc29d3c96c021048c1dd56a97d90dd055aba23a"
+  },
+  "six-star-icons/Тоска - Base.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4244_tocka.png",
+    "sha256": "e9382950bda98d71cb3214b0f7d9558a902cb460ab8554de56d8e5a2109d9d03"
+  },
+  "six-star-icons/Тоска - Elite 2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/avatar/char_4244_tocka_2.png",
+    "sha256": "5b7af06342b23f2eec78e12a55ff353b36550e3004dab2accbe8d5cd61449a9e"
+  },
+  "skill-icons/Caleido - “多面镜”.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_caledo_2.png",
+    "sha256": "e0c8dc571b9419c2c41661f4d9c90869e191cdec612cf06a8346b2db22ea5804"
+  },
+  "skill-icons/Caleido - 无公差切割.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_caledo_1.png",
+    "sha256": "0043c3b8332a2fb280f2b2aa867172e27d0a651bf8d88b76ba9a75fe71232e1d"
+  },
+  "skill-icons/Herdbells - 花椰菜冲击.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_hdbell_1.png",
+    "sha256": "38f7e0e1fdd8a34224d7124c899c57e3b44d939b7bb47641347a8d6020edcc3b"
+  },
+  "skill-icons/Herdbells - 蔬菜大拼盘.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_hdbell_2.png",
+    "sha256": "e875bf99ded084890b30c76ec0446db90614a957d06fbb9c5de312acbd82bf2a"
+  },
+  "skill-icons/Talulah - 日冕重烈.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_oxi_3.png",
+    "sha256": "3d98b46a28cdb806296e13e6698c4918953bf6bfb549fc445d59e3a158ca6e22"
+  },
+  "skill-icons/Talulah - 照霎白夜.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_oxi_1.png",
+    "sha256": "01d05c0e86b013544c65c64e145c042a0f20fd793e194385a4566a9d59a4abdd"
+  },
+  "skill-icons/Talulah - 阂断骤雪.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_oxi_2.png",
+    "sha256": "590d2dead52adc24ee314f981f9343cbc828093501d33460cf093c8386dd8abe"
+  },
+  "skill-icons/Ольга - 交叉施压.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_alga_1.png",
+    "sha256": "d5b228f65e172ea82de0ec369ecab6ffd1abfd039530fca3f2f7c0d2c0a596cc"
+  },
+  "skill-icons/Ольга - 只为我的答案.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_alga_2.png",
+    "sha256": "2848b7c86b75661cc6f7b5fcaca25bf89847c6daaee105303b98805fb8edcae8"
+  },
+  "skill-icons/Территория - 停步.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_dminon_1.png",
+    "sha256": "88d3ea8100fed2e4db521d41bd2a67dda974fba82ed315548a866c2f323da33f"
+  },
+  "skill-icons/Территория - 受戮.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_dminon_2.png",
+    "sha256": "a89c7acb7b18459fd4779cc595cf6c83060a59b9597d17cd4af0eaeeb0173a8f"
+  },
+  "skill-icons/Территория - 无人的国度.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_dminon_3.png",
+    "sha256": "d02594860ac2514d12cccc2d377ee576a138416663ff547cf13862a5100f640d"
+  },
+  "skill-icons/Тоска - 一无所有之人.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_tocka_1.png",
+    "sha256": "910c8eb69d4b5bd262275ec4292e09a3572ff76cdade7f02f087011452d73cf8"
+  },
+  "skill-icons/Тоска - 意欲呼啸之心.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_tocka_2.png",
+    "sha256": "eb445ee19f5c0256dd9f8cd842feebecd44c00cd4933850a0f955db12eb6dfc7"
+  },
+  "skill-icons/Тоска - 踽踽独行之春.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/skill/skill_icon_skchr_tocka_3.png",
+    "sha256": "91f65d8cf123faa7e20ecac832ea023082a689a494d170e68cc73f125cb09968"
   }
 }
