@@ -7811,5 +7811,10 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9473346fe047eecb625cabb5d10611a12657f479/item/LIMITED_TKT_GACHA_10_7901.png",
     "sha256": "0719b538d192065064c37bfececc5c12dd36da143e7cdaf2c71bfcfb9bc03167",
     "importer": "reward-icons"
+  },
+  "story-map/timo-act55side-e6a47f11b7.webp": {
+    "url": "https://arknights.timo.beer/covers/act55side.jpg?v=e6a47f11b7",
+    "sha256": "ad14b22a9285598449ba2769a2bad5cc3c9a00c1daa304bc1001cd353da95585",
+    "importer": "story-covers"
   }
 }
