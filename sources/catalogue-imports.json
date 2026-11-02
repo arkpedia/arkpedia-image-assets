@@ -7816,5 +7816,10 @@
     "url": "https://arknights.timo.beer/covers/act55side.jpg?v=e6a47f11b7",
     "sha256": "ad14b22a9285598449ba2769a2bad5cc3c9a00c1daa304bc1001cd353da95585",
     "importer": "story-covers"
+  },
+  "album-covers/_[classified]entity.dominion.turmoil_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261030/819b84390a907c3af721589fe253daa0.png",
+    "sha256": "62dc5683a789b59a6f458e007a6c805e8fe8c146138e5ed549295c8a47cdbaec",
+    "importer": "album-covers"
   }
 }
