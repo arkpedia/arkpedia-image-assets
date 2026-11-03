@@ -7821,5 +7821,15 @@
     "url": "https://web.hycdn.cn/siren/pic/20261030/819b84390a907c3af721589fe253daa0.png",
     "sha256": "62dc5683a789b59a6f458e007a6c805e8fe8c146138e5ed549295c8a47cdbaec",
     "importer": "album-covers"
+  },
+  "album-covers/时间啊，向前！_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261102/a0f25b1287570bfe96872019183b8edd.jpg",
+    "sha256": "e2dc0ce42fb6fce11367141f82c82dc56a1a4a31a93cbba1058888568370fca5",
+    "importer": "album-covers"
+  },
+  "material-icons/Territoriya's Token.webp": {
+    "url": "https://arknights.wiki.gg/images/Territoriya%27s_Token.png?6b7b6a",
+    "sha256": "2fa8b9ecfccc2230f6829cfc4480f42c27ea19e328d944370316827ff8f8b07b",
+    "importer": "reward-icons"
   }
 }
