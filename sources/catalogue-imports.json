@@ -7831,5 +7831,10 @@
     "url": "https://arknights.wiki.gg/images/Territoriya%27s_Token.png?6b7b6a",
     "sha256": "2fa8b9ecfccc2230f6829cfc4480f42c27ea19e328d944370316827ff8f8b07b",
     "importer": "reward-icons"
+  },
+  "story-map/timo-limbus_pilgrimage-9d2669b191.webp": {
+    "url": "https://arknights.timo.beer/covers/limbus_pilgrimage.jpg?v=9d2669b191",
+    "sha256": "aeb26d1ecdc0cb040f3f136a33b54db1c81552f19095bc4cc90907081ba3d6a1",
+    "importer": "story-covers"
   }
 }
