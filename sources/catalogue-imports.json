@@ -7836,5 +7836,15 @@
     "url": "https://arknights.timo.beer/covers/limbus_pilgrimage.jpg?v=9d2669b191",
     "sha256": "aeb26d1ecdc0cb040f3f136a33b54db1c81552f19095bc4cc90907081ba3d6a1",
     "importer": "story-covers"
+  },
+  "album-covers/endfield-dust-upon-the-sword_cover.webp": {
+    "url": "https://i.ytimg.com/vi/6G7lWvwop_k/maxresdefault.jpg",
+    "sha256": "9b713e408b627e2c45353c31b61231816ed289cb40f9701acba9c9da7424dda0",
+    "importer": "endfield-album-covers"
+  },
+  "album-covers/endfield-the-starry-flow-winds-on_cover.webp": {
+    "url": "https://i.ytimg.com/vi/9mmzSsfATKk/maxresdefault.jpg",
+    "sha256": "2531e019198dae64c3097ed1905465029895da90de623730ec779cd42e840778",
+    "importer": "endfield-album-covers"
   }
 }
