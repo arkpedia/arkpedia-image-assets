@@ -15,6 +15,7 @@ Icons, banner art, event art, and other image media used by [Arkpedia](https://g
 | `profile-avatars/`, `profile-namecards/`, `profile-medals/`, `profile-portraits/`, `profile-ui/`, `profile-modules/`, `profile-skills/` | The game's player profile card, for the account page: avatars, each card theme's background and head panel (every variant), medals, operator portraits in each outfit, the card's own sprites, and the module marks and skill icons its support units show. Named by the game's ids, in lower case. |
 | `cursors/` | The site's cursors. |
 | `originals/` | Preserved original image files. |
+| `originals/anniversary-5/terra/` | Archived anniversary website artwork: character avatars and illustrations, region tiles, assembled maps, backgrounds and logos. Import notes and full-map reassembly instructions are in its README; provenance is in `sources/anniversary-5-terra.json`. |
 | `originals/source-art/` | Manual captures retained so masked/processed emblems can be reproduced. See its provenance notes. |
 | `sources/` and `source.json` | Per-import provenance and the initial repository import source. |
 | `asset-manifest.json` | File sizes and SHA-256 digests. |
