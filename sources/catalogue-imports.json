@@ -7855,5 +7855,10 @@
   "headhunting-banner-images/Stronghold Headhunting.webp": {
     "url": "https://arknights.wiki.gg/images/CN_Stronghold_Headhunting_banner.png?de17f3",
     "sha256": "935255326cf1709da5f18a9e6fe7a52e831f9833ac8d891e9bd78f2eda76be28"
+  },
+  "album-covers/卫戍协议：规程OST_cover.webp": {
+    "url": "https://web.hycdn.cn/siren/pic/20261109/670a1ab61b8a83fdf6e0364daa3ef14d.jpg",
+    "sha256": "efd71ad3a3c2e54b54f8c8e1628c512798fe64aa45177c1961d2ff96a56fe580",
+    "importer": "album-covers"
   }
 }
