@@ -7860,5 +7860,390 @@
     "url": "https://web.hycdn.cn/siren/pic/20261109/670a1ab61b8a83fdf6e0364daa3ef14d.jpg",
     "sha256": "efd71ad3a3c2e54b54f8c8e1628c512798fe64aa45177c1961d2ff96a56fe580",
     "importer": "album-covers"
+  },
+  "material-icons/Information Fragments.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/STORY_REVIEW_COIN.png",
+    "sha256": "e4898ca17d88998cd4d3963c117585e9edcad2d74d055bdc70b2036be9196b39",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_basket_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_basket_01.png",
+    "sha256": "b90f4b9b8689af08706c431388d5766660cffdaee833e2754330817abed2b321",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_brazier_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_brazier_01.png",
+    "sha256": "867ee9938d6e4d2b1b17e71823d6697004c2dbd6c4374568d368317bcef3892d",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_cabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_cabinet_01.png",
+    "sha256": "f2b3ac76803fa030fc27eef51bf68ea5a8972975ea3b672471185d43a3e325ad",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_carpet_01.png",
+    "sha256": "f57869d7b1601c6b2d6a83dc30f23a3d603d9a58a28ac133fa3d1144a4b717c8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_ceilingLight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_ceilingLight_01.png",
+    "sha256": "d9dff40d2ec0cbfe9d2913195cb2c45713a1d39324f1d93c05b1e79deae0f42a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_chair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_chair_01.png",
+    "sha256": "2ba04c207421f5257145e7e342ef252a400175a46bd020a9501fac4fe412a4be",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_column_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_column_01.png",
+    "sha256": "d49211e44007edc0872e8a0294aaebbfaf9a566f228f52aaf77eac0290fd6643",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_floor_01.png",
+    "sha256": "5171404d7e9b0a4232df28e4c090d6405990875e56b095e2f697e861d4ef07c7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_hanger_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_hanger_01.png",
+    "sha256": "7a4993545ca9b0b15e82c19a38890b57ebd4b49e775e3f864cf7c2ff5513f897",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_pillar_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_pillar_01.png",
+    "sha256": "f5c7d6b09727fa3704bd3a9caecc65f32006fd80ed2de4dbb08a9a139fbef6d0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_shelf_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_shelf_01.png",
+    "sha256": "8d1c4ed20322343ba0ccfd5d3456fd3d7feeca7198ccf9881ea085d2e0a6c626",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_table_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_table_01.png",
+    "sha256": "5f0b81e76c88230ed0456b740627689ecd44a1fe8f2d4a7f6ee2dab467293f36",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_Azuredream_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_Azuredream_wallpaper_01.png",
+    "sha256": "401588ce23771cceb55923e5d2634170c14990b88ad558667b706e23b53e3840",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_collectioncabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_collectioncabinet_01.png",
+    "sha256": "c1c50c9dd2cde1baefc3dc9ab2868bc2cbca0cb1363db78a84ec55515007f577",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_floor_01.png",
+    "sha256": "cfb38d4e8be7a3374468b78441af2ac38956185e0840a9692f85a62e1960b342",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_ironbox_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_ironbox_01.png",
+    "sha256": "e9d5dc91b4e5bce78e576e15198c219c2c1a6f847d2a01215e1dc437fc9e8008",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_partitionwall_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_partitionwall_01.png",
+    "sha256": "e010f98ae247361d92263e573fd4b9f95eebbfaa384302cd1ca768b56c67b84a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_storagetable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_storagetable_01.png",
+    "sha256": "07575d0e8010979a1145fa2588476ca3838af01dc357c5d24fb353db8c627a25",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_ScarMarket_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_ScarMarket_wallpaper_01.png",
+    "sha256": "cade88068ab2fbe0abb567ff748d9615652ed75936705e3efea0d9447da3a079",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act22d4_ceiling_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act22d4_ceiling_01.png",
+    "sha256": "01ef0ee166a73700cf3cddf7d83c1387b7f1d5f789a3a8f14333b48646092b07",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act22d4_letterBox_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act22d4_letterBox_01.png",
+    "sha256": "a9e55b62bced39a4e88f974a6be2052d0ab5ec133ffb136e23563b179a0efa91",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_act71d0_grill_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_act71d0_grill_01.png",
+    "sha256": "16d2baef8c549e0a43718fd50020188ef35058bc1b3f04b4be44ee7ad60d272a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_animation_projector_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_animation_projector_02.png",
+    "sha256": "a5e1035a9958bd079ada6e66897281027d5d374fe878b3e07942e231da4872d8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_animation_projector_03.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_animation_projector_03.png",
+    "sha256": "8423fc36a910605ea72ae8f3064788a2ef4b287b4969976cddc930ab6d9cf152",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_broadcast_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_broadcast_01.png",
+    "sha256": "7348198b944059db9221f244e75029f6fe3e68ff824edad1ca79c6459d83950e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_floorlamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_floorlamp_01.png",
+    "sha256": "33793d8fa8c0da6c4a6c42d4b2215204a28ca04060150bd80422cb77e41648b4",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_lighthouse_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_lighthouse_01.png",
+    "sha256": "4aa4fb118b21c183b195771ce2cf15411950bff67b085a63f40fca50e57e052f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_plantplatform_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_plantplatform_01.png",
+    "sha256": "5eb2cf36f43ddd16a1da3dcc908d7982766131a9dc5ba33ba1142e926d6813c4",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_sidetable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_sidetable_01.png",
+    "sha256": "d1bb34d7cb26f03948579d7589fe4ce9642f7340921239d1570a0c664c517097",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_clmsRoom_stonedesk_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_clmsRoom_stonedesk_01.png",
+    "sha256": "43fd891792f30e88f5f56aa91ba21ebb41e457386ccef25217e71d3aa3a0c28f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_curtain_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_curtain_01.png",
+    "sha256": "b625b43ec717841f98b24a6f783ccf7a8783c78601d27b3bdf93fdc98ba85348",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_diners_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_diners_01.png",
+    "sha256": "551aaf13b1d6015f8bbdf2f1ef46f179fde2ad51e75958dfeb89e40dc7818624",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_shelf_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_shelf_02.png",
+    "sha256": "cbdf1b06aaf8937d85614997a7a54052a8e852cd670d0b0039fff1400e28d79c",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_shelf_03.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_shelf_03.png",
+    "sha256": "8dc638817f2ff5b147b70c6f3b8bdbb252f75cbe5013c0f3c0240a4cee642eb7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_cloudRestaurant_stool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_cloudRestaurant_stool_01.png",
+    "sha256": "74ecbfe260c52e6390a32b06a37cc813b23f77d4eedad1c0b1fd919966ef93bf",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_dessertShop_dinnerPlateTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_dessertShop_dinnerPlateTable_01.png",
+    "sha256": "47a75858a53a3c1bfa7c3fb4928f167e64b12c150380b82d2f2c5d0b1f1a3efb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_dessertShop_dinningTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_dessertShop_dinningTable_01.png",
+    "sha256": "5b3d181fecf60f59b0565207a6733adb2e55f0ddcdfee9ef79169e79cb2985eb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_dessertShop_emptyTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_dessertShop_emptyTable_01.png",
+    "sha256": "849fec5a0bc5072b02eca925db7528297af8575b3381071cbca94b85e3235b45",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_dessertShop_leftChair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_dessertShop_leftChair_01.png",
+    "sha256": "43607ad81c364099a12564b29bcbe9fa931b69b88ea9a7f3cb73b90492501348",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_dessertShop_rightChair_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_dessertShop_rightChair_01.png",
+    "sha256": "de743d6b7ea7e6e3c93ad476eaedaaf1222072511855dc56c3c439728d729d16",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_airCleaner_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_airCleaner_01.png",
+    "sha256": "215c2fc4390647bb48faaa2ef07f6d1c3131fa501b020cefe27ba1c31de22db0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_cabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_cabinet_01.png",
+    "sha256": "2c48993acebae59035c567eab4d5af345773995ee840614c3f53d6bf784d3835",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_case_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_case_01.png",
+    "sha256": "6afd7607ad4d9666636b2911b9f7320b46e878a933c3d142a0f45191c5404ea9",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_floor_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_floor_01.png",
+    "sha256": "94c10d06e4b6cb96caf326d6c21d7a7a684edce8d44c98463a1ef2cd98e3f68a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_lamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_lamp_01.png",
+    "sha256": "4e875b55fb1e935db1ca6121b8a8e692c5679e30b5600e0b5c4eb457bd76af27",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_pipeline_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_pipeline_01.png",
+    "sha256": "8448ab0d309d66b894bdb7d3f8e371d3a763dca43ee6f40b630a68cb72e20cf7",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_plant_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_plant_01.png",
+    "sha256": "f2cea8625354ac0972ec3c0e0fdad2c64190f9e186e0593262feca73d81599d3",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_steps_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_steps_01.png",
+    "sha256": "c858dfe8ed0bfa118664d6e65944a77be0c0381f036ddccb8aad25e3a058c887",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_tatami_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_tatami_01.png",
+    "sha256": "f4aafc3b1522355805b8533d328fbc04ca0297a9b4be27dc5f12a793441d3dbf",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_wallpaper_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_wallpaper_01.png",
+    "sha256": "34a5753eb5fc1cf2351202ff77ab7674dcf731ea2f7f3b7c4699a8a29c54e2ec",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eliteLounge_blackboard_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eliteLounge_blackboard_01.png",
+    "sha256": "300852a14ccb343fc8095433227283793fdd55fc3f832c27602d4670a14b4f2a",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eliteLounge_roundSofa_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eliteLounge_roundSofa_01.png",
+    "sha256": "0f261afc1c4435a12dc9856c0c8a15a0c9a97d05ddbe8957f10961639dfbfd28",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eliteLounge_roundStool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eliteLounge_roundStool_01.png",
+    "sha256": "33512dcd39dd1e9b6495ffcbf96af6a2a52af4ef6897a70f16c7360c459ebc24",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_eliteLounge_workbench_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eliteLounge_workbench_01.png",
+    "sha256": "e122598db701134316d61c7f87cd59c9442b7677112ef133d7ac1e08599cd04f",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_kaltsroom_cabinet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_kaltsroom_cabinet_01.png",
+    "sha256": "37c00a4f283ca0f4d360a2516f6c40bfb73d66e746b29bb7cf944d24d46f5151",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_kaltsroom_carpet_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_kaltsroom_carpet_01.png",
+    "sha256": "9cd2a9d952d189b00278401904c2e734ccf69082b276ede67e358e45259cb2b0",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_kaltsroom_ceilinglight_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_kaltsroom_ceilinglight_01.png",
+    "sha256": "ff737452c458498a9184f4e77462cf7cef493da4fee1e833c6843e09221ebd60",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_kaltsroom_display_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_kaltsroom_display_01.png",
+    "sha256": "4e244b614f367a8c62fb5a1b31a7087b0cfbd56e0a6cfb44b4aa300cc96bb1cb",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_kaltsroom_sample_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_kaltsroom_sample_01.png",
+    "sha256": "7933ff17add39eb99754a621c3f32d0b284923fc0442bc166f71217f4e698d63",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_kaltsroom_sample_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_kaltsroom_sample_02.png",
+    "sha256": "3c5b82eaa916d5528c88999c7349509b823dae70e70dfb5997dccd7a218720d8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_diningStool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_diningStool_01.png",
+    "sha256": "78375e7671606a8e6df09a44af428cc320aef9123b95227a3573be7d4cae0967",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_diningTable_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_diningTable_01.png",
+    "sha256": "5a2024f2279fc46df07fb0e78c201f63d40c11eeecf37390922a95f20c9b2ec2",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_oven_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_oven_01.png",
+    "sha256": "c9f90a3e0fae258f0383413604a895d47eebe8eb87d12ba5d1da3f443b4b1f89",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_pipeLamp_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_pipeLamp_01.png",
+    "sha256": "13d18b999848260b1288d8c3cd8c0c069d20bbdc57d3163026b9204de06d95cc",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_wallShelf_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_wallShelf_01.png",
+    "sha256": "c008fc2808083a77325fcf527b3cb1f5ecde4439ca3cc5332fd280b856b9a152",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_rabbitTown_workStool_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_rabbitTown_workStool_01.png",
+    "sha256": "5fcd4261e7fc2c9c261bb9ad8a8065c768980e5775baf39f780ab2b6601fac08",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_mirror_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_mirror_01.png",
+    "sha256": "406f41b65eb16be687a427d0eb61db30c292f7354b44110b3943db73580f770e",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_plant_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_plant_01.png",
+    "sha256": "598573e6d35fdadf0e32495691cfc66ac4cda46733d15b94331e6e7aefc2cee8",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_plant_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_plant_02.png",
+    "sha256": "66e1857ec6baba018c3d1ccaf4625137e26cc3ad9f19ec5c1022449c766e4a61",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_recordplayer_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_recordplayer_01.png",
+    "sha256": "0c60f42a0e895ef829659be3bc480f370553d235520e1b772597a4d4c8866389",
+    "importer": "reward-icons"
+  },
+  "material-icons/furni_tsarPalace_shelf_02.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_tsarPalace_shelf_02.png",
+    "sha256": "5de9fa40ae87d34e03525211d5655a964e4d51735dae8b4fd4cf7260d572d9ae",
+    "importer": "reward-icons"
+  },
+  "material-icons/国度的信物.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/p_char_4246_dminon.png",
+    "sha256": "cba102e3ac0aeaac4ec05cbb7f841d7a34750d627554ede052ab77f53b7a2610",
+    "importer": "reward-icons"
+  },
+  "material-icons/旅骨的信物.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/p_char_4232_hbound.png",
+    "sha256": "37f98d23e4460aea55cc0d66de5a11b992fd1a071dcca7faaa9044dbad5da74f",
+    "importer": "reward-icons"
+  },
+  "material-icons/时隙的信物.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/p_char_4236_tmslot.png",
+    "sha256": "2b245e7e494b3b7d2a364214bb1b4e667ed91b6f6825bc9a58d2db0b37beca8d",
+    "importer": "reward-icons"
+  },
+  "material-icons/罗德岛隐秘队的信物.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/p_char_4215_buddy.png",
+    "sha256": "6f3c446e4723d646c08a6a525af6b68cf0d9b1c7e2e37988605858dbbd92542a",
+    "importer": "reward-icons"
+  },
+  "material-icons/虎狼丸的信物.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/p_char_4220_kormr.png",
+    "sha256": "69d0609887dbf6d713e427d133fbb07b7ce8c3c245fd2b979e23f41ed220932a",
+    "importer": "reward-icons"
   }
 }

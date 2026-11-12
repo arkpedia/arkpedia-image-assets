@@ -26866,6 +26866,36 @@
       "sourcePath": "item/LIMITED_TKT_GACHA_10_7901.png",
       "sourceBlob": "922d816a62050b589777ac1fa5fdcb89dda93f26",
       "maxWidth": 183
+    },
+    "material-icons/Information Fragments.webp": {
+      "sourcePath": "item/STORY_REVIEW_COIN.png",
+      "sourceBlob": "795b810ec5190bbe10cf618e5851112c3e58efe6",
+      "maxWidth": 183
+    },
+    "material-icons/国度的信物.webp": {
+      "sourcePath": "item/p_char_4246_dminon.png",
+      "sourceBlob": "f5fe820ab3599b2b1f34d92c4eccacc1d5315f91",
+      "maxWidth": 183
+    },
+    "material-icons/旅骨的信物.webp": {
+      "sourcePath": "item/p_char_4232_hbound.png",
+      "sourceBlob": "efa0c2e453470b4d434f874d4117c13f26c2b84f",
+      "maxWidth": 183
+    },
+    "material-icons/时隙的信物.webp": {
+      "sourcePath": "item/p_char_4236_tmslot.png",
+      "sourceBlob": "b8ce4fb3f999a6107bffd3e98011e89cf1951711",
+      "maxWidth": 183
+    },
+    "material-icons/罗德岛隐秘队的信物.webp": {
+      "sourcePath": "item/p_char_4215_buddy.png",
+      "sourceBlob": "2e4227d3299f5ffda71e8b9a372e61c7c48855f3",
+      "maxWidth": 183
+    },
+    "material-icons/虎狼丸的信物.webp": {
+      "sourcePath": "item/p_char_4220_kormr.png",
+      "sourceBlob": "b9976db5f0789cf3a468b3617a65ac8f6f0d8727",
+      "maxWidth": 183
     }
   },
   "namingSource": {
