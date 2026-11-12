@@ -39,10 +39,10 @@ jobs:
           git clone --filter=blob:none --no-checkout --depth 1 \
             https://github.com/arkpedia/arkpedia-data.git "$RUNNER_TEMP/arkpedia-data"
           git -C "$RUNNER_TEMP/arkpedia-data" sparse-checkout init --cone
-          git -C "$RUNNER_TEMP/arkpedia-data" sparse-checkout set source/data/events
+          git -C "$RUNNER_TEMP/arkpedia-data" sparse-checkout set source/data/events source/data/official-news/global
           git -C "$RUNNER_TEMP/arkpedia-data" checkout
       - name: Test Global artwork selection
-        run: python -m unittest discover -s scripts -p 'test_global_banner_art.py'
+        run: python -m unittest discover -s scripts -p 'test_global*art.py'
       - name: Sync Global event and featured banner art
         env:
           ARKPEDIA_DATA_ROOT: ${{ runner.temp }}/arkpedia-data

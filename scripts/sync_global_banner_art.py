@@ -14,6 +14,8 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import sys
+from global_announcement_art import announcement_images, data_path
 import urllib.parse
 from PIL import Image
 
@@ -69,7 +71,7 @@ def window(text):
 
 
 def jobs(data_root, today):
-    data = data_root / 'source/data'
+    data = data_path(data_root)
     records = [(b['name'], b.get('global_date'), b.get('banner_image'))
         for b in json.loads((data / 'headhunting_banners.json').read_text())
         if b.get('pull_type') not in {'standard', 'kernel'}]
@@ -101,18 +103,34 @@ def main():
     manifest_path = ROOT / 'asset-manifest.json'
     manifest = json.loads(manifest_path.read_text())
     changed, waiting = [], []
-    for name, target in jobs(data_root, dt.date.today()):
-        hit = image_info(wiki_titles(name))
-        if not hit:
-            waiting.append(name)
-            continue
-        title, info = hit
+    official = announcement_images(data_root, dt.date.today())
+    official_only = '--official-only' in sys.argv[1:]
+    planned = {target: name for name, target in jobs(data_root, dt.date.today())}
+    # Announced art is ready immediately, even before the usual seven-day wiki window.
+    planned.update({target: notice['title'] for target, notice in official.items()})
+    for target, name in planned.items():
+        notice = official.get(target)
+        if notice:
+            content = fetch(notice['url'])
+            info = {**notice, 'sha1': hashlib.sha1(content).hexdigest(), 'sourceSha256': hashlib.sha256(content).hexdigest()}
+            title = notice['title']
+        else:
+            if official_only:
+                continue
+            hit = image_info(wiki_titles(name))
+            if not hit:
+                waiting.append(name)
+                continue
+            title, info = hit
+            content = None
         if sources.get(target, {}).get('sha1') == info['sha1'] and target in manifest['files']:
             continue
-        with Image.open(io.BytesIO(fetch(info['url']))) as source:
+        with Image.open(io.BytesIO(content if content is not None else fetch(info['url']))) as source:
             source.load()
             if not 0 < source.width <= 16384 or not 0 < source.height <= 16384:
                 raise ValueError(f'Invalid image dimensions for {name}')
+            if notice and (source.width < 1000 or not 2.5 <= source.width / source.height <= 4):
+                raise ValueError(f'Official image is not section key art for {name}')
             image = source.convert('RGB')
             if image.width > 1024:
                 image = image.resize((1024, round(image.height * 1024 / image.width)), Image.Resampling.LANCZOS)
@@ -123,7 +141,8 @@ def main():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(content)
         manifest['files'][target] = {'bytes': len(content), 'sha256': hashlib.sha256(content).hexdigest(), 'width': image.width, 'height': image.height}
-        sources[target] = {'title': title, 'url': info['url'], 'sha1': info['sha1']}
+        sources[target] = {'title': title, 'url': info['url'], 'sha1': info['sha1'],
+            **({key: info[key] for key in ('sourcePage', 'sourceSha256')} if notice else {})}
         changed.append(target)
         print(f'Updated: {name}')
     if changed:
