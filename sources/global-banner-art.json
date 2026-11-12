@@ -24,6 +24,13 @@
     "url": "https://arknights.wiki.gg/images/EN_The_Masses%27_Travels_Rerun_banner.png?b266fc",
     "sha1": "b266fcf9ac37a4e484494311d8983d1f74f5e43e"
   },
+  "event-poster/[Side Story – Crossover] Thunder in the Azure Dream.webp": {
+    "title": "Official Global Thunder in the Azure Dream announcement: event artwork",
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/dP1ALjtO.png",
+    "sha1": "3a1155f3e00a20733fd8d36151b1dd55c8114236",
+    "sourceSha256": "5a686f76de430d78a95c26f9dd8d96ebbc06fff31116a3960d4aff88a57bf5f1",
+    "sourcePage": "https://www.arknights.global/news/5092"
+  },
   "event-poster/[Side Story] People, A People.webp": {
     "title": "File:EN People, A People banner.png",
     "url": "https://arknights.wiki.gg/images/EN_People%2C_A_People_banner.png?2b3596",
@@ -58,6 +65,13 @@
     "title": "File:EN Sealed With Time banner.png",
     "url": "https://arknights.wiki.gg/images/EN_Sealed_With_Time_banner.png?28c367",
     "sha1": "28c36785b132ed5ede1ca205c6ef5adef9d98ce5"
+  },
+  "headhunting-banner-images/[Crossover] Hunters of the Umbral Wilds.webp": {
+    "title": "Official Global Thunder in the Azure Dream announcement: banner artwork",
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/IhQiUCCG.png",
+    "sha1": "0689cc5eb3116e9e2b328822842cf1333309c5e2",
+    "sourceSha256": "12823fd57b8407d529726c1e27b6b0199710baf02dd035f181e6d0faed0513da",
+    "sourcePage": "https://www.arknights.global/news/5092"
   },
   "headhunting-banner-images/[Limited-Time] By My Rules.webp": {
     "title": "File:EN By My Rules banner.png",
