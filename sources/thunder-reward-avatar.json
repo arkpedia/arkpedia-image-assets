@@ -1,0 +1,7 @@
+{
+  "target": "profile-avatars/avatar_special_75.webp",
+  "source": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/774d93398fc56df29b4f55e406edda1a9df451e9/assets/dyn/arts/ui/playeravatar/avatar_special_75.png",
+  "sourceGitBlob": "3815f148e50a3c4eb9cd86b6034853983e60c4a3",
+  "sourceSha256": "30cb232b81e46f788ef481f41e209aa4ab1f18ae43280961ada9411b7d74a5b0",
+  "note": "CN client avatar for event reward avatar_special_75, pending the Global client patch. Existing profile-art sync may update it from Global when available."
+}
