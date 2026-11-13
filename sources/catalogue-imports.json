@@ -8245,5 +8245,10 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/62fe51e6cd7faa5c1698e05f8cf63ed61cf6a7ac/item/p_char_4220_kormr.png",
     "sha256": "69d0609887dbf6d713e427d133fbb07b7ce8c3c245fd2b979e23f41ed220932a",
     "importer": "reward-icons"
+  },
+  "material-icons/furni_eastern_sling_01.webp": {
+    "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_sling_01.png",
+    "sha256": "c36fb57d4b3f979d31fc206139e357f4839e4a0126015afa627277ccc8964046",
+    "importer": "reward-icons"
   }
 }
