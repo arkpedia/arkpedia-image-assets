@@ -8250,5 +8250,85 @@
     "url": "https://torappu.prts.wiki/assets/furniture/furni_eastern_sling_01.png",
     "sha256": "c36fb57d4b3f979d31fc206139e357f4839e4a0126015afa627277ccc8964046",
     "importer": "reward-icons"
+  },
+  "content-art/pack-promo-137b5df14d04ac20215679cb.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/Rlcrf0-9.jpg",
+    "sha256": "883541d354353722c8c5e452850ba384195a4d5f2691aead2d29f7304d27c10d",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-178edd11df0637fa73bf4206.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/XFpfNm_n.png",
+    "sha256": "31e72d28605b522220a55cf14ab7af29b21d923e4988fef45214b9e263eb6ff2",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-1fe4ec97c7191b880778f6ee.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/22/345nfWQ5.png",
+    "sha256": "d79a15792316c8ea1d5f7642d9ab3a5d4a52148c15a7cfc7e0e7fed0a3b119ce",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-3e57aabed102b4e0ab7f6a8b.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/uShNKK0V.png",
+    "sha256": "cd1a5a247f741b35dae55c52a918f1c5fab1440e20657b51b66c8810bcc16012",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-45337d3807103741ef58bc8d.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/tCv1pqak.png",
+    "sha256": "05bf9fabbcfa1c4ba17c73b7ceeefb61ff6fb1f0ae3f73c48a052aeb5bdcbb26",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-481c20aad88a46d280542d14.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/22/gy3AUCUw.png",
+    "sha256": "23703186e844a2cb2a2cb87daa19b97ba810f98a3c17260a812e810e1a6012e6",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-6d71dfca16e7e0b58b07717f.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/w2CsDnWa.jpg",
+    "sha256": "660e3a7bf081d29fa91149fc8af01c8be65790117d65e1075fcae99e74edf40f",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-8ad176d51d95e6192b2dfb8f.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/20/ldASRItP.png",
+    "sha256": "79ba429a5c910a4b4dcf9e461bedb44ed64ef1ece376c89b8dd3f6a77e5f2770",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-a60d21b33dfda00687f745b3.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/57X_mb0S.jpg",
+    "sha256": "8280f9df1926fc12534176183f05f7bcca510b478d0967da9eb9bf2e13c84338",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-ae3db7aed43ec10b959f4711.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/09/11/BFMZrzZC.png",
+    "sha256": "131d53538ce2b5949686e80335d5bd228321ed5f692a07e90bd07c5f0e5c8bdb",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-b12e20aa51d3d5d9c549d3a9.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/aOEGAGnT.jpg",
+    "sha256": "dcaf0c9864ca6e4388aff7220f1251790625d0668a130eae505448ffef104fdb",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-c0ddd0d5d8ea6c8fa9a45c7c.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/NW0UhXYJ.jpg",
+    "sha256": "65342684f48760fee3dc011eba6d2540a6cec4372a67db9bbecf93c4683d4caf",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-dba46c8179f325f36f6db696.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/Ry4Hc2L_.png",
+    "sha256": "5081360a2645c6c761f7be90b403d73b3b30c18944814803432e6f98e39efcdd",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-ec49c3586d481deedd8c16ad.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/rVtjZj4D.jpg",
+    "sha256": "ae0595602dc084f6135599338aef050980263bbc1f2a59529303d4af60ba4109",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-ec9b977999ffc278018933d3.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/_qier2YM.jpg",
+    "sha256": "1e4e16e654d689f513ea4ed35b35d2453ccbe83042acac8db36ed5e93a7869d3",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-f7dc0a4d059539b310e46577.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/11/gIlxerLS.png",
+    "sha256": "e25616feaa01268670a5878bc74f20d166d49e7ee5c6de3e2e836128d74823cb",
+    "importer": "pack-art"
   }
 }
