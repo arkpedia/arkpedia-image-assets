@@ -8445,5 +8445,65 @@
     "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/07/03/aPjNnZkZ.jpg",
     "sha256": "25522e0afce4e7ccb0c87e795e44b75bddc0e17490dbf11ed6776f6d9d780560",
     "importer": "pack-art"
+  },
+  "content-art/pack-promo-19f2a9c560372e75d7aabc90.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/10/10/l-CrWXy-.png",
+    "sha256": "53d47feb697949bc9b361871da9ff75436ce61c83608e08307de13e8374b9c4b",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-2b2520551f18f0377df5334b.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/01/12/rgWgGlWt.jpeg",
+    "sha256": "bf80526a2ab227c6e82597da838247663923e51cf24f872877ff6d32e70b41de",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-4ed6edf85031a766730a71d1.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/02/05/-WduspTe.jpeg",
+    "sha256": "134ca2f9f689bf2807c55e373fae9ed785786d0a4bb3c39059b50b3eb6c1d910",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-5e61b55fb82556e8374a2547.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/03/02/sMTIkNCz.jpeg",
+    "sha256": "022fd93f5a78b6965eff1309aa956750d82196b7bb556e6f71516699a616a69f",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-645330343e0f6fa9c2ce5b8b.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/12/09/SBgQ7JBD.jpeg",
+    "sha256": "31d65ae39c5a792cd4f5000ad991ceb1e0bcdf89615bfaf0e378bdcc64f6523b",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-6cbc3d0911377b5163bc37df.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/01/12/jl0cnd92.jpeg",
+    "sha256": "4af1da89b6927877291aa55e2ef7f8cc4d369679062567d25d94b22a7f90e5f1",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-7dd36d1773429d6f726a0b84.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/12/09/hdXW_wfG.jpeg",
+    "sha256": "4f9d391b27eda389172375aa664a36eb3d16b19364831239eb109a66a9390426",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-85f81302487c215b2bde0b50.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/02/05/7_C1jVAV.jpeg",
+    "sha256": "d201e33f566d26cda517dba1f8cfe705064c374c7df01d9a47d70b9843058375",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-bdf2c04cf3032581cbef59da.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/01/12/5wlzebGf.jpeg",
+    "sha256": "d36826bfcf7d8445429392e2ad5b44c59493d06c0dea08d857be2add01c08358",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-e8c30b09f05e703e6b976719.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/01/12/wHHYa426.jpeg",
+    "sha256": "b9d187524c22fc98cf736b24d997752055c5ec60c59c0f5e29b086faedcc51d5",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-ef87ea0ce619c9e9e58828e8.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2026/01/12/eXaps5yA.jpeg",
+    "sha256": "81993aad5db090e2330246d807984f753acd4531ec115c0680ceef1fb297adfd",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-f292492fe70baf65844dfac3.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-prod/upload/content/2025/11/06/gV4wYY0G.jpeg",
+    "sha256": "fbed685578a11c9c4392e6b13a1f0b00e2281635249245a09c618cadf506b7e5",
+    "importer": "pack-art"
   }
 }
