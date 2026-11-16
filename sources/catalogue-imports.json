@@ -8719,5 +8719,115 @@
   "skill-icons/Zinogre S Catapult - Super Amped Element Discharge.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/skill/skill_icon_skchr_catap2_2.png",
     "sha256": "d9fc3e9d6458032de95fb5ec0099c28cfc1d6af8dd5e65bc78a11141a05f2095"
+  },
+  "content-art/furni_set_Azuredream-cn.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/727b9742c9f09db96e5365edfda5188752a8ab5e/assets/dyn/arts/ui/furnithemes/furni_set_azuredream.png",
+    "sha256": "9c399146d986a282376e9fc0ec4a22651535b1bd990fb4854718854efc44a5d3",
+    "importer": "furniture-art"
+  },
+  "content-art/pack-promo-1fd3a3217b5c5906fc8121d6.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/cfc55226b63f1c53e7f54274b5d707b5.png",
+    "sha256": "7824287cf44ed966c1eb1bd6e73d09bb42ceb77d6d1b38b4ee68d7e39116a168",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-4b32d9177e7ec7d538d7e2e8.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/f6aa1ba547b1be6eb51fb0c3f2f1cec1.jpg",
+    "sha256": "7168a5d57a410b2fa6c1ac7b9a0d7d7cca46cd149c180bdfb90a2d83e79dfd13",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-5e17394b3557fb27843ef826.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/5c7203cee402fdbccc5940d39b5a04d6.jpg",
+    "sha256": "f675fe4a89aa9fed9aef5cec1d52f9bcabc7a16e53825d27915dfc0627fbd0dc",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-74c336bca4e31f1629e5d22e.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/6bb536285c63a603d641b91f230a5f1e.png",
+    "sha256": "add2f6041e95abb72f0276c21fdecaa54355e2794ce2254e9f7a3344abfd4bc6",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-77b91681b112885593752c2e.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/0d81c403f2f41ed3e81126cc2f86efd7.png",
+    "sha256": "593ef6604bd4b2cb60c8d8f485c6c9d2743cbbcf3985e1007c072e0201c478d2",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-8e1de0d435ec969ff051a1d0.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/d22a11c0da86592e20aed6c4bb1a9918.jpg",
+    "sha256": "bf3fcdf70eec09d44109de865b3b5bb21bf65a429b32acb03caca4fe574ee26f",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-bb6d3f2976bb71df9ad2b6b4.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/06c898b25bc34c9fefbe88d35d1bd3ea.jpg",
+    "sha256": "cefbfe564e559bb46426387647240d16cb982cc037b0f6668a221ab0cabd707d",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-cc2dba31ee4c59fc3722b645.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/4e3ff2a85cb66d0a3693434c61882237.jpg",
+    "sha256": "82b3f44be1f5d6b121def0399d15e44c058785fe989e7798d0b6ddc76d50c943",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-dc9664c2a4fa7d6ee3dfc6a6.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/8af7e2a7d25c9e0fa12d228c6f307486.jpg",
+    "sha256": "0c7e62f13ae3340fd39d744a9a9abfc29df23ca2eab9259556e2348a3ecf8208",
+    "importer": "pack-art"
+  },
+  "material-icons/Song of the Bow, Leap to the Sky Headhunting Permit (ten-roll).webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/item/LINKAGE_TKT_GACHA_10_7401.png",
+    "sha256": "811296c1ab03ec4d2a6e735385a22c9a80bb6fd2321805b92e474c483d17ffc3",
+    "importer": "reward-icons"
+  },
+  "material-icons/Song of the Bow, Leap to the Sky Headhunting Permit.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/item/LINKAGE_TKT_GACHA_10_7401.png",
+    "sha256": "811296c1ab03ec4d2a6e735385a22c9a80bb6fd2321805b92e474c483d17ffc3",
+    "importer": "reward-icons"
+  },
+  "stages-images/td-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_01.png",
+    "sha256": "e9801f3430aa2537376a299988094b073743cd9e2c129e1ff61c1ecf21bacb57",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_02.png",
+    "sha256": "eed3ec139651f54dcf84c23d6c50e9a76bc4852dc112695e14244a018f760026",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-3.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_03.png",
+    "sha256": "d3c2dd59e444ca1f3569ee942c5f7ff416588a3916c5d7c50b6b74274e11e259",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-4.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_04.png",
+    "sha256": "e4fb45c8ea8c8d5428c76edf973697c47d3cff98194a28bcfb6fb76b3c0c7e54",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-5.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_05.png",
+    "sha256": "2e594435a4fc4cea20f6edf7a2e64b0a164fc7fbd0db34894722734223c09bf2",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-6.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_06.png",
+    "sha256": "acd78cf518e31749c79e8837adca31dbe6d00c7b7296cf6ac2b981e4e05eb642",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-7.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_07.png",
+    "sha256": "49648291ac9f0f07c77b1829e089aaa7042c4c2c4951c243f77607b43ff961fd",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-8.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_08.png",
+    "sha256": "6e6e344c7729fc5219cdb4dd5e68d16210edf254aa471a9daf9e40eee3dbd43b",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-p-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_p-1.png",
+    "sha256": "3b5419f4eee14051cb0626e39801d5d750185bccae3a503b71b7cb447ff48b9b",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-tr-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_tr01.png",
+    "sha256": "998aed4b915a149da3218aca05c31a66db557f1be3e0a66acc096bb8de8be77a",
+    "importer": "stage-renders"
   }
 }
