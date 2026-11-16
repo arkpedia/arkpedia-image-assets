@@ -8695,5 +8695,29 @@
     "url": "https://webusstatic.yo-star.com/uy0news/ae/52ffdb700f1115894add4d2b0f706cd3.png",
     "sha256": "643e4d93dc142a49e2bb2327cd52ec2daea4936770b2cdb34deb54a3466fe47b",
     "importer": "pack-art"
+  },
+  "base-skill-icons/Rhodes Island Recon - Hunting Buddy.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/building_skill/bskill_dorm_buddy.png",
+    "sha256": "6114cf78e6d2852e5466495d2657a19d9dd53480b5ff6c12b18fdd3dae130c0e"
+  },
+  "base-skill-icons/Violet Mizutsune Orchid - Captain's Sense of Duty.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/building_skill/bskill_tra_orchd2.png",
+    "sha256": "b44d60c054e4dcbbbada9744281c49d9044c26d742b7224a0dc6dfc0557735ff"
+  },
+  "one-star-icons/Rhodes Island Recon - Camping Time!.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/avatar/char_4215_buddy_mh%232.png",
+    "sha256": "d5602700d1a2c3d016b38004e166c9d7c06561c6007365ad36bf5fd6786bca0e"
+  },
+  "six-star-icons/Astgenne the Lightchaser - 暗能质子.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/avatar/char_1047_halo2_striker%234.png",
+    "sha256": "8c9862bdd177c822d337852dca5526963a07437ca8f8b3d61d55e05bcf66109a"
+  },
+  "six-star-icons/Magallan - 绿影之下.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/avatar/char_248_mgllan_epoque%2360.png",
+    "sha256": "1a5db9fc6fd4162385a2c56580bfcc4cee9f60a85c34d4023728fd007ca515df"
+  },
+  "skill-icons/Zinogre S Catapult - Super Amped Element Discharge.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/skill/skill_icon_skchr_catap2_2.png",
+    "sha256": "d9fc3e9d6458032de95fb5ec0099c28cfc1d6af8dd5e65bc78a11141a05f2095"
   }
 }
