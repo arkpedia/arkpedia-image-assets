@@ -2,6 +2,156 @@
   "version": 1,
   "repository": "ArknightsAssets/ArknightsAssets2",
   "assets": {
+    "content-art/integrated-strategies/cg/24_rl01.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/24_rl01.png",
+      "sourceBlob": "7ec77728227499d9df86365750ea91c7f63a7336"
+    },
+    "content-art/integrated-strategies/cg/24_rl02.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/24_rl02.png",
+      "sourceBlob": "db3734967ba6cc04f7f3c4e557a92bedc62cc0fb"
+    },
+    "content-art/integrated-strategies/cg/24_rl03.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/24_rl03.png",
+      "sourceBlob": "208b8b57c1572fde83b2d4efc205812f649a5e45"
+    },
+    "content-art/integrated-strategies/cg/24_rl04.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/24_rl04.png",
+      "sourceBlob": "6f13e5246f3e38ed761cd6e5ee976a9c71a098db"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_2_48.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_2_48.png",
+      "sourceBlob": "e468b342f67154f15594a234e555a9676698120f"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_2_49.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_2_49.png",
+      "sourceBlob": "f909d4d92b243c470e1e4e3bbcebdf5377304efb"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_2_50.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_2_50.png",
+      "sourceBlob": "0355917e781a3348fb28037afca9b85d9a1f086d"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_2_55.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_2_55.png",
+      "sourceBlob": "218b03a96c1c8f8357d1aff14b5e9b25572d54d7"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_3_31.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_3_31.png",
+      "sourceBlob": "76095aed1caf42b5770f3fc61566d0c2128e3f34"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_3_32.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_3_32.png",
+      "sourceBlob": "32580232d2b58721515510fb99514dfaf39f1f43"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_3_33.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_3_33.png",
+      "sourceBlob": "383365602e7457c73f1ebdb2bd760dd4ebb3c882"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_3_35.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_3_35.png",
+      "sourceBlob": "a58f3913826d3cff8a7ec2848c9b42494bd29ee3"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_4_34.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_4_34.png",
+      "sourceBlob": "bb56e185895f2f2100f54f6bd5fa38bcc9b7289e"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_4_35.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_4_35.png",
+      "sourceBlob": "3bfdb620b9631c7e61c890a12541f277738aaae7"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_4_36.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_4_36.png",
+      "sourceBlob": "e892d15ffdd6cbea3d09f4de8c0062e7b4fb4d3a"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_4_39.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_4_39.png",
+      "sourceBlob": "1a2d3324ed20f416efefcba0037a2504bc129922"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_5_47.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_5_47.png",
+      "sourceBlob": "4d3e91495a96ec4686d44ff24b6c9463ba47a3e7"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_5_48.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_5_48.png",
+      "sourceBlob": "7291f15fa5a1d52aa7378e62d798924a81bf4843"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_5_50.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_5_50.png",
+      "sourceBlob": "aea48d7f528ca7315ba97cb24936e79a4690da9a"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_5_60.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_5_60.png",
+      "sourceBlob": "ae8cba456c071315d3769f8a50759d566b830333"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_5_64.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_5_64.png",
+      "sourceBlob": "9a8c7ed11c1bd2e74e444d7da94f1b3052b47b41"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_6_41.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_6_41.png",
+      "sourceBlob": "178450c9ea17ad6e23e2a5fb3fbaeb0612e4f86d"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_6_42.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_6_42.png",
+      "sourceBlob": "58b07518f75ab73ad8b7822771acec2df783426b"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_6_43.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_6_43.png",
+      "sourceBlob": "05c054d1667e374a22f6fe1cf9d7fb3831d76f31"
+    },
+    "content-art/integrated-strategies/cg/pic_rogue_6_48.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/avg/images/pic_rogue_6_48.png",
+      "sourceBlob": "4776ccb1077cda68c877e2ee39b54b88ef589864"
+    },
     "content-art/integrated-strategies/choicepic/adventure.webp": {
       "sourceRegion": "en",
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
@@ -8426,6 +8576,624 @@
       "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_active_tool_6.png",
       "sourceBlob": "b3bb38a198b070f830dd9ca7df6164fafa989e02"
     },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_01.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_01.png",
+      "sourceBlob": "acf5f404b9bdd08f0b3f8bca29fb657c81e781ca"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_02.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_02.png",
+      "sourceBlob": "4b823b50a84cbe8c6aec6944233a3f501106ba50"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_03.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_03.png",
+      "sourceBlob": "c97dfce6a29a06198934a2d18179d5f72f3d467d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_04.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_04.png",
+      "sourceBlob": "b9fa10397e155391034b3dc8f1b1a56d86ac9575"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_05.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_05.png",
+      "sourceBlob": "c7fffdab18d38d457bcaf8a8372f07f3bcfefb83"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_06.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_06.png",
+      "sourceBlob": "a7d12693889d48f06edad456b6f195e02c46621d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_07.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_07.png",
+      "sourceBlob": "eccb395827fa1489fa12390b58b187c4846a58bd"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_08.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_08.png",
+      "sourceBlob": "a2ea55f706dc1d9551367b9696e6c0d28f8e286d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_09.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_09.png",
+      "sourceBlob": "9402dff580920879ec72a4194b5027efd8b91f2d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_b_10.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_b_10.png",
+      "sourceBlob": "35fa9088247899d697ba92dba50a30f150c658ff"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_01.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_01.png",
+      "sourceBlob": "d8f94ee18fdb53df3735fe8e74fb8387c0d62d23"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_02.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_02.png",
+      "sourceBlob": "eee1a455b0db4ed8d567300913ff6ddaae46845a"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_03.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_03.png",
+      "sourceBlob": "980330790e46c6a44562e4691bf0c0161ac0b2fe"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_04.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_04.png",
+      "sourceBlob": "71559daa175fba620f7b50c90323f662ab87fcce"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_05.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_05.png",
+      "sourceBlob": "46a53cf76e2afe6e54bc4e3381315577880f4ea1"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_06.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_06.png",
+      "sourceBlob": "6cd90ba5640f8aff68692d6c424222387f242adb"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_07.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_07.png",
+      "sourceBlob": "4dc64c512326d0ae8f68b304319a1b7d40d520c6"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_08.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_08.png",
+      "sourceBlob": "343f42fc635c98d34a4bf7937fa49675381d0f17"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_09.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_09.png",
+      "sourceBlob": "1c4d92c5059b1071c3728a40edd22b65e337fef4"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_10.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_10.png",
+      "sourceBlob": "16ffe6ecc6462f66e500504b8c56864c36530a0a"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_11.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_11.png",
+      "sourceBlob": "a254013b957a3a3b6bb3a5a5a78d642fdcee0553"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_12.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_12.png",
+      "sourceBlob": "c0475ff371dc4474746b2c0120a3228d4f1e1729"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_13.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_13.png",
+      "sourceBlob": "9e1b270a7ed3aa3fa0017059c85605cd4fa8df00"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_14.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_14.png",
+      "sourceBlob": "1e1971c86caff5e42949c90f30eda5c7bd5de2e4"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_15.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_15.png",
+      "sourceBlob": "aabfbd7f4e07d3d94f8b56cfa6ee55b753f65a40"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_16.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_16.png",
+      "sourceBlob": "16b846087b0cfb9c6f953c79dad5e75ec0b7a915"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_17.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_17.png",
+      "sourceBlob": "63d0fc066a2a21c0596b59cccd6151bc8797bc31"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_18.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_18.png",
+      "sourceBlob": "55843625882192f8cbc25459d10555963b3deaf5"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_19.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_19.png",
+      "sourceBlob": "e0a9698c1471cac9b0ccce9e7f32abdecaf84807"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_23.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_23.png",
+      "sourceBlob": "0ba2aa8aadadb7381cad0f305bb3cd3c0397b878"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_24.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_24.png",
+      "sourceBlob": "642259d8783382a685bcf2f856783d38e4ed43e0"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_25.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_25.png",
+      "sourceBlob": "3986e1ed701676b9fb2025d2518d1d4c384d2a2f"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_26.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_26.png",
+      "sourceBlob": "8cf34ac28dc8038230236e4265d81e0a80624f6d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_27.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_27.png",
+      "sourceBlob": "4e501e365787a4064ffc7b2145dac7d029ea0ab3"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_28.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_28.png",
+      "sourceBlob": "e8adf94d6926c042c8d4fd121dc2601b4d1b9c62"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_29.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_29.png",
+      "sourceBlob": "c27dd51303c1c9566c652d6b42728c9bdaceb0c1"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_e_30.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_e_30.png",
+      "sourceBlob": "ad2053b66a47b1f80981dc45193adc1f20e33a05"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_01.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_01.png",
+      "sourceBlob": "7a9f667afd5c7b99c237c6335e21a5d656024986"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_02.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_02.png",
+      "sourceBlob": "7438b77e8b376dbd3745b4db8d37044f5076a9f0"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_03.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_03.png",
+      "sourceBlob": "067f263bcfd55c0769ac10c050e312835b119812"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_04.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_04.png",
+      "sourceBlob": "e697402bd87f20a392fd4a5f5c59ec04a1e76254"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_05.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_05.png",
+      "sourceBlob": "eb043bdd53379c49931ca874f438ebc3accf2d4d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_06.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_06.png",
+      "sourceBlob": "3dd5b59e9db41e7928711976c95a9afea6cad295"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_07.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_07.png",
+      "sourceBlob": "d13e0a042cf03464296bacd76075e7a8de8a2a5c"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_08.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_08.png",
+      "sourceBlob": "e54d2851d13972439b6ca877fd63c8e3b7cd511d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_09.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_09.png",
+      "sourceBlob": "07f75fa76bcd60353af6e31750ebd9abbfeb07fb"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_10.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_10.png",
+      "sourceBlob": "7e7e9482ec956ba851ace279451ccbbd8dcba65c"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_11.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_11.png",
+      "sourceBlob": "5ef1c13d310c1e0479b120ad2ba6b5ced8b0b8e7"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_12.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_12.png",
+      "sourceBlob": "d401bfbb0bb5dc29d85c628116823c0ccc9b012b"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_13.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_13.png",
+      "sourceBlob": "1bb11b17f261f4230d1acd7318db1ad68f203ae4"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_14.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_14.png",
+      "sourceBlob": "dea8c6834af873fb18ae27f0234fc458eb6f14f0"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_15.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_15.png",
+      "sourceBlob": "54dbe55ac0ad65bedc60e4f00bc203095d29b0bb"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_16.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_16.png",
+      "sourceBlob": "783513a434c5429339c8ce7e824f2b08ce7302c5"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_17.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_17.png",
+      "sourceBlob": "ca9eb25ef6ba0585b04a7fe32f01fb4da32b3b0e"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_18.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_18.png",
+      "sourceBlob": "ad0457092da76b57e0c9440ca7001d7d786e8fe8"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_19.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_19.png",
+      "sourceBlob": "2d53f6b375932b46c5a3fbb63745879d7d88f891"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_20.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_20.png",
+      "sourceBlob": "c16d34e112bceb248ec28b6e3e80c9f72ca6cbb2"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_21.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_21.png",
+      "sourceBlob": "de51171258e419de6fbceec2120247705b7900d7"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_22.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_22.png",
+      "sourceBlob": "8545f66e67997a37003344268a650eacf65fd44d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_23.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_23.png",
+      "sourceBlob": "cce51aa2ca575ffaf1c6eb079b814cce6acbee5f"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_24.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_24.png",
+      "sourceBlob": "3d189c7e82c3e76a602c1495ef127cf3b1a5c403"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_25.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_25.png",
+      "sourceBlob": "ba5cef621aa149c461fd107ad0e01f959910e9e0"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_26.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_26.png",
+      "sourceBlob": "2596927b780fd4055a11dbcf7ded8c0ec4d474dd"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_27.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_27.png",
+      "sourceBlob": "e9f1cd83712c0fd5597f236c4bcece9d4a8166ae"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_28.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_28.png",
+      "sourceBlob": "2bcaa5a17edf68e35309e842245b06af12506203"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_29.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_29.png",
+      "sourceBlob": "365ef2b3a94afdb63266b0615beb3219c53ffd03"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_30.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_30.png",
+      "sourceBlob": "1163ce19fd88fbae805d50460c3cf7394b81b6a6"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_31.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_31.png",
+      "sourceBlob": "8cf4a00c13ce72611418a2ca724157f54ce3ca75"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_f_32.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_f_32.png",
+      "sourceBlob": "e8d3a11741e04b2fd3992f8c168a54da9aec7e83"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_p_01.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_p_01.png",
+      "sourceBlob": "00dda69047f2c4cfc7994537249019942e0f782b"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_p_02.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_p_02.png",
+      "sourceBlob": "25f4881597dc6af3fa0734ce5aad782300d012c2"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_01.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_01.png",
+      "sourceBlob": "1881526523f71ae60ac240add9f86420c0f1e89f"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_02.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_02.png",
+      "sourceBlob": "72ba45aed563eaaf6d5356a724eb1407665f07ef"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_03.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_03.png",
+      "sourceBlob": "aef5be4679a3a516a3c019915b842eebec19e9be"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_04.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_04.png",
+      "sourceBlob": "9579f39279309565261939c76b76d5ba08f3a700"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_05.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_05.png",
+      "sourceBlob": "c2d727c37d5221aec972385fed083c1081b29057"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_06.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_06.png",
+      "sourceBlob": "58b8b8ce53bc8dfea254fc4831735be649bcc633"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_07.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_07.png",
+      "sourceBlob": "d1d1b141bf71b8f7a799ec5d6db3ff3dc81d79d1"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_08.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_08.png",
+      "sourceBlob": "0eadf9d4c4450ee732ee8f56275b2e519b16faff"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_09.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_09.png",
+      "sourceBlob": "b1befc685c1b1fec71f591c5961618fce42cea46"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_10.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_10.png",
+      "sourceBlob": "a689eab454421131a61003d851ed7305e361ddab"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_11.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_11.png",
+      "sourceBlob": "af159b05c17c5a42cb16002ffc613c17eb1cfa96"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_12.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_12.png",
+      "sourceBlob": "7bb28cd7b76e547b72c16f130c233f0ad21ce23a"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_13.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_13.png",
+      "sourceBlob": "7cdc5e01af7e9426479a870fab272b68dddaa76d"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_14.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_14.png",
+      "sourceBlob": "f00f30fb7b66d10ca4565c2660ba4efe359a2ac2"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_r_15.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_r_15.png",
+      "sourceBlob": "d21cb523b403c756e138725863b53cfb472bb4b7"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_1.png",
+      "sourceBlob": "97e19225f960a0a1ecb73593361e9679513917fc"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_2.png",
+      "sourceBlob": "0c184613855efa3dbd6bdf22b31f49efda28ed67"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_3.png",
+      "sourceBlob": "519565905b09b49a0bf5727eddf54105c6d10a81"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_4.png",
+      "sourceBlob": "0f4c7477b44143d967053f4ef87c25d8100bf19e"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_5.png",
+      "sourceBlob": "09484c37b102b840f0f912cf1059ca629d97a6f3"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_6.png",
+      "sourceBlob": "e406bae615147fee5412ece0eb5f3457ba38085e"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_7.png",
+      "sourceBlob": "1679de13bb31215a67f129538758c301d715a0b8"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_s_8.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_s_8.png",
+      "sourceBlob": "ea7e8bf57ac21da02f540a9fd28c797b588a7687"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_1.png",
+      "sourceBlob": "fbc1986bc6f6a0deee3ab0d38fa6376bc08ae0e8"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_2.png",
+      "sourceBlob": "8736aae956ee9f2ad0d4c7af90ecfd6e89ad6e20"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_3.png",
+      "sourceBlob": "0b4c41fcc059f5d4ccbc6129017000e6a2c62c26"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_4.png",
+      "sourceBlob": "9ecab30d405a39490f9f97f1960f5118f5cf3693"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_5.png",
+      "sourceBlob": "be010439676877f6f90015b03569ed22a257c12f"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_6.png",
+      "sourceBlob": "7f8a5acb1d1e4aeee1984fae82438a75cec02c09"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_7.png",
+      "sourceBlob": "4213a3852f64ffdc5f70b20232ce2b3e8b0ff18e"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_8.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_8.png",
+      "sourceBlob": "72b4eeceabcd4fa8c3c576f4001ffcc9cbab9352"
+    },
+    "content-art/integrated-strategies/itempic/rogue_5_copper_u_9.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/rogueliketopic/itempic/rogue_5_copper_u_9.png",
+      "sourceBlob": "d958ddb75219611b747ef4d0d8756c3b2173466f"
+    },
     "content-art/integrated-strategies/itempic/rogue_5_divinationkit.webp": {
       "sourceRegion": "en",
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
@@ -13244,6 +14012,18 @@
       "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_1/init/initreliciconpic/rogue_1_band_9.png",
       "sourceBlob": "9df02d4d80380b48c5e2c537549308e5fcbe5724"
     },
+    "content-art/integrated-strategies/topics/rogue_1_update/entrykeyvisuals/rogue_kv_1_2/rg1_mode_kv_bg1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_1_update/entrykeyvisuals/rogue_kv_1_2/rg1_mode_kv_bg1.png",
+      "sourceBlob": "bdf4fb460dea8945db03165086b53f0ffd52e6ff"
+    },
+    "content-art/integrated-strategies/topics/rogue_1_update/entrykeyvisuals/rogue_kv_1_2/rg1_mode_kv_bg2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_1_update/entrykeyvisuals/rogue_kv_1_2/rg1_mode_kv_bg2.png",
+      "sourceBlob": "18f7686d88c962fc3b606459cf4d22eb3e7fef61"
+    },
     "content-art/integrated-strategies/topics/rogue_2/bufficon/pic_rogue_2_evolution_1.webp": {
       "sourceRegion": "en",
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
@@ -13478,6 +14258,36 @@
       "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_2/init/initreliciconpic/rogue_2_band_9.png",
       "sourceBlob": "73e179f64d60adcf8646ddb544d8344764a7dbe9"
     },
+    "content-art/integrated-strategies/topics/rogue_2_update/entrykeyvisuals/rogue_2_kv_1_2/rl2_home_kv12_bg1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_2_update/entrykeyvisuals/rogue_2_kv_1_2/rl2_home_kv12_bg1.png",
+      "sourceBlob": "e6f1fee75536c8e448c5f6c7288bd9797e37cc02"
+    },
+    "content-art/integrated-strategies/topics/rogue_2_update/entrykeyvisuals/rogue_2_kv_1_2/rl2_home_kv12_bg2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_2_update/entrykeyvisuals/rogue_2_kv_1_2/rl2_home_kv12_bg2.png",
+      "sourceBlob": "71da9b3a089ba71ff4827767c2d2fe505680e4d5"
+    },
+    "content-art/integrated-strategies/topics/rogue_2_update/entrykeyvisuals/rogue_kv_default/rg2_home_bg1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_2_update/entrykeyvisuals/rogue_kv_default/rg2_home_bg1.png",
+      "sourceBlob": "fb5202643f3ec2e850580e33043b0246ebf19228"
+    },
+    "content-art/integrated-strategies/topics/rogue_2_update/entrykeyvisuals/rogue_kv_default/rg2_home_bg2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_2_update/entrykeyvisuals/rogue_kv_default/rg2_home_bg2.png",
+      "sourceBlob": "4fd2a818cdb23d2e9bfa714fdaf3c6e5f71e2629"
+    },
+    "content-art/integrated-strategies/topics/rogue_2_update/entrykeyvisuals/rogue_kv_default/rg2_home_role.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_2_update/entrykeyvisuals/rogue_kv_default/rg2_home_role.png",
+      "sourceBlob": "435cce31635d3212f9910ee8278d2340ea02a77f"
+    },
     "content-art/integrated-strategies/topics/rogue_3/init/initreliciconpic/rogue_3_band_1.webp": {
       "sourceRegion": "en",
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
@@ -13615,6 +14425,30 @@
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
       "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_3/misc/pic_rogue_3_chaos_9.png",
       "sourceBlob": "09397566a5d39e7927e60f4832beaebf99d1c40f"
+    },
+    "content-art/integrated-strategies/topics/rogue_3_update/entrykeyvisuals/rogue_3_kv_1_2/rl3_home_kv_2_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_3_update/entrykeyvisuals/rogue_3_kv_1_2/rl3_home_kv_2_1.png",
+      "sourceBlob": "b0ff453575b81da5df3e091ad470ae7c305a4798"
+    },
+    "content-art/integrated-strategies/topics/rogue_3_update/entrykeyvisuals/rogue_3_kv_1_2/rl3_home_kv_2_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_3_update/entrykeyvisuals/rogue_3_kv_1_2/rl3_home_kv_2_2.png",
+      "sourceBlob": "43481f96b833a7d52b40a537581b6d7867239adf"
+    },
+    "content-art/integrated-strategies/topics/rogue_3_update/entrykeyvisuals/rogue_kv_default/rl3_home_kv_1_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_3_update/entrykeyvisuals/rogue_kv_default/rl3_home_kv_1_1.png",
+      "sourceBlob": "17a0c1faed4246797de8978d2496ef9f2adcfa9a"
+    },
+    "content-art/integrated-strategies/topics/rogue_3_update/entrykeyvisuals/rogue_kv_default/rl3_home_kv_1_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_3_update/entrykeyvisuals/rogue_kv_default/rl3_home_kv_1_2.png",
+      "sourceBlob": "53c41bbc06ec7094eb5a1568b51ca7cbba91f7ab"
     },
     "content-art/integrated-strategies/topics/rogue_4/init/initreliciconpic/rogue_4_band_1.webp": {
       "sourceRegion": "en",
@@ -13772,6 +14606,54 @@
       "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4/misc/rogue_4_disaster_9.png",
       "sourceBlob": "485362e5c86c48691a071a4778f917222a6fb765"
     },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rl4_home_kv_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rl4_home_kv_3.png",
+      "sourceBlob": "84308846f37517e7eac76376b4b5cf42b8a687ec"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_4_kv_1_2/rl4_entry_kv2_char_light.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_4_kv_1_2/rl4_entry_kv2_char_light.png",
+      "sourceBlob": "3a683711347b4afe66fd70e587cc277eb1e8548c"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_4_kv_1_2/rl4_entry_kv2_door_origin.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_4_kv_1_2/rl4_entry_kv2_door_origin.png",
+      "sourceBlob": "03f490fae95c4e532805ffa8afa6ef3ee1b99228"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_4_kv_1_2/rl4_home_kv_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_4_kv_1_2/rl4_home_kv_2.png",
+      "sourceBlob": "f73d9be8d902eb02299a1ab6493b20ea7fe4bf56"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/bg.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/bg.png",
+      "sourceBlob": "867d5ab10e7ba74459ee2ce88551c9659ad50989"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/title_arch.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/title_arch.png",
+      "sourceBlob": "ebac347dfd8009ab877c2a40de55e589c2ef4841"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/title_back_paint.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/title_back_paint.png",
+      "sourceBlob": "57cb601f91e691f5e66b16c18aa9b9038398f6f2"
+    },
+    "content-art/integrated-strategies/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/title_inner.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_4_update/entrykeyvisuals/rogue_kv_default/title_inner.png",
+      "sourceBlob": "1e37985dad7d0b671e7205bba061023e175c3128"
+    },
     "content-art/integrated-strategies/topics/rogue_5/init/initreliciconpic/rogue_5_band_1.webp": {
       "sourceRegion": "en",
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
@@ -13903,6 +14785,42 @@
       "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
       "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5/init/initreliciconpic/rogue_5_band_9.png",
       "sourceBlob": "d01785a0a5cdb6010e892b1465b59521153d397d"
+    },
+    "content-art/integrated-strategies/topics/rogue_5_update/entrykeyvisuals/rl5_home_kv_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5_update/entrykeyvisuals/rl5_home_kv_2.png",
+      "sourceBlob": "88741b202a982619ec932e3e8820ef8a57128d96"
+    },
+    "content-art/integrated-strategies/topics/rogue_5_update/entrykeyvisuals/rl5_home_kv_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5_update/entrykeyvisuals/rl5_home_kv_3.png",
+      "sourceBlob": "b20d347e54a2dee921f073a40b670a2df43f95ed"
+    },
+    "content-art/integrated-strategies/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/bg.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/bg.png",
+      "sourceBlob": "f7848ab63d0e68209ae669531b34fd8510ee3e04"
+    },
+    "content-art/integrated-strategies/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/title_main_blur.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/title_main_blur.png",
+      "sourceBlob": "062cc556aedc700f3274032ccfb2612991b7e691"
+    },
+    "content-art/integrated-strategies/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/title_main_solid.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/title_main_solid.png",
+      "sourceBlob": "db2867ed43c0c2e1ef2018c3a7203aeb714e58ea"
+    },
+    "content-art/integrated-strategies/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/title_sub.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_5_update/entrykeyvisuals/rogue_kv_default/title_sub.png",
+      "sourceBlob": "db6ec6f6671c5862574a3b8207f6d3f04ae8d6ed"
     },
     "content-art/integrated-strategies/topics/rogue_6/init/initreliciconpic/rogue_6_band_1.webp": {
       "sourceRegion": "cn",
@@ -14323,6 +15241,30 @@
       "sourceCommit": "774d93398fc56df29b4f55e406edda1a9df451e9",
       "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_6_update/endingstats/rogue_6_complete_icon_4d.png",
       "sourceBlob": "eaa08bc4c501b2107c2ce66758f97ac5513e616f"
+    },
+    "content-art/integrated-strategies/topics/rogue_6_update/entrykeyvisuals/rogue_6_kv_1_2/bg_kv2_ani.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_6_update/entrykeyvisuals/rogue_6_kv_1_2/bg_kv2_ani.png",
+      "sourceBlob": "4d93fee4b5e61e94782167f9c2ddb9fb3cdbefda"
+    },
+    "content-art/integrated-strategies/topics/rogue_6_update/entrykeyvisuals/rogue_6_kv_1_2/rl6_home_kv_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_6_update/entrykeyvisuals/rogue_6_kv_1_2/rl6_home_kv_2.png",
+      "sourceBlob": "9b17da9424ad5317e8b27963d083edd2da701c2a"
+    },
+    "content-art/integrated-strategies/topics/rogue_6_update/entrykeyvisuals/rogue_kv_default/bg.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_6_update/entrykeyvisuals/rogue_kv_default/bg.png",
+      "sourceBlob": "cb2477ae8c926cca06d1c694782b7de7868745f5"
+    },
+    "content-art/integrated-strategies/topics/rogue_6_update/entrykeyvisuals/rogue_kv_default/main_tiltle.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/ui/rogueliketopic/topics/rogue_6_update/entrykeyvisuals/rogue_kv_default/main_tiltle.png",
+      "sourceBlob": "f1cd0d5d86fd47b53963c72bab85fa34212a3e9e"
     }
   }
 }
