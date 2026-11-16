@@ -1,0 +1,3408 @@
+{
+  "version": 1,
+  "repository": "ArknightsAssets/ArknightsAssets2",
+  "assets": {
+    "content-art/contingency-contract/mapareabg/map_bolivar_beach.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_bolivar_beach.png",
+      "sourceBlob": "18b9a8da84e1b4b9b3f454f41108bace55d012c7"
+    },
+    "content-art/contingency-contract/mapareabg/map_bolivar_sea.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_bolivar_sea.png",
+      "sourceBlob": "18b9a8da84e1b4b9b3f454f41108bace55d012c7"
+    },
+    "content-art/contingency-contract/mapareabg/map_col_testing.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_col_testing.png",
+      "sourceBlob": "cd8ad45123833e0154dbfe7f49d23e6c6d7e05f0"
+    },
+    "content-art/contingency-contract/mapareabg/map_columbia_center.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_columbia_center.png",
+      "sourceBlob": "01dfbf1c38c922099306bf36479198a279f5461d"
+    },
+    "content-art/contingency-contract/mapareabg/map_columbia_mobileplotstreet.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_columbia_mobileplotstreet.png",
+      "sourceBlob": "541617171e4c13b53682e98a622c32ed5191d40a"
+    },
+    "content-art/contingency-contract/mapareabg/map_fc_reed.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_fc_reed.png",
+      "sourceBlob": "2f00bc692872250a540b742c88f4051a2d075973"
+    },
+    "content-art/contingency-contract/mapareabg/map_ib_dawn.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_ib_dawn.png",
+      "sourceBlob": "77052b09065fa5e71a4068f29e6078b492922d50"
+    },
+    "content-art/contingency-contract/mapareabg/map_kjerag_lake.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_kjerag_lake.png",
+      "sourceBlob": "6e1506530e351dce0f4b3a40852b00b628768928"
+    },
+    "content-art/contingency-contract/mapareabg/map_kzde_furnace.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_kzde_furnace.png",
+      "sourceBlob": "269ce277ad80d37ab3cc4783837da85703395d7c"
+    },
+    "content-art/contingency-contract/mapareabg/map_lab_focus.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_lab_focus.png",
+      "sourceBlob": "8fe80501a7f57b873eb2a13f76ffb3d28d870481"
+    },
+    "content-art/contingency-contract/mapareabg/map_le_alleys.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_le_alleys.png",
+      "sourceBlob": "f85ffe1b0f5a877ca74fad9a71947adcffca68db"
+    },
+    "content-art/contingency-contract/mapareabg/map_leithanien_street.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_leithanien_street.png",
+      "sourceBlob": "805133cf6cb8b3830cd16c2df30185cf72790e21"
+    },
+    "content-art/contingency-contract/mapareabg/map_spine_vc.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_spine_vc.png",
+      "sourceBlob": "11e6c8c8be9a8e8cb13fc4c7f81a4025b7453350"
+    },
+    "content-art/contingency-contract/mapareabg/map_ursus_13ruins.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_ursus_13ruins.png",
+      "sourceBlob": "1afde3f5b7b8e43c4fb99e58a7e8f33c3a53a8e1"
+    },
+    "content-art/contingency-contract/mapareabg/map_ursus_miningarea.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_ursus_miningarea.png",
+      "sourceBlob": "838eb29e3d98653aa22b639057986547748be3ec"
+    },
+    "content-art/contingency-contract/mapareabg/map_ursus_ruins.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_ursus_ruins.png",
+      "sourceBlob": "b6452d356d89283604ffb1d5a39541bccec26418"
+    },
+    "content-art/contingency-contract/mapareabg/map_vc_reeds.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_vc_reeds.png",
+      "sourceBlob": "879fe33bca0dbd85b1de53588d3fef0380ce2b1f"
+    },
+    "content-art/contingency-contract/mapareabg/map_victoria_parch.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_victoria_parch.png",
+      "sourceBlob": "677805b96e0429f05839459dd7308481c87c4339"
+    },
+    "content-art/contingency-contract/mapareabg/map_wb_wall.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_wb_wall.png",
+      "sourceBlob": "26a5bba2bead8d30ba6e9fcb22374b2c480a868d"
+    },
+    "content-art/contingency-contract/mapareabg/map_yan_shuge.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/mapareabg/map_yan_shuge.png",
+      "sourceBlob": "12450976312598c639ce206ca00ee9f02cbab60d"
+    },
+    "content-art/contingency-contract/rankicon/appraise_0.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_0.png",
+      "sourceBlob": "88ae8fd4a66fd7f3d5942de48d52f7f924e30fee"
+    },
+    "content-art/contingency-contract/rankicon/appraise_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_1.png",
+      "sourceBlob": "63a25f81aba1325935f1807531565d9dfa4fa93b"
+    },
+    "content-art/contingency-contract/rankicon/appraise_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_2.png",
+      "sourceBlob": "e2f21508d42f8cb02e4a6e91974c714b3724af15"
+    },
+    "content-art/contingency-contract/rankicon/appraise_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_3.png",
+      "sourceBlob": "5655b2a56d89fd5482539b59fa5520ec0833dda1"
+    },
+    "content-art/contingency-contract/rankicon/appraise_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_4.png",
+      "sourceBlob": "0a11915f18e839eee32e3b5a82dc2aeebffe880b"
+    },
+    "content-art/contingency-contract/rankicon/appraise_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_5.png",
+      "sourceBlob": "071b99ac0d47519c3c803c39661e458ff308720f"
+    },
+    "content-art/contingency-contract/rankicon/appraise_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/rankicon/appraise_6.png",
+      "sourceBlob": "d9a3140fd56e3428d7e245a2625290f6067e9d02"
+    },
+    "content-art/contingency-contract/runeicon/g_bhrknf_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_bhrknf_atk_1.png",
+      "sourceBlob": "5f0fa549e018d3e598cc26feeb89109463d09e7d"
+    },
+    "content-art/contingency-contract/runeicon/g_bhrknf_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_bhrknf_hp_1.png",
+      "sourceBlob": "481ecb623a2115cd3401d5040a4fedae1e359155"
+    },
+    "content-art/contingency-contract/runeicon/g_bhrknf_invisible_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_bhrknf_invisible_1.png",
+      "sourceBlob": "5d6aff4535b232db57fdd36733bc9ea2981dc03c"
+    },
+    "content-art/contingency-contract/runeicon/g_buff_outset.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_buff_outset.png",
+      "sourceBlob": "e8dc2d773bbfcd41d52196691901b1a829687b30"
+    },
+    "content-art/contingency-contract/runeicon/g_char_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_atk_1.png",
+      "sourceBlob": "2318b817ac5ad1168c2e222cc8f53d9c0677c73b"
+    },
+    "content-art/contingency-contract/runeicon/g_char_atk_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_atk_2.png",
+      "sourceBlob": "29d672057328b257c2296b76eddf319ed241f378"
+    },
+    "content-art/contingency-contract/runeicon/g_char_atk_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_atk_3.png",
+      "sourceBlob": "de93b72ba9f89ee441962c98118477c3bb592bd2"
+    },
+    "content-art/contingency-contract/runeicon/g_char_atk_p1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_atk_p1.png",
+      "sourceBlob": "545f9cd051b3a455615dc889feac7bdcfb0585ba"
+    },
+    "content-art/contingency-contract/runeicon/g_char_atkspeed_p1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_atkspeed_p1.png",
+      "sourceBlob": "ae55599f9e2fac43d46b561fc6c7b3ec1c50d844"
+    },
+    "content-art/contingency-contract/runeicon/g_char_blockcnt_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_blockcnt_1.png",
+      "sourceBlob": "78168f7d1b67b7301ddcb8e118436eeeffa8a86b"
+    },
+    "content-art/contingency-contract/runeicon/g_char_blockcnt_max_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_blockcnt_max_1.png",
+      "sourceBlob": "abaf3584181292e19350f53ad690d4917bae25cf"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_caster_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_caster_1.png",
+      "sourceBlob": "6fb8a88f9c3051d31a9afff188069294e4b1cc40"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_casterspecial_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_casterspecial_1.png",
+      "sourceBlob": "679ea10ca504b8fbae1775e673e35beefde00f84"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_casterspecial_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_casterspecial_2.png",
+      "sourceBlob": "679ea10ca504b8fbae1775e673e35beefde00f84"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_casterspecial_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_casterspecial_5.png",
+      "sourceBlob": "3609110c732b1a5e500a17ee979ef5b47aad85f1"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_guard_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_guard_1.png",
+      "sourceBlob": "806e061e11ebee91d78d51229bae01b058aa459e"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_guardsupporter_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_guardsupporter_1.png",
+      "sourceBlob": "33d824c35dcb0b714af5ed36762626e1db957834"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_healerdefender_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_healerdefender_1.png",
+      "sourceBlob": "2473dfb0e3c2bd1cbe85ccc36483da4f2654e8b5"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_healerdefender_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_healerdefender_2.png",
+      "sourceBlob": "01dcd25090d00c692d7fc92b5e3b518ed5c27e5c"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_mage_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_mage_1.png",
+      "sourceBlob": "10fd2a9abd183ed536b0138fa8fa77552b298afb"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_medic_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_medic_1.png",
+      "sourceBlob": "68a65ae3a16ade4bae754191bca1225c15b07af4"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_pioneer_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_pioneer_1.png",
+      "sourceBlob": "bc7ae66059d19dae75434b359a93a748beebe7d7"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_pioneer_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_pioneer_2.png",
+      "sourceBlob": "0e77d3af2c22c5e5d5f97f8c1f8d3035dea8e48d"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_sniper_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_sniper_1.png",
+      "sourceBlob": "1ca0986bea47bcb5dea5806e47fdae9cfba0aae3"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_sniperguard_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_sniperguard_1.png",
+      "sourceBlob": "994e96adee35eb9da9e6baba3039b9a473257f31"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_sniperguard_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_sniperguard_2.png",
+      "sourceBlob": "97545fb31bb17a1a7c282499265f0ba0d82cd843"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_special_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_special_1.png",
+      "sourceBlob": "a1559317860862bf5bef7c0c2e02c8326bfafbf9"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_support_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_support_1.png",
+      "sourceBlob": "7750d58f1b257e1019ce851a837f19ec3568c30f"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_tank_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_tank_1.png",
+      "sourceBlob": "eacb395455773e39fa4afbbd56d0bcb2897eb845"
+    },
+    "content-art/contingency-contract/runeicon/g_char_cost_warrior_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_cost_warrior_1.png",
+      "sourceBlob": "d930dfc7f9e5240d09ca9fa94bbf97b7ba180a9d"
+    },
+    "content-art/contingency-contract/runeicon/g_char_def_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_def_1.png",
+      "sourceBlob": "b1f34c288cc4c6bbacb214fc18b1ce8829c94beb"
+    },
+    "content-art/contingency-contract/runeicon/g_char_deploy_attribute_add_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_deploy_attribute_add_1.png",
+      "sourceBlob": "c11cfb7d5520e04ec837ea17778d3de7f45342f9"
+    },
+    "content-art/contingency-contract/runeicon/g_char_deploy_attribute_add_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_deploy_attribute_add_2.png",
+      "sourceBlob": "bbfc66c893e958f0aa7ac4825b9c423365d12d94"
+    },
+    "content-art/contingency-contract/runeicon/g_char_deploy_bleed_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_deploy_bleed_1.png",
+      "sourceBlob": "bef6b2fc7f74193db35251ff3387d68385c9df06"
+    },
+    "content-art/contingency-contract/runeicon/g_char_deploy_losthp.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_deploy_losthp.png",
+      "sourceBlob": "7068628d7fe17fcdf0a03cc9d06bc048d6e4a8ec"
+    },
+    "content-art/contingency-contract/runeicon/g_char_deploy_stun.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_deploy_stun.png",
+      "sourceBlob": "8ef65152349e1d93d5bcc987c1c35e370ab2af78"
+    },
+    "content-art/contingency-contract/runeicon/g_char_deploy_stun_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_deploy_stun_1.png",
+      "sourceBlob": "6b420d4d984bdc7160028b78f0a4937296403479"
+    },
+    "content-art/contingency-contract/runeicon/g_char_guardspecial_cost_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_guardspecial_cost_1.png",
+      "sourceBlob": "2c87af1ffe0dbe3dd0c5f09c9798e252b4550d57"
+    },
+    "content-art/contingency-contract/runeicon/g_char_guardspecial_cost_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_guardspecial_cost_2.png",
+      "sourceBlob": "27370b34de60448ccd518e9e33256802dc29b676"
+    },
+    "content-art/contingency-contract/runeicon/g_char_highland_attribute_mul_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_highland_attribute_mul_1.png",
+      "sourceBlob": "f59ab91db1d55dfed70c5620c39e15edda25c3e0"
+    },
+    "content-art/contingency-contract/runeicon/g_char_highland_attribute_mul_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_highland_attribute_mul_2.png",
+      "sourceBlob": "4c161102aeb20d111aa450386afabb648ec7255c"
+    },
+    "content-art/contingency-contract/runeicon/g_char_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_hp_1.png",
+      "sourceBlob": "24e63056452042fe3cb8f77dcbf39eef5f5b814a"
+    },
+    "content-art/contingency-contract/runeicon/g_char_hp_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_hp_2.png",
+      "sourceBlob": "fbc5168f49c92a1f18f30f7fcf50decb7e3e0208"
+    },
+    "content-art/contingency-contract/runeicon/g_char_hp_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_hp_3.png",
+      "sourceBlob": "b5bc3b89d8369142532532c63c1c4884188be375"
+    },
+    "content-art/contingency-contract/runeicon/g_char_lowland_attribute_mul_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_lowland_attribute_mul_1.png",
+      "sourceBlob": "bf1ae55ab7216f39779bf40f05f1b33110d0ef92"
+    },
+    "content-art/contingency-contract/runeicon/g_char_lowland_attribute_mul_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_lowland_attribute_mul_2.png",
+      "sourceBlob": "499b3ea220436d80ae5b924db1f4b94567457ed4"
+    },
+    "content-art/contingency-contract/runeicon/g_char_magicdamage_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_magicdamage_1.png",
+      "sourceBlob": "30b9a7392beb3884e0cf8c32fd5b5344e7267ead"
+    },
+    "content-art/contingency-contract/runeicon/g_char_magicdamage_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_magicdamage_3.png",
+      "sourceBlob": "033b74f1af20dad8e94b723f6a24ead46b57611d"
+    },
+    "content-art/contingency-contract/runeicon/g_char_respawntime_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_respawntime_1.png",
+      "sourceBlob": "c387934e569565624199970181de12b473272931"
+    },
+    "content-art/contingency-contract/runeicon/g_char_respawntime_p1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_respawntime_p1.png",
+      "sourceBlob": "5fc5b87fb669bc529edbb9e7784ef56f6850142b"
+    },
+    "content-art/contingency-contract/runeicon/g_char_respawntime_p2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_respawntime_p2.png",
+      "sourceBlob": "e6880ffcc2120d2ed34e52ee08e5aab0e3b32839"
+    },
+    "content-art/contingency-contract/runeicon/g_char_skillcd_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_skillcd_1.png",
+      "sourceBlob": "8e6985e32b9a64dd3bb4429d08533c44f40df3bb"
+    },
+    "content-art/contingency-contract/runeicon/g_char_skillcd_p1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_skillcd_p1.png",
+      "sourceBlob": "acc954ae9adb66d6985cc0fbdbd7515148ea6da0"
+    },
+    "content-art/contingency-contract/runeicon/g_char_sp_reduce_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_sp_reduce_1.png",
+      "sourceBlob": "06c3d4da0a8ec0711af2ac14b4f91abbf1908dcc"
+    },
+    "content-art/contingency-contract/runeicon/g_char_tile_bing_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_tile_bing_1.png",
+      "sourceBlob": "2a8dec0b71d1949a9694a940ae86a39dfb3977ee"
+    },
+    "content-art/contingency-contract/runeicon/g_char_tile_summon_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_char_tile_summon_1.png",
+      "sourceBlob": "7a3f3e1735a3c436f33987a8c45d429dc7f2c77b"
+    },
+    "content-art/contingency-contract/runeicon/g_cost_battlebegin_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_cost_battlebegin_1.png",
+      "sourceBlob": "c65b89e0d488a7b4e5e7f91537b4655219e99b04"
+    },
+    "content-art/contingency-contract/runeicon/g_cost_battlebegin_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_cost_battlebegin_2.png",
+      "sourceBlob": "03f9af7bea78537d0e59c8d362af1b040e65d48e"
+    },
+    "content-art/contingency-contract/runeicon/g_cost_withdraw_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_cost_withdraw_1.png",
+      "sourceBlob": "4078e3d7a9e609f8e94324cea013374e87ac421f"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_1.png",
+      "sourceBlob": "3c22a965d1ddbc60ad1bb086a4fcb3378905d4c0"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_2.png",
+      "sourceBlob": "47ab1a6df29484a3e3adff19aaa4c6371c4516c5"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_3.png",
+      "sourceBlob": "911e22daa71c1ce4ab7162176bbf744d3b6bec20"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_4.png",
+      "sourceBlob": "6b6774a315810056d3530be1c03b0e782f220b76"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_5.png",
+      "sourceBlob": "c154a1aa0fe62391418145310b6dbddaeef57de1"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_6.png",
+      "sourceBlob": "c8b4e1323842641ada0b0a3bdb8bd3056789eee3"
+    },
+    "content-art/contingency-contract/runeicon/g_creep_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_creep_7.png",
+      "sourceBlob": "e3d513918a8be6e099554b3573f5764d1edfa8fe"
+    },
+    "content-art/contingency-contract/runeicon/g_crgst_extra.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crgst_extra.png",
+      "sourceBlob": "08d915007b408b316b32192437cc7fd90a5db5bf"
+    },
+    "content-art/contingency-contract/runeicon/g_crgst_hp.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crgst_hp.png",
+      "sourceBlob": "1b9354537f93d1b4603f1082bbb995386166190b"
+    },
+    "content-art/contingency-contract/runeicon/g_crgst_invisible.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crgst_invisible.png",
+      "sourceBlob": "3aff3a6846c59d01d9e4f8374860f862188d0ff6"
+    },
+    "content-art/contingency-contract/runeicon/g_crgun_biggun.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crgun_biggun.png",
+      "sourceBlob": "aec76baffc58830aad0226d97d0c94c701c98456"
+    },
+    "content-art/contingency-contract/runeicon/g_crgun_moregun.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crgun_moregun.png",
+      "sourceBlob": "766167aed5a55b8f20f4c575b829ff0401d3225e"
+    },
+    "content-art/contingency-contract/runeicon/g_crhro_atk_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crhro_atk_1.png",
+      "sourceBlob": "d184b03b1dc81937373c0171a573244ec56cfc0e"
+    },
+    "content-art/contingency-contract/runeicon/g_crhro_atk_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crhro_atk_2.png",
+      "sourceBlob": "9291a2bb5e7deb892e1d18694ff3f634b8b350cf"
+    },
+    "content-art/contingency-contract/runeicon/g_crhro_extra.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crhro_extra.png",
+      "sourceBlob": "afedac9ac1cdbd90bde20edcd60bc97e8a3feeba"
+    },
+    "content-art/contingency-contract/runeicon/g_crhro_hp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crhro_hp_1.png",
+      "sourceBlob": "d7172fa95a8a79be58279ccdddac49f9647ba2f4"
+    },
+    "content-art/contingency-contract/runeicon/g_crhro_hp_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crhro_hp_2.png",
+      "sourceBlob": "3a738e81447ffd33abcf4475a06981078b50efb9"
+    },
+    "content-art/contingency-contract/runeicon/g_crprop_extra.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crprop_extra.png",
+      "sourceBlob": "fa5c2186674c42c49086e1b52654afb47a144f4a"
+    },
+    "content-art/contingency-contract/runeicon/g_crprop_hp.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crprop_hp.png",
+      "sourceBlob": "4573780d51c6e3f8f182ceff2caf344680cec6d5"
+    },
+    "content-art/contingency-contract/runeicon/g_crrol_movespeed.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crrol_movespeed.png",
+      "sourceBlob": "8436b227fbe6618f3572fdf2ace5fe4253555cc9"
+    },
+    "content-art/contingency-contract/runeicon/g_crrol_tal_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crrol_tal_1.png",
+      "sourceBlob": "f90019ef599df54c313b5e8ef009b1ad248eaae2"
+    },
+    "content-art/contingency-contract/runeicon/g_crrol_tal_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crrol_tal_2.png",
+      "sourceBlob": "70ad7db3476f12824a864ff6bc9ad23db724a0b4"
+    },
+    "content-art/contingency-contract/runeicon/g_crshd_ep.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crshd_ep.png",
+      "sourceBlob": "e2f6b849b02472e84beda1df3715ff26f93d0716"
+    },
+    "content-art/contingency-contract/runeicon/g_crvln_atkspeed_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crvln_atkspeed_1.png",
+      "sourceBlob": "1353f3b7986779d3a302e822d9d7d10607fab7aa"
+    },
+    "content-art/contingency-contract/runeicon/g_crvln_atkspeed_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crvln_atkspeed_2.png",
+      "sourceBlob": "f469375f3387ff9335d5ab22b8d5ae000d169a6d"
+    },
+    "content-art/contingency-contract/runeicon/g_crvln_hp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crvln_hp_1.png",
+      "sourceBlob": "939bc4e56552213fe21aad01ef9cddb1fbb78cad"
+    },
+    "content-art/contingency-contract/runeicon/g_crvln_hp_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_crvln_hp_2.png",
+      "sourceBlob": "45ed7f199df0d6e37903e8f9ec54ffc79b8c870f"
+    },
+    "content-art/contingency-contract/runeicon/g_daily_stun_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_daily_stun_1.png",
+      "sourceBlob": "6805f780507206afe037132123bdd2d1b1dc94dd"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_2.png",
+      "sourceBlob": "8b5978eedf9116088a0197636c7c5eab8d4b7440"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_3.png",
+      "sourceBlob": "4d999ccebba430299eb99382f1a824770e7e8f59"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_4.png",
+      "sourceBlob": "d576778f729901e3caa9311d82a6946fa21f7650"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_5.png",
+      "sourceBlob": "636b793b588df283ab3b91965c9cf7b19a5dde02"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_6.png",
+      "sourceBlob": "55285f82dbf0c2246f5efd83ac94be2735b155c0"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_7.png",
+      "sourceBlob": "cbc497bd2d023dfce9ae3bc829f93162622e777b"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbskr_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbskr_start.png",
+      "sourceBlob": "14a319b710e54e921ab3df2a7d04ad7340d9bad8"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbudr_start1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbudr_start1.png",
+      "sourceBlob": "1df0694355dce1d7c3854f5f7e0f2a6bba1e6a84"
+    },
+    "content-art/contingency-contract/runeicon/g_dsbudr_start2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsbudr_start2.png",
+      "sourceBlob": "ab17f81c50e8c7193d459c58e676d8f01ef1dc4c"
+    },
+    "content-art/contingency-contract/runeicon/g_dssalr_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dssalr_2.png",
+      "sourceBlob": "d77bedab07ab752ac01616dae085d0aacd2099b7"
+    },
+    "content-art/contingency-contract/runeicon/g_dssalr_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dssalr_3.png",
+      "sourceBlob": "38d8b0a5ae8e94dd214f4aaf4b9e61c2eab8c220"
+    },
+    "content-art/contingency-contract/runeicon/g_dssalr_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dssalr_4.png",
+      "sourceBlob": "53d481291ee1b2087c97aa4d2031602cde9e38aa"
+    },
+    "content-art/contingency-contract/runeicon/g_dssalr_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dssalr_5.png",
+      "sourceBlob": "e066f09f0d47bd90a37ba771070bb1a01686a225"
+    },
+    "content-art/contingency-contract/runeicon/g_dssalr_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dssalr_start.png",
+      "sourceBlob": "a428e4f686f89992a1b92f9912363af3aa8924a9"
+    },
+    "content-art/contingency-contract/runeicon/g_dsshtr_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsshtr_2.png",
+      "sourceBlob": "980cfb80ac881b8377d8bdff60b318da52eab2b9"
+    },
+    "content-art/contingency-contract/runeicon/g_dsshtr_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsshtr_start.png",
+      "sourceBlob": "33aec6e21f023ba2dd9e0bab24892ab9b9784ca0"
+    },
+    "content-art/contingency-contract/runeicon/g_dsubrl_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dsubrl_start.png",
+      "sourceBlob": "b6cae46a6314618b9ad323f1f743bead0b0a147f"
+    },
+    "content-art/contingency-contract/runeicon/g_dublst_cnt.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dublst_cnt.png",
+      "sourceBlob": "d6c2fc322643110f5ad91d66e3e29361cbea9041"
+    },
+    "content-art/contingency-contract/runeicon/g_duflm_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duflm_atk1.png",
+      "sourceBlob": "0313d79746d567bbea735bf91a39477ba32991a3"
+    },
+    "content-art/contingency-contract/runeicon/g_duflm_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duflm_def1.png",
+      "sourceBlob": "5a00632c193b529d40d5ef872719c9c483b4c930"
+    },
+    "content-art/contingency-contract/runeicon/g_duflm_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duflm_hp1.png",
+      "sourceBlob": "da91f4801bc32c24690607b4ff9b0525ff7178f1"
+    },
+    "content-art/contingency-contract/runeicon/g_duflm_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duflm_hp2.png",
+      "sourceBlob": "20f1f9af044a21febca3512c057c7915954a80c0"
+    },
+    "content-art/contingency-contract/runeicon/g_duflm_tal1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duflm_tal1.png",
+      "sourceBlob": "8887be94c5652311b8989e22030aed0a5e3eb32f"
+    },
+    "content-art/contingency-contract/runeicon/g_dugago_buff1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dugago_buff1.png",
+      "sourceBlob": "f810cd65d14379b2f3f6c6c760c640551409d80c"
+    },
+    "content-art/contingency-contract/runeicon/g_dugago_buff2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dugago_buff2.png",
+      "sourceBlob": "f05d528e3424d7cb41393512811a197c3051fc27"
+    },
+    "content-art/contingency-contract/runeicon/g_dugago_buff3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dugago_buff3.png",
+      "sourceBlob": "765e0b5c40623f15cd749c7d404a23c5635e3e76"
+    },
+    "content-art/contingency-contract/runeicon/g_dugago_buff4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dugago_buff4.png",
+      "sourceBlob": "9c0ba8c41b67f737ccecbb94da02524d8ac5717d"
+    },
+    "content-art/contingency-contract/runeicon/g_duholy_attack_speed1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duholy_attack_speed1.png",
+      "sourceBlob": "1388fe4b406595d523a2b99a1cc677094c2e4e31"
+    },
+    "content-art/contingency-contract/runeicon/g_duholy_attack_speed2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duholy_attack_speed2.png",
+      "sourceBlob": "07a3a40924591c4348e7c9ae11f705db78a34f91"
+    },
+    "content-art/contingency-contract/runeicon/g_duholy_buff1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duholy_buff1.png",
+      "sourceBlob": "de23429894b7b43a4de56c84496533e8dc67d456"
+    },
+    "content-art/contingency-contract/runeicon/g_duholy_buff2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duholy_buff2.png",
+      "sourceBlob": "dbb14182b312c7641277e3a7f8e236874a4ea960"
+    },
+    "content-art/contingency-contract/runeicon/g_duholy_range.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duholy_range.png",
+      "sourceBlob": "0e28ef0a5a1f8d29c2dfd56ae41f1cdffd144822"
+    },
+    "content-art/contingency-contract/runeicon/g_dushdo_buff1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dushdo_buff1.png",
+      "sourceBlob": "e554b1e9dc0dcb58d43731c89d168ecefc4c3081"
+    },
+    "content-art/contingency-contract/runeicon/g_dushdo_buff2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dushdo_buff2.png",
+      "sourceBlob": "e354e7241763cd617c419451a6d2055f0512852c"
+    },
+    "content-art/contingency-contract/runeicon/g_duskld_aura1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskld_aura1.png",
+      "sourceBlob": "a67609103cfdc68d26a30562066f935daada0d3b"
+    },
+    "content-art/contingency-contract/runeicon/g_duskld_aura2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskld_aura2.png",
+      "sourceBlob": "e20c7060eef358c280460eed275f5d84fb267622"
+    },
+    "content-art/contingency-contract/runeicon/g_duskls_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskls_atk1.png",
+      "sourceBlob": "64e4bcd7662f2689fe9d3675773a75d852e9832b"
+    },
+    "content-art/contingency-contract/runeicon/g_duskls_dm1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskls_dm1.png",
+      "sourceBlob": "03684c71616b45ec5f0ba72f6f2167dc4bff224a"
+    },
+    "content-art/contingency-contract/runeicon/g_duskls_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskls_hp1.png",
+      "sourceBlob": "7a64235c9347209b67a4ebd0e5975cc70a92e9f4"
+    },
+    "content-art/contingency-contract/runeicon/g_duskls_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskls_hp2.png",
+      "sourceBlob": "e96fd7d861f7b6f607ac28d44f0c938a2dc4473f"
+    },
+    "content-art/contingency-contract/runeicon/g_duskls_tal1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_duskls_tal1.png",
+      "sourceBlob": "458e6cdbe7acb33e606859d32ebc0190dceb5905"
+    },
+    "content-art/contingency-contract/runeicon/g_dusocr_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusocr_1.png",
+      "sourceBlob": "5cf521dd8994df1632db22eed3661ecedc42a8e9"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_1.png",
+      "sourceBlob": "ebc17102aed9d54e197ad46a664142449856c9d7"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_2.png",
+      "sourceBlob": "6c2b89c600d94db389f0259590f735f1d5de1b3a"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_3.png",
+      "sourceBlob": "69a6cc30bdbfc4be2b2690b73ce9e0f0f941d042"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_invisible_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_invisible_1.png",
+      "sourceBlob": "1ff0861ffde6f109d03a4d3e2c7ade755b60d42e"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_left_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_left_1.png",
+      "sourceBlob": "4c0f7b82c2b831a87460f41d48e684ff006cbcf2"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_left_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_left_2.png",
+      "sourceBlob": "72a806a73d5403a90f3bf505c9b5fa6b8880d739"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_right_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_right_1.png",
+      "sourceBlob": "bcb40bef8ba6c95fb9831c758536615bd1d46fd7"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_speed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_speed_1.png",
+      "sourceBlob": "e00d49dc4dc2ac1785508c712225c88a36bc968b"
+    },
+    "content-art/contingency-contract/runeicon/g_dusrch_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_dusrch_start.png",
+      "sourceBlob": "b70c20d30b6d64e9d80f4500a648e83b0fe1a9b1"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_adduaghst_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_adduaghst_1.png",
+      "sourceBlob": "25b793905b2bbd3a1daa35e121152200921f8f19"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_adduaghst_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_adduaghst_2.png",
+      "sourceBlob": "fa91513a849a2b7b0cdd8b98cccf80ba527fc0f1"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_adduasnip.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_adduasnip.png",
+      "sourceBlob": "86b2ab2b2d3119b7fd27969cc6d8cfaa1da08ea1"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_atk_1.png",
+      "sourceBlob": "43725802102ce0002992ed8cb86c9a0d8397c359"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_atk_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_atk_2.png",
+      "sourceBlob": "3854bf7debff9f2312caedacf54a064f933c1f5b"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_atk_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_atk_3.png",
+      "sourceBlob": "3e7e00aebae59a80a5b3c0df0f07d3bd03353f67"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_attackspeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_attackspeed_1.png",
+      "sourceBlob": "e03f64d205dce17e04b281044a695f620f7f42af"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_attackspeed_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_attackspeed_2.png",
+      "sourceBlob": "bdd341ba8f22fbe164a63d24a3e779a8cf600e3b"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_block_damage.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_block_damage.png",
+      "sourceBlob": "44fb324f0531d03bc0a1f22370c724fd266244ef"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_block_dmgreduce_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_block_dmgreduce_1.png",
+      "sourceBlob": "e0c4fa1847a5903ce2df359dac74d7334830a24c"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_block_dmgreduce_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_block_dmgreduce_2.png",
+      "sourceBlob": "ce5d87970475b759b0a840b4512bb124f6a65171"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_block_dmgreduce_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_block_dmgreduce_3.png",
+      "sourceBlob": "a54ca535bc45b16cb9386132b8ca0c3aacdc1a98"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_cannon_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_cannon_1.png",
+      "sourceBlob": "b2edf4cfd1928e3076b00d964fe0a8e21344c42e"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_cannon_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_cannon_2.png",
+      "sourceBlob": "55c0d766852b4d0a7d004451cefa049f61ea3bee"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_def_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_def_1.png",
+      "sourceBlob": "19d04cb148503ef5a083020bdd380c7ba10a1b50"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_element_res_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_element_res_1.png",
+      "sourceBlob": "d52568f86586187f385c5d0ce06feb8a953e68b3"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_hp_1.png",
+      "sourceBlob": "80185fc5db951b7421b084633f345d129853d77c"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_hp_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_hp_2.png",
+      "sourceBlob": "9953abea64a0bbbb78f7214d32450a530f0e4c62"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_hp_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_hp_3.png",
+      "sourceBlob": "3907ce450d3e8687081acafd4407c8a8469f6f23"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_jakill_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_jakill_1.png",
+      "sourceBlob": "606e1e2db6e8bb77a3723c025a4100c7ea2cdd9d"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lidbox_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lidbox_1.png",
+      "sourceBlob": "9cf2a9ed90977d10284e1c9371c32d857284537c"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lidbox_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lidbox_2.png",
+      "sourceBlob": "85637ea580b8c222c6c09a42db1de27e71026e68"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lidbox_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lidbox_3.png",
+      "sourceBlob": "28e8d7f9add2385bb4e7bfb74910a2fa15a7c80a"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lifbos_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lifbos_1.png",
+      "sourceBlob": "fe9dec44c2c01f1f2d28f3e9ca84aca3a39d1de9"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lifbos_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lifbos_2.png",
+      "sourceBlob": "8c5752d7fd89a617bc9e930b2b234a1be41cd150"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lifbos_liberty_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lifbos_liberty_1.png",
+      "sourceBlob": "1c3a1c85db84924837719ae0c4b19e7d76061917"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lifbos_liberty_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lifbos_liberty_2.png",
+      "sourceBlob": "4414e49c0a1af357cac259ea3827a4e14bf83f5e"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_liiprr_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_liiprr_1.png",
+      "sourceBlob": "47fee0a0f4ebe2f2b584b07dce9c1728d6a10629"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_liiprr_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_liiprr_2.png",
+      "sourceBlob": "284dfd7d31db56479c025bbf64caabc94fff86f6"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_liiprr_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_liiprr_3.png",
+      "sourceBlob": "4bac057714f6b7633e78a3b1c0363d3d108eb01b"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_lysdb_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_lysdb_1.png",
+      "sourceBlob": "6cabf180a05505870dc5502a0e16ac07eabcc387"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_mag1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_mag1.png",
+      "sourceBlob": "c3a73d06dd97aae6ccfe8bca3228ab3a85a1b4f3"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_magic_resistant.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_magic_resistant.png",
+      "sourceBlob": "460f7a73bc3869a173603f2a808351117872f9bc"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_magical_reduction_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_magical_reduction_1.png",
+      "sourceBlob": "1d17e1d811ad9bc186506677ee750744b59d4f4e"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_magical_reduction_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_magical_reduction_2.png",
+      "sourceBlob": "611b09152b42a2fa114adf99aa2c3cc7781f14c6"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_movespeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_movespeed_1.png",
+      "sourceBlob": "c9d5f0aeb7ae88edbd66445befdf87e71af566ba"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_movespeed_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_movespeed_2.png",
+      "sourceBlob": "52a3b45c7ac6b0d96883f98dbc7d2783dff175e5"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_physical_reduction_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_physical_reduction_1.png",
+      "sourceBlob": "8f0a4d25c5587d710dd33184c3cec72c71f41c52"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_physical_reduction_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_physical_reduction_2.png",
+      "sourceBlob": "6a887223840094a2de17602adfe4c485c463eb58"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spilot_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spilot_1.png",
+      "sourceBlob": "c96c5092c6a38857402116f41c4ae8698cca7f24"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spilot_cd.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spilot_cd.png",
+      "sourceBlob": "148e00fdf4dbb602da8e659a74855713de668cc3"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spilot_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spilot_hp_1.png",
+      "sourceBlob": "0cc092e47920905d58c195eb9324e71ae4ba6338"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spilot_hp_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spilot_hp_2.png",
+      "sourceBlob": "be7debfb3aa2a21225b8e178142eedaf591126d8"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnaxe_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnaxe_1.png",
+      "sourceBlob": "be49125661c2b2ea19d7ac380c0bb5d01042306f"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnaxe_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnaxe_2.png",
+      "sourceBlob": "364b80c02ff9168b74f875a24397de2216b8e873"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnaxe_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnaxe_3.png",
+      "sourceBlob": "3c955f671e5836d75206cf95d7bf3b273469e1a4"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnshd_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnshd_1.png",
+      "sourceBlob": "f430f6c5bc06589402707f5e27e34abc1aa5fcfd"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnshd_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnshd_2.png",
+      "sourceBlob": "4ab3095e3088f3c7104db57e5b2aaa585aacc774"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnwiz_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnwiz_1.png",
+      "sourceBlob": "aa7b8c1a3ab79301725184cecf5d7a87dd506dce"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_spnwiz_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_spnwiz_2.png",
+      "sourceBlob": "6c6b0b3092627692a285e798719280262a347a3e"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_unblockable.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_unblockable.png",
+      "sourceBlob": "d6add052aabcde4fdef9c05a3edb3e87607f6598"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_vofwiz_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_vofwiz_1.png",
+      "sourceBlob": "46973ff7949d5ccfee783d5186b1daffa05e2fe2"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_vofwiz_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_vofwiz_2.png",
+      "sourceBlob": "ac406408a33c42a20820e7dce5e33a1fc2b3c5cb"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_vofwiz_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_vofwiz_3.png",
+      "sourceBlob": "c6a7ce597690a62091bfcda59050b4e57df4ecec"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_vofwiz_tal_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_vofwiz_tal_1.png",
+      "sourceBlob": "19bbdcaf997e9382dd1f3a1d9f16b53f6305662a"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_weight_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_weight_1.png",
+      "sourceBlob": "a77a1241477714105a800ba5d0f725ae203be5b6"
+    },
+    "content-art/contingency-contract/runeicon/g_enemy_weight_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_enemy_weight_2.png",
+      "sourceBlob": "7b2415669124bd6adad1ff6de87643ffa05998d6"
+    },
+    "content-art/contingency-contract/runeicon/g_extra_cost_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_extra_cost_1.png",
+      "sourceBlob": "e3576cf8cffa859dc099206791ab8cb4ac838edb"
+    },
+    "content-art/contingency-contract/runeicon/g_extra_cost_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_extra_cost_2.png",
+      "sourceBlob": "c851a235cc36b8faa77882b7285026002170caf8"
+    },
+    "content-art/contingency-contract/runeicon/g_extra_stone.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_extra_stone.png",
+      "sourceBlob": "5af4909c187ec02a9ec0d0e4be7bad5d9d2467fb"
+    },
+    "content-art/contingency-contract/runeicon/g_flasrt_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_flasrt_atk_1.png",
+      "sourceBlob": "0aa9dc048588e4808beae90f83d69ef370089dc2"
+    },
+    "content-art/contingency-contract/runeicon/g_flasrt_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_flasrt_hp_1.png",
+      "sourceBlob": "88d8ca5a3d1d2f404a7354e302ab603e15d77fbb"
+    },
+    "content-art/contingency-contract/runeicon/g_flasrt_invisible_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_flasrt_invisible_1.png",
+      "sourceBlob": "a8ceed313cf62e634233bb4e204f389c56ae1de7"
+    },
+    "content-art/contingency-contract/runeicon/g_flasrt_skill_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_flasrt_skill_1.png",
+      "sourceBlob": "48e6787cd05f8aadd82692573e04c305df2b7905"
+    },
+    "content-art/contingency-contract/runeicon/g_flasrt_talent_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_flasrt_talent_1.png",
+      "sourceBlob": "9003129a0513bdc12022006236a55054da0820da"
+    },
+    "content-art/contingency-contract/runeicon/g_forbid_location_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_forbid_location_1.png",
+      "sourceBlob": "455785b28aeb717817108e754f4d20cc1fd5430f"
+    },
+    "content-art/contingency-contract/runeicon/g_forbid_location_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_forbid_location_2.png",
+      "sourceBlob": "e7606d10cd328baafe3321361048310961a65e88"
+    },
+    "content-art/contingency-contract/runeicon/g_frog_coin_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_frog_coin_1.png",
+      "sourceBlob": "77714942878bc521b5dd84c71bdb7a911cfcb55e"
+    },
+    "content-art/contingency-contract/runeicon/g_frog_hidden_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_frog_hidden_1.png",
+      "sourceBlob": "2dca7845aeee512876cac56e20054d5890a7f8a1"
+    },
+    "content-art/contingency-contract/runeicon/g_frog_hp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_frog_hp_1.png",
+      "sourceBlob": "6239b090a14e8c2a211eae4e61d4d5cdc507f8ea"
+    },
+    "content-art/contingency-contract/runeicon/g_global_canoe1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_canoe1.png",
+      "sourceBlob": "5b5252f5fe82fef460bad54b6f9b1864c76db167"
+    },
+    "content-art/contingency-contract/runeicon/g_global_canoe2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_canoe2.png",
+      "sourceBlob": "eff35851a3eecce3e634624d94db52825ebed516"
+    },
+    "content-art/contingency-contract/runeicon/g_global_costrecovery_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_costrecovery_1.png",
+      "sourceBlob": "d3eedbe2b9f00b36f638c70b009f1e2e4fe61cd5"
+    },
+    "content-art/contingency-contract/runeicon/g_global_costrecovery_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_costrecovery_2.png",
+      "sourceBlob": "f3dac8e59cbc6aca6cc55b69d7ebdbdd91d105b5"
+    },
+    "content-art/contingency-contract/runeicon/g_global_costrecovery_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_costrecovery_3.png",
+      "sourceBlob": "0c19c549159deeeef6b6c57c540cc4f83f9ee719"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_1.png",
+      "sourceBlob": "36805f42c119ffe5dc9697f04365447f80928d65"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_3a.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_3a.png",
+      "sourceBlob": "cc53ab9df9b262e0d0eaaeb7eb5cfde5fb4affdd"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_3b.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_3b.png",
+      "sourceBlob": "ee40ecffb3c78680c401dfe90ba32c58c0b91627"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_down.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_down.png",
+      "sourceBlob": "0f8ae6acabf54d65d0f68cfc2a4125e78beeb173"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_high.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_high.png",
+      "sourceBlob": "26bf4521b53f3466c109e6ffaccd7392f34a313b"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_high_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_high_1.png",
+      "sourceBlob": "90ea8150ccdd8fe04f2c9b592a727a26b4e7aa1a"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_high_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_high_2.png",
+      "sourceBlob": "18cec25f8c6691bdc53bf5622078429ae3ed1bad"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_low_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_low_1.png",
+      "sourceBlob": "6bb7bd84dc49f393f7daf4cc41abb6a3ea6aadf5"
+    },
+    "content-art/contingency-contract/runeicon/g_global_forbidloc_up.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_forbidloc_up.png",
+      "sourceBlob": "32aaa4062348908eec72e7a43b926daf6377d053"
+    },
+    "content-art/contingency-contract/runeicon/g_global_lifepoint_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_lifepoint_1.png",
+      "sourceBlob": "f97a8ba82f7d5002fe4c1c3e6679513600a6ff57"
+    },
+    "content-art/contingency-contract/runeicon/g_global_lysytc_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_lysytc_1.png",
+      "sourceBlob": "67be766ddab36b6c91417883133d4579c2ec5693"
+    },
+    "content-art/contingency-contract/runeicon/g_global_lysytc_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_lysytc_2.png",
+      "sourceBlob": "b8e092ba27ab9aa4c607bc0ac6bf9e842d12e26e"
+    },
+    "content-art/contingency-contract/runeicon/g_global_nocostrecovery_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_nocostrecovery_1.png",
+      "sourceBlob": "80893e7fc40ebc5129a09f26e4c6db4738d21e88"
+    },
+    "content-art/contingency-contract/runeicon/g_global_pcharnum_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_pcharnum_1.png",
+      "sourceBlob": "cdcc3907f7111527f0c7a99bb79b82ab3a56196c"
+    },
+    "content-art/contingency-contract/runeicon/g_global_pcharnum_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_pcharnum_2.png",
+      "sourceBlob": "619f4c15ef8ae363557fcd625a2925f9ab86039e"
+    },
+    "content-art/contingency-contract/runeicon/g_global_pcharnum_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_pcharnum_3.png",
+      "sourceBlob": "035c1a7f0c6776225e926868c1da819be8b63813"
+    },
+    "content-art/contingency-contract/runeicon/g_global_psquad_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_psquad_1.png",
+      "sourceBlob": "2351ff9fff1a6c9400ec8ce41d1a16fb72f81edc"
+    },
+    "content-art/contingency-contract/runeicon/g_global_skillrecovery_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_skillrecovery_3.png",
+      "sourceBlob": "5d31e3eff9cf532b175ae59205dbc8e18d378d55"
+    },
+    "content-art/contingency-contract/runeicon/g_global_squadnum_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_squadnum_1.png",
+      "sourceBlob": "e0b241b48a822a1b9e2b2a24020dbe387e676d26"
+    },
+    "content-art/contingency-contract/runeicon/g_global_squadnum_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_squadnum_2.png",
+      "sourceBlob": "7134844ba9fcc2c71ceea080c3cbfb0392203475"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_friendtower_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_friendtower_1.png",
+      "sourceBlob": "86b7aa464aaa89c5987cde784607aef567fc1799"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_friendtower_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_friendtower_2.png",
+      "sourceBlob": "29317ead667ded9da4dcebe0acdce2ee2c12b0a8"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_friendtower_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_friendtower_3.png",
+      "sourceBlob": "a85df7a6c23f9b191e4b79ed69819ae72a462235"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_friendtower_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_friendtower_4.png",
+      "sourceBlob": "b8da017b0ebff40ee914a39f0924b43ba5f5df37"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_newtower_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_newtower_1.png",
+      "sourceBlob": "cc997b9b637b3e891a2ec90a093b17b6bd729fbd"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_tower_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_tower_1.png",
+      "sourceBlob": "9b507f67959d66cd7abb9baebe86b579c75ac5b0"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_tower_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_tower_2.png",
+      "sourceBlob": "6d870a8ff94a728809c2675a71c81e29bd02740f"
+    },
+    "content-art/contingency-contract/runeicon/g_global_trap_tower_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_global_trap_tower_3.png",
+      "sourceBlob": "3f216a44cbaa59b84df832463f484bc0fed9650b"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbjedi_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbjedi_1.png",
+      "sourceBlob": "78e4930405248d55dc541fca0ca82184509cb93b"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbjedi_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbjedi_2.png",
+      "sourceBlob": "45535cae0f15ff8b3b5c8fe338840b075be81d8d"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbjedi_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbjedi_3.png",
+      "sourceBlob": "6adfa8bbbbf6eadd4a0eb22def3b4155a4450f41"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbjedi_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbjedi_4.png",
+      "sourceBlob": "c7892db5768f83f48e34f208e0a6bc954be89948"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbrush_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbrush_1.png",
+      "sourceBlob": "80948a20574bbd0dfa1b3c20d30300814b7e0081"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbrush_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbrush_2.png",
+      "sourceBlob": "d7164eb0ed7de65a3027261d1238d4f1a5e22e29"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbshld_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbshld_1.png",
+      "sourceBlob": "f965f0909423bf68487f71dd1b50280fc78ad010"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbshld_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbshld_2.png",
+      "sourceBlob": "e86fc6dbb38c5931feabba27b520e4ba5cc219cf"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbshld_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbshld_3.png",
+      "sourceBlob": "77e5929212091513e44c60aa4ff0e0897d773756"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbshld_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbshld_4.png",
+      "sourceBlob": "870b7ea2bfee21c9e9c2bf658e92103efb99c919"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_1.png",
+      "sourceBlob": "db7a2990546231efa472b9d3e7cf636667f5835b"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_2.png",
+      "sourceBlob": "267f364c5e43a6fe4276969e9895f6f50e17e4b2"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_3.png",
+      "sourceBlob": "84b78e08c2cb4ac338a57a898fdf3bfe6bf129f2"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_4.png",
+      "sourceBlob": "fbc2cee4c06df2056a26daba43dd6d1895567471"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_5.png",
+      "sourceBlob": "a902d8ead94ce4d6c8f1cc94b4838c1e46145861"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_6.png",
+      "sourceBlob": "4befdeba0518d40277506f01c9e6274fc35dc6d7"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbsisy_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbsisy_7.png",
+      "sourceBlob": "b6ccaa462361254c1ec8346b3eef90a1189bcbc0"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_1.png",
+      "sourceBlob": "393b6869a0ed1a4e0a8c15a687df973533353397"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_2.png",
+      "sourceBlob": "062d5e8650139848e3b86463f935a532b45fd2dd"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_3.png",
+      "sourceBlob": "a326e3b69c2443dd39288b7eba10ec70be2b6610"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_4.png",
+      "sourceBlob": "3627da2022600a52c1d2d4d88e418f69b0f87f2c"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_5.png",
+      "sourceBlob": "813617542215e51050ff1121069a0da1ebf5af2a"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_6.png",
+      "sourceBlob": "d72d34adc9d04de99453b1f630cefba8e0e5389a"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_cbterm_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_cbterm_7.png",
+      "sourceBlob": "ac1ae41df78b7f8a5b586ba82f661e670cf5c852"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_char_attackspeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_char_attackspeed_1.png",
+      "sourceBlob": "73742055fd33ee3465c3541009524ed44f9a522f"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_char_attackspeed_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_char_attackspeed_2.png",
+      "sourceBlob": "23cc7d6e2a72c7897361ff300d581c0dcc139b6d"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_enemy_mess_add.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_enemy_mess_add.png",
+      "sourceBlob": "1f38f8ef6390eac6f026f4c78fdac749e68f946b"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_lyengs_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_lyengs_1.png",
+      "sourceBlob": "c6beff892c7834798f378c340ce6ea3250e1ebbd"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_lyengs_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_lyengs_2.png",
+      "sourceBlob": "81a91fc788f217c87c703698c3966bb02a2232d8"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_ristar_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_ristar_1.png",
+      "sourceBlob": "91721f825305f62610ab8e97422dbcb831bc05db"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_ristar_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_ristar_2.png",
+      "sourceBlob": "5f84702da4bc6994bf827f3db8f0f06e561e72ed"
+    },
+    "content-art/contingency-contract/runeicon/g_gx_ristar_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_gx_ristar_3.png",
+      "sourceBlob": "67551eb6a15fdf8436a82e0563577ab09e75b7e3"
+    },
+    "content-art/contingency-contract/runeicon/g_highland_losthp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_highland_losthp_1.png",
+      "sourceBlob": "15a89eca8ed9f032eda7e7672d7d0c35e507db34"
+    },
+    "content-art/contingency-contract/runeicon/g_krgrg_atk_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_krgrg_atk_2.png",
+      "sourceBlob": "71844ffaab34365147d94a23829665dfbcf79982"
+    },
+    "content-art/contingency-contract/runeicon/g_krgrg_tal_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_krgrg_tal_1.png",
+      "sourceBlob": "01e83e2ebbe71893eaca66baac70c6856d14e476"
+    },
+    "content-art/contingency-contract/runeicon/g_krgrg_tal_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_krgrg_tal_2.png",
+      "sourceBlob": "f6081e0c5f11aedd134a52cecebb3847a6f2f842"
+    },
+    "content-art/contingency-contract/runeicon/g_less_spawnp.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_less_spawnp.png",
+      "sourceBlob": "f7d809cb862eb281f7842478ba0e27ea21413e21"
+    },
+    "content-art/contingency-contract/runeicon/g_level_enhance_miner.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_enhance_miner.png",
+      "sourceBlob": "f50ce3869ebfd8f03540ae6636ce7d406f2947c0"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_bgarmn_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_bgarmn_1.png",
+      "sourceBlob": "46de2be7948533fd11b47935b49e83b2544d79f3"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_duswrd.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_duswrd.png",
+      "sourceBlob": "cc44cce2822959b6156adf700f4d5578c3aa0934"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_jw.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_jw.png",
+      "sourceBlob": "e415943e17b05bf3fc1da065929366e07c5ddc0c"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_ltgtld.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_ltgtld.png",
+      "sourceBlob": "0d61dbec8b1f6a5ed4db61c7728ec6bc334feed9"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_prison.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_prison.png",
+      "sourceBlob": "d1fff128403815861214fd6d356042198bddba7a"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_sotisd_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_sotisd_1.png",
+      "sourceBlob": "5c2b86acdb27e25d2c4f6feda30db0252d7cdd38"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_ymkilr_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_ymkilr_1.png",
+      "sourceBlob": "cf5e94e2222bf374753a6fa5966535db09ba8cf5"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_ymknif_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_ymknif_1.png",
+      "sourceBlob": "7ec07a053da36614418fbd39ff42413e79d31e33"
+    },
+    "content-art/contingency-contract/runeicon/g_level_hidden_ymmir_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_level_hidden_ymmir_1.png",
+      "sourceBlob": "042dab6cdc2216122df4226536543fbcb65f660d"
+    },
+    "content-art/contingency-contract/runeicon/g_lrboom_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrboom_1.png",
+      "sourceBlob": "61f0dcd1fde66f6119a6cd0a4dc28dda661c689f"
+    },
+    "content-art/contingency-contract/runeicon/g_lrcmra_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrcmra_1.png",
+      "sourceBlob": "2810ab80a1a09a9f0d3a38037275d75c4e300051"
+    },
+    "content-art/contingency-contract/runeicon/g_lrcmra_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrcmra_2.png",
+      "sourceBlob": "0cb4be8325acefcb73203f5c70a447a8cc20227c"
+    },
+    "content-art/contingency-contract/runeicon/g_lrcmra_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrcmra_3.png",
+      "sourceBlob": "afa67caa447719e89e78baca9f66332e17331350"
+    },
+    "content-art/contingency-contract/runeicon/g_lrcmra_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrcmra_4.png",
+      "sourceBlob": "7bbcc94c4f7b63db838a44cf034580a2657e5201"
+    },
+    "content-art/contingency-contract/runeicon/g_lrcmra_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrcmra_start.png",
+      "sourceBlob": "8b3631de5edd3b5953131f4179263e1bb48d93a3"
+    },
+    "content-art/contingency-contract/runeicon/g_lrcmra_start_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrcmra_start_2.png",
+      "sourceBlob": "a1f7fec0000f44e39782f8b7a91d4ac621ea4264"
+    },
+    "content-art/contingency-contract/runeicon/g_lrfkkt_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrfkkt_3.png",
+      "sourceBlob": "843ae78f99101000a727a6eb4f9542a8a95ccf2c"
+    },
+    "content-art/contingency-contract/runeicon/g_lrfkkt_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrfkkt_4.png",
+      "sourceBlob": "0048125969e872bc0898f1a39fadb96bd3c0faa8"
+    },
+    "content-art/contingency-contract/runeicon/g_lrmm_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrmm_1.png",
+      "sourceBlob": "1c8c2cb7e542a44167ae16575a5603d425a1019f"
+    },
+    "content-art/contingency-contract/runeicon/g_lrmm_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrmm_2.png",
+      "sourceBlob": "d429f7f69b087d6b02227baff3608b42a92c8b8c"
+    },
+    "content-art/contingency-contract/runeicon/g_lrmm_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrmm_3.png",
+      "sourceBlob": "195260af9ce7ec1f358a75aae5f129d6de9db9dd"
+    },
+    "content-art/contingency-contract/runeicon/g_lrmm_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrmm_6.png",
+      "sourceBlob": "ed08ba007fb77b000a9be440fd1b3c09e3afe086"
+    },
+    "content-art/contingency-contract/runeicon/g_lrmm_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrmm_7.png",
+      "sourceBlob": "9f0ebef6be5c135f2b4e8040ea20f2149531912c"
+    },
+    "content-art/contingency-contract/runeicon/g_lrmm_8.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrmm_8.png",
+      "sourceBlob": "4a0864cde93627cded6efc385598135bbc96a1cd"
+    },
+    "content-art/contingency-contract/runeicon/g_lrnazg_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrnazg_1.png",
+      "sourceBlob": "8e2ce47779946dd78ca7bf0420baa34975ddaf13"
+    },
+    "content-art/contingency-contract/runeicon/g_lrnazg_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrnazg_2.png",
+      "sourceBlob": "f381f72afed4cfa1329126c7c166d7d6438b6774"
+    },
+    "content-art/contingency-contract/runeicon/g_lrnazg_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrnazg_3.png",
+      "sourceBlob": "375f0c7a8a25e20c7f8b6f47b9dbda7d83754a68"
+    },
+    "content-art/contingency-contract/runeicon/g_lrrook_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrrook_1.png",
+      "sourceBlob": "9c85c16bc57359b6f20702472161794771166f72"
+    },
+    "content-art/contingency-contract/runeicon/g_lrrook_start_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrrook_start_1.png",
+      "sourceBlob": "7caf0d4f3eb99e779c5ba11469ddeea06f0f2c28"
+    },
+    "content-art/contingency-contract/runeicon/g_lrrook_start_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrrook_start_2.png",
+      "sourceBlob": "0c9d8cb9c0d0923cb7895295cc3f28c489c55208"
+    },
+    "content-art/contingency-contract/runeicon/g_lrsoul_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrsoul_2.png",
+      "sourceBlob": "3e91eef14bcaa63c3b8eacf165c0ae57a1ba3e89"
+    },
+    "content-art/contingency-contract/runeicon/g_lrthef_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrthef_1.png",
+      "sourceBlob": "b503d43bf058380818124a869c666012ef6a62a8"
+    },
+    "content-art/contingency-contract/runeicon/g_lrthef_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrthef_2.png",
+      "sourceBlob": "c428f51683434029a3d43318768546eeaaee9a50"
+    },
+    "content-art/contingency-contract/runeicon/g_lrthef_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrthef_3.png",
+      "sourceBlob": "d0d8b8a271668070bec3f996ec5dc8b94a35526e"
+    },
+    "content-art/contingency-contract/runeicon/g_lrthef_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrthef_4.png",
+      "sourceBlob": "eff17e93ce1738d5e99c99c87fc93245fe810ea3"
+    },
+    "content-art/contingency-contract/runeicon/g_lrwzrd_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrwzrd_1.png",
+      "sourceBlob": "5255d0d28a10eff0f91465e02366c375e0401c0a"
+    },
+    "content-art/contingency-contract/runeicon/g_lrwzrd_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrwzrd_2.png",
+      "sourceBlob": "61df12cef508e91cb9f3b5338e3ca5de3697cb9c"
+    },
+    "content-art/contingency-contract/runeicon/g_lrwzrd_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrwzrd_3.png",
+      "sourceBlob": "52f02b72a82e1faf0a9b6f737b7f8f1e2394c30f"
+    },
+    "content-art/contingency-contract/runeicon/g_lrwzrd_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrwzrd_4.png",
+      "sourceBlob": "5affd092ad490627db01482809d4ad3483c65c10"
+    },
+    "content-art/contingency-contract/runeicon/g_lrwzrd_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lrwzrd_start.png",
+      "sourceBlob": "04a3e603489574ed6f3a6b00e96b20843633644b"
+    },
+    "content-art/contingency-contract/runeicon/g_ltbow_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltbow_atk_1.png",
+      "sourceBlob": "bd6606b13f84d6fcf016ec97b00606581913acf6"
+    },
+    "content-art/contingency-contract/runeicon/g_ltbow_atktimes_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltbow_atktimes_1.png",
+      "sourceBlob": "bd1bf68a7a265f7a815b46588690282e8ed53605"
+    },
+    "content-art/contingency-contract/runeicon/g_ltbow_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltbow_hp_1.png",
+      "sourceBlob": "204792555c43b753b8afab40cd2f9e28da688baa"
+    },
+    "content-art/contingency-contract/runeicon/g_ltgint_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltgint_atk_1.png",
+      "sourceBlob": "699dd94131620a2efd45431c8031fe56ed415563"
+    },
+    "content-art/contingency-contract/runeicon/g_ltgint_movespeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltgint_movespeed_1.png",
+      "sourceBlob": "4091898cb6fb6c5b0c37ca9cbc0345d147fd648a"
+    },
+    "content-art/contingency-contract/runeicon/g_ltgtld_skillcd_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltgtld_skillcd_1.png",
+      "sourceBlob": "f66ee5a803c2389bc9c809720e61aad146bf6540"
+    },
+    "content-art/contingency-contract/runeicon/g_ltholo_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltholo_hp_1.png",
+      "sourceBlob": "835760547af4b8974e81c214701e09deecf4e283"
+    },
+    "content-art/contingency-contract/runeicon/g_ltmage_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltmage_atk_1.png",
+      "sourceBlob": "2d5b110598b2e94ae736ae14dd431e353bb89235"
+    },
+    "content-art/contingency-contract/runeicon/g_ltmage_atkspeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltmage_atkspeed_1.png",
+      "sourceBlob": "a6b269a37324ffe32fed33ac40ad015ee7265507"
+    },
+    "content-art/contingency-contract/runeicon/g_ltmage_invisible_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltmage_invisible_1.png",
+      "sourceBlob": "f9d3b00feff7145c19035bb2df16330634c4c273"
+    },
+    "content-art/contingency-contract/runeicon/g_ltswar_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltswar_atk_1.png",
+      "sourceBlob": "0202eb6179fca6886534c972763fe07f4559f931"
+    },
+    "content-art/contingency-contract/runeicon/g_ltswar_def_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltswar_def_1.png",
+      "sourceBlob": "c833e6915c936acac47574b7aacc9fc842d8f8ec"
+    },
+    "content-art/contingency-contract/runeicon/g_ltswar_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ltswar_hp_1.png",
+      "sourceBlob": "73473608d2dbbf73f1495dffc95ea47840bc7d81"
+    },
+    "content-art/contingency-contract/runeicon/g_lunmag_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lunmag_1.png",
+      "sourceBlob": "ca789b3d203dd48952a1c107dc023c753a5daf30"
+    },
+    "content-art/contingency-contract/runeicon/g_ly_bookimmune_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ly_bookimmune_1.png",
+      "sourceBlob": "90ec5c5a1bf2a2abb1fb23bb43a5d7c90af7d627"
+    },
+    "content-art/contingency-contract/runeicon/g_ly_defres_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ly_defres_1.png",
+      "sourceBlob": "f61db1d36ceb0916e89969992fa828f0c8669c54"
+    },
+    "content-art/contingency-contract/runeicon/g_ly_hidden_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ly_hidden_1.png",
+      "sourceBlob": "9b7bc119842c51a15b6ea7e8fdfb71661bbf84fe"
+    },
+    "content-art/contingency-contract/runeicon/g_ly_weight_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ly_weight_1.png",
+      "sourceBlob": "7f907756fb8a9aae0093cbc4c62ed0db8427fc00"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_atk1.png",
+      "sourceBlob": "aece8ac881b64ff3e307f428a9adee0a0c8698b7"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_atk2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_atk2.png",
+      "sourceBlob": "0e06281a834ba1a6f68b380a6db9e44cf4a93de8"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_atkspeed1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_atkspeed1.png",
+      "sourceBlob": "896386833d8ee60275ce3bd16cab2f8e318d5bd8"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_def1.png",
+      "sourceBlob": "3738260c458e65dc26c78a2558c10d5fb1393e7e"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_def2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_def2.png",
+      "sourceBlob": "76d5270727dfa784a1ecfbf02856e12c27f02b94"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_hard1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_hard1.png",
+      "sourceBlob": "8942583112f63e435359666b070b730896504aae"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_hp1.png",
+      "sourceBlob": "0c750e21d834f6480ac96c6f5726bb44a49c1ecd"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_hp2.png",
+      "sourceBlob": "da2257d34b445ae72c2f6c1050be99052ca74637"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_hp3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_hp3.png",
+      "sourceBlob": "73754b02e6dc7480f768f4482db65dc7617af035"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_mag1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_mag1.png",
+      "sourceBlob": "66bf72131fa0eedc8e6702338d77a6fb4539c265"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_tal1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_tal1.png",
+      "sourceBlob": "40dc3c2396941565cba35e41200b4ec3de9d2d46"
+    },
+    "content-art/contingency-contract/runeicon/g_lyacpa_tal2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyacpa_tal2.png",
+      "sourceBlob": "40dc3c2396941565cba35e41200b4ec3de9d2d46"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_atk1.png",
+      "sourceBlob": "d9accefe7deb5e9391dae3cbeb352b2fccf2d687"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_atk2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_atk2.png",
+      "sourceBlob": "29d8e339e5ba3fbb8efd5f0993ac15ad05adf535"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_def1.png",
+      "sourceBlob": "097e1178bd64c9bfd952db99a7b7efceb4aec5c5"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_def2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_def2.png",
+      "sourceBlob": "20400b822929ed497819e47c2161a551005627dd"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_hard1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_hard1.png",
+      "sourceBlob": "a6a9a22c17300d620363faad4daeb7717d75c0ae"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_hp1.png",
+      "sourceBlob": "2b9e8eb75f8a871fae8a1690178908846f354b8c"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_hp2.png",
+      "sourceBlob": "8e11906f9ee5120aca8f5da16c010454d0cc3f52"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_hp3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_hp3.png",
+      "sourceBlob": "b5c4eb67592503a9e8b5336308216208fdd06bda"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_lifepoint1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_lifepoint1.png",
+      "sourceBlob": "c2d800f9a1fa10b7f454d91336162523d5986098"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_mag1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_mag1.png",
+      "sourceBlob": "74d82b82c45643580d4f751c15d70d5389062ae7"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_skill1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_skill1.png",
+      "sourceBlob": "a822d7a40a414a1f3df2e4e878bad1209f476a0c"
+    },
+    "content-art/contingency-contract/runeicon/g_lydrty_tal1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lydrty_tal1.png",
+      "sourceBlob": "1ac4ad4e3c987085003b3dc0b5f20728adb5a090"
+    },
+    "content-art/contingency-contract/runeicon/g_lyengs_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyengs_atk1.png",
+      "sourceBlob": "01fb225b3936de5f097d4e02cf9be8f6faa78c8c"
+    },
+    "content-art/contingency-contract/runeicon/g_lyengs_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyengs_hp1.png",
+      "sourceBlob": "b38a93ec2ce5add94fc2f6d1d8a4477fa21a7df3"
+    },
+    "content-art/contingency-contract/runeicon/g_lyengs_skill1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyengs_skill1.png",
+      "sourceBlob": "c54a65e7430cf6a89484957ef9175206d3de2200"
+    },
+    "content-art/contingency-contract/runeicon/g_lyfrog_atk_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyfrog_atk_1.png",
+      "sourceBlob": "8e55b09932a7f722f38c39740dc30d9e10129a1e"
+    },
+    "content-art/contingency-contract/runeicon/g_lyfrog_defweight_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyfrog_defweight_1.png",
+      "sourceBlob": "68583f896756bb97c2a8bd9ebbe46b12b1d5e166"
+    },
+    "content-art/contingency-contract/runeicon/g_lyfrog_hplife_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lyfrog_hplife_1.png",
+      "sourceBlob": "4a5ff81d2c7113f8cb2fff93f63f4232148598e2"
+    },
+    "content-art/contingency-contract/runeicon/g_lysyta_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lysyta_def1.png",
+      "sourceBlob": "64b65beaa1dea2677d189e69f76c9fa1fbb77621"
+    },
+    "content-art/contingency-contract/runeicon/g_lysyta_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lysyta_hp1.png",
+      "sourceBlob": "70a488a015314bb35b645eca002ee4e0fd95de02"
+    },
+    "content-art/contingency-contract/runeicon/g_lysyta_mag1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_lysyta_mag1.png",
+      "sourceBlob": "a53e8e91dee63f4ce6cfdb56e7747f9e8a991cda"
+    },
+    "content-art/contingency-contract/runeicon/g_magiccircle_slow.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_magiccircle_slow.png",
+      "sourceBlob": "ac17d0feee26f677890ff51c561d5789e9fa9a62"
+    },
+    "content-art/contingency-contract/runeicon/g_magiccircuit_env_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_magiccircuit_env_1.png",
+      "sourceBlob": "9d4a234270cf44f7934ce2970c5840d3e5ee24b8"
+    },
+    "content-art/contingency-contract/runeicon/g_magiccircuit_env_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_magiccircuit_env_2.png",
+      "sourceBlob": "980405ceba34cfb4d771b6f47d369909fe218559"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_fire.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_fire.png",
+      "sourceBlob": "d41a3ac8e6ef2d14c807554c8393cbd760c3a74f"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_mire 1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_mire 1.png",
+      "sourceBlob": "5584de50fe6024044477b334f3cbdc65c1ada693"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_mire.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_mire.png",
+      "sourceBlob": "fe76a06a4474d7d5a7aa48ec0fcc4c87f4043da3"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_reed1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_reed1.png",
+      "sourceBlob": "e564daa4d0e070af98448f8cbf3968be1b107d38"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_reed2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_reed2.png",
+      "sourceBlob": "00b35cd24455ffddb5b3da31308ad8be530031a6"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_reed3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_reed3.png",
+      "sourceBlob": "784082c58b88e8c1588ca833345d655eaa77a670"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_reed_damage.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_reed_damage.png",
+      "sourceBlob": "e6298decc9579ee8349243e616bea99967390ac6"
+    },
+    "content-art/contingency-contract/runeicon/g_map_tile_reed_fire.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_map_tile_reed_fire.png",
+      "sourceBlob": "1abaec2e53721622f5b2440a14d45847f4d290b5"
+    },
+    "content-art/contingency-contract/runeicon/g_mdgint_buff_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdgint_buff_1.png",
+      "sourceBlob": "cedc67d2fb1d604ad422b8636bd5f136c6ca0aec"
+    },
+    "content-art/contingency-contract/runeicon/g_mdgint_extra_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdgint_extra_1.png",
+      "sourceBlob": "d54e5a7200358ea295afb0139deca279e5701dea"
+    },
+    "content-art/contingency-contract/runeicon/g_mdgint_immu_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdgint_immu_1.png",
+      "sourceBlob": "c15ff748c98844206c4701b49d4a1264866366f0"
+    },
+    "content-art/contingency-contract/runeicon/g_mdgint_movespeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdgint_movespeed_1.png",
+      "sourceBlob": "e5cafa6b9d158fc5a508c75dabae2f9915e7b1a2"
+    },
+    "content-art/contingency-contract/runeicon/g_mdrock_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdrock_atk_1.png",
+      "sourceBlob": "fa8034d60fc947427859ea81bd8d2cef7663eac5"
+    },
+    "content-art/contingency-contract/runeicon/g_mdrock_def_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdrock_def_1.png",
+      "sourceBlob": "fdce8ebf71eeede3f3ee1d578a518117eaa01ac1"
+    },
+    "content-art/contingency-contract/runeicon/g_mdrock_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdrock_hp_1.png",
+      "sourceBlob": "d6444cc8f35a70bbdc9c990f91a657ff60ca17fa"
+    },
+    "content-art/contingency-contract/runeicon/g_mdrock_shift_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdrock_shift_1.png",
+      "sourceBlob": "f2807200d859873a095f9a4e6f5fcf7f4fd9b3da"
+    },
+    "content-art/contingency-contract/runeicon/g_mdrock_skill_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mdrock_skill_1.png",
+      "sourceBlob": "06270d5834d8d43c05e6c0a703e1df02c312dbfd"
+    },
+    "content-art/contingency-contract/runeicon/g_melee_forbid_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_melee_forbid_1.png",
+      "sourceBlob": "1ecc8ed3db192c6446376258ea8e2e9872eef415"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_atk_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_atk_1.png",
+      "sourceBlob": "1485ce411b66c969f70f1a8d0d834547beb907c5"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_atk_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_atk_2.png",
+      "sourceBlob": "59d8eaf5a48ee578eab2e4448a6dd61e04606bab"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_crazytime.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_crazytime.png",
+      "sourceBlob": "1834167845006ae83ac9d4e3c1982e5a60776f9e"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_escape.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_escape.png",
+      "sourceBlob": "4d52cf0eb041bc603aea745be876db6db785b78c"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_hp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_hp_1.png",
+      "sourceBlob": "06e009d0900334e2c4bc42d85929409268593371"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_hp_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_hp_2.png",
+      "sourceBlob": "0c58887a1d2583307633decfe6855ef9bc427d68"
+    },
+    "content-art/contingency-contract/runeicon/g_mirbst_immune.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mirbst_immune.png",
+      "sourceBlob": "8c8bec4325f3cad93e271c3886a2021865fbf1cb"
+    },
+    "content-art/contingency-contract/runeicon/g_mmdudu_atk.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmdudu_atk.png",
+      "sourceBlob": "8dd8a0ea7568a8cebb22e647b6bb52fd784c241a"
+    },
+    "content-art/contingency-contract/runeicon/g_mmdudu_atkrange.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmdudu_atkrange.png",
+      "sourceBlob": "bdc637cdd1002416b60f1bb6754dd1b18e771025"
+    },
+    "content-art/contingency-contract/runeicon/g_mmdudu_def.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmdudu_def.png",
+      "sourceBlob": "e5a7905ed124afd558666622b556b95cc97849cf"
+    },
+    "content-art/contingency-contract/runeicon/g_mmdudu_hp.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmdudu_hp.png",
+      "sourceBlob": "c781b9c3870da3dc05ee2c08d1d3d6227816695e"
+    },
+    "content-art/contingency-contract/runeicon/g_mmdudu_tal_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmdudu_tal_1.png",
+      "sourceBlob": "f88654ae3a6f1032f0380f8f5dc1b9bb922b0fef"
+    },
+    "content-art/contingency-contract/runeicon/g_mmkabi_atk.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmkabi_atk.png",
+      "sourceBlob": "53f076c42f2decbb89c21c05f6b2dbac03df6fa6"
+    },
+    "content-art/contingency-contract/runeicon/g_mmkabi_resist.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmkabi_resist.png",
+      "sourceBlob": "d77a8c93744a9e8cf1c726f6b234afea15846e6a"
+    },
+    "content-art/contingency-contract/runeicon/g_mmkabi_tal_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmkabi_tal_1.png",
+      "sourceBlob": "04a11fc3ab4e37070dcf716032e3b1d2e8b1b7c6"
+    },
+    "content-art/contingency-contract/runeicon/g_mmstck_def.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmstck_def.png",
+      "sourceBlob": "e0b25b0e58e6ad09eae05bfd096b69a9a88f64f3"
+    },
+    "content-art/contingency-contract/runeicon/g_mmstck_hp.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmstck_hp.png",
+      "sourceBlob": "eff541906afd52efd3b1a07927105b37915a9166"
+    },
+    "content-art/contingency-contract/runeicon/g_mmstck_repalce.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_mmstck_repalce.png",
+      "sourceBlob": "f524057292ad66770d39ee73099fa2b84e5a95ae"
+    },
+    "content-art/contingency-contract/runeicon/g_nhfly_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhfly_1.png",
+      "sourceBlob": "c6f0951657366810143264bb7be0d2244bf8628d"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_atk.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_atk.png",
+      "sourceBlob": "599afeb1442d75c21d41551a39d0724646aa7c90"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_atk1.png",
+      "sourceBlob": "8f26656fdf738af8680d2cf9d03eca4b2d295f5c"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_attackspeed1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_attackspeed1.png",
+      "sourceBlob": "6588ced620540757333d7a7f50d4d52c6e7d46d4"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_hp1.png",
+      "sourceBlob": "4e9b5652dc3848844d469f91b587cdade89a06fc"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_hp2.png",
+      "sourceBlob": "b03ddc667ea36ab86f4bff82f2c7b7c6835a4699"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_mag1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_mag1.png",
+      "sourceBlob": "7124e063c4c4d75d1db0c525951bfca139982b50"
+    },
+    "content-art/contingency-contract/runeicon/g_nhkodo_tal1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_nhkodo_tal1.png",
+      "sourceBlob": "b4bd3ac26502e4fdd7570bf9a6e5199463c599da"
+    },
+    "content-art/contingency-contract/runeicon/g_npcsld_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_npcsld_atk_1.png",
+      "sourceBlob": "8f0cefb22ea217c0151583778a734256f1d0a228"
+    },
+    "content-art/contingency-contract/runeicon/g_npcsld_def_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_npcsld_def_1.png",
+      "sourceBlob": "99c2d70f5d8ee623e3634deb5fa3a48144ed69e7"
+    },
+    "content-art/contingency-contract/runeicon/g_npcsld_enable_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_npcsld_enable_1.png",
+      "sourceBlob": "d3b4e90053af8010b4a44414c8ba673addebbbdc"
+    },
+    "content-art/contingency-contract/runeicon/g_npcsld_enable_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_npcsld_enable_2.png",
+      "sourceBlob": "c802a7e1bc9fd2d0c52e106d586c87e0c2c4c5ac"
+    },
+    "content-art/contingency-contract/runeicon/g_npcsld_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_npcsld_hp_1.png",
+      "sourceBlob": "824cd5827a27dedab3844814839143ef0966019f"
+    },
+    "content-art/contingency-contract/runeicon/g_npcsld_rec_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_npcsld_rec_1.png",
+      "sourceBlob": "f058b96d58c52ba2604016bab77b49b08599bf25"
+    },
+    "content-art/contingency-contract/runeicon/g_pioneer_cdtime_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_pioneer_cdtime_1.png",
+      "sourceBlob": "d47bb745ce36d68a59e041ee7a63be4beb659646"
+    },
+    "content-art/contingency-contract/runeicon/g_rageth_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rageth_atk_1.png",
+      "sourceBlob": "a5b4dea8877878e177cc0131daae2ad75f5af3d9"
+    },
+    "content-art/contingency-contract/runeicon/g_rageth_atk_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rageth_atk_2.png",
+      "sourceBlob": "a46342b8c7600b859dbc6f11e0c98c78549b3585"
+    },
+    "content-art/contingency-contract/runeicon/g_rageth_atkspeed_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rageth_atkspeed_1.png",
+      "sourceBlob": "fba4651f1eb67d5a1c13e55febe7ed14ba401e49"
+    },
+    "content-art/contingency-contract/runeicon/g_rageth_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rageth_hp_1.png",
+      "sourceBlob": "a46aeb5ff5b187beb6b0b3b0d48408f7b8c51030"
+    },
+    "content-art/contingency-contract/runeicon/g_rageth_hp_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rageth_hp_2.png",
+      "sourceBlob": "9f0949db279b0ee6ec6fe335b8c18b1817a5714f"
+    },
+    "content-art/contingency-contract/runeicon/g_range_forbid_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_range_forbid_2.png",
+      "sourceBlob": "31aa3ba8428ad6f1a5cc3947821be6a1742f1276"
+    },
+    "content-art/contingency-contract/runeicon/g_reedf_duskls.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_reedf_duskls.png",
+      "sourceBlob": "c8901d0de1d0ae90c7c1baadca93a141815e3b18"
+    },
+    "content-art/contingency-contract/runeicon/g_reedf_skill.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_reedf_skill.png",
+      "sourceBlob": "c16cbdd2196902f1ba1699327478795ae5ec4142"
+    },
+    "content-art/contingency-contract/runeicon/g_reedf_skill_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_reedf_skill_2.png",
+      "sourceBlob": "2a0ead5dba0e9b5cbdc8e7130d7ef26bd0da12c7"
+    },
+    "content-art/contingency-contract/runeicon/g_rkbomb_bigbomb.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rkbomb_bigbomb.png",
+      "sourceBlob": "19908bbcb897af17e3fae63de208568a2b969319"
+    },
+    "content-art/contingency-contract/runeicon/g_rkbomb_hp.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rkbomb_hp.png",
+      "sourceBlob": "0228690aa7550ed1bd6442e9d0af518772cff880"
+    },
+    "content-art/contingency-contract/runeicon/g_rkbomb_unlimited.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_rkbomb_unlimited.png",
+      "sourceBlob": "b2d96337563125912b5c93e4a027b24b97233956"
+    },
+    "content-art/contingency-contract/runeicon/g_shooting_area_big.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_shooting_area_big.png",
+      "sourceBlob": "6414bfdfcbfce74b2ae5cf1b36a0dfc009e28f46"
+    },
+    "content-art/contingency-contract/runeicon/g_shooting_area_buff.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_shooting_area_buff.png",
+      "sourceBlob": "b318834d67c656f4cdbd9c6a2ef83c993de0254c"
+    },
+    "content-art/contingency-contract/runeicon/g_shooting_area_debuff.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_shooting_area_debuff.png",
+      "sourceBlob": "f7a4424cafe2633f38909f97b46c4f19966365da"
+    },
+    "content-art/contingency-contract/runeicon/g_shooting_area_small.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_shooting_area_small.png",
+      "sourceBlob": "09f33422435731cd4f6a7b46b7c8ddfb7cae766e"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_block_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_block_1.png",
+      "sourceBlob": "5c5674df69033c288962362bf1e469dac462fb5b"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_block_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_block_2.png",
+      "sourceBlob": "170a870df2167a6473c4e148d18f14098c70e24d"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_block_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_block_3.png",
+      "sourceBlob": "115cf10bd02e6f1a29813fa2d335716a14387239"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_block_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_block_4.png",
+      "sourceBlob": "4b7eac02fe65a3a49015930cf044950eb7c4d842"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_block_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_block_5.png",
+      "sourceBlob": "28374328baf626e1bbf4753c7e752e4dc0860422"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_block_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_block_6.png",
+      "sourceBlob": "32d6a4ab711f637fd6b18a6a0a15d0c715270e43"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_1.png",
+      "sourceBlob": "a6a10295c305ad1dfdc4ae74fdc03e4a5c5dc6b6"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_2.png",
+      "sourceBlob": "53c49cf0e02b7bcb85b7f16e0d191192769859c7"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_3.png",
+      "sourceBlob": "5ece15c72c0183277b1950be8ec112aed4d85cbd"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_4.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_4.png",
+      "sourceBlob": "c34fb8a2572077ae72c9a07ff921c6cd659b0d48"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_5.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_5.png",
+      "sourceBlob": "74275cb000f6b9b78daadca042bb157da0a7928b"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_6.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_6.png",
+      "sourceBlob": "06993e15c6965df8fa3df055dd7457a9d10a0412"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_7.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_7.png",
+      "sourceBlob": "3faa3b1cbae8fa68ec7cb4d2a05aafc1d4032ca0"
+    },
+    "content-art/contingency-contract/runeicon/g_skill_cost_slow_8.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_skill_cost_slow_8.png",
+      "sourceBlob": "81aeb6e533555af67b6aa3c98ff2a70313dc369e"
+    },
+    "content-art/contingency-contract/runeicon/g_snip_replace.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_snip_replace.png",
+      "sourceBlob": "65d4695d200b52874a8a78c5e215ae92bd26fa36"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_def1.png",
+      "sourceBlob": "d9fd4658c43629d9138ace6d77f31dd0b43c6122"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_hp1.png",
+      "sourceBlob": "ca25a76fa400e73581cce61eed2669cbf0f952d6"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_hp2.png",
+      "sourceBlob": "8be0642a61ccd58d2ce096dda2a4d0d7b6a6696c"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_hp_1.png",
+      "sourceBlob": "d0a972592733265530df3f9f92032157a3c6f538"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_hp_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_hp_2.png",
+      "sourceBlob": "eb0ad452c9b93238859127a66868e22f4fa37980"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_tal1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_tal1.png",
+      "sourceBlob": "f2d1437770a94bd4a6d635bac39fd924123d8791"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_tal2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_tal2.png",
+      "sourceBlob": "55dafb4012833f0da4151bbcd494f5bc107b6230"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_tal3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_tal3.png",
+      "sourceBlob": "63013631017fb85036583c15aec15a491334b17a"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_tal_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_tal_1.png",
+      "sourceBlob": "6ddad9b0911ed1a9214af0f599e27adfad7daace"
+    },
+    "content-art/contingency-contract/runeicon/g_sotidp_tal_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotidp_tal_2.png",
+      "sourceBlob": "5f1f5b52577840e4617fe6577a11afc06ee10333"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisd_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisd_def1.png",
+      "sourceBlob": "77f13147686bfbd08be03b5662e3ec80ce878985"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisd_def2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisd_def2.png",
+      "sourceBlob": "5eb7285492b4fd8a33dfc3c948042907c8d34220"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisd_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisd_hp1.png",
+      "sourceBlob": "41ba802964c68bb605ecc8ac81eeace6c8ff73a7"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisd_hp2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisd_hp2.png",
+      "sourceBlob": "d83b7cfe4d8e167f0cfd11dadcfe505be4f7d66e"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisd_mag1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisd_mag1.png",
+      "sourceBlob": "59b1a5d6528f4a927715eb9dd98d29de328c166e"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisp_atk1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisp_atk1.png",
+      "sourceBlob": "9c56a51ca3f16d63b595c83ac6956b16992ac9e9"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisp_def1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisp_def1.png",
+      "sourceBlob": "1867fac38161519d54bbaf3477d15b214a031545"
+    },
+    "content-art/contingency-contract/runeicon/g_sotisp_hp1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_sotisp_hp1.png",
+      "sourceBlob": "dd9d17fe02938f0349427e27f01a0bf386fdd63c"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgdlb_atkhp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgdlb_atkhp_1.png",
+      "sourceBlob": "81381eaa7b4bf90bcb9821193a9899dc4a0583db"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgdlb_hidden_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgdlb_hidden_1.png",
+      "sourceBlob": "afee54036769d48f7f563fe35127a7164bc50d2b"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgdlb_immune_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgdlb_immune_1.png",
+      "sourceBlob": "303f11fc24a6ddb585174684faee7d9a840c4432"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgdlb_tankreduce_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgdlb_tankreduce_1.png",
+      "sourceBlob": "7127271e7dcf84cd7a8f57626756c3ae9648dba8"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgsd_cost_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgsd_cost_1.png",
+      "sourceBlob": "65feecb0d183c5769255591d712f4382d9a9cd48"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgsd_retreat_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgsd_retreat_1.png",
+      "sourceBlob": "6496746edcef4dbd20d69a15038888980d26d41f"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgsfj_hpatk_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgsfj_hpatk_1.png",
+      "sourceBlob": "14b3beee7c9fce3379c29fd3b7b1fc80599e54f3"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgxb_atkdef_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgxb_atkdef_1.png",
+      "sourceBlob": "9c6c9799388d35257e16139da8a1a4fec0c9351a"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgxb_cnt_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgxb_cnt_1.png",
+      "sourceBlob": "2de02d54cdfe88df96361781866222ebc28a7cdb"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgxb_hp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgxb_hp_1.png",
+      "sourceBlob": "5a2b3f9a857b4800511f4f11b7e6511d2ff54fc3"
+    },
+    "content-art/contingency-contract/runeicon/g_tjgxb_immune_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tjgxb_immune_1.png",
+      "sourceBlob": "34f68099463f20821418aae889b5bee6490391c7"
+    },
+    "content-art/contingency-contract/runeicon/g_trap_ballis_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_trap_ballis_1.png",
+      "sourceBlob": "1f3ea553941470f04e3ff47a52e318b52d04642b"
+    },
+    "content-art/contingency-contract/runeicon/g_trap_ballis_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_trap_ballis_2.png",
+      "sourceBlob": "b61fa82deff6861203921c582879af3fcf16d3bc"
+    },
+    "content-art/contingency-contract/runeicon/g_trap_ballis_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_trap_ballis_3.png",
+      "sourceBlob": "50c51c97d4bc62a2528bc06a4366d28b6e60ed5d"
+    },
+    "content-art/contingency-contract/runeicon/g_trap_bgarmn_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_trap_bgarmn_1.png",
+      "sourceBlob": "5d23d980445a41b8598a90bdb6af231137b05f73"
+    },
+    "content-art/contingency-contract/runeicon/g_trap_bonore_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_trap_bonore_1.png",
+      "sourceBlob": "029d7cd7551b6eed7b7a499871ef8d1440bccd05"
+    },
+    "content-art/contingency-contract/runeicon/g_trap_wpnsts_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_trap_wpnsts_1.png",
+      "sourceBlob": "9745dd1529dc90bcb0214165a30a40c29782fb78"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_aftersteal_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_aftersteal_1.png",
+      "sourceBlob": "2d6039245e28bb495a833d9a3cc1d76986e2ead5"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_aftersteal_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_aftersteal_2.png",
+      "sourceBlob": "ba30647661597546e7cebd0961959ba0612bf54a"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_atk_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_atk_1.png",
+      "sourceBlob": "0516f80587e0fee21ff654ade4f50148764fe7ae"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_defres_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_defres_1.png",
+      "sourceBlob": "6bd03c4f791aeb7cd3483b9e02276b75210450f4"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_hidden_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_hidden_1.png",
+      "sourceBlob": "f62692372b0b26f49c5e3618138ea7bfc35b6b7e"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_hidden_2.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_hidden_2.png",
+      "sourceBlob": "cd35f843e0228cd3c82776f335c1c8a3e7b2fac8"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_hp_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_hp_1.png",
+      "sourceBlob": "a08581e71490d39e1fce3d43ca456ad2880bd8a8"
+    },
+    "content-art/contingency-contract/runeicon/g_tsz_hp_immune_1.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_tsz_hp_immune_1.png",
+      "sourceBlob": "3e425250e7657a66010f85f3d7e21d7aab8e25e5"
+    },
+    "content-art/contingency-contract/runeicon/g_wdarft_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_wdarft_1.png",
+      "sourceBlob": "6d71d635940f4902bf0c8d1cf4ccfd34f8e507f1"
+    },
+    "content-art/contingency-contract/runeicon/g_wdarft_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_wdarft_2.png",
+      "sourceBlob": "d5f49c95a725172f582ce1a494fc82c3b1e67606"
+    },
+    "content-art/contingency-contract/runeicon/g_wdarft_3.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_wdarft_3.png",
+      "sourceBlob": "8f1b9db03e8efa779a666bdd5a3b4e29d5be2a7e"
+    },
+    "content-art/contingency-contract/runeicon/g_wdarft_skill_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_wdarft_skill_1.png",
+      "sourceBlob": "a315de6bc12e98eadb0bc703305ed4e6c8d4c7d1"
+    },
+    "content-art/contingency-contract/runeicon/g_wdarft_start.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_wdarft_start.png",
+      "sourceBlob": "a163d21e34dc107c516abc0b746b74eac1da08a9"
+    },
+    "content-art/contingency-contract/runeicon/g_ymdgct_add_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymdgct_add_1.png",
+      "sourceBlob": "ea44f957c46be7ea158ec960cb5f8cb17a76ff17"
+    },
+    "content-art/contingency-contract/runeicon/g_ymkilr_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymkilr_atk_1.png",
+      "sourceBlob": "ce2be7ddfcff5232667b5672a789d9c765d29c19"
+    },
+    "content-art/contingency-contract/runeicon/g_ymkilr_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymkilr_hp_1.png",
+      "sourceBlob": "1145e3d1dc52fa5e90472ce8644e6909cd10cbbd"
+    },
+    "content-art/contingency-contract/runeicon/g_ymkilr_skill_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymkilr_skill_1.png",
+      "sourceBlob": "a083a28d82fb9af4beb808ece701903c48a875ed"
+    },
+    "content-art/contingency-contract/runeicon/g_ymknif_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymknif_atk_1.png",
+      "sourceBlob": "e12dafb1da056b123c26142b47329c343d059e17"
+    },
+    "content-art/contingency-contract/runeicon/g_ymknif_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymknif_hp_1.png",
+      "sourceBlob": "9c7a97741a54e7a1ee143197072bafc88ec79711"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmir_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmir_atk_1.png",
+      "sourceBlob": "78aec6e1604f0ea9bc42bc535bd7d82ce89dce09"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmir_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmir_hp_1.png",
+      "sourceBlob": "d9b6097f2c6aed987220b72891af1a70d577e1ae"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmir_invisible_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmir_invisible_1.png",
+      "sourceBlob": "cac8f8b7cfac09e69776a66d0170146173270a66"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmir_skill_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmir_skill_1.png",
+      "sourceBlob": "18030464921031ea82e2b1d385fb181fdfa0c18c"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmonk_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmonk_hp_1.png",
+      "sourceBlob": "530dacfc2cba33b44c143c746e2a75ddabab3809"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmonk_hp_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmonk_hp_2.png",
+      "sourceBlob": "15d3bdd3265589fd211387cd4fdcc721c9ec68ff"
+    },
+    "content-art/contingency-contract/runeicon/g_ymmonk_taunt_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_ymmonk_taunt_1.png",
+      "sourceBlob": "27091607851335efbbdd1cfdc5132dd38e134369"
+    },
+    "content-art/contingency-contract/runeicon/g_zom_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zom_hp_1.png",
+      "sourceBlob": "6512b81cf021dd1e8d88862d9b6e06e3fb636301"
+    },
+    "content-art/contingency-contract/runeicon/g_zom_hprec_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zom_hprec_1.png",
+      "sourceBlob": "ceb48fca08904d2bc2fca22a64f1a37c7357e6eb"
+    },
+    "content-art/contingency-contract/runeicon/g_zom_hprec_d_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zom_hprec_d_1.png",
+      "sourceBlob": "7c07076b3d1f9c58c2ee773d91c8c695e637a2df"
+    },
+    "content-art/contingency-contract/runeicon/g_zom_hprec_t_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zom_hprec_t_1.png",
+      "sourceBlob": "f3e4f40b907468a7d45afa9cfb472136143e98c8"
+    },
+    "content-art/contingency-contract/runeicon/g_zomshd_atk_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zomshd_atk_1.png",
+      "sourceBlob": "078ca295364d3687b696d01625628c44f4c4b250"
+    },
+    "content-art/contingency-contract/runeicon/g_zomshd_def_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zomshd_def_1.png",
+      "sourceBlob": "a061c61186c9cf19694ee223724bef197317828e"
+    },
+    "content-art/contingency-contract/runeicon/g_zomshd_hp_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zomshd_hp_1.png",
+      "sourceBlob": "b437d98c02cbc2e470fb31fedff7a732026d4936"
+    },
+    "content-art/contingency-contract/runeicon/g_zomshd_magic_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/g_zomshd_magic_1.png",
+      "sourceBlob": "5a067b17414b02b5ef64ae6a40a024132548dbd9"
+    },
+    "content-art/contingency-contract/runeicon/global_forbidloc_2.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/runeicon/global_forbidloc_2.png",
+      "sourceBlob": "6bb7bd84dc49f393f7daf4cc41abb6a3ea6aadf5"
+    },
+    "content-art/contingency-contract/shopseasonback/crisis_v2_season_1_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/shopseasonback/crisis_v2_season_1_1.png",
+      "sourceBlob": "d624e67a37c8639b4bde077f93347bd9961335ae"
+    },
+    "content-art/contingency-contract/shopseasonback/crisis_v2_season_2_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/shopseasonback/crisis_v2_season_2_1.png",
+      "sourceBlob": "2484dc1a810d54e95ca6d9f331203beae9db56f8"
+    },
+    "content-art/contingency-contract/shopseasonback/crisis_v2_season_3_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/shopseasonback/crisis_v2_season_3_1.png",
+      "sourceBlob": "7a70591d21cb2d543fd312b520a4cff811715d40"
+    },
+    "content-art/contingency-contract/shopseasonback/crisis_v2_season_4_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/shopseasonback/crisis_v2_season_4_1.png",
+      "sourceBlob": "f145e6dfbe35ccc304dee5f43190b63d0af9fcea"
+    },
+    "content-art/contingency-contract/shopseasonback/crisis_v2_season_5_1.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/shopseasonback/crisis_v2_season_5_1.png",
+      "sourceBlob": "06f597b7b700f9000ec9f03058c0d1d10f3b0f59"
+    },
+    "content-art/contingency-contract/stagelogo/logo_bolivar.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_bolivar.png",
+      "sourceBlob": "7f843d9685ee95782938898ed8c4da339cd2b44c"
+    },
+    "content-art/contingency-contract/stagelogo/logo_columbia.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_columbia.png",
+      "sourceBlob": "55872460bee0dfb812856d17d133e632e00c3671"
+    },
+    "content-art/contingency-contract/stagelogo/logo_iberia.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_iberia.png",
+      "sourceBlob": "0c10cebce406dfaef80b5bc73ce2b8490c8b75f1"
+    },
+    "content-art/contingency-contract/stagelogo/logo_kazdel.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_kazdel.png",
+      "sourceBlob": "a6132789dc47e7904586e1f5c5f963d8130dd0da"
+    },
+    "content-art/contingency-contract/stagelogo/logo_kjerag.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_kjerag.png",
+      "sourceBlob": "6b2df6289e8be3d27dc1363a1e038322d2c94890"
+    },
+    "content-art/contingency-contract/stagelogo/logo_leithanien.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_leithanien.png",
+      "sourceBlob": "48e50fdc998329f61a4b6070efb271f56afd4163"
+    },
+    "content-art/contingency-contract/stagelogo/logo_sui.webp": {
+      "sourceRegion": "cn",
+      "sourceCommit": "727b9742c9f09db96e5365edfda5188752a8ab5e",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_sui.png",
+      "sourceBlob": "f5dd2adc4deabe762cd3660c07767c74cea1b89a"
+    },
+    "content-art/contingency-contract/stagelogo/logo_ursus.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_ursus.png",
+      "sourceBlob": "13fb8c181fea8cba9214365068d160fe85c0e312"
+    },
+    "content-art/contingency-contract/stagelogo/logo_victoria.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_victoria.png",
+      "sourceBlob": "947977591333047707866d0c893c5440e9e5016b"
+    },
+    "content-art/contingency-contract/stagelogo/logo_yan.webp": {
+      "sourceRegion": "en",
+      "sourceCommit": "0d8267abb64083ee0bd940a638a759b3db59fbde",
+      "sourcePath": "assets/dyn/arts/ui/[uc]crisisv2/stagelogo/logo_yan.png",
+      "sourceBlob": "92f5c8692d74298227855a9da8b8bc5d5ded0763"
+    }
+  }
+}
