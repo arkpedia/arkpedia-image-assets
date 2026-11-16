@@ -8829,5 +8829,25 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/act50side_tr01.png",
     "sha256": "998aed4b915a149da3218aca05c31a66db557f1be3e0a66acc096bb8de8be77a",
     "importer": "stage-renders"
+  },
+  "content-art/furni_set_Azuredream-en.webp": {
+    "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/57252acfb987807f51d7d72ca938ca0b765ed146/assets/dyn/arts/ui/furnithemes/furni_set_azuredream.png",
+    "sha256": "9c399146d986a282376e9fc0ec4a22651535b1bd990fb4854718854efc44a5d3",
+    "importer": "furniture-art"
+  },
+  "stages-images/crisis_v2_05-01.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/crisis_v2_05-01.png",
+    "sha256": "ca476b1d7a74105846e72be29c4fc4a1b8f098ffeaec7131637fa784de64343a",
+    "importer": "cc-stages"
+  },
+  "stages-images/crisis_v2_05-03.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/crisis_v2_05-03.png",
+    "sha256": "e37989e4c1df3acffcb65f890e028caf03734c91d46c0d47ff6618ed5de6898a",
+    "importer": "cc-stages"
+  },
+  "stages-images/crisis_v2_05-05.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/18e73996a5a16f78a0af7773a2d2a0f4991ac6ba/map/crisis_v2_05-05.png",
+    "sha256": "15557f77c67fee71d29f9b8f9f18213ce31c6926473f601e7c164f3c472734af",
+    "importer": "cc-stages"
   }
 }

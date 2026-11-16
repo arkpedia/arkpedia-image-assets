@@ -26986,6 +26986,21 @@
       "sourcePath": "map/act50side_tr01.png",
       "sourceBlob": "26ef02d0df2ab1e5992606a3062c00aef7b2bd22",
       "maxWidth": 512
+    },
+    "stages-images/crisis_v2_05-01.webp": {
+      "sourcePath": "map/crisis_v2_05-01.png",
+      "sourceBlob": "d33b58c32d73d33ddfa16ddcc642e517547fdaf8",
+      "maxWidth": 512
+    },
+    "stages-images/crisis_v2_05-03.webp": {
+      "sourcePath": "map/crisis_v2_05-03.png",
+      "sourceBlob": "7bab3816e94371e260c0470370ed4a81a3f32b2f",
+      "maxWidth": 512
+    },
+    "stages-images/crisis_v2_05-05.webp": {
+      "sourcePath": "map/crisis_v2_05-05.png",
+      "sourceBlob": "33090faf380e3c11a63d7eae669dea204457e849",
+      "maxWidth": 512
     }
   },
   "namingSource": {
