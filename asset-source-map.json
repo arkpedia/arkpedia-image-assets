@@ -26896,6 +26896,96 @@
       "sourcePath": "item/p_char_4220_kormr.png",
       "sourceBlob": "b9976db5f0789cf3a468b3617a65ac8f6f0d8727",
       "maxWidth": 183
+    },
+    "base-skill-icons/Rhodes Island Recon - Hunting Buddy.webp": {
+      "sourcePath": "building_skill/bskill_dorm_buddy.png",
+      "sourceBlob": "ccd8cf9db851280fee8903dbc7b780a5d8a13e41",
+      "maxWidth": 128
+    },
+    "base-skill-icons/Violet Mizutsune Orchid - Captain's Sense of Duty.webp": {
+      "sourcePath": "building_skill/bskill_tra_orchd2.png",
+      "sourceBlob": "a5382723550684b3712fbc0079a16119ae8b4561",
+      "maxWidth": 128
+    },
+    "one-star-icons/Rhodes Island Recon - Camping Time!.webp": {
+      "sourcePath": "avatar/char_4215_buddy_mh#2.png",
+      "sourceBlob": "2255bc4954e82484dc8c04c779bf79281cbb27e2",
+      "maxWidth": 180
+    },
+    "six-star-icons/Astgenne the Lightchaser - 暗能质子.webp": {
+      "sourcePath": "avatar/char_1047_halo2_striker#4.png",
+      "sourceBlob": "68b4edcf2cea9fc27588ec684ef65b2158620967",
+      "maxWidth": 180
+    },
+    "six-star-icons/Magallan - 绿影之下.webp": {
+      "sourcePath": "avatar/char_248_mgllan_epoque#60.png",
+      "sourceBlob": "b0e7a6762605e6725998387e01a8766f98a76184",
+      "maxWidth": 180
+    },
+    "skill-icons/Zinogre S Catapult - Super Amped Element Discharge.webp": {
+      "sourcePath": "skill/skill_icon_skchr_catap2_2.png",
+      "sourceBlob": "972abf6b7d5d11f4c54ddda8d8615d1c5bbfd67d",
+      "maxWidth": 128
+    },
+    "material-icons/Song of the Bow, Leap to the Sky Headhunting Permit (ten-roll).webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_7401.png",
+      "sourceBlob": "7428cc7121f859f4954bb682eaa5546553e04dbf",
+      "maxWidth": 183
+    },
+    "material-icons/Song of the Bow, Leap to the Sky Headhunting Permit.webp": {
+      "sourcePath": "item/LINKAGE_TKT_GACHA_10_7401.png",
+      "sourceBlob": "7428cc7121f859f4954bb682eaa5546553e04dbf",
+      "maxWidth": 183
+    },
+    "stages-images/td-1.webp": {
+      "sourcePath": "map/act50side_01.png",
+      "sourceBlob": "f905e9987ee72323322d5f527b7b2f60a3326336",
+      "maxWidth": 512
+    },
+    "stages-images/td-2.webp": {
+      "sourcePath": "map/act50side_02.png",
+      "sourceBlob": "e62a9bd4b0eab69877ed89c01c73433038322e1e",
+      "maxWidth": 512
+    },
+    "stages-images/td-3.webp": {
+      "sourcePath": "map/act50side_03.png",
+      "sourceBlob": "bf69abb4214c7bfd5181fc49ad1dd310e3ac6708",
+      "maxWidth": 512
+    },
+    "stages-images/td-4.webp": {
+      "sourcePath": "map/act50side_04.png",
+      "sourceBlob": "78de29ea7edd45603d314145a135e3366127ffe6",
+      "maxWidth": 512
+    },
+    "stages-images/td-5.webp": {
+      "sourcePath": "map/act50side_05.png",
+      "sourceBlob": "2a91f1120080c2b84b7e2c2333598d90ec5632ea",
+      "maxWidth": 512
+    },
+    "stages-images/td-6.webp": {
+      "sourcePath": "map/act50side_06.png",
+      "sourceBlob": "16ef64fee1b92d87540a42abb74758dd5ff74f23",
+      "maxWidth": 512
+    },
+    "stages-images/td-7.webp": {
+      "sourcePath": "map/act50side_07.png",
+      "sourceBlob": "54618e55a94da9c4cf8822190d0f7cc7636f5eb9",
+      "maxWidth": 512
+    },
+    "stages-images/td-8.webp": {
+      "sourcePath": "map/act50side_08.png",
+      "sourceBlob": "a44bdc27b94cb57063ad874269fb515d717e7b18",
+      "maxWidth": 512
+    },
+    "stages-images/td-p-1.webp": {
+      "sourcePath": "map/act50side_p-1.png",
+      "sourceBlob": "e5b53bdceb9ca9220490415b28b3f2f855ef1c63",
+      "maxWidth": 512
+    },
+    "stages-images/td-tr-1.webp": {
+      "sourcePath": "map/act50side_tr01.png",
+      "sourceBlob": "26ef02d0df2ab1e5992606a3062c00aef7b2bd22",
+      "maxWidth": 512
     }
   },
   "namingSource": {
