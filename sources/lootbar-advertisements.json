@@ -1,0 +1,17 @@
+{
+  "scope": "User-supplied Lootbar advertising artwork.",
+  "assets": [
+    {
+      "path": "advertisments/lootbar/lootbar-banner.png",
+      "sourceUrl": "https://drive.google.com/file/d/1HPWU1bWum-bAK4Nj8eBgn9KzyGiT6r8R/view",
+      "retrieved": "2026-11-16",
+      "sourceBytes": 1130517,
+      "sourceSha256": "3d079817d440cab499874a4ee7a70d7ab465b8a0b1773cc5ea6fcc5a5bc24331",
+      "transformation": "None; original uploaded PNG bytes and proportions preserved.",
+      "dimensions": {
+        "width": 1621,
+        "height": 371
+      }
+    }
+  ]
+}
