@@ -12,6 +12,18 @@
         "width": 900,
         "height": 200
       }
+    },
+    {
+      "path": "advertisments/lootbar/thunder-in-the-azure-dream.png",
+      "sourceUrl": "https://drive.google.com/file/d/1gTg1Hsjo_Faq9feRkiFzP9RGsaWAqazW/view",
+      "retrieved": "2026-11-17",
+      "sourceBytes": 1986356,
+      "sourceSha256": "34cec0a04f59697fdfba6b41e4c0a87a9dcd1bf68e0bc7ffa1eea9c07cb9b028",
+      "transformation": "None; original uploaded PNG bytes and proportions preserved.",
+      "dimensions": {
+        "width": 1920,
+        "height": 640
+      }
     }
   ]
 }
