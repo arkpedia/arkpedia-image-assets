@@ -9068,5 +9068,55 @@
   "event-poster/Retracing Our Steps Rerun.webp": {
     "url": "https://arknights.wiki.gg/images/CN_Retracing_Our_Steps_Rerun_banner.png?6c782a",
     "sha256": "64bcd5a200b8efac8df7cd86ac05ab95ee707ab522920ebe09472bc8867ba16c"
+  },
+  "content-art/pack-promo-20e31d4d18b8174247056bd6.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/4854acfea8288c1b8eb560b06debb273.png",
+    "sha256": "47ea6c217f3631c384165e8bb1733b653b6436718dde7caa22f87462f096e3a1",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-246fd583e6e20ab14d2a6990.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/996b60dab58921f24ad7176796ae3bc1.png",
+    "sha256": "71d52c3ef7bfc205ccf9e79d59de1a103de80dfa55cddbdd4f5e6cf76afa0db9",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-49ae0ade877e8f36ea217e2f.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/5a849c589b30ff74c6d6a9faa7d6a043.png",
+    "sha256": "c2f62acd4fcbda6af70642c440803444c110ff313afe7f3acc059076aa557379",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-4cc82532d44631c5565cff04.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/2dfa5593505b20ce9e81e35bd932360a.png",
+    "sha256": "4606a55ab8337303ba565610bd2ae267b592c479ae6da94cfebfdf4ee338360b",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-4e6ff9da8a46ab3924bee42d.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/b8771bcfdca9951c9113d47479d0b5bc.png",
+    "sha256": "0f45d9b95d73b9fd9b1b3932fc72cdd07e70c7c10801b36ed8240f517de9352f",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-9c9861b4bc7e62b02ba144d4.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/68c9f0819cfcade8ba13fedb7e7c5abd.png",
+    "sha256": "7aa38d5b786a8a8a10107c29d77d776673e114cdabf39f345b2d24e0c49eccf8",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-b2350f8f90bbb8d5f27b7bb8.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/8c12550291316cd230d1ef345301de30.png",
+    "sha256": "deeb1d0ae3d7c3300547a37a93acd069984ce7e79cd169da3208993656f97f36",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-c4b5b0960d5b8ae1ae5b79a0.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/870f4f9c3361992d4752b55604c9b6b1.png",
+    "sha256": "bda7706cf5728f34883edd0e0b3f0dcfb162771deae4eed2cf2d3b044869fa73",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-fc42e15b89a726a1489b1821.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/b3e82ecc55301555bc25388a5db58ba7.png",
+    "sha256": "41203dbeb50c7d4007b72ffe3afcd071f67d0c6cf950f72a08f68c34257ea97d",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-ffaf652a1f65d63be6f8246c.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/768983f470795aae38c73598aa15cde2.png",
+    "sha256": "4838637f71c27b48a4879272913b4f6db5241c34d7e0a26229003818431e7f23",
+    "importer": "pack-art"
   }
 }
