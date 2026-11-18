@@ -27001,11 +27001,61 @@
       "sourcePath": "map/crisis_v2_05-05.png",
       "sourceBlob": "33090faf380e3c11a63d7eae669dea204457e849",
       "maxWidth": 512
+    },
+    "enemies-icons/Crestcaller.webp": {
+      "sourcePath": "enemy/enemy_10129_pycdog.png",
+      "maxWidth": 128,
+      "sourceBlob": "5f8cde776921e007ed1eeefbd42750b995531d92"
+    },
+    "enemies-icons/Shellsnap Newt.webp": {
+      "sourcePath": "enemy/enemy_10130_pycpok.png",
+      "maxWidth": 128,
+      "sourceBlob": "fafab048305a3f0e715cd5f567e1e8049873901f"
+    },
+    "enemies-icons/Snatchshell Bug.webp": {
+      "sourcePath": "enemy/enemy_10131_pycshd.png",
+      "maxWidth": 128,
+      "sourceBlob": "258e7db72e97db7e0331bf85e707b0bad2017859"
+    },
+    "enemies-icons/Guzzlemuff.webp": {
+      "sourcePath": "enemy/enemy_10132_pyceat.png",
+      "maxWidth": 128,
+      "sourceBlob": "6cacf85a2bc048611ea0ec5a5293a42c4ccb6b32"
+    },
+    "enemies-icons/Flipshell Tortoise.webp": {
+      "sourcePath": "enemy/enemy_10133_pycrol.png",
+      "maxWidth": 128,
+      "sourceBlob": "463d980b2c1782b85819e7fee8680c33dca7da8d"
+    },
+    "enemies-icons/Gloomweaver.webp": {
+      "sourcePath": "enemy/enemy_10134_pycspy.png",
+      "maxWidth": 128,
+      "sourceBlob": "c4a54853a1bb8caef8c0376c2dbca2e3f0fc7741"
+    },
+    "enemies-icons/Hexhowl.webp": {
+      "sourcePath": "enemy/enemy_10135_pycjmp.png",
+      "maxWidth": 128,
+      "sourceBlob": "3786387e911d5b9bdca194ee4c755ec3d8eb837d"
+    },
+    "enemies-icons/Rocksheller.webp": {
+      "sourcePath": "enemy/enemy_10136_pycblk.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff5dc363703569d782e36c84c80c42386aa3a3ff"
+    },
+    "enemies-icons/'Iju' Escorchgot.webp": {
+      "sourcePath": "enemy/enemy_10137_pycvol.png",
+      "maxWidth": 128,
+      "sourceBlob": "0b69a6c8c770e59c6946549d4ecf42894388bdd8"
+    },
+    "enemies-icons/Lord of Thunder.webp": {
+      "sourcePath": "enemy/enemy_1573_pyczog.png",
+      "maxWidth": 128,
+      "sourceBlob": "7d920df98f18a7e414ac6ce60684c497a9d10255"
     }
   },
   "namingSource": {
     "repository": "Kengxxiao/ArknightsGameData_YoStar",
     "revision": "57010cb5b2afea112cae57daa756b58676ba6850"
   },
-  "lastSyncedCommit": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  "lastSyncedCommit": "18e73996a5a16f78a0af7773a2d2a0f4991ac6ba"
 }
