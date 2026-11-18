@@ -1,0 +1,35 @@
+{
+  "scope": "User-supplied Lootbar advertising artwork.",
+  "assets": [
+    {
+      "path": "advertisements/lootbar/lootbar-banner.webp",
+      "sourceUrl": "https://drive.google.com/file/d/1HPWU1bWum-bAK4Nj8eBgn9KzyGiT6r8R/view",
+      "retrieved": "2026-11-16",
+      "sourceBytes": 257691,
+      "sourceSha256": "1edc0f652031d598c8ae9d18b3185de2c29d69685958581bd746cb837e43be14",
+      "transformation": "Delivery file re-encoded as WebP (cwebp -q 86) at the original dimensions; the uploaded PNG bytes are preserved unchanged at `original`.",
+      "dimensions": {
+        "width": 900,
+        "height": 200
+      },
+      "original": "originals/advertisements/lootbar/lootbar-banner.png",
+      "bytes": 40256,
+      "sha256": "ba9c1c5d1e55d5c37fe5907e6937df5c916f3d5450c5652797bdc7ce6ae64890"
+    },
+    {
+      "path": "advertisements/lootbar/thunder-in-the-azure-dream.webp",
+      "sourceUrl": "https://drive.google.com/file/d/1gTg1Hsjo_Faq9feRkiFzP9RGsaWAqazW/view",
+      "retrieved": "2026-11-17",
+      "sourceBytes": 1986356,
+      "sourceSha256": "34cec0a04f59697fdfba6b41e4c0a87a9dcd1bf68e0bc7ffa1eea9c07cb9b028",
+      "transformation": "Delivery file re-encoded as WebP (cwebp -q 84) at the original dimensions; the uploaded PNG bytes are preserved unchanged at `original`.",
+      "dimensions": {
+        "width": 1920,
+        "height": 640
+      },
+      "original": "originals/advertisements/lootbar/thunder-in-the-azure-dream.png",
+      "bytes": 189932,
+      "sha256": "1896c25fc725ba5d92bea7ec129757855e883cc3e9467d2d5ae58cba4bb412d1"
+    }
+  ]
+}
