@@ -1,0 +1,20 @@
+{
+  "scope": "Arkpedia's own promotional banners, supplied by the site owner.",
+  "assets": [
+    {
+      "path": "advertisements/arkpedia/music-player-banner.webp",
+      "sourceUrl": "https://drive.google.com/file/d/1C130a-zWLkgAvVzAPg81Ox761EtqAo8-/view",
+      "retrieved": "2026-11-19",
+      "sourceBytes": 212655,
+      "sourceSha256": "24b21c141210b89b78e1b3d1728245f360e6a4c46ff503f9398b93476e90a330",
+      "transformation": "Delivery file re-encoded as WebP (cwebp -q 86) at the original dimensions; the uploaded PNG bytes are preserved unchanged at `original`.",
+      "dimensions": {
+        "width": 900,
+        "height": 200
+      },
+      "original": "originals/advertisements/arkpedia/music-player-banner.png",
+      "bytes": 31080,
+      "sha256": "41b1cb00eb8ed789c8dd0ed424cf1e96deee34ae8e023c61ac667bb503a38896"
+    }
+  ]
+}
