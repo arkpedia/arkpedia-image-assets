@@ -9118,5 +9118,15 @@
     "url": "https://webusstatic.yo-star.com/uy0news/ae/768983f470795aae38c73598aa15cde2.png",
     "sha256": "4838637f71c27b48a4879272913b4f6db5241c34d7e0a26229003818431e7f23",
     "importer": "pack-art"
+  },
+  "content-art/pack-promo-451c2cbe3d781fe962d0808c.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/5612f031d1a9c16134b472c2aa2b1776.png",
+    "sha256": "98308de698d1b6976123c2cc5942aff01bf5b6b53403934903c2664479a61027",
+    "importer": "pack-art"
+  },
+  "content-art/pack-promo-739bb574b75b609b65d87b8b.webp": {
+    "url": "https://webusstatic.yo-star.com/uy0news/ae/44658ecac5770a0ee73e1d90605c01bb.png",
+    "sha256": "37873ac742a8b67b99ddb4f8ba88c0571b1ce70a350c6e24a5293faacd44853c",
+    "importer": "pack-art"
   }
 }
