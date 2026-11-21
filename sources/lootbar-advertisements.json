@@ -30,6 +30,111 @@
       "original": "originals/advertisements/lootbar/thunder-in-the-azure-dream.png",
       "bytes": 189932,
       "sha256": "1896c25fc725ba5d92bea7ec129757855e883cc3e9467d2d5ae58cba4bb412d1"
+    },
+    {
+      "path": "advertisements/lootbar/violet-orchid-main.webp",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/1214975848692719616/1573555000423092305/kukkiad-3to1.png",
+      "retrieved": "2026-11-21",
+      "sourceBytes": 1661919,
+      "sourceSha256": "cf0dfef881321a207d53f9b9db0c761d9fc0c1e80281a182e6bac7468c305c28",
+      "transformation": "WebP delivery copy encoded at original dimensions (cwebp -q 90). The supplied PNG is preserved unchanged.",
+      "dimensions": {
+        "width": 1920,
+        "height": 640
+      },
+      "original": "originals/advertisements/lootbar/violet_orchid_main.png",
+      "bytes": 198396,
+      "sha256": "d484ffdfa50c6bf237b44c8eaeb442940e50bc11f46f3ae52327bd900e60a9f9"
+    },
+    {
+      "path": "advertisements/lootbar/violet-orchid-page-banner.webp",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/1214975848692719616/1573555000012181694/kukkiad-45to1.png",
+      "retrieved": "2026-11-21",
+      "sourceBytes": 1174555,
+      "sourceSha256": "839d9726daa5e727c3c8390117578c5e0ed94d1cf8dc72363db70718b8f192cd",
+      "transformation": "WebP delivery copy encoded at original dimensions (cwebp -q 90). The supplied PNG is preserved unchanged.",
+      "dimensions": {
+        "width": 1800,
+        "height": 400
+      },
+      "original": "originals/advertisements/lootbar/violet_orchid_page_banner.png",
+      "bytes": 206560,
+      "sha256": "c4dbd94d1ce37374c247b78f3d15c5d8e62afe63c62379b37a8538fcc0db3566"
+    },
+    {
+      "path": "advertisements/lootbar/kirin-yato-page-banner.webp",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/1214975848692719616/1573559457936576632/kukkiad-45to1-kry.png",
+      "retrieved": "2026-11-21",
+      "sourceBytes": 1087117,
+      "sourceSha256": "cc4a434dff3bc964c88f88a8bc45a1bddde4b00ce512f487561ce60be69e075f",
+      "transformation": "WebP delivery copy encoded at original dimensions (cwebp -q 90). The supplied PNG is preserved unchanged.",
+      "dimensions": {
+        "width": 1800,
+        "height": 400
+      },
+      "original": "originals/advertisements/lootbar/kirin_yato_page_banner.png",
+      "bytes": 166814,
+      "sha256": "636e0ffae9265f567788292098e27211640e056bd2b59f7e4db529c4eab57a36"
+    },
+    {
+      "path": "advertisements/lootbar/kirin-yato-mobile.webp",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/1214975848692719616/1573559458267930724/ad_lootbar-kry.png",
+      "retrieved": "2026-11-21",
+      "sourceBytes": 258358,
+      "sourceSha256": "e72c5f689387ef7365b6f925c501b13289e433fbd96e6082b530ad6326bfad88",
+      "transformation": "WebP delivery copy encoded at original dimensions (cwebp -q 90). The supplied PNG is preserved unchanged.",
+      "dimensions": {
+        "width": 900,
+        "height": 200
+      },
+      "original": "originals/advertisements/lootbar/kirin_yato_mobile.png",
+      "bytes": 51622,
+      "sha256": "d13f63ee6151404b839cee7751c6b6320ebcbbb0e4159a12b5a9f994beb12a10"
+    },
+    {
+      "path": "advertisements/lootbar/aphrissa-page-banner.webp",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/1214975848692719616/1573559490270208160/kukkiad-45to1-2.png",
+      "retrieved": "2026-11-21",
+      "sourceBytes": 1032913,
+      "sourceSha256": "cc7e1b2b5125cd3fab38ae9863ee6878e31bc650b50e38ba3ebf0401268782f0",
+      "transformation": "WebP delivery copy encoded at original dimensions (cwebp -q 90). The supplied PNG is preserved unchanged.",
+      "dimensions": {
+        "width": 1800,
+        "height": 400
+      },
+      "original": "originals/advertisements/lootbar/aphrissa_page_banner.png",
+      "bytes": 167286,
+      "sha256": "398cc17fa1497b36d51e2a43a1f4fa0d43ae1a0cfc3440af4378af3735738622"
+    },
+    {
+      "path": "advertisements/lootbar/aphrissa-mobile-banner.webp",
+      "sourceUrl": "https://cdn.discordapp.com/attachments/1214975848692719616/1573559489813291038/ad_lootbar-revise.png",
+      "retrieved": "2026-11-21",
+      "sourceBytes": 256684,
+      "sourceSha256": "24ed4b79ec423efe55fb498c6d666f2a5ec060c833c9c243570814b0956c1ecb",
+      "transformation": "WebP delivery copy encoded at original dimensions (cwebp -q 90). The supplied PNG is preserved unchanged.",
+      "dimensions": {
+        "width": 900,
+        "height": 200
+      },
+      "original": "originals/advertisements/lootbar/aphrissa_mobile_banner.png",
+      "bytes": 45424,
+      "sha256": "18dee05bd4b7c072543fd0114f1bdac3129e542b79c0d2f4de31b501ac0d6422"
+    },
+    {
+      "path": "advertisements/lootbar/violet-orchid-mobile.webp",
+      "sourceUrl": "https://drive.google.com/file/d/1HPWU1bWum-bAK4Nj8eBgn9KzyGiT6r8R/view",
+      "retrieved": "2026-11-16",
+      "sourceBytes": 257691,
+      "sourceSha256": "1edc0f652031d598c8ae9d18b3185de2c29d69685958581bd746cb837e43be14",
+      "transformation": "The original PNG and WebP delivery copy are identical to the former LootBar banner under their new campaign names.",
+      "dimensions": {
+        "width": 900,
+        "height": 200
+      },
+      "original": "originals/advertisements/lootbar/violet_orchid_mobile.png",
+      "bytes": 40256,
+      "sha256": "ba9c1c5d1e55d5c37fe5907e6937df5c916f3d5450c5652797bdc7ce6ae64890"
     }
   ]
 }
