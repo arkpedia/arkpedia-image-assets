@@ -9136,5 +9136,100 @@
   "five-star-icons/Wulfenite - Bouncing Rhythms.webp": {
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/avatar/char_4171_wulfen_marthe%2314.png",
     "sha256": "96b3bcb7acbd380488b771febf85e888c481dde020f366d49ead898aaeb4049e"
+  },
+  "item-icons/act1football_milestone_point.png": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/item/act1football_milestone_point.png",
+    "sha256": "f45d11be6db69de90e9b3713beb2412e63896041cd2f7c4f31c58ccca20cc8ce",
+    "importer": "item-icons"
+  },
+  "stages-images/pf-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_01.png",
+    "sha256": "dcb568518d0d8b4ce83e2f450f8d23f24d676f4f4f3da3b93500b541ca2c5c15",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_02.png",
+    "sha256": "ad39268c5f3d860efbaaf3512341679456cb21e35c3d592310cbd936886a7020",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-3.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_03.png",
+    "sha256": "51617d5bc90fcbad12fd4468b3507504cde1045387556271846c4bd7eaa53fef",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-4.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_04.png",
+    "sha256": "3c12d8c10d94c1905b87e4fa8ec6ff14400c9c1b0a8be033cab565524eca9488",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-5.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_05.png",
+    "sha256": "17f543c7508e235670e47f3fba19f23339a0916407438cc78e14420ae35d6700",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-6.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_06.png",
+    "sha256": "998f0cdab6d66e218d2b9656bd2b3542d9e37ef8db05334aed3de7c929ca2c89",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-7.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_07.png",
+    "sha256": "fe8437fd2022df22b0f3baa8f2930e18734afd234e0c440aa593003f077b9e78",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-s-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_s01.png",
+    "sha256": "2304f4e80d5472a427e84047fa898b569438b57765b15afa19916a12e5806d86",
+    "importer": "stage-renders"
+  },
+  "stages-images/pf-tr-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act1football_tr01.png",
+    "sha256": "965c25526d133e67fbfb8c55f1f6e036423e3ef6fbee78e2a68f67281301dd08",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex01.png",
+    "sha256": "de05e2c90b84c2fbaaec83d882d8f994168673c1f1b2e7cdebcb5984b2fb0e6b",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-2.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex02.png",
+    "sha256": "30462b5a705b4bc4301188316bd5272919247100ed8f6c11651bce915ff3a220",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-3.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex03.png",
+    "sha256": "76d2c5c38af99af0cf80ac5d198fc6e70bd11bcba3049171e1863e88896f6930",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-4.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex04.png",
+    "sha256": "4677f7d70eb564e3783194355c99ac28617bc8e891c3b484114cf484e88ff1e2",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-5.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex05.png",
+    "sha256": "932522141a05433bafc75e1286a8a682ccc1d7800f0668b22149bc1af8f5eeec",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-6.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex06.png",
+    "sha256": "45af4ffe47d818e8ce5684b84012424e44e1b09e3e9f3bfdcf79df76cdcdb487",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-7.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex07.png",
+    "sha256": "2659b1ff5bb666bda0492a4a5b1e2579bc8c2c39e1f3d8e3eb658ebe445f59fa",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-ex-8.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_ex08.png",
+    "sha256": "1afe8b79852ca16d869ea1c4c6201e7885135450dc7a66f010c8a2cc94cf0e01",
+    "importer": "stage-renders"
+  },
+  "stages-images/td-s-1.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_s01.png",
+    "sha256": "0701e59e0ff40765bda0f8dbb123c8086fdaa3a4a94430ba91701f142ec423c5",
+    "importer": "stage-renders"
   }
 }

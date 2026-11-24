@@ -27061,6 +27061,101 @@
       "sourcePath": "avatar/char_4171_wulfen_marthe#14.png",
       "sourceBlob": "7695b764e0c53cfb6a7eef36f8e5155fd82e4f53",
       "maxWidth": 180
+    },
+    "item-icons/act1football_milestone_point.png": {
+      "sourcePath": "item/act1football_milestone_point.png",
+      "sourceBlob": "8492803cae516c3b09f7731a40cce762cd91c084",
+      "maxWidth": 183
+    },
+    "stages-images/pf-1.webp": {
+      "sourcePath": "map/act1football_01.png",
+      "sourceBlob": "a33b0459f65d20fc1c7d08bada1826babf9a4ca7",
+      "maxWidth": 512
+    },
+    "stages-images/pf-2.webp": {
+      "sourcePath": "map/act1football_02.png",
+      "sourceBlob": "714f1b1e4bfc45ae8052e57426ea12f2479eb767",
+      "maxWidth": 512
+    },
+    "stages-images/pf-3.webp": {
+      "sourcePath": "map/act1football_03.png",
+      "sourceBlob": "080f007f6367135c8f8647c24abf4e9e7a7edd82",
+      "maxWidth": 512
+    },
+    "stages-images/pf-4.webp": {
+      "sourcePath": "map/act1football_04.png",
+      "sourceBlob": "da46f86928409850df03e2f9df13682ee76889a6",
+      "maxWidth": 512
+    },
+    "stages-images/pf-5.webp": {
+      "sourcePath": "map/act1football_05.png",
+      "sourceBlob": "66f6e5e5f966c58574de067d211741f3a519daa9",
+      "maxWidth": 512
+    },
+    "stages-images/pf-6.webp": {
+      "sourcePath": "map/act1football_06.png",
+      "sourceBlob": "00bbd644ca63d32cf346a54af3ea33f9c5e42c2d",
+      "maxWidth": 512
+    },
+    "stages-images/pf-7.webp": {
+      "sourcePath": "map/act1football_07.png",
+      "sourceBlob": "febbff2f6b420692b429b4c2b3bd3dbaf6fa7198",
+      "maxWidth": 512
+    },
+    "stages-images/pf-s-1.webp": {
+      "sourcePath": "map/act1football_s01.png",
+      "sourceBlob": "34e77add17dd3e2fa07befa5e87daaee786b6852",
+      "maxWidth": 512
+    },
+    "stages-images/pf-tr-1.webp": {
+      "sourcePath": "map/act1football_tr01.png",
+      "sourceBlob": "50d84c77c1b0ea78c2f9fb4dd701367571a6eb17",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-1.webp": {
+      "sourcePath": "map/act50side_ex01.png",
+      "sourceBlob": "1b8afdb2de0c57e168208e153265a40ff23e6e28",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-2.webp": {
+      "sourcePath": "map/act50side_ex02.png",
+      "sourceBlob": "948272fffd8b3666d30284d5c99426725e2e3064",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-3.webp": {
+      "sourcePath": "map/act50side_ex03.png",
+      "sourceBlob": "323ab87bf6843e6568cb9ec3ddf235a8ba80e518",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-4.webp": {
+      "sourcePath": "map/act50side_ex04.png",
+      "sourceBlob": "ef36049393775c064e5ca4f1f818c6da029c86e2",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-5.webp": {
+      "sourcePath": "map/act50side_ex05.png",
+      "sourceBlob": "566043c1bf061b1140a611aa58df7cbc45b160d1",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-6.webp": {
+      "sourcePath": "map/act50side_ex06.png",
+      "sourceBlob": "dcdc233c6dc139f7712e8283d2e38410e1cb075f",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-7.webp": {
+      "sourcePath": "map/act50side_ex07.png",
+      "sourceBlob": "351fd883d7ef22ea5bf380e0d6c4adbbc288261d",
+      "maxWidth": 512
+    },
+    "stages-images/td-ex-8.webp": {
+      "sourcePath": "map/act50side_ex08.png",
+      "sourceBlob": "a04d4843968bc459a726be04d8129fcb59bb81f8",
+      "maxWidth": 512
+    },
+    "stages-images/td-s-1.webp": {
+      "sourcePath": "map/act50side_s01.png",
+      "sourceBlob": "6896d944a89cc3be2e5c275ff93d3a7caf5522c8",
+      "maxWidth": 512
     }
   },
   "namingSource": {
