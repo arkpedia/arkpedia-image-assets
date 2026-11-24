@@ -27051,6 +27051,16 @@
       "sourcePath": "enemy/enemy_1573_pyczog.png",
       "maxWidth": 128,
       "sourceBlob": "7d920df98f18a7e414ac6ce60684c497a9d10255"
+    },
+    "five-star-icons/Vetochki - Scent of the Mist.webp": {
+      "sourcePath": "avatar/char_4207_branch_yun#10.png",
+      "sourceBlob": "16c6dcb9bf87baf544c7865c96533737ea458c4e",
+      "maxWidth": 180
+    },
+    "five-star-icons/Wulfenite - Bouncing Rhythms.webp": {
+      "sourcePath": "avatar/char_4171_wulfen_marthe#14.png",
+      "sourceBlob": "7695b764e0c53cfb6a7eef36f8e5155fd82e4f53",
+      "maxWidth": 180
     }
   },
   "namingSource": {

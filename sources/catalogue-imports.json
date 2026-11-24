@@ -9128,5 +9128,13 @@
     "url": "https://webusstatic.yo-star.com/uy0news/ae/44658ecac5770a0ee73e1d90605c01bb.png",
     "sha256": "37873ac742a8b67b99ddb4f8ba88c0571b1ce70a350c6e24a5293faacd44853c",
     "importer": "pack-art"
+  },
+  "five-star-icons/Vetochki - Scent of the Mist.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/avatar/char_4207_branch_yun%2310.png",
+    "sha256": "ff2674e21ae985df53262899ebbe6b8ea6cdcbd4a13ad26585b10cb6264e7fa0"
+  },
+  "five-star-icons/Wulfenite - Bouncing Rhythms.webp": {
+    "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/avatar/char_4171_wulfen_marthe%2314.png",
+    "sha256": "96b3bcb7acbd380488b771febf85e888c481dde020f366d49ead898aaeb4049e"
   }
 }
