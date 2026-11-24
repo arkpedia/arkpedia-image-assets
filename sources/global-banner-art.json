@@ -22,11 +22,9 @@
     "sha1": "67ebc4e6c7ef0053fb7b8dbf867a27a6722ef71d"
   },
   "event-poster/[Celebration] Critical Phase Transition.webp": {
-    "title": "MAIN THEME EPISODE 17: CRITICAL PHASE TRANSITION",
-    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/10/09/-cAcBsiV.jpg",
-    "sha1": "9604fa3e32db29a7cabcf9f7a489cf0f5706816b",
-    "sourcePage": "https://www.arknights.global/news/4814",
-    "sourceSha256": "dcda9e987ff33484b8aa72f955b66111c938e2fa0d94297cec50286ed5969032"
+    "title": "File:EN Critical Phase Transition banner.png",
+    "url": "https://arknights.wiki.gg/images/EN_Critical_Phase_Transition_banner.png?99ecf3",
+    "sha1": "099ecf37dfad51f36f6cad8fdfcaa72d97e198e8"
   },
   "event-poster/[Rerun] The Masses' Travels Rerun.webp": {
     "title": "SIDESTORY: THE MASSES' TRAVELS RERUN",
@@ -34,6 +32,11 @@
     "sha1": "1215a74354b608ebd7851e5c7f145fb231f9a932",
     "sourcePage": "https://www.arknights.global/news/5045",
     "sourceSha256": "2ce762d5c2d0e84a51bcb223682fb5f2edce45e604cbde055db72442a4625c84"
+  },
+  "event-poster/[Side Story – Crossover] A Flurry to the Flame.webp": {
+    "title": "File:EN A Flurry to the Flame banner.png",
+    "url": "https://arknights.wiki.gg/images/EN_A_Flurry_to_the_Flame_banner.png?8dd5b4",
+    "sha1": "8dd5b4e9f17967dc42e09657fdcb0f2c73bfe647"
   },
   "event-poster/[Side Story – Crossover] Thunder in the Azure Dream.webp": {
     "title": "Official Global Thunder in the Azure Dream announcement: event artwork",
@@ -98,5 +101,10 @@
     "title": "File:EN Returned From A Pyre Rerun banner.png",
     "url": "https://arknights.wiki.gg/images/EN_Returned_From_A_Pyre_Rerun_banner.png?98052c",
     "sha1": "98052c151eec4238e695191173f252c2d03e4bf3"
+  },
+  "headhunting-banner-images/[Triumphant Hunt] Sharpened by Flame Rerun.webp": {
+    "title": "File:EN Sharpened by Flame banner.png",
+    "url": "https://arknights.wiki.gg/images/EN_Sharpened_by_Flame_banner.png?be4218",
+    "sha1": "be4218cbd4439ea56ab8ab07c0e98cb23488a4fc"
   }
 }
