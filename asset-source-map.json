@@ -27156,11 +27156,91 @@
       "sourcePath": "map/act50side_s01.png",
       "sourceBlob": "6896d944a89cc3be2e5c275ff93d3a7caf5522c8",
       "maxWidth": 512
+    },
+    "enemies-icons/Straight Line Club Shooter.webp": {
+      "sourcePath": "enemy/enemy_4060_mulinm.png",
+      "maxWidth": 128,
+      "sourceBlob": "c471f6df679a6e79acf995f738fdfd907e69dde6"
+    },
+    "enemies-icons/Straight Line Club Determined Shooter.webp": {
+      "sourcePath": "enemy/enemy_4060_mulinm_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "f75520858df2205242abe7b1294f3728ea8a153e"
+    },
+    "enemies-icons/Straight Line Club Goalie.webp": {
+      "sourcePath": "enemy/enemy_4061_mulinb.png",
+      "maxWidth": 128,
+      "sourceBlob": "a78e99ab4dbb82fc9c022c07d85421d854ae003a"
+    },
+    "enemies-icons/Straight Line Club Determined Goalie.webp": {
+      "sourcePath": "enemy/enemy_4061_mulinb_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "9c2b3cde084f525e2f22c2760f69c2a1d0abfaec"
+    },
+    "enemies-icons/Straight Line Club Hitter.webp": {
+      "sourcePath": "enemy/enemy_4062_muling.png",
+      "maxWidth": 128,
+      "sourceBlob": "8d57f9a5ae10d2211c3fd80bfb3c409367cd5e7b"
+    },
+    "enemies-icons/Straight Line Club Determined Hitter.webp": {
+      "sourcePath": "enemy/enemy_4062_muling_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "8cbfbc86f7ee52c1667c4a3642164a6b4c858c80"
+    },
+    "enemies-icons/Floating Charged Ball.webp": {
+      "sourcePath": "enemy/enemy_4063_muflyb.png",
+      "maxWidth": 128,
+      "sourceBlob": "07fe5011e46f05afd25becf3efc7431d8a0a9654"
+    },
+    "enemies-icons/Decisive Moment Ball.webp": {
+      "sourcePath": "enemy/enemy_4064_mupenb.png",
+      "maxWidth": 128,
+      "sourceBlob": "e4495cdaf767db226ea90e9d5b1b7f9649ec2fb8"
+    },
+    "enemies-icons/King Crestcaller.webp": {
+      "sourcePath": "enemy/enemy_10129_pycdog_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ef89fd6eef5ccc992fa71f3484d77bf29c99624e"
+    },
+    "enemies-icons/Shellsnap Newt Daimyo.webp": {
+      "sourcePath": "enemy/enemy_10130_pycpok_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "5f94c216343ba372c62ef1366933a0648a2eba96"
+    },
+    "enemies-icons/Ringleader Snatchshell Bug.webp": {
+      "sourcePath": "enemy/enemy_10131_pycshd_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "85b8c7db8cae2092e6eb32f43729a8d1574c0443"
+    },
+    "enemies-icons/Aragami Guzzlemuff.webp": {
+      "sourcePath": "enemy/enemy_10132_pyceat_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "e2eff4349322f24a583efec1d6d282e8dc356790"
+    },
+    "enemies-icons/Shackled Flipshell Tortoise.webp": {
+      "sourcePath": "enemy/enemy_10133_pycrol_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "1e7d78683c5919062356fc04b560c188dc41cabb"
+    },
+    "enemies-icons/Raging Gloomweaver.webp": {
+      "sourcePath": "enemy/enemy_10134_pycspy_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "740cd24938f56489a765d2b78ef2a78753a94204"
+    },
+    "enemies-icons/Greater Hexhowl.webp": {
+      "sourcePath": "enemy/enemy_10135_pycjmp_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ea996b99b0dad006e249ce15e94aa171fdc0cb88"
+    },
+    "enemies-icons/Cursed Rocksheller.webp": {
+      "sourcePath": "enemy/enemy_10136_pycblk_2.png",
+      "maxWidth": 128,
+      "sourceBlob": "ff871b4335595258578f42ee01c5e10243342b4f"
     }
   },
   "namingSource": {
     "repository": "Kengxxiao/ArknightsGameData_YoStar",
     "revision": "57010cb5b2afea112cae57daa756b58676ba6850"
   },
-  "lastSyncedCommit": "18e73996a5a16f78a0af7773a2d2a0f4991ac6ba"
+  "lastSyncedCommit": "15f8b89aba3d2ce926b21332b7b375765a0e3b6d"
 }
