@@ -9231,5 +9231,10 @@
     "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/e03bf6e75142ef9a45df5c9742c8a037c465d6e7/map/act50side_s01.png",
     "sha256": "0701e59e0ff40765bda0f8dbb123c8086fdaa3a4a94430ba91701f142ec423c5",
     "importer": "stage-renders"
+  },
+  "album-covers/endfield-just-the-start_cover.webp": {
+    "url": "https://i.ytimg.com/vi/CIMuRFhWXuc/maxresdefault.jpg",
+    "sha256": "8a573bd2ee5d4436a2b5afb5c8873e9a0457284d1ea0708372b6b5fd8e0258ff",
+    "importer": "endfield-album-covers"
   }
 }
