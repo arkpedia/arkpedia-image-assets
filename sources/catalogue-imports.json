@@ -9236,5 +9236,95 @@
     "url": "https://i.ytimg.com/vi/CIMuRFhWXuc/maxresdefault.jpg",
     "sha256": "8a573bd2ee5d4436a2b5afb5c8873e9a0457284d1ea0708372b6b5fd8e0258ff",
     "importer": "endfield-album-covers"
+  },
+  "stages-images/crisis_v2_01-01-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_01-01.png",
+    "sha256": "2fb2847b957b8522e2b0a36e30655607803a729ba308aea0dab9b9386f879653",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_01-02-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_01-02.png",
+    "sha256": "b2317a739794798846adf7485771c456ad0233604650e2c39f2b42fcc985a997",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_01-03-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_01-03.png",
+    "sha256": "3ed8dc50171895b7ae7491d29cf3eef8bc343279bb3146de9b92944650bb50de",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_01-04-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_01-04.png",
+    "sha256": "3c7b65ff3980355dca17aeac159fab0f1d43421a7ca6f8cd40cfd7cf527576f8",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_01-05-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_01-05.png",
+    "sha256": "d82a881691712bf047b27dd5e261f0c1cefce2935dba8d303ea46b07112bf9d3",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_01-07-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_01-07.png",
+    "sha256": "592da4ff8f2e4d210017396a21e08fce7693dee606b0bade0661271a506567b5",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_02-01-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_02-01.png",
+    "sha256": "0e4b0f36efd3281e6f72280a0aec1ea94575c6922e1683aee36720bb9ac37958",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_02-02-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_02-02.png",
+    "sha256": "7c6dfc7c96feafb08667884b293f932c70f774d09b2df19b14b4945a6277df60",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_02-03-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_02-03.png",
+    "sha256": "a53d26573cfe17c4b8d9e77e867fd0c70db1bfb77cf69cba13829226d0363d19",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_03-01-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_03-01.png",
+    "sha256": "68eb6cf1fee065bc5d6251b2fc1221ba02353c45bae259efaed10760114462a0",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_03-02-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_03-02.png",
+    "sha256": "73caab35fb6f20ef24bd0c6ff162e8e78994bf68623121061df0e82cfb972f01",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_03-03-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_03-03.png",
+    "sha256": "c238afef82cc768bf294c2145f17bddd1dff6331dad3fa39a11d7e010f69ad95",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_04-01-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_04-01.png",
+    "sha256": "f6229b9ceaf4c2ab25acba0f95dee4c7157dcf6c0382b4fd2bb42e92490a96e5",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_04-03-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_04-03.png",
+    "sha256": "e5307d4a1a766b58145be7d8a11623ab0010d1c48e1a81af44077fdab39b358d",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_04-05-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_04-05.png",
+    "sha256": "91084d75b54065b4548895648114d3d4f5956c99d01c245d02eb7c7ebfcf35cc",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_05-01-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_05-01.png",
+    "sha256": "992cd8f807feb692d3030c485852bbd4203e6e5643e3381f9476858d52f657c9",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_05-03-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_05-03.png",
+    "sha256": "821ccdbd7f1f0b51f2cdaf3dfe0aefd623abc3f6309d7cf4efaef77dd99764d2",
+    "importer": "stage-full-previews"
+  },
+  "stages-images/crisis_v2_05-05-full.webp": {
+    "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_05-05.png",
+    "sha256": "f1208b40a10d0590c1da3e36b4be6c12675b5e5a5fe15bdbe17ce951f5d8da67",
+    "importer": "stage-full-previews"
   }
 }
