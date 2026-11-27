@@ -9326,5 +9326,10 @@
     "url": "https://torappu.prts.wiki/assets/map_preview/crisis_v2_05-05.png",
     "sha256": "f1208b40a10d0590c1da3e36b4be6c12675b5e5a5fe15bdbe17ce951f5d8da67",
     "importer": "stage-full-previews"
+  },
+  "content-art/pack-promo-1295f408c041bf926a044a76.webp": {
+    "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/27/tru9BF2c.jpg",
+    "sha256": "78ab310235153c50944e124fb8b213deb1d3799b0172a29804f74aa9e50fee0e",
+    "importer": "pack-art"
   }
 }
