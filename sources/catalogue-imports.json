@@ -9331,5 +9331,13 @@
     "url": "https://webusstatic.yo-star.com/web-cms-test/upload/content/2026/11/27/tru9BF2c.jpg",
     "sha256": "78ab310235153c50944e124fb8b213deb1d3799b0172a29804f74aa9e50fee0e",
     "importer": "pack-art"
+  },
+  "event-poster/CN 4913-1.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20261124/e3ac996f5b97d10fd30a491c273e83d5.jpg",
+    "sha256": "bc66b560de698196f11968babfaad6bbbeae8bcb33ee4950ab5676b3e831e70c"
+  },
+  "headhunting-banner-images/CN 4913-2.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20261124/8d5ba13e8dbd17d646066611d79a618c.jpg",
+    "sha256": "e0b239eb01149c97a13d6a9708bea54a296738958fc22ec18563679d0f1d61d4"
   }
 }
