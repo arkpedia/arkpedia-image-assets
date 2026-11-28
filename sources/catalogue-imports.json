@@ -9339,5 +9339,10 @@
   "headhunting-banner-images/CN 4913-2.webp": {
     "url": "https://web.hycdn.cn/upload/image/20261124/8d5ba13e8dbd17d646066611d79a618c.jpg",
     "sha256": "e0b239eb01149c97a13d6a9708bea54a296738958fc22ec18563679d0f1d61d4"
+  },
+  "content-art/pack-promo-fad2798a805b12f725d43c79.webp": {
+    "url": "https://web.hycdn.cn/upload/image/20261124/687a26543e7d8cb8efaf2b6272f6f842.png",
+    "sha256": "fe257c29efbd524316bc516338e393ffad8394c277483ea587055783c52d3e61",
+    "importer": "pack-art"
   }
 }
